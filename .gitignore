@@ -1,0 +1,22 @@
+# Output files
+output/
+*.csv
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (facoltativo)
+.vscode/
+
+# Ignore all text files in data/texts_03
+data/texts_03/*.txt
