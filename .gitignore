@@ -1,7 +1,3 @@
-# Output files
-output/
-*.csv
-*.png
 
 # Python cache
 __pycache__/
@@ -18,5 +14,3 @@ Thumbs.db
 # VS Code settings (facoltativo)
 .vscode/
 
-# Ignore all text files in data/texts_03
-data/texts_03/*.txt
