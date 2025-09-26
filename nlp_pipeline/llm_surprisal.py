@@ -186,3 +186,4 @@ if __name__ == '__main__':
     dbc19_surprisal()
     print('Collecting adbc23 surprisal...')
     adbc23_surprisal()    
+
