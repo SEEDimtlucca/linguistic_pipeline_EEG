@@ -1,0 +1,30 @@
+{
+  "num_tokens": 430,
+  "num_sentences": 25,
+  "num_lemmas": 0,
+  "num_types": 142,
+  "TTR": 0,
+  "avg_sentence_length": 16.96,
+  "Zipf_mean": 5.33,
+  "Zipf_std": 1.63,
+  "percent_rare_words": 14.51,
+  "Gulpease_index": 72.02,
+  "top_lemmas": [],
+  "top_bigrams": [
+    "” ",
+    " “",
+    " il",
+    "il papà",
+    "il mamma",
+    "il pastasciutta",
+    "Lupetto ",
+    "il giorno",
+    "il lasagna",
+    "pastasciutta "
+  ],
+  "num_function_words": 156,
+  "num_content_words": 175,
+  "num_verbs": 58,
+  "num_adjectives": 10,
+  "num_nouns": 83
+}

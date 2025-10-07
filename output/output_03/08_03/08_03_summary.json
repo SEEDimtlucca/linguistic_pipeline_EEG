@@ -1,0 +1,30 @@
+{
+  "num_tokens": 415,
+  "num_sentences": 24,
+  "num_lemmas": 0,
+  "num_types": 119,
+  "TTR": 0,
+  "avg_sentence_length": 16.67,
+  "Zipf_mean": 5.55,
+  "Zipf_std": 1.44,
+  "percent_rare_words": 9.66,
+  "Gulpease_index": 73.12,
+  "top_lemmas": [],
+  "top_bigrams": [
+    "mostro ",
+    "il mostro",
+    " ma",
+    " il",
+    "il bambino",
+    "uno mostro",
+    "di il",
+    " “",
+    "in il",
+    "si nascondere"
+  ],
+  "num_function_words": 167,
+  "num_content_words": 165,
+  "num_verbs": 50,
+  "num_adjectives": 12,
+  "num_nouns": 78
+}

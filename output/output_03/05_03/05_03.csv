@@ -1,495 +1,501 @@
-sentence_ids,tokens,tokens_no_punct,lemma,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
-0,Gli,gli,il,il,DET,det,elefantini,,,"6,227520191"
-0,elefantini,elefantini,elefantino,elefantino,NOUN,nsubj,facendo,,,"1,668044485"
-0,stanno,stanno,stare,stare,AUX,aux,facendo,,4.60 ± 2.35,"5,422469274"
-0,facendo,facendo,fare,fare,VERB,root,ROOT,,4.40 ± 2.22,"5,643093149"
-0,colazione,colazione,colazione,colazione,NOUN,obj,facendo,,,"4,628118682"
-0,.,,.,,PUNCT,punct,facendo,,,
-1,Mamma,mamma,mamma,mamma,NOUN,nsubj,prende,,1.88 ± 1.27,"5,66327005"
-1,Elefante,elefante,Elefante,Elefante,PROPN,flat:name,Mamma,,,"3,8254005"
-1,",",,",",,PUNCT,punct,Mamma,,,
-1,prende,prende,prendere,prendere,VERB,root,ROOT,,4.36 ± 1.89,"4,869987548"
-1,un,un,uno,uno,DET,det,vassoio,,,"7,065833912"
-1,vassoio,vassoio,vassoio,vassoio,NOUN,obj,prende,,6.36 ± 2.33,"3,540200757"
-1,e,e,e,e,CCONJ,cc,dispone,,,"2,741151583"
-1,ci,ci,ci,ci,PRON,expl,dispone,,,"6,517126939"
-1,dispone,dispone,disporre,disporre,VERB,conj,prende,,,"3,016998033"
-1,una,una,uno,uno,DET,det,teiera,,,"6,801817508"
-1,teiera,teiera,teiera,teiera,NOUN,obj,dispone,,,"3,083017833"
-1,",",,",",,PUNCT,punct,tazza,,,
-1,la,la,il,il,DET,det,tazza,,,"7,055331658"
-1,sua,sua,suo,suo,DET,det:poss,tazza,,,"6,022524285"
-1,tazza,tazza,tazza,tazza,NOUN,conj,teiera,,4.36 ± 1.66,"4,343822826"
-1,preferita,preferita,preferito,preferito,ADJ,amod,tazza,,,"4,198030613"
-1,",",,",",,PUNCT,punct,piatto,,,
-1,un,un,uno,uno,DET,det,piatto,,,"7,065833912"
-1,piatto,piatto,piatto,piatto,NOUN,conj,teiera,,3.36 ± 1.50,"4,365419149"
-1,di,di,di,di,ADP,case,toast,,,"7,232814475"
-1,toast,toast,toast,toast,NOUN,nmod,piatto,,,"3,715319352"
-1,con,con,con,con,ADP,case,marmellata,,,"6,620271703"
-1,la,la,il,il,DET,det,marmellata,,,"7,055331658"
-1,marmellata,marmellata,marmellata,marmellata,NOUN,nmod,piatto,,5.00 ± 1.00,"3,676644657"
-1,e,e,e,e,CCONJ,cc,tortina,,,"2,741151583"
-1,una,una,uno,uno,DET,det,tortina,,,"6,801817508"
-1,tortina,tortina,tortina,tortina,NOUN,conj,teiera,,,"2,81417252"
-1,.,,.,,PUNCT,punct,prende,,,
-2,Poi,poi,poi,poi,ADV,advmod,mette,,,"5,853751865"
-2,si,si,si,si,PRON,expl,mette,,,"6,553884221"
-2,mette,mette,mettere,mettere,VERB,root,ROOT,,4.28 ± 1.59,"4,624212915"
-2,in,in,in,in,ADP,case,tasca,,,"6,797274494"
-2,tasca,tasca,tasca,tasca,NOUN,obl,mette,,,"4,335808648"
-2,il,il,il,il,DET,det,giornale,,,"7,039560886"
-2,giornale,giornale,giornale,giornale,NOUN,obj,mette,,5.08 ± 1.50,"4,502359198"
-2,e,e,e,e,CCONJ,cc,procede,,,"2,741151583"
-2,procede,procede,procedere,procedere,VERB,conj,mette,,,"3,79998378"
-2,di,di,di,di,ADP,case,soppiatto,,,"7,232814475"
-2,soppiatto,soppiatto,soppiatto,soppiatto,NOUN,obl,procede,,,"3,137866501"
-2,verso,verso,verso,verso,ADP,case,porta,,,"5,193046076"
-2,la,la,il,il,DET,det,porta,,,"7,055331658"
-2,porta,porta,porta,porta,NOUN,obl,procede,,4.64 ± 2.34,"5,473918988"
-2,.,,.,,PUNCT,punct,mette,,,
-3,“,“,“,“,PUNCT,punct,vai,,,
-3,Dove,dove,dove,dove,ADV,advmod,vai,,,"6,018789847"
-3,vai,vai,andare,andare,VERB,root,ROOT,,4.20 ± 1.44,"5,679544443"
-3,con,con,con,con,ADP,case,vassoio,,,"6,620271703"
-3,quel,quel,quello,quello,DET,det,vassoio,,,"5,90824416"
-3,vassoio,vassoio,vassoio,vassoio,NOUN,obl,vai,,6.36 ± 2.33,"3,540200757"
-3,",",,",",,PUNCT,punct,mamma,,,
-3,mamma,mamma,mamma,mamma,NOUN,conj,vassoio,,1.88 ± 1.27,"5,66327005"
-3,?,,?,,PUNCT,punct,vai,,,
-3,”,”,”,”,PUNCT,punct,vai,,,
-3,",",,",",,PUNCT,punct,vai,,,
-3,chiede,chiede,chiedere,chiedere,VERB,parataxis,vai,,,"4,493578784"
-3,Eleonora,eleonora,Eleonora,Eleonora,PROPN,nsubj,chiede,,,
-3,.,,.,,PUNCT,punct,vai,,,
-4,“,“,“,“,PUNCT,punct,Vado,,,
-4,Vado,vado,andare,andare,VERB,root,ROOT,,4.20 ± 1.44,"5,487325132"
-4,in,in,in,in,ADP,case,bagno,,,"6,797274494"
-4,bagno,bagno,bagno,bagno,NOUN,obl,Vado,,4.16 ± 2.39,"5,000146152"
-4,”,”,”,”,PUNCT,punct,Vado,,,
-4,",",,",",,PUNCT,punct,Vado,,,
-4,risponde,risponde,rispondere,rispondere,VERB,parataxis,Vado,,3.88 ± 1.59,"4,376323713"
-4,la,la,il,il,DET,det,mamma,,,"7,055331658"
-4,mamma,mamma,mamma,mamma,NOUN,nsubj,risponde,,1.88 ± 1.27,"5,66327005"
-4,.,,.,,PUNCT,punct,Vado,,,
-5,“,“,“,“,PUNCT,punct,domandano,,,
-5,Perché,perché,perché,perché,ADV,advmod,domandano,,,"5,965637226"
-5,”,”,”,”,PUNCT,punct,Perché,,,
-5,",",,",",,PUNCT,punct,Perché,,,
-5,domandano,domandano,domandare,domandare,VERB,root,ROOT,,,"2,630255924"
-5,gli,gli,il,il,DET,det,elefantini,,,"6,227520191"
-5,altri,altri,altro,altro,ADJ,amod,elefantini,,,"5,540608628"
-5,elefantini,elefantini,elefantino,elefantino,NOUN,nsubj,domandano,,,"1,668044485"
-5,.,,.,,PUNCT,punct,domandano,,,
-6,“,“,“,“,PUNCT,punct,voglio,,,
-6,Perché,perché,perché,perché,ADV,advmod,voglio,,,"5,965637226"
-6,voglio,voglio,volere,volere,VERB,root,ROOT,,,"6,095946945"
-6,cinque,cinque,cinque,cinque,NUM,nummod,minuti,,,"5,222170066"
-6,minuti,minuti,minuto,minuto,NOUN,obj,voglio,,,"5,327738888"
-6,di,di,di,di,ADP,case,pace,,,"7,232814475"
-6,pace,pace,pace,pace,NOUN,nmod,minuti,,5.04 ± 1.72,"5,057358263"
-6,lontana,lontana,lontano,lontano,ADJ,amod,pace,,,"4,349587211"
-6,da,da,da,da,ADP,case,voi,,,"6,577812618"
-6,voi,voi,voi,voi,PRON,obl,lontana,,,"5,827651777"
-6,",",,",",,PUNCT,punct,voglio,,,
-6,ecco,ecco,ecco,ecco,ADV,advmod,perché,,,"5,695815269"
-6,perché,perché,perché,perché,ADV,advmod,voglio,,,"5,965637226"
-6,”,”,”,”,PUNCT,punct,voglio,,,
-6,.,,.,,PUNCT,punct,voglio,,,
-7,“,“,“,“,PUNCT,punct,venire,,,
-7,Possiamo,possiamo,potere,potere,AUX,aux,venire,,,"5,648040277"
-7,venire,venire,venire,venire,VERB,root,ROOT,,4.80 ± 2.10,"5,41855288"
-7,anche,anche,anche,anche,ADV,advmod,noi,,,"6,115086172"
-7,noi,noi,noi,noi,PRON,nsubj,venire,,,"5,985902456"
-7,”,”,”,”,PUNCT,punct,venire,,,
-7,",",,",",,PUNCT,punct,venire,,,
-7,le,le,le,le,PRON,iobj,chiede,,,"6,624997683"
-7,chiede,chiede,chiedere,chiedere,VERB,parataxis,venire,,,"4,493578784"
-7,Eliseo,eliseo,Eliseo,Eliseo,PROPN,nsubj,chiede,,,
-7,.,,.,,PUNCT,punct,venire,,,
-8,“,“,“,“,PUNCT,punct,potete,,,
-8,No,no,No,No,INTJ,discourse,potete,,,"6,605764599"
-8,”,”,”,”,PUNCT,punct,No,,,
-8,",",,",",,PUNCT,punct,dice,,,
-8,dice,dice,dire,dire,VERB,parataxis,potete,,4.08 ± 1.73,"5,609257672"
-8,la,la,il,il,DET,det,mamma,,,"7,055331658"
-8,mamma,mamma,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,"5,66327005"
-8,",",,",",,PUNCT,punct,dice,,,
-8,“,“,“,“,PUNCT,punct,potete,,,
-8,non,non,non,non,ADV,advmod,potete,,,"7,259198169"
-8,potete,potete,potere,potere,VERB,root,ROOT,,,"5,048587353"
-8,”,”,”,”,PUNCT,punct,potete,,,
-8,.,,.,,PUNCT,punct,potete,,,
-9,“,“,“,“,PUNCT,punct,faremo,,,
-9,Ma,ma,ma,ma,CCONJ,cc,faremo,,,"6,662005813"
-9,cosa,cosa,cosa,cosa,PRON,obj,faremo,,,"6,632253028"
-9,faremo,faremo,fare,fare,VERB,root,ROOT,,4.40 ± 2.22,"5,066013445"
-9,allora,allora,allora,allora,ADV,advmod,faremo,,,"6,072527547"
-9,?,,?,,PUNCT,punct,faremo,,,
-10,”,”,”,”,PUNCT,punct,chiede,,,
-10,",",,",",,PUNCT,punct,chiede,,,
-10,chiede,chiede,chiedere,chiedere,VERB,root,ROOT,,,"4,493578784"
-10,Eleonora,eleonora,Eleonora,Eleonora,PROPN,nsubj,chiede,,,
-10,.,,.,,PUNCT,punct,chiede,,,
-11,“,“,“,“,PUNCT,punct,Giocherete,,,
-11,Giocherete,giocherete,giochire,giochire,VERB,root,ROOT,,,"2,588863239"
-11,a,a,a,a,ADP,case,piano,,,"7,004335738"
-11,il,il,il,il,DET,det,piano,,,"7,039560886"
-11,piano,piano,piano,piano,NOUN,obl,Giocherete,,,"5,375600468"
-11,di,di,di,di,ADP,case,sotto,,,"7,232814475"
-11,sotto,sotto,sotto,sotto,ADV,advmod,piano,,,"5,502104716"
-11,per,per,per,per,ADP,case,conto,,,"6,912435835"
-11,conto,conto,conto,conto,NOUN,obl,Giocherete,,,"5,179013752"
-11,vostro,vostro,vostro,vostro,DET,det:poss,conto,,,"5,351151587"
-11,”,”,”,”,PUNCT,punct,Giocherete,,,
-11,.,,.,,PUNCT,punct,Giocherete,,,
-12,La,la,il,il,DET,det,mamma,,,"7,055331658"
-12,mamma,mamma,mamma,mamma,NOUN,nsubj,prepara,,1.88 ± 1.27,"5,66327005"
-12,si,si,si,si,PRON,expl,prepara,,,"6,553884221"
-12,prepara,prepara,preparare,preparare,VERB,root,ROOT,,,"4,07430072"
-12,un,un,uno,uno,DET,det,bagno,,,"7,065833912"
-12,bagno,bagno,bagno,bagno,NOUN,obj,prepara,,4.16 ± 2.39,"5,000146152"
-12,caldo,caldo,caldo,caldo,ADJ,amod,bagno,,3.88 ± 1.56,"4,731565484"
-12,si,si,si,si,PRON,expl,mette,,,"6,553884221"
-12,mette,mette,mettere,mettere,VERB,conj,prepara,,4.28 ± 1.59,"4,624212915"
-12,la,la,il,il,DET,det,cuffietta,,,"7,055331658"
-12,cuffietta,cuffietta,cuffietta,cuffietta,NOUN,obj,mette,,,"2,168646835"
-12,ed,ed,e,e,CCONJ,cc,entra,,,"5,795365296"
-12,entra,entra,entrare,entrare,VERB,conj,prepara,,,"5,026264958"
-12,in,in,in,in,ADP,case,vasca,,,"6,797274494"
-12,la,la,il,il,DET,det,vasca,,,"7,055331658"
-12,vasca,vasca,vasca,vasca,NOUN,obl,entra,,4.60 ± 1.91,"4,194814396"
-12,.,,.,,PUNCT,punct,prepara,,,
-13,Poi,poi,poi,poi,ADV,advmod,sorseggia,,,"5,853751865"
-13,",",,",",,PUNCT,punct,Poi,,,
-13,sorseggia,sorseggia,sorseggiare,sorseggiare,VERB,root,ROOT,,,"2,352291232"
-13,una,una,uno,uno,DET,det,tazza,,,"6,801817508"
-13,tazza,tazza,tazza,tazza,NOUN,obj,sorseggia,,4.36 ± 1.66,"4,343822826"
-13,di,di,di,di,ADP,case,the,,,"7,232814475"
-13,the,the,the,the,X,nmod,tazza,,,"5,044682263"
-13,e,e,e,e,CCONJ,cc,distende,,,"2,741151583"
-13,si,si,si,si,PRON,expl,distende,,,"6,553884221"
-13,distende,distende,distendere,distendere,VERB,conj,sorseggia,,,"2,352291232"
-13,chiudendo,chiudendo,chiudere,chiudere,VERB,advcl,distende,,3.48 ± 1.76,"3,626289737"
-13,gli,gli,il,il,DET,det,occhi,,,"6,227520191"
-13,occhi,occhi,occhio,occhio,NOUN,obj,chiudendo,,3.64 ± 1.63,"5,297539031"
-13,",",,",",,PUNCT,punct,paradiso,,,
-13,che,che,che,che,DET,det,paradiso,,,"7,250456545"
-13,paradiso,paradiso,paradiso,paradiso,NOUN,obj,chiudendo,,5.92 ± 2.96,"4,482514056"
-13,!,,!,,PUNCT,punct,sorseggia,,,
-14,“,“,“,“,PUNCT,punct,suonarti,,,
-14,Posso,posso,potere,potere,AUX,aux,suonarti,,,"6,059638184"
-14,suonarti,suonarti,suonare,suonare,VERB,root,ROOT,,,"2,003836587"
-14,qualcosa,qualcosa,qualcosa,qualcosa,PRON,obj,suonarti,,,"6,034414514"
-14,?,,?,,PUNCT,punct,suonarti,,,
-15,Le,le,le,le,PRON,iobj,chiede,,,"6,624997683"
-15,chiede,chiede,chiedere,chiedere,VERB,root,ROOT,,,"4,493578784"
-15,Eliseo,eliseo,Eliseo,Eliseo,PROPN,nsubj,chiede,,,
-15,.,,.,,PUNCT,punct,chiede,,,
-16,“,“,“,“,PUNCT,punct,Devi,,,
-16,Devi,devi,dovere,dovere,VERB,root,ROOT,,,"5,770421013"
-16,proprio,proprio,proprio,proprio,ADV,advmod,Devi,,,"5,884320377"
-16,?,,?,,PUNCT,punct,Devi,,,
-16,”,”,”,”,PUNCT,punct,Devi,,,
-16,.,,.,,PUNCT,punct,Devi,,,
-17,“,“,“,“,PUNCT,punct,esercitato,,,
-17,Mi,mi,mi,mi,PRON,iobj,esercitato,,,"6,769601972"
-17,sono,sono,essere,essere,AUX,aux,esercitato,,,"6,768130002"
-17,esercitato,esercitato,esercitare,esercitare,VERB,root,ROOT,,,"3,020227003"
-17,",",,",",,PUNCT,punct,detto,,,
-17,me,me,me,me,PRON,expl,detto,,,"6,337855516"
-17,lo,lo,lo,lo,PRON,obj,detto,,,"6,655915487"
-17,hai,hai,avere,avere,AUX,aux,detto,,,"6,477590733"
-17,detto,detto,dire,dire,VERB,conj,esercitato,,4.08 ± 1.73,"6,180297396"
-17,tu,tu,tu,tu,PRON,nsubj,detto,,,"6,414765586"
-17,.,,.,,PUNCT,punct,esercitato,,,
-18,Ti,ti,ti,ti,PRON,iobj,prego…,,,"6,615643201"
-18,prego…,prego…,pregare,pregare,VERB,root,ROOT,,,
-18,solo,solo,solo,solo,ADV,advmod,minuto,,4.60 ± 2.14,"6,359323473"
-18,per,per,per,per,ADP,case,minuto,,,"6,912435835"
-18,un,un,uno,uno,DET,det,minuto,,,"7,065833912"
-18,minuto,minuto,minuto,minuto,NOUN,obl,prego…,,,"5,014495262"
-18,!,,!,,PUNCT,punct,prego…,,,
-18,”,”,”,”,PUNCT,punct,prego…,,,
-18,“,“,“,“,PUNCT,punct,Va,,,
-18,Va,va,andare,andare,VERB,parataxis,prego…,,4.20 ± 1.44,"6,162363764"
-18,bene…,bene…,bene…,bene…,ADV,advmod,Va,,,
-18,.,,.,,PUNCT,punct,Va,,,
-18,”,”,”,”,PUNCT,punct,Va,,,
-18,",",,",",,PUNCT,punct,sospira,,,
-18,sospira,sospira,sospirare,sospirare,VERB,parataxis,prego…,,,"3,355276086"
-18,la,la,il,il,DET,det,mamma,,,"7,055331658"
-18,mamma,mamma,mamma,mamma,NOUN,nsubj,sospira,,1.88 ± 1.27,"5,66327005"
-18,.,,.,,PUNCT,punct,sospira,,,
-19,Ed,ed,e,e,CCONJ,cc,suona,,,"5,795365296"
-19,Eliseo,eliseo,Eliseo,Eliseo,PROPN,nsubj,suona,,,
-19,suona,suona,suonare,suonare,VERB,root,ROOT,,,"4,541171248"
-19,Stella,stella,Stella,Stella,PROPN,obj,suona,,,"4,507731982"
-19,Stellina,stellina,Stellina,Stellina,PROPN,flat:name,Stella,,,"2,950591075"
-19,per,per,per,per,ADP,case,volta,,,"6,912435835"
-19,una,una,uno,uno,DET,det,volta,,,"6,801817508"
-19,volta,volta,volta,volta,NOUN,obl,suona,,,"5,820011577"
-19,e,e,e,e,CCONJ,cc,mezza,,,"2,741151583"
-19,mezza,mezza,mezzo,mezzo,NOUN,conj,volta,,,"4,486270378"
-19,.,,.,,PUNCT,punct,suona,,,
-20,Poi,poi,poi,poi,ADV,advmod,arriva,,,"5,853751865"
-20,",",,",",,PUNCT,punct,Poi,,,
-20,arriva,arriva,arrivare,arrivare,VERB,root,ROOT,,,"4,940504965"
-20,Eleonora,eleonora,Eleonora,Eleonora,PROPN,nsubj,arriva,,,
-20,.,,.,,PUNCT,punct,arriva,,,
-21,“,“,“,“,PUNCT,punct,leggerti,,,
-21,Posso,posso,potere,potere,AUX,aux,leggerti,,,"6,059638184"
-21,leggerti,leggerti,leggere,leggere,VERB,root,ROOT,,5.56 ± 1.96,"2,990263779"
-21,una,una,uno,uno,DET,det,pagina,,,"6,801817508"
-21,pagina,pagina,pagina,pagina,NOUN,obj,leggerti,,4.08 ± 1.35,"4,447280116"
-21,di,di,di,di,ADP,case,libro,,,"7,232814475"
-21,il,il,il,il,DET,det,libro,,,"7,039560886"
-21,mio,mio,mio,mio,DET,det:poss,libro,,,"6,336217551"
-21,libro,libro,libro,libro,NOUN,nmod,pagina,,4.20 ± 1.41,"5,050151621"
-21,mamma,mamma,mamma,mamma,NOUN,compound,libro,,1.88 ± 1.27,"5,66327005"
-21,?,,?,,PUNCT,punct,leggerti,,,
-21,”,”,”,”,PUNCT,punct,leggerti,,,
-21,.,,.,,PUNCT,punct,leggerti,,,
-22,“,“,“,“,PUNCT,punct,andate,,,
-22,No,no,No,No,INTJ,discourse,andate,,,"6,605764599"
-22,Eleonora,eleonora,Eleonora,Eleonora,PROPN,vocative,andate,,,
-22,",",,",",,PUNCT,punct,Eleonora,,,
-22,su,su,su,su,ADV,advmod,andate,,,"6,000068652"
-22,",",,",",,PUNCT,punct,su,,,
-22,adesso,adesso,adesso,adesso,ADV,advmod,andate,,,"5,836954264"
-22,andate,andate,andare,andare,VERB,root,ROOT,,4.20 ± 1.44,"5,051141415"
-22,tutti,tutti,tutto,tutto,PRON,nsubj,andate,,,"6,110511188"
-22,a,a,a,a,ADP,case,piano,,,"7,004335738"
-22,il,il,il,il,DET,det,piano,,,"7,039560886"
-22,piano,piano,piano,piano,NOUN,obl,andate,,,"5,375600468"
-22,di,di,di,di,ADP,case,sotto,,,"7,232814475"
-22,sotto,sotto,sotto,sotto,ADV,advmod,piano,,,"5,502104716"
-22,.,,.,,PUNCT,punct,andate,,,
-23,”,”,”,”,PUNCT,punct,lasciato,,,
-23,“,“,“,“,PUNCT,punct,lasciato,,,
-23,Ma,ma,ma,ma,CCONJ,cc,lasciato,,,"6,662005813"
-23,Eliseo,eliseo,Eliseo,Eliseo,PROPN,nsubj,lasciato,,,
-23,lo,lo,lo,lo,PRON,obj,lasciato,,,"6,655915487"
-23,hai,hai,avere,avere,AUX,aux,lasciato,,,"6,477590733"
-23,lasciato,lasciato,lasciare,lasciare,VERB,root,ROOT,,,"5,255998527"
-23,suonare,suonare,suonare,suonare,VERB,ccomp,lasciato,,,"4,406560793"
-23,",",,",",,PUNCT,punct,sentito,,,
-23,l’,l’,il,il,PRON,obj,sentito,,,
-23,ho,ho,avere,avere,AUX,aux,sentito,,,"6,720262455"
-23,sentito,sentito,sentire,sentire,VERB,conj,lasciato,,4.24 ± 1.67,"5,518455847"
-23,",",,",",,PUNCT,punct,vuoi,,,
-23,vuoi,vuoi,volere,volere,VERB,conj,lasciato,,,"5,995743909"
-23,più,più,più,più,ADV,advmod,bene,,,"6,382555861"
-23,bene,bene,bene,bene,ADV,advmod,vuoi,,,"6,454992194"
-23,a,a,a,a,ADP,case,lui,,,"7,004335738"
-23,lui,lui,lui,lui,PRON,obl,vuoi,,,"6,077050011"
-23,che,che,che,che,SCONJ,mark,giusto,,,"7,250456545"
-23,a,a,a,a,ADP,case,me,,,"7,004335738"
-23,me,me,me,me,PRON,obl,giusto,,,"6,337855516"
-23,",",,",",,PUNCT,punct,giusto,,,
-23,non,non,non,non,ADV,advmod,giusto,,,"7,259198169"
-23,è,è,essere,essere,AUX,cop,giusto,,,"7,249521761"
-23,giusto,giusto,giusto,giusto,ADJ,ccomp,vuoi,,,"5,657078795"
-23,!,,!,,PUNCT,punct,lasciato,,,
-23,”,”,”,”,PUNCT,punct,lasciato,,,
-23,.,,.,,PUNCT,punct,lasciato,,,
-24,“,“,“,“,PUNCT,punct,sciocca,,,
-24,Non,non,non,non,ADV,advmod,sciocca,,,"7,259198169"
-24,essere,essere,essere,essere,AUX,cop,sciocca,,,"6,225206681"
-24,sciocca,sciocca,sciocco,sciocco,ADJ,root,ROOT,,6.48 ± 2.38,"3,938723321"
-24,Eleonora,eleonora,Eleonora,Eleonora,PROPN,nsubj,sciocca,,,
-24,”,”,”,”,PUNCT,punct,sciocca,,,
-24,",",,",",,PUNCT,punct,sciocca,,,
-24,dice,dice,dire,dire,VERB,parataxis,sciocca,,4.08 ± 1.73,"5,609257672"
-24,la,la,il,il,DET,det,mamma,,,"7,055331658"
-24,mamma,mamma,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,"5,66327005"
-24,.,,.,,PUNCT,punct,sciocca,,,
-25,“,“,“,“,PUNCT,punct,leggi,,,
-25,Comunque,comunque,comunque,comunque,ADV,advmod,leggi,,,"5,350189561"
-25,",",,",",,PUNCT,punct,Comunque,,,
-25,d’,d’,di,di,ADP,case,accordo,,,
-25,accordo,accordo,accordo,accordo,NOUN,obl,leggi,,7.96 ± 2.13,"5,577662908"
-25,",",,",",,PUNCT,punct,accordo,,,
-25,leggi,leggi,leggere,leggere,VERB,root,ROOT,,5.56 ± 1.96,"4,499487644"
-25,pure,pure,pure,pure,ADV,advmod,leggi,,,"5,167341994"
-25,",",,",",,PUNCT,punct,pagina,,,
-25,ma,ma,ma,ma,CCONJ,cc,pagina,,,"6,662005813"
-25,solo,solo,solo,solo,ADV,advmod,pagina,,4.60 ± 2.14,"6,359323473"
-25,una,una,uno,uno,DET,det,pagina,,,"6,801817508"
-25,pagina,pagina,pagina,pagina,NOUN,conj,leggi,,4.08 ± 1.35,"4,447280116"
-25,.,,.,,PUNCT,punct,leggi,,,
-26,E,e,e,e,CCONJ,cc,legge,,,"2,741151583"
-26,così,così,così,così,ADV,advmod,legge,,,"6,287788074"
-26,Eleonora,eleonora,Eleonora,Eleonora,PROPN,nsubj,legge,,,
-26,legge,legge,leggere,leggere,VERB,root,ROOT,,5.56 ± 1.96,"4,901759591"
-26,quattro,quattro,quattro,quattro,NUM,nummod,pagine,,,"5,206534435"
-26,pagine,pagine,pagina,pagina,NOUN,obj,legge,,4.08 ± 1.35,"4,107640308"
-26,di,di,di,di,ADP,case,Cappuccetto,,,"7,232814475"
-26,Cappuccetto,cappuccetto,Cappuccetto,Cappuccetto,PROPN,nmod,pagine,,,
-26,Rosso,rosso,Rosso,Rosso,PROPN,flat:name,Cappuccetto,,,"4,705072364"
-26,.,,.,,PUNCT,punct,legge,,,
-27,Ed,ed,e,e,CCONJ,cc,arriva,,,"5,795365296"
-27,arriva,arriva,arrivare,arrivare,VERB,root,ROOT,,,"4,940504965"
-27,Edo,edo,Edo,Edo,PROPN,nsubj,arriva,,,
-27,",",,",",,PUNCT,punct,Edo,,,
-27,carico,carico,carico,carico,NOUN,appos,Edo,,,"4,445592129"
-27,di,di,di,di,ADP,case,giocattoli,,,"7,232814475"
-27,giocattoli,giocattoli,giocattolo,giocattolo,NOUN,nmod,carico,,3.20 ± 1.58,"3,928910556"
-27,.,,.,,PUNCT,punct,arriva,,,
-28,“,“,“,“,PUNCT,punct,mamma,,,
-28,Sono,sono,essere,essere,AUX,cop,mamma,,,"6,768130002"
-28,per,per,per,per,ADP,case,te,,,"6,912435835"
-28,te,te,te,te,PRON,obl,mamma,,,"6,290869614"
-28,mamma,mamma,mamma,mamma,NOUN,root,ROOT,,1.88 ± 1.27,"5,66327005"
-28,!,,!,,PUNCT,punct,mamma,,,
-28,”,”,”,”,PUNCT,punct,mamma,,,
-28,",",,",",,PUNCT,punct,getta,,,
-28,e,e,e,e,CCONJ,cc,getta,,,"2,741151583"
-28,li,li,li,li,PRON,obj,getta,,,"5,74096192"
-28,getta,getta,gettare,gettare,VERB,conj,mamma,,,"4,045836252"
-28,in,in,in,in,ADP,case,vasca,,,"6,797274494"
-28,la,la,il,il,DET,det,vasca,,,"7,055331658"
-28,vasca,vasca,vasca,vasca,NOUN,obl,getta,,4.60 ± 1.91,"4,194814396"
-28,da,da,da,da,ADP,case,bagno,,,"6,577812618"
-28,bagno,bagno,bagno,bagno,NOUN,nmod,vasca,,4.16 ± 2.39,"5,000146152"
-28,.,,.,,PUNCT,punct,mamma,,,
-29,“,“,“,“,PUNCT,punct,Grazie,,,
-29,Grazie,grazie,grazie,grazie,INTJ,root,ROOT,,,"6,095365565"
-29,piccolo,piccolo,piccolo,piccolo,ADJ,amod,Grazie,,4.12 ± 3.18,"5,291431625"
-29,”,”,”,”,PUNCT,punct,Grazie,,,
-29,",",,",",,PUNCT,punct,Grazie,,,
-29,dice,dice,dire,dire,VERB,parataxis,Grazie,,4.08 ± 1.73,"5,609257672"
-29,la,la,il,il,DET,det,mamma,,,"7,055331658"
-29,mamma,mamma,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,"5,66327005"
-29,rassegnata,rassegnata,rassegnato,rassegnato,ADJ,amod,mamma,,,"2,588863239"
-29,.,,.,,PUNCT,punct,Grazie,,,
-30,“,“,“,“,PUNCT,punct,guardare,,,
-30,Posso,posso,potere,potere,AUX,aux,guardare,,,"6,059638184"
-30,guardare,guardare,guardare,guardare,VERB,root,ROOT,,5.08 ± 1.68,"5,011387421"
-30,la,la,il,il,DET,det,pagina,,,"7,055331658"
-30,pagina,pagina,pagina,pagina,NOUN,obj,guardare,,4.08 ± 1.35,"4,447280116"
-30,di,di,di,di,ADP,case,fumetti,,,"7,232814475"
-30,i,i,il,il,DET,det,fumetti,,,"6,584780852"
-30,fumetti,fumetti,fumetto,fumetto,NOUN,nmod,pagina,,,"3,779754956"
-30,?,,?,,PUNCT,punct,guardare,,,
-31,Posso,posso,potere,potere,AUX,aux,mangiare,,,"6,059638184"
-31,mangiare,mangiare,mangiare,mangiare,VERB,root,ROOT,,3.24 ± 1.74,"5,112999615"
-31,la,la,il,il,DET,det,torta,,,"7,055331658"
-31,torta,torta,torta,torta,NOUN,obj,mangiare,,2.96 ± 0.93,"4,610796405"
-31,?,,?,,PUNCT,punct,mangiare,,,
-32,Posso,posso,potere,potere,AUX,aux,entrare,,,"6,059638184"
-32,entrare,entrare,entrare,entrare,VERB,root,ROOT,,,"5,241380325"
-32,in,in,in,in,ADP,case,vasca,,,"6,797274494"
-32,la,la,il,il,DET,det,vasca,,,"7,055331658"
-32,vasca,vasca,vasca,vasca,NOUN,obl,entrare,,4.60 ± 1.91,"4,194814396"
-32,con,con,con,con,ADP,case,te,,,"6,620271703"
-32,te,te,te,te,PRON,obl,entrare,,,"6,290869614"
-32,?,,?,,PUNCT,punct,entrare,,,
-32,”,”,”,”,PUNCT,punct,entrare,,,
-32,",",,",",,PUNCT,punct,entrare,,,
-32,chiedono,chiedono,chiedere,chiedere,VERB,parataxis,entrare,,,"4,036641248"
-32,i,i,il,il,DET,det,elefantini,,,"6,584780852"
-32,tre,tre,tre,tre,NUM,nummod,elefantini,,,"5,607871462"
-32,elefantini,elefantini,elefantino,elefantino,NOUN,nsubj,chiedono,,,"1,668044485"
-32,.,,.,,PUNCT,punct,entrare,,,
-33,La,la,il,il,DET,det,mamma,,,"7,055331658"
-33,mamma,mamma,mamma,mamma,NOUN,nsubj,sospira,,1.88 ± 1.27,"5,66327005"
-33,sospira,sospira,sospirare,sospirare,VERB,root,ROOT,,,"3,355276086"
-33,",",,",",,PUNCT,punct,entrano,,,
-33,a,a,a,a,ADP,case,fine,,,"7,004335738"
-33,la,la,il,il,DET,det,fine,,,"7,055331658"
-33,fine,fine,fine,fine,NOUN,obl,entrano,,,"5,383211843"
-33,entrano,entrano,entrare,entrare,VERB,conj,sospira,,,"4,040649674"
-33,tutti,tutti,tutto,tutto,PRON,nsubj,entrano,,,"6,110511188"
-33,in,in,in,in,ADP,case,vasca,,,"6,797274494"
-33,la,la,il,il,DET,det,vasca,,,"7,055331658"
-33,vasca,vasca,vasca,vasca,NOUN,obl,entrano,,4.60 ± 1.91,"4,194814396"
-33,",",,",",,PUNCT,punct,entrano,,,
-33,Edo,edo,Edo,Edo,PROPN,nsubj,euforico,,,
-33,è,è,essere,essere,AUX,cop,euforico,,,"7,249521761"
-33,talmente,talmente,talmente,talmente,ADV,advmod,euforico,,,"4,261515162"
-33,euforico,euforico,euforico,euforico,ADJ,parataxis,sospira,,,"2,660745246"
-33,che,che,che,che,PRON,nsubj,lancia,,,"7,250456545"
-33,si,si,si,si,PRON,expl,lancia,,,"6,553884221"
-33,lancia,lancia,lanciare,lanciare,VERB,acl:relcl,euforico,,4.52 ± 2.00,"4,022152924"
-33,con,con,con,con,ADP,case,pigiama,,,"6,620271703"
-33,il,il,il,il,DET,det,pigiama,,,"7,039560886"
-33,pigiama,pigiama,pigiama,pigiama,NOUN,obl,lancia,,3.84 ± 1.46,"3,866243213"
-33,ancora,ancora,ancora,ancora,ADV,advmod,addosso,,,"6,01813737"
-33,addosso,addosso,addosso,addosso,ADV,advmod,lancia,,,"4,890760956"
-33,.,,.,,PUNCT,punct,sospira,,,
-34,La,la,il,il,DET,det,mamma,,,"7,055331658"
-34,mamma,mamma,mamma,mamma,NOUN,nsubj,esce,,1.88 ± 1.27,"5,66327005"
-34,esce,esce,uscire,uscire,VERB,root,ROOT,,4.28 ± 2.32,"4,481180499"
-34,",",,",",,PUNCT,punct,asciuga,,,
-34,si,si,si,si,PRON,expl,asciuga,,,"6,553884221"
-34,asciuga,asciuga,asciugare,asciugare,VERB,conj,esce,,4.48 ± 2.12,"3,068870182"
-34,",",,",",,PUNCT,punct,mette,,,
-34,si,si,si,si,PRON,expl,mette,,,"6,553884221"
-34,mette,mette,mettere,mettere,VERB,conj,esce,,4.28 ± 1.59,"4,624212915"
-34,la,la,il,il,DET,det,vestaglia,,,"7,055331658"
-34,vestaglia,vestaglia,vestaglia,vestaglia,NOUN,obj,mette,,,"3,399095757"
-34,e,e,e,e,CCONJ,cc,va,,,"2,741151583"
-34,va,va,andare,andare,VERB,conj,esce,,4.20 ± 1.44,"6,162363764"
-34,verso,verso,verso,verso,ADP,case,porta,,,"5,193046076"
-34,la,la,il,il,DET,det,porta,,,"7,055331658"
-34,porta,porta,porta,porta,NOUN,obl,va,,4.64 ± 2.34,"5,473918988"
-34,.,,.,,PUNCT,punct,esce,,,
-35,“,“,“,“,PUNCT,punct,vai,,,
-35,Dove,dove,dove,dove,ADV,advmod,vai,,,"6,018789847"
-35,vai,vai,andare,andare,VERB,root,ROOT,,4.20 ± 1.44,"5,679544443"
-35,mamma,mamma,mamma,mamma,NOUN,nsubj,vai,,1.88 ± 1.27,"5,66327005"
-35,?,,?,,PUNCT,punct,vai,,,
-35,”,”,”,”,PUNCT,punct,vai,,,
-35,",",,",",,PUNCT,punct,vai,,,
-35,vado,vado,andare,andare,VERB,parataxis,vai,,4.20 ± 1.44,"5,487325132"
-35,in,in,in,in,ADP,case,cucina,,,"6,797274494"
-35,cucina,cucina,cucina,cucina,NOUN,obl,vado,,3.84 ± 1.52,"4,734991274"
-35,.,,.,,PUNCT,punct,vai,,,
-36,“,“,“,“,PUNCT,punct,Perché,,,
-36,Perché,perché,perché,perché,ADV,root,ROOT,,,"5,965637226"
-36,?,,?,,PUNCT,punct,Perché,,,
-36,”,”,”,”,PUNCT,punct,Perché,,,
-36,",",,",",,PUNCT,punct,domanda,,,
-36,domanda,domanda,domanda,domanda,NOUN,parataxis,Perché,,,"5,180684418"
-36,Eliseo,eliseo,Eliseo,Eliseo,PROPN,nmod,domanda,,,
-36,.,,.,,PUNCT,punct,Perché,,,
-37,“,“,“,“,PUNCT,punct,voglio,,,
-37,Perché,perché,perché,perché,ADV,advmod,voglio,,,"5,965637226"
-37,voglio,voglio,volere,volere,VERB,root,ROOT,,,"6,095946945"
-37,cinque,cinque,cinque,cinque,NUM,nummod,minuti,,,"5,222170066"
-37,minuti,minuti,minuto,minuto,NOUN,obj,voglio,,,"5,327738888"
-37,di,di,di,di,ADP,case,pace,,,"7,232814475"
-37,pace,pace,pace,pace,NOUN,nmod,minuti,,5.04 ± 1.72,"5,057358263"
-37,lontana,lontana,lontano,lontano,ADJ,amod,pace,,,"4,349587211"
-37,da,da,da,da,ADP,case,voi,,,"6,577812618"
-37,voi,voi,voi,voi,PRON,obl,lontana,,,"5,827651777"
-37,”,”,”,”,PUNCT,punct,voglio,,,
-37,.,,.,,PUNCT,punct,voglio,,,
-38,E,e,e,e,CCONJ,cc,scende,,,"2,741151583"
-38,scende,scende,scendere,scendere,VERB,root,ROOT,,4.76 ± 2.26,"3,849411611"
-38,a,a,a,a,ADP,case,piano,,,"7,004335738"
-38,il,il,il,il,DET,det,piano,,,"7,039560886"
-38,piano,piano,piano,piano,NOUN,obl,scende,,,"5,375600468"
-38,di,di,di,di,ADP,case,sotto,,,"7,232814475"
-38,sotto,sotto,sotto,sotto,ADV,advmod,piano,,,"5,502104716"
-38,",",,",",,PUNCT,punct,piano,,,
-38,dove,dove,dove,dove,ADV,advmod,gode,,,"6,018789847"
-38,finalmente,finalmente,finalmente,finalmente,ADV,advmod,gode,,,"4,939266335"
-38,si,si,si,si,PRON,expl,gode,,,"6,553884221"
-38,gode,gode,godere,godere,VERB,acl:relcl,piano,,,"3,321256999"
-38,3,3,3,3,NUM,nummod,minuti,,,"2,287833243"
-38,minuti,minuti,minuto,minuto,NOUN,nsubj,gode,,,"5,327738888"
-38,e,e,e,e,CCONJ,cc,secondi,,,"2,741151583"
-38,45,45,45,45,NUM,nummod,secondi,,,"1,491953226"
-38,secondi,secondi,secondo,secondo,NOUN,conj,minuti,,,"4,788344154"
-38,di,di,di,di,ADP,case,pace,,,"7,232814475"
-38,pace,pace,pace,pace,NOUN,nmod,secondi,,5.04 ± 1.72,"5,057358263"
-38,",",,",",,PUNCT,punct,gode,,,
-38,prima,prima,prima,prima,ADV,mark,raggiungano,,,"6,042129583"
-38,che,che,che,che,SCONJ,fixed,prima,,,"7,250456545"
-38,gli,gli,il,il,DET,det,elefantini,,,"6,227520191"
-38,elefantini,elefantini,elefantino,elefantino,NOUN,nsubj,raggiungano,,,"1,668044485"
-38,la,la,la,la,PRON,obj,raggiungano,,,"7,055331658"
-38,raggiungano,raggiungano,raggiungere,raggiungere,VERB,advcl,gode,,,"2,787520326"
-38,.,,.,,PUNCT,punct,scende,,,
+sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
+0,cinque,cinque,NUM,nummod,minuti,,,5.222170066
+0,minuti,minuto,NOUN,root,ROOT,,,5.327738888
+0,di,di,ADP,case,pace,,,7.232814475
+0,pace,pace,NOUN,nmod,minuti,,5.04 ± 1.72,5.057358263
+0,,,PUNCT,punct,minuti,,,
+1,gli,il,DET,det,elefantini,,,6.227520191
+1,elefantini,elefantino,NOUN,nsubj,facendo,,,1.668044485
+1,stanno,stare,AUX,aux,facendo,,4.60 ± 2.35,5.422469274
+1,facendo,fare,VERB,root,ROOT,,4.40 ± 2.22,5.643093149
+1,colazione,colazione,NOUN,obj,facendo,,,4.628118682
+1,,,PUNCT,punct,facendo,,,
+2,mamma,mamma,NOUN,nsubj,prende,,1.88 ± 1.27,5.66327005
+2,elefante,Elefante,PROPN,flat:name,Mamma,,,3.8254005
+2,,,PUNCT,punct,Mamma,,,
+2,prende,prendere,VERB,root,ROOT,,4.36 ± 1.89,4.869987548
+2,un,uno,DET,det,vassoio,,,7.065833912
+2,vassoio,vassoio,NOUN,obj,prende,,6.36 ± 2.33,3.540200757
+2,e,e,CCONJ,cc,dispone,,,2.741151583
+2,ci,ci,PRON,expl,dispone,,,6.517126939
+2,dispone,disporre,VERB,conj,prende,,,3.016998033
+2,una,uno,DET,det,teiera,,,6.801817508
+2,teiera,teiera,NOUN,obj,dispone,,,3.083017833
+2,,,PUNCT,punct,tazza,,,
+2,la,il,DET,det,tazza,,,7.055331658
+2,sua,suo,DET,det:poss,tazza,,,6.022524285
+2,tazza,tazza,NOUN,conj,teiera,,4.36 ± 1.66,4.343822826
+2,preferita,preferito,ADJ,amod,tazza,,,4.198030613
+2,,,PUNCT,punct,piatto,,,
+2,un,uno,DET,det,piatto,,,7.065833912
+2,piatto,piatto,NOUN,conj,teiera,,3.36 ± 1.50,4.365419149
+2,di,di,ADP,case,toast,,,7.232814475
+2,toast,toast,NOUN,nmod,piatto,,,3.715319352
+2,con,con,ADP,case,marmellata,,,6.620271703
+2,la,il,DET,det,marmellata,,,7.055331658
+2,marmellata,marmellata,NOUN,nmod,piatto,,5.00 ± 1.00,3.676644657
+2,e,e,CCONJ,cc,tortina,,,2.741151583
+2,una,uno,DET,det,tortina,,,6.801817508
+2,tortina,tortina,NOUN,conj,teiera,,,2.81417252
+2,,,PUNCT,punct,prende,,,
+3,poi,poi,ADV,advmod,mette,,,5.853751865
+3,si,si,PRON,expl,mette,,,6.553884221
+3,mette,mettere,VERB,root,ROOT,,4.28 ± 1.59,4.624212915
+3,in,in,ADP,case,tasca,,,6.797274494
+3,tasca,tasca,NOUN,obl,mette,,,4.335808648
+3,il,il,DET,det,giornale,,,7.039560886
+3,giornale,giornale,NOUN,obj,mette,,5.08 ± 1.50,4.502359198
+3,e,e,CCONJ,cc,procede,,,2.741151583
+3,procede,procedere,VERB,conj,mette,,,3.79998378
+3,di,di,ADP,case,soppiatto,,,7.232814475
+3,soppiatto,soppiatto,NOUN,obl,procede,,,3.137866501
+3,verso,verso,ADP,case,porta,,,5.193046076
+3,la,il,DET,det,porta,,,7.055331658
+3,porta,porta,NOUN,obl,procede,,4.64 ± 2.34,5.473918988
+3,,,PUNCT,punct,mette,,,
+4,“,“,PUNCT,punct,vai,,,
+4,dove,dove,ADV,advmod,vai,,,6.018789847
+4,vai,andare,VERB,root,ROOT,,4.20 ± 1.44,5.679544443
+4,con,con,ADP,case,vassoio,,,6.620271703
+4,quel,quello,DET,det,vassoio,,,5.90824416
+4,vassoio,vassoio,NOUN,obl,vai,,6.36 ± 2.33,3.540200757
+4,,,PUNCT,punct,mamma,,,
+4,mamma,mamma,NOUN,conj,vassoio,,1.88 ± 1.27,5.66327005
+4,,,PUNCT,punct,vai,,,
+4,”,”,PUNCT,punct,vai,,,
+4,,,PUNCT,punct,vai,,,
+4,chiede,chiedere,VERB,parataxis,vai,,,4.493578784
+4,eleonora,Eleonora,PROPN,nsubj,chiede,,,
+4,,,PUNCT,punct,vai,,,
+5,“,“,PUNCT,punct,Vado,,,
+5,vado,andare,VERB,root,ROOT,,4.20 ± 1.44,5.487325132
+5,in,in,ADP,case,bagno,,,6.797274494
+5,bagno,bagno,NOUN,obl,Vado,,4.16 ± 2.39,5.000146152
+5,”,”,PUNCT,punct,Vado,,,
+5,,,PUNCT,punct,Vado,,,
+5,risponde,rispondere,VERB,parataxis,Vado,,3.88 ± 1.59,4.376323713
+5,la,il,DET,det,mamma,,,7.055331658
+5,mamma,mamma,NOUN,nsubj,risponde,,1.88 ± 1.27,5.66327005
+5,,,PUNCT,punct,Vado,,,
+6,“,“,PUNCT,punct,domandano,,,
+6,perché,perché,ADV,advmod,domandano,,,5.965637226
+6,”,”,PUNCT,punct,Perché,,,
+6,,,PUNCT,punct,Perché,,,
+6,domandano,domandare,VERB,root,ROOT,,,2.630255924
+6,gli,il,DET,det,elefantini,,,6.227520191
+6,altri,altro,ADJ,amod,elefantini,,,5.540608628
+6,elefantini,elefantino,NOUN,nsubj,domandano,,,1.668044485
+6,,,PUNCT,punct,domandano,,,
+7,“,“,PUNCT,punct,voglio,,,
+7,perché,perché,ADV,advmod,voglio,,,5.965637226
+7,voglio,volere,VERB,root,ROOT,,,6.095946945
+7,cinque,cinque,NUM,nummod,minuti,,,5.222170066
+7,minuti,minuto,NOUN,obj,voglio,,,5.327738888
+7,di,di,ADP,case,pace,,,7.232814475
+7,pace,pace,NOUN,nmod,minuti,,5.04 ± 1.72,5.057358263
+7,lontana,lontano,ADJ,amod,pace,,,4.349587211
+7,da,da,ADP,case,voi,,,6.577812618
+7,voi,voi,PRON,obl,lontana,,,5.827651777
+7,,,PUNCT,punct,voglio,,,
+7,ecco,ecco,ADV,advmod,perché,,,5.695815269
+7,perché,perché,ADV,advmod,voglio,,,5.965637226
+7,”,”,PUNCT,punct,voglio,,,
+7,,,PUNCT,punct,voglio,,,
+8,“,“,PUNCT,punct,venire,,,
+8,possiamo,potere,AUX,aux,venire,,,5.648040277
+8,venire,venire,VERB,root,ROOT,,4.80 ± 2.10,5.41855288
+8,anche,anche,ADV,advmod,noi,,,6.115086172
+8,noi,noi,PRON,nsubj,venire,,,5.985902456
+8,”,”,PUNCT,punct,venire,,,
+8,,,PUNCT,punct,venire,,,
+8,le,le,PRON,iobj,chiede,,,6.624997683
+8,chiede,chiedere,VERB,parataxis,venire,,,4.493578784
+8,eliseo,Eliseo,PROPN,nsubj,chiede,,,
+8,,,PUNCT,punct,venire,,,
+9,“,“,PUNCT,punct,potete,,,
+9,no,No,INTJ,discourse,potete,,,6.605764599
+9,”,”,PUNCT,punct,No,,,
+9,,,PUNCT,punct,dice,,,
+9,dice,dire,VERB,parataxis,potete,,4.08 ± 1.73,5.609257672
+9,la,il,DET,det,mamma,,,7.055331658
+9,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,5.66327005
+9,,,PUNCT,punct,dice,,,
+9,“,“,PUNCT,punct,potete,,,
+9,non,non,ADV,advmod,potete,,,7.259198169
+9,potete,potere,VERB,root,ROOT,,,5.048587353
+9,”,”,PUNCT,punct,potete,,,
+9,,,PUNCT,punct,potete,,,
+10,“,“,PUNCT,punct,faremo,,,
+10,ma,ma,CCONJ,cc,faremo,,,6.662005813
+10,cosa,cosa,PRON,obj,faremo,,,6.632253028
+10,faremo,fare,VERB,root,ROOT,,4.40 ± 2.22,5.066013445
+10,allora,allora,ADV,advmod,faremo,,,6.072527547
+10,,,PUNCT,punct,faremo,,,
+11,”,”,PUNCT,punct,chiede,,,
+11,,,PUNCT,punct,chiede,,,
+11,chiede,chiedere,VERB,root,ROOT,,,4.493578784
+11,eleonora,Eleonora,PROPN,nsubj,chiede,,,
+11,,,PUNCT,punct,chiede,,,
+12,“,“,PUNCT,punct,Giocherete,,,
+12,giocherete,giochire,VERB,root,ROOT,,,2.588863239
+12,a,a,ADP,case,piano,,,7.004335738
+12,il,il,DET,det,piano,,,7.039560886
+12,piano,piano,NOUN,obl,Giocherete,,,5.375600468
+12,di,di,ADP,case,sotto,,,7.232814475
+12,sotto,sotto,ADV,advmod,piano,,,5.502104716
+12,per,per,ADP,case,conto,,,6.912435835
+12,conto,conto,NOUN,obl,Giocherete,,,5.179013752
+12,vostro,vostro,DET,det:poss,conto,,,5.351151587
+12,”,”,PUNCT,punct,Giocherete,,,
+12,,,PUNCT,punct,Giocherete,,,
+13,la,il,DET,det,mamma,,,7.055331658
+13,mamma,mamma,NOUN,nsubj,prepara,,1.88 ± 1.27,5.66327005
+13,si,si,PRON,expl,prepara,,,6.553884221
+13,prepara,preparare,VERB,root,ROOT,,,4.07430072
+13,un,uno,DET,det,bagno,,,7.065833912
+13,bagno,bagno,NOUN,obj,prepara,,4.16 ± 2.39,5.000146152
+13,caldo,caldo,ADJ,amod,bagno,,3.88 ± 1.56,4.731565484
+13,si,si,PRON,expl,mette,,,6.553884221
+13,mette,mettere,VERB,conj,prepara,,4.28 ± 1.59,4.624212915
+13,la,il,DET,det,cuffietta,,,7.055331658
+13,cuffietta,cuffietta,NOUN,obj,mette,,,2.168646835
+13,ed,e,CCONJ,cc,entra,,,5.795365296
+13,entra,entrare,VERB,conj,prepara,,,5.026264958
+13,in,in,ADP,case,vasca,,,6.797274494
+13,la,il,DET,det,vasca,,,7.055331658
+13,vasca,vasca,NOUN,obl,entra,,4.60 ± 1.91,4.194814396
+13,,,PUNCT,punct,prepara,,,
+14,poi,poi,ADV,advmod,sorseggia,,,5.853751865
+14,,,PUNCT,punct,Poi,,,
+14,sorseggia,sorseggiare,VERB,root,ROOT,,,2.352291232
+14,una,uno,DET,det,tazza,,,6.801817508
+14,tazza,tazza,NOUN,obj,sorseggia,,4.36 ± 1.66,4.343822826
+14,di,di,ADP,case,the,,,7.232814475
+14,the,the,X,nmod,tazza,,,5.044682263
+14,e,e,CCONJ,cc,distende,,,2.741151583
+14,si,si,PRON,expl,distende,,,6.553884221
+14,distende,distendere,VERB,conj,sorseggia,,,2.352291232
+14,chiudendo,chiudere,VERB,advcl,distende,,3.48 ± 1.76,3.626289737
+14,gli,il,DET,det,occhi,,,6.227520191
+14,occhi,occhio,NOUN,obj,chiudendo,,3.64 ± 1.63,5.297539031
+14,,,PUNCT,punct,paradiso,,,
+14,che,che,DET,det,paradiso,,,7.250456545
+14,paradiso,paradiso,NOUN,obj,chiudendo,,5.92 ± 2.96,4.482514056
+14,,,PUNCT,punct,sorseggia,,,
+15,“,“,PUNCT,punct,suonarti,,,
+15,posso,potere,AUX,aux,suonarti,,,6.059638184
+15,suonarti,suonare,VERB,root,ROOT,,,2.003836587
+15,qualcosa,qualcosa,PRON,obj,suonarti,,,6.034414514
+15,,,PUNCT,punct,suonarti,,,
+16,le,le,PRON,iobj,chiede,,,6.624997683
+16,chiede,chiedere,VERB,root,ROOT,,,4.493578784
+16,eliseo,Eliseo,PROPN,nsubj,chiede,,,
+16,,,PUNCT,punct,chiede,,,
+17,“,“,PUNCT,punct,Devi,,,
+17,devi,dovere,VERB,root,ROOT,,,5.770421013
+17,proprio,proprio,ADV,advmod,Devi,,,5.884320377
+17,,,PUNCT,punct,Devi,,,
+17,”,”,PUNCT,punct,Devi,,,
+17,,,PUNCT,punct,Devi,,,
+18,“,“,PUNCT,punct,esercitato,,,
+18,mi,mi,PRON,iobj,esercitato,,,6.769601972
+18,sono,essere,AUX,aux,esercitato,,,6.768130002
+18,esercitato,esercitare,VERB,root,ROOT,,,3.020227003
+18,,,PUNCT,punct,detto,,,
+18,me,me,PRON,expl,detto,,,6.337855516
+18,lo,lo,PRON,obj,detto,,,6.655915487
+18,hai,avere,AUX,aux,detto,,,6.477590733
+18,detto,dire,VERB,conj,esercitato,,4.08 ± 1.73,6.180297396
+18,tu,tu,PRON,nsubj,detto,,,6.414765586
+18,,,PUNCT,punct,esercitato,,,
+19,ti,ti,PRON,iobj,prego…,,,6.615643201
+19,prego…,pregare,VERB,root,ROOT,,,
+19,solo,solo,ADV,advmod,minuto,,4.60 ± 2.14,6.359323473
+19,per,per,ADP,case,minuto,,,6.912435835
+19,un,uno,DET,det,minuto,,,7.065833912
+19,minuto,minuto,NOUN,obl,prego…,,,5.014495262
+19,,,PUNCT,punct,prego…,,,
+19,”,”,PUNCT,punct,prego…,,,
+19,“,“,PUNCT,punct,Va,,,
+19,va,andare,VERB,parataxis,prego…,,4.20 ± 1.44,6.162363764
+19,bene…,bene…,ADV,advmod,Va,,,
+19,,,PUNCT,punct,Va,,,
+19,”,”,PUNCT,punct,Va,,,
+19,,,PUNCT,punct,sospira,,,
+19,sospira,sospirare,VERB,parataxis,prego…,,,3.355276086
+19,la,il,DET,det,mamma,,,7.055331658
+19,mamma,mamma,NOUN,nsubj,sospira,,1.88 ± 1.27,5.66327005
+19,,,PUNCT,punct,sospira,,,
+20,ed,e,CCONJ,cc,suona,,,5.795365296
+20,eliseo,Eliseo,PROPN,nsubj,suona,,,
+20,suona,suonare,VERB,root,ROOT,,,4.541171248
+20,stella,Stella,PROPN,obj,suona,,,4.507731982
+20,stellina,Stellina,PROPN,flat:name,Stella,,,2.950591075
+20,per,per,ADP,case,volta,,,6.912435835
+20,una,uno,DET,det,volta,,,6.801817508
+20,volta,volta,NOUN,obl,suona,,,5.820011577
+20,e,e,CCONJ,cc,mezza,,,2.741151583
+20,mezza,mezzo,NOUN,conj,volta,,,4.486270378
+20,,,PUNCT,punct,suona,,,
+21,poi,poi,ADV,advmod,arriva,,,5.853751865
+21,,,PUNCT,punct,Poi,,,
+21,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+21,eleonora,Eleonora,PROPN,nsubj,arriva,,,
+21,,,PUNCT,punct,arriva,,,
+22,“,“,PUNCT,punct,leggerti,,,
+22,posso,potere,AUX,aux,leggerti,,,6.059638184
+22,leggerti,leggere,VERB,root,ROOT,,5.56 ± 1.96,2.990263779
+22,una,uno,DET,det,pagina,,,6.801817508
+22,pagina,pagina,NOUN,obj,leggerti,,4.08 ± 1.35,4.447280116
+22,di,di,ADP,case,libro,,,7.232814475
+22,il,il,DET,det,libro,,,7.039560886
+22,mio,mio,DET,det:poss,libro,,,6.336217551
+22,libro,libro,NOUN,nmod,pagina,,4.20 ± 1.41,5.050151621
+22,mamma,mamma,NOUN,compound,libro,,1.88 ± 1.27,5.66327005
+22,,,PUNCT,punct,leggerti,,,
+22,”,”,PUNCT,punct,leggerti,,,
+22,,,PUNCT,punct,leggerti,,,
+23,“,“,PUNCT,punct,andate,,,
+23,no,No,INTJ,discourse,andate,,,6.605764599
+23,eleonora,Eleonora,PROPN,vocative,andate,,,
+23,,,PUNCT,punct,Eleonora,,,
+23,su,su,ADV,advmod,andate,,,6.000068652
+23,,,PUNCT,punct,su,,,
+23,adesso,adesso,ADV,advmod,andate,,,5.836954264
+23,andate,andare,VERB,root,ROOT,,4.20 ± 1.44,5.051141415
+23,tutti,tutto,PRON,nsubj,andate,,,6.110511188
+23,a,a,ADP,case,piano,,,7.004335738
+23,il,il,DET,det,piano,,,7.039560886
+23,piano,piano,NOUN,obl,andate,,,5.375600468
+23,di,di,ADP,case,sotto,,,7.232814475
+23,sotto,sotto,ADV,advmod,piano,,,5.502104716
+23,,,PUNCT,punct,andate,,,
+24,”,”,PUNCT,punct,lasciato,,,
+24,“,“,PUNCT,punct,lasciato,,,
+24,ma,ma,CCONJ,cc,lasciato,,,6.662005813
+24,eliseo,Eliseo,PROPN,nsubj,lasciato,,,
+24,lo,lo,PRON,obj,lasciato,,,6.655915487
+24,hai,avere,AUX,aux,lasciato,,,6.477590733
+24,lasciato,lasciare,VERB,root,ROOT,,,5.255998527
+24,suonare,suonare,VERB,ccomp,lasciato,,,4.406560793
+24,,,PUNCT,punct,sentito,,,
+24,l’,il,PRON,obj,sentito,,,
+24,ho,avere,AUX,aux,sentito,,,6.720262455
+24,sentito,sentire,VERB,conj,lasciato,,4.24 ± 1.67,5.518455847
+24,,,PUNCT,punct,vuoi,,,
+24,vuoi,volere,VERB,conj,lasciato,,,5.995743909
+24,più,più,ADV,advmod,bene,,,6.382555861
+24,bene,bene,ADV,advmod,vuoi,,,6.454992194
+24,a,a,ADP,case,lui,,,7.004335738
+24,lui,lui,PRON,obl,vuoi,,,6.077050011
+24,che,che,SCONJ,mark,giusto,,,7.250456545
+24,a,a,ADP,case,me,,,7.004335738
+24,me,me,PRON,obl,giusto,,,6.337855516
+24,,,PUNCT,punct,giusto,,,
+24,non,non,ADV,advmod,giusto,,,7.259198169
+24,è,essere,AUX,cop,giusto,,,7.249521761
+24,giusto,giusto,ADJ,ccomp,vuoi,,,5.657078795
+24,,,PUNCT,punct,lasciato,,,
+24,”,”,PUNCT,punct,lasciato,,,
+24,,,PUNCT,punct,lasciato,,,
+25,“,“,PUNCT,punct,sciocca,,,
+25,non,non,ADV,advmod,sciocca,,,7.259198169
+25,essere,essere,AUX,cop,sciocca,,,6.225206681
+25,sciocca,sciocco,ADJ,root,ROOT,,6.48 ± 2.38,3.938723321
+25,eleonora,Eleonora,PROPN,nsubj,sciocca,,,
+25,”,”,PUNCT,punct,sciocca,,,
+25,,,PUNCT,punct,sciocca,,,
+25,dice,dire,VERB,parataxis,sciocca,,4.08 ± 1.73,5.609257672
+25,la,il,DET,det,mamma,,,7.055331658
+25,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,5.66327005
+25,,,PUNCT,punct,sciocca,,,
+26,“,“,PUNCT,punct,leggi,,,
+26,comunque,comunque,ADV,advmod,leggi,,,5.350189561
+26,,,PUNCT,punct,Comunque,,,
+26,d’,di,ADP,case,accordo,,,
+26,accordo,accordo,NOUN,obl,leggi,,7.96 ± 2.13,5.577662908
+26,,,PUNCT,punct,accordo,,,
+26,leggi,leggere,VERB,root,ROOT,,5.56 ± 1.96,4.499487644
+26,pure,pure,ADV,advmod,leggi,,,5.167341994
+26,,,PUNCT,punct,pagina,,,
+26,ma,ma,CCONJ,cc,pagina,,,6.662005813
+26,solo,solo,ADV,advmod,pagina,,4.60 ± 2.14,6.359323473
+26,una,uno,DET,det,pagina,,,6.801817508
+26,pagina,pagina,NOUN,conj,leggi,,4.08 ± 1.35,4.447280116
+26,”,”,PUNCT,punct,leggi,,,
+26,,,PUNCT,punct,leggi,,,
+27,e,e,CCONJ,cc,legge,,,2.741151583
+27,così,così,ADV,advmod,legge,,,6.287788074
+27,eleonora,Eleonora,PROPN,nsubj,legge,,,
+27,legge,leggere,VERB,root,ROOT,,5.56 ± 1.96,4.901759591
+27,quattro,quattro,NUM,nummod,pagine,,,5.206534435
+27,pagine,pagina,NOUN,obj,legge,,4.08 ± 1.35,4.107640308
+27,di,di,ADP,case,Cappuccetto,,,7.232814475
+27,cappuccetto,Cappuccetto,PROPN,nmod,pagine,,,
+27,rosso,Rosso,PROPN,flat:name,Cappuccetto,,,4.705072364
+27,,,PUNCT,punct,legge,,,
+28,ed,e,CCONJ,cc,arriva,,,5.795365296
+28,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+28,edo,Edo,PROPN,nsubj,arriva,,,
+28,,,PUNCT,punct,Edo,,,
+28,carico,carico,NOUN,appos,Edo,,,4.445592129
+28,di,di,ADP,case,giocattoli,,,7.232814475
+28,giocattoli,giocattolo,NOUN,nmod,carico,,3.20 ± 1.58,3.928910556
+28,,,PUNCT,punct,arriva,,,
+29,“,“,PUNCT,punct,mamma,,,
+29,sono,essere,AUX,cop,mamma,,,6.768130002
+29,per,per,ADP,case,te,,,6.912435835
+29,te,te,PRON,obl,mamma,,,6.290869614
+29,mamma,mamma,NOUN,root,ROOT,,1.88 ± 1.27,5.66327005
+29,,,PUNCT,punct,mamma,,,
+29,”,”,PUNCT,punct,mamma,,,
+29,,,PUNCT,punct,getta,,,
+29,e,e,CCONJ,cc,getta,,,2.741151583
+29,li,li,PRON,obj,getta,,,5.74096192
+29,getta,gettare,VERB,conj,mamma,,,4.045836252
+29,in,in,ADP,case,vasca,,,6.797274494
+29,la,il,DET,det,vasca,,,7.055331658
+29,vasca,vasca,NOUN,obl,getta,,4.60 ± 1.91,4.194814396
+29,da,da,ADP,case,bagno,,,6.577812618
+29,bagno,bagno,NOUN,nmod,vasca,,4.16 ± 2.39,5.000146152
+29,,,PUNCT,punct,mamma,,,
+30,“,“,PUNCT,punct,Grazie,,,
+30,grazie,grazie,INTJ,root,ROOT,,,6.095365565
+30,piccolo,piccolo,ADJ,amod,Grazie,,4.12 ± 3.18,5.291431625
+30,”,”,PUNCT,punct,Grazie,,,
+30,,,PUNCT,punct,Grazie,,,
+30,dice,dire,VERB,parataxis,Grazie,,4.08 ± 1.73,5.609257672
+30,la,il,DET,det,mamma,,,7.055331658
+30,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,5.66327005
+30,rassegnata,rassegnato,ADJ,amod,mamma,,,2.588863239
+30,,,PUNCT,punct,Grazie,,,
+31,“,“,PUNCT,punct,guardare,,,
+31,posso,potere,AUX,aux,guardare,,,6.059638184
+31,guardare,guardare,VERB,root,ROOT,,5.08 ± 1.68,5.011387421
+31,la,il,DET,det,pagina,,,7.055331658
+31,pagina,pagina,NOUN,obj,guardare,,4.08 ± 1.35,4.447280116
+31,di,di,ADP,case,fumetti,,,7.232814475
+31,i,il,DET,det,fumetti,,,6.584780852
+31,fumetti,fumetto,NOUN,nmod,pagina,,,3.779754956
+31,,,PUNCT,punct,guardare,,,
+32,posso,potere,AUX,aux,mangiare,,,6.059638184
+32,mangiare,mangiare,VERB,root,ROOT,,3.24 ± 1.74,5.112999615
+32,la,il,DET,det,torta,,,7.055331658
+32,torta,torta,NOUN,obj,mangiare,,2.96 ± 0.93,4.610796405
+32,,,PUNCT,punct,mangiare,,,
+33,posso,potere,AUX,aux,entrare,,,6.059638184
+33,entrare,entrare,VERB,root,ROOT,,,5.241380325
+33,in,in,ADP,case,vasca,,,6.797274494
+33,la,il,DET,det,vasca,,,7.055331658
+33,vasca,vasca,NOUN,obl,entrare,,4.60 ± 1.91,4.194814396
+33,con,con,ADP,case,te,,,6.620271703
+33,te,te,PRON,obl,entrare,,,6.290869614
+33,,,PUNCT,punct,entrare,,,
+33,”,”,PUNCT,punct,entrare,,,
+33,,,PUNCT,punct,entrare,,,
+33,chiedono,chiedere,VERB,parataxis,entrare,,,4.036641248
+33,i,il,DET,det,elefantini,,,6.584780852
+33,tre,tre,NUM,nummod,elefantini,,,5.607871462
+33,elefantini,elefantino,NOUN,nsubj,chiedono,,,1.668044485
+33,,,PUNCT,punct,entrare,,,
+34,la,il,DET,det,mamma,,,7.055331658
+34,mamma,mamma,NOUN,nsubj,sospira,,1.88 ± 1.27,5.66327005
+34,sospira,sospirare,VERB,root,ROOT,,,3.355276086
+34,,,PUNCT,punct,entrano,,,
+34,a,a,ADP,case,fine,,,7.004335738
+34,la,il,DET,det,fine,,,7.055331658
+34,fine,fine,NOUN,obl,entrano,,,5.383211843
+34,entrano,entrare,VERB,conj,sospira,,,4.040649674
+34,tutti,tutto,PRON,nsubj,entrano,,,6.110511188
+34,in,in,ADP,case,vasca,,,6.797274494
+34,la,il,DET,det,vasca,,,7.055331658
+34,vasca,vasca,NOUN,obl,entrano,,4.60 ± 1.91,4.194814396
+34,,,PUNCT,punct,entrano,,,
+34,edo,Edo,PROPN,nsubj,euforico,,,
+34,è,essere,AUX,cop,euforico,,,7.249521761
+34,talmente,talmente,ADV,advmod,euforico,,,4.261515162
+34,euforico,euforico,ADJ,parataxis,sospira,,,2.660745246
+34,che,che,PRON,nsubj,lancia,,,7.250456545
+34,si,si,PRON,expl,lancia,,,6.553884221
+34,lancia,lanciare,VERB,acl:relcl,euforico,,4.52 ± 2.00,4.022152924
+34,con,con,ADP,case,pigiama,,,6.620271703
+34,il,il,DET,det,pigiama,,,7.039560886
+34,pigiama,pigiama,NOUN,obl,lancia,,3.84 ± 1.46,3.866243213
+34,ancora,ancora,ADV,advmod,addosso,,,6.01813737
+34,addosso,addosso,ADV,advmod,lancia,,,4.890760956
+34,,,PUNCT,punct,sospira,,,
+35,la,il,DET,det,mamma,,,7.055331658
+35,mamma,mamma,NOUN,nsubj,esce,,1.88 ± 1.27,5.66327005
+35,esce,uscire,VERB,root,ROOT,,4.28 ± 2.32,4.481180499
+35,,,PUNCT,punct,asciuga,,,
+35,si,si,PRON,expl,asciuga,,,6.553884221
+35,asciuga,asciugare,VERB,conj,esce,,4.48 ± 2.12,3.068870182
+35,,,PUNCT,punct,mette,,,
+35,si,si,PRON,expl,mette,,,6.553884221
+35,mette,mettere,VERB,conj,esce,,4.28 ± 1.59,4.624212915
+35,la,il,DET,det,vestaglia,,,7.055331658
+35,vestaglia,vestaglia,NOUN,obj,mette,,,3.399095757
+35,e,e,CCONJ,cc,va,,,2.741151583
+35,va,andare,VERB,conj,esce,,4.20 ± 1.44,6.162363764
+35,verso,verso,ADP,case,porta,,,5.193046076
+35,la,il,DET,det,porta,,,7.055331658
+35,porta,porta,NOUN,obl,va,,4.64 ± 2.34,5.473918988
+35,,,PUNCT,punct,esce,,,
+36,“,“,PUNCT,punct,vai,,,
+36,dove,dove,ADV,advmod,vai,,,6.018789847
+36,vai,andare,VERB,root,ROOT,,4.20 ± 1.44,5.679544443
+36,mamma,mamma,NOUN,nsubj,vai,,1.88 ± 1.27,5.66327005
+36,,,PUNCT,punct,vai,,,
+36,”,”,PUNCT,punct,vai,,,
+36,,,PUNCT,punct,vai,,,
+36,vado,andare,VERB,parataxis,vai,,4.20 ± 1.44,5.487325132
+36,in,in,ADP,case,cucina,,,6.797274494
+36,cucina,cucina,NOUN,obl,vado,,3.84 ± 1.52,4.734991274
+36,,,PUNCT,punct,vai,,,
+37,“,“,PUNCT,punct,Perché,,,
+37,perché,perché,ADV,root,ROOT,,,5.965637226
+37,,,PUNCT,punct,Perché,,,
+37,”,”,PUNCT,punct,Perché,,,
+37,,,PUNCT,punct,domanda,,,
+37,domanda,domanda,NOUN,parataxis,Perché,,,5.180684418
+37,eliseo,Eliseo,PROPN,nmod,domanda,,,
+37,,,PUNCT,punct,Perché,,,
+38,“,“,PUNCT,punct,voglio,,,
+38,perché,perché,ADV,advmod,voglio,,,5.965637226
+38,voglio,volere,VERB,root,ROOT,,,6.095946945
+38,cinque,cinque,NUM,nummod,minuti,,,5.222170066
+38,minuti,minuto,NOUN,obj,voglio,,,5.327738888
+38,di,di,ADP,case,pace,,,7.232814475
+38,pace,pace,NOUN,nmod,minuti,,5.04 ± 1.72,5.057358263
+38,lontana,lontano,ADJ,amod,pace,,,4.349587211
+38,da,da,ADP,case,voi,,,6.577812618
+38,voi,voi,PRON,obl,lontana,,,5.827651777
+38,”,”,PUNCT,punct,voglio,,,
+38,,,PUNCT,punct,voglio,,,
+39,e,e,CCONJ,cc,scende,,,2.741151583
+39,scende,scendere,VERB,root,ROOT,,4.76 ± 2.26,3.849411611
+39,a,a,ADP,case,piano,,,7.004335738
+39,il,il,DET,det,piano,,,7.039560886
+39,piano,piano,NOUN,obl,scende,,,5.375600468
+39,di,di,ADP,case,sotto,,,7.232814475
+39,sotto,sotto,ADV,advmod,piano,,,5.502104716
+39,,,PUNCT,punct,piano,,,
+39,dove,dove,ADV,advmod,gode,,,6.018789847
+39,finalmente,finalmente,ADV,advmod,gode,,,4.939266335
+39,si,si,PRON,expl,gode,,,6.553884221
+39,gode,godere,VERB,acl:relcl,piano,,,3.321256999
+39,3,3,NUM,nummod,minuti,,,2.287833243
+39,minuti,minuto,NOUN,nsubj,gode,,,5.327738888
+39,e,e,CCONJ,cc,secondi,,,2.741151583
+39,45,45,NUM,nummod,secondi,,,1.491953226
+39,secondi,secondo,NOUN,conj,minuti,,,4.788344154
+39,di,di,ADP,case,pace,,,7.232814475
+39,pace,pace,NOUN,nmod,secondi,,5.04 ± 1.72,5.057358263
+39,,,PUNCT,punct,gode,,,
+39,prima,prima,ADV,mark,raggiungano,,,6.042129583
+39,che,che,SCONJ,fixed,prima,,,7.250456545
+39,gli,il,DET,det,elefantini,,,6.227520191
+39,elefantini,elefantino,NOUN,nsubj,raggiungano,,,1.668044485
+39,la,la,PRON,obj,raggiungano,,,7.055331658
+39,raggiungano,raggiungere,VERB,advcl,gode,,,2.787520326
+39,,,PUNCT,punct,scende,,,

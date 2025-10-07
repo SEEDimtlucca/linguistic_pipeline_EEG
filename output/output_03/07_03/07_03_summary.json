@@ -1,0 +1,30 @@
+{
+  "num_tokens": 502,
+  "num_sentences": 43,
+  "num_lemmas": 0,
+  "num_types": 157,
+  "TTR": 0,
+  "avg_sentence_length": 11.42,
+  "Zipf_mean": 5.29,
+  "Zipf_std": 1.64,
+  "percent_rare_words": 14.09,
+  "Gulpease_index": 81.53,
+  "top_lemmas": [],
+  "top_bigrams": [
+    " “",
+    " ”",
+    "” ",
+    "Nina ",
+    "il mamma",
+    " il",
+    "il lupo",
+    "il ciuccio",
+    " chiedere",
+    "” “"
+  ],
+  "num_function_words": 161,
+  "num_content_words": 208,
+  "num_verbs": 70,
+  "num_adjectives": 25,
+  "num_nouns": 78
+}

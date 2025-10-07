@@ -1,0 +1,377 @@
+sentence_ids;tokens;tokens_no_punct;lemma;lemma_no_punct;PoS;depparse;head;constituency;AoA(m+sd);Zipf_freq
+0;Il;il;il;il;DET;det;ragno;;;7,039560886
+0;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+0;ragno;ragno;ragno;ragno;NOUN;nsubj;tesse;;4.48 ± 0.96;3,818289087
+0;tesse;tesse;tessere;tessere;VERB;root;ROOT;;;2,660745246
+0;e;e;e;e;CCONJ;cc;tace;;;2,741151583
+0;tace;tace;tacere;tacere;VERB;conj;tesse;;;2,829412487
+0;.;;.;;PUNCT;punct;tesse;;;
+1;Splende;splende;splendere;splendere;VERB;root;ROOT;;;3,270104476
+1;il;il;il;il;DET;det;sole;;;7,039560886
+1;sole;sole;sole;sole;NOUN;obj;Splende;;3.64 ± 2.22;4,889371768
+1;e;e;e;e;CCONJ;cc;soffia;;;2,741151583
+1;soffia;soffia;soffiare;soffiare;VERB;conj;Splende;;4.40 ± 2.75;3,614169104
+1;il;il;il;il;DET;det;vento;;;7,039560886
+1;vento;vento;vento;vento;NOUN;obj;soffia;;4.64 ± 1.96;4,536100847
+1;.;;.;;PUNCT;punct;Splende;;;
+2;Soffia;soffia;soffiare;soffiare;VERB;root;ROOT;;4.40 ± 2.75;3,614169104
+2;già;già;già;già;ADV;advmod;Soffia;;;6,015979163
+2;di;di;di;di;ADP;case;mattino;;;7,232814475
+2;buon;buon;buono;buono;ADJ;amod;mattino;;3.48 ± 1.50;5,376096942
+2;mattino;mattino;mattino;mattino;NOUN;obl;Soffia;;;4,473771833
+2;e;e;e;e;CCONJ;cc;porta;;;2,741151583
+2;porta;porta;portare;portare;VERB;conj;Soffia;;4.52 ± 2.06;5,473918988
+2;con;con;con;con;ADP;case;sé;;;6,620271703
+2;sé;sé;sé;sé;PRON;obl;porta;;;4,255006666
+2;sopra;sopra;sopra;sopra;ADP;case;campi;;;5,153505635
+2;i;i;il;il;DET;det;campi;;;6,584780852
+2;campi;campi;campo;campo;NOUN;obl;porta;;4.52 ± 1.56;4,200161601
+2;il;il;il;il;DET;det;ragno;;;7,039560886
+2;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+2;ragno;ragno;ragno;ragno;NOUN;obj;porta;;4.48 ± 0.96;3,818289087
+2;.;;.;;PUNCT;punct;Soffia;;;
+3;Con;con;con;con;ADP;case;argenteo;;;6,620271703
+3;l’;l’;il;il;DET;det;argenteo;;;
+3;argenteo;argenteo;argenteo;argenteo;NOUN;obl;rimane;;;2,421372151
+3;filo;filo;filo;filo;NOUN;compound;argenteo;;;4,325578372
+3;sottile;sottile;sottile;sottile;ADJ;amod;filo;;;3,863021088
+3;il;il;il;il;DET;det;ragno;;;7,039560886
+3;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+3;ragno;ragno;ragno;ragno;NOUN;nsubj;rimane;;4.48 ± 0.96;3,818289087
+3;rimane;rimane;rimanere;rimanere;VERB;root;ROOT;;;4,524571987
+3;impigliato;impigliato;impigliare;impigliare;VERB;xcomp;rimane;;;2,834375907
+3;fra;fra;fra;fra;ADP;case;pali;;;5,034249462
+3;i;i;il;il;DET;det;pali;;;6,584780852
+3;pali;pali;palo;palo;NOUN;obl;impigliato;;4.92 ± 3.03;3,199523402
+3;di;di;di;di;ADP;case;recinto;;;7,232814475
+3;un;un;uno;uno;DET;det;recinto;;;7,065833912
+3;recinto;recinto;recinto;recinto;NOUN;nmod;pali;;;3,691982492
+3;…;…;…;…;PUNCT;punct;rimane;;;
+3;E;e;e;e;CCONJ;cc;comincia;;;2,741151583
+3;comincia;comincia;cominciare;cominciare;VERB;conj;rimane;;;4,545415831
+3;subito;subito;subito;subito;ADV;advmod;comincia;;;5,515761062
+3;a;a;a;a;ADP;mark;tessere;;;7,004335738
+3;tessere;tessere;tessere;tessere;VERB;xcomp;comincia;;;3,224346986
+3;la;la;il;il;DET;det;tela;;;7,055331658
+3;sua;sua;suo;suo;DET;det:poss;tela;;;6,022524285
+3;tela;tela;tela;tela;NOUN;obj;tessere;;7.84 ± 2.10;3,550758712
+3;.;;.;;PUNCT;punct;rimane;;;
+4;Arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+4;il;il;il;il;DET;det;cavallo;;;7,039560886
+4;cavallo;cavallo;cavallo;cavallo;NOUN;nsubj;Arriva;;3.92 ± 1.53;4,765822219
+4;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+4;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+4;dice;dice;dire;dire;VERB;conj;Arriva;;4.08 ± 1.73;5,609257672
+4;:;;:;;PUNCT;punct;dice;;;
+4;<;;<;;PUNCT;punct;Hiii;;;
+4;<;;<;;PUNCT;punct;Hiii;;;
+4;Hiii;hiii;Hiii;Hiii;INTJ;discourse;Arriva;;;1,367014489
+4;!;;!;;PUNCT;punct;Hiii;;;
+4;Hiii;hiii;Hiii;Hiii;INTJ;discourse;Arriva;;;1,367014489
+4;!;;!;;PUNCT;punct;Hiii;;;
+5;Vuoi;vuoi;volere;volere;AUX;aux;venire;;;5,995743909
+5;venire;venire;venire;venire;VERB;root;ROOT;;4.80 ± 2.10;5,41855288
+5;a;a;a;a;ADP;mark;cavalcare;;;7,004335738
+5;cavalcare;cavalcare;cavalcare;cavalcare;VERB;xcomp;venire;;;3,648805127
+5;?;;?;;PUNCT;punct;venire;;;
+6;>;;>;;PUNCT;root;ROOT;;;
+6;>;;>;;PUNCT;punct;>;;;
+6;.;;.;;PUNCT;punct;>;;;
+7;Il;il;il;il;DET;det;ragno;;;7,039560886
+7;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+7;ragno;ragno;ragno;ragno;NOUN;nsubj;tesse;;4.48 ± 0.96;3,818289087
+7;tesse;tesse;tessere;tessere;VERB;root;ROOT;;;2,660745246
+7;e;e;e;e;CCONJ;cc;tace;;;2,741151583
+7;tace;tace;tacere;tacere;VERB;conj;tesse;;;2,829412487
+7;.;;.;;PUNCT;punct;tesse;;;
+8;Arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+8;la;la;il;il;DET;det;mucca;;;7,055331658
+8;mucca;mucca;mucca;mucca;NOUN;nsubj;Arriva;;4.00 ± 1.63;3,952851068
+8;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+8;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+8;dice;dice;dire;dire;VERB;conj;Arriva;;4.08 ± 1.73;5,609257672
+8;:;;:;;PUNCT;punct;Arriva;;;
+9;<;;<;;PUNCT;punct;Muuu!;;;
+9;<;;<;;PUNCT;punct;Muuu!;;;
+9;Muuu!;muuu;Muuu!;Muuu;INTJ;root;ROOT;;;2,065984493
+9;Muuu;muuu;Muuu;Muuu;PROPN;vocative;Muuu!;;;2,065984493
+9;!;;!;;PUNCT;punct;Muuu!;;;
+10;Vuoi;vuoi;volere;volere;AUX;aux;mangiare;;;5,995743909
+10;mangiare;mangiare;mangiare;mangiare;VERB;root;ROOT;;3.24 ± 1.74;5,112999615
+10;un;un;uno;uno;DET;det;po';;;7,065833912
+10;po';po;poco;poco;PRON;obj;mangiare;;;4,399095757
+10;di;di;di;di;ADP;case;fieno;;;7,232814475
+10;fieno;fieno;fieno;fieno;NOUN;nmod;po';;6.24 ± 1.67;3,374193074
+10;e;e;e;e;CCONJ;cc;avena;;;2,741151583
+10;di;di;di;di;ADP;case;avena;;;7,232814475
+10;avena;avena;avena;avena;NOUN;conj;fieno;;;3,340142343
+10;?;;?;;PUNCT;punct;mangiare;;;
+11;>;;>;;PUNCT;root;ROOT;;;
+11;>;;>;;PUNCT;punct;>;;;
+11;.;;.;;PUNCT;punct;>;;;
+12;Il;il;il;il;DET;det;ragno;;;7,039560886
+12;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+12;ragno;ragno;ragno;ragno;NOUN;nsubj;tesse;;4.48 ± 0.96;3,818289087
+12;tesse;tesse;tessere;tessere;VERB;root;ROOT;;;2,660745246
+12;e;e;e;e;CCONJ;cc;tace;;;2,741151583
+12;tace;tace;tacere;tacere;VERB;conj;tesse;;;2,829412487
+12;.;;.;;PUNCT;punct;tesse;;;
+13;Arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+13;la;la;il;il;DET;det;pecora;;;7,055331658
+13;pecora;pecora;pecora;pecora;NOUN;nsubj;Arriva;;3.28 ± 1.21;3,645005501
+13;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+13;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+13;dice;dice;dire;dire;VERB;conj;Arriva;;4.08 ± 1.73;5,609257672
+13;:;;:;;PUNCT;punct;Arriva;;;
+14;<;;<;;PUNCT;punct;Beee!;;;
+14;<;;<;;PUNCT;punct;Beee!;;;
+14;Beee!;beee;Beee!;Beee;INTJ;root;ROOT;;;1,734991274
+14;Beee;beee;Beee;Beee;PROPN;vocative;Beee!;;;1,734991274
+14;!;;!;;PUNCT;punct;Beee!;;;
+15;Andiamo;andiamo;andare;andare;VERB;root;ROOT;;4.20 ± 1.44;5,868904099
+15;insieme;insieme;insieme;insieme;ADV;advmod;Andiamo;;;5,500638545
+15;per;per;per;per;ADP;case;prati;;;6,912435835
+15;prati;prati;prato;prato;NOUN;obl;Andiamo;;4.96 ± 2.21;3,112609706
+15;?;;?;;PUNCT;punct;Andiamo;;;
+16;>;;>;;PUNCT;root;ROOT;;;
+16;>;;>;;PUNCT;punct;>;;;
+16;.;;.;;PUNCT;punct;>;;;
+17;Il;il;il;il;DET;det;ragno;;;7,039560886
+17;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+17;ragno;ragno;ragno;ragno;NOUN;nsubj;tesse;;4.48 ± 0.96;3,818289087
+17;tesse;tesse;tessere;tessere;VERB;root;ROOT;;;2,660745246
+17;e;e;e;e;CCONJ;cc;tace;;;2,741151583
+17;tace;tace;tacere;tacere;VERB;conj;tesse;;;2,829412487
+17;.;;.;;PUNCT;punct;tesse;;;
+18;Arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+18;la;la;il;il;DET;det;capra;;;7,055331658
+18;capra;capra;capra;capra;NOUN;nsubj;Arriva;;3.52 ± 1.29;3,85226257
+18;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+18;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+18;dice;dice;dire;dire;VERB;conj;Arriva;;4.08 ± 1.73;5,609257672
+18;:;;:;;PUNCT;punct;Arriva;;;
+19;<;;<;;PUNCT;punct;Facciamo;;;
+19;<;;<;;PUNCT;punct;Facciamo;;;
+19;Meee!;meee;Meee!;Meee;INTJ;discourse;Facciamo;;;1,367014489
+19;Meee;meee;Meee;Meee;PROPN;vocative;Facciamo;;;1,367014489
+19;!;;!;;PUNCT;punct;Meee;;;
+19;Facciamo;facciamo;fare;fare;VERB;root;ROOT;;4.40 ± 2.22;5,388300287
+19;chi;chi;chi;chi;PRON;obj;Facciamo;;;6,108444494
+19;salta;salta;saltare;saltare;VERB;acl:relcl;chi;;3.48 ± 1.66;4,385576302
+19;di;di;di;di;ADP;case;più;;;7,232814475
+19;più;più;più;più;ADV;advmod;salta;;;6,382555861
+19;?;;?;;PUNCT;punct;Facciamo;;;
+19;>;;>;;PUNCT;punct;Facciamo;;;
+19;>;;>;;PUNCT;punct;Facciamo;;;
+19;.;;.;;PUNCT;punct;Facciamo;;;
+20;Il;il;il;il;DET;det;ragno;;;7,039560886
+20;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+20;ragno;ragno;ragno;ragno;NOUN;nsubj;tesse;;4.48 ± 0.96;3,818289087
+20;tesse;tesse;tessere;tessere;VERB;root;ROOT;;;2,660745246
+20;e;e;e;e;CCONJ;cc;tace;;;2,741151583
+20;tace;tace;tacere;tacere;VERB;conj;tesse;;;2,829412487
+20;.;;.;;PUNCT;punct;tesse;;;
+21;Arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+21;il;il;il;il;DET;det;maiale;;;7,039560886
+21;maiale;maiale;maiale;maiale;NOUN;nsubj;Arriva;;4.20 ± 1.61;4,362357131
+21;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+21;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+21;dice;dice;dire;dire;VERB;conj;Arriva;;4.08 ± 1.73;5,609257672
+21;:;;:;;PUNCT;punct;Arriva;;;
+22;<;;<;;PUNCT;punct;andiamo;;;
+22;<;;<;;PUNCT;punct;Gronf!;;;
+22;Gronf!;gronf;Gronf!;Gronf;PROPN;nsubj;andiamo;;;
+22;Gronf!;gronf;Gronf!;Gronf;PROPN;flat:name;Gronf!;;;
+22;,;;,;;PUNCT;punct;Gronf!;;;
+22;perché;perché;perché;perché;ADV;advmod;andiamo;;;5,965637226
+22;non;non;non;non;ADV;advmod;andiamo;;;7,259198169
+22;andiamo;andiamo;andare;andare;VERB;root;ROOT;;4.20 ± 1.44;5,868904099
+22;a;a;a;a;ADP;mark;rotolar;;;7,004335738
+22;rotolar;rotolar;rotolare;rotolare;VERB;xcomp;andiamo;;;
+22;ci;ci;ci;ci;PRON;expl;rotolar;;;6,517126939
+22;in;in;in;in;ADP;case;prato;;;6,797274494
+22;il;il;il;il;DET;det;prato;;;7,039560886
+22;prato;prato;prato;prato;NOUN;obl;rotolar;;4.96 ± 2.21;3,865325043
+22;?;;?;;PUNCT;punct;andiamo;;;
+23;>;;>;;PUNCT;root;ROOT;;;
+23;>;;>;;PUNCT;punct;>;;;
+23;.;;.;;PUNCT;punct;>;;;
+24;Il;il;il;il;DET;det;ragno;;;7,039560886
+24;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+24;ragno;ragno;ragno;ragno;NOUN;nsubj;tesse;;4.48 ± 0.96;3,818289087
+24;tesse;tesse;tessere;tessere;VERB;root;ROOT;;;2,660745246
+24;e;e;e;e;CCONJ;cc;tace;;;2,741151583
+24;tace;tace;tacere;tacere;VERB;conj;tesse;;;2,829412487
+24;.;;.;;PUNCT;punct;tesse;;;
+25;Arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+25;il;il;il;il;DET;det;cane;;;7,039560886
+25;cane;cane;cane;cane;NOUN;nsubj;Arriva;;2.76 ± 1.23;5,020066123
+25;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+25;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+25;dice;dice;dire;dire;VERB;conj;Arriva;;4.08 ± 1.73;5,609257672
+25;:<;;:<;;SYM;discourse;Arriva;;;
+25;<;;<;;PUNCT;punct;Vieni;;;
+25;Bau!;bau;Bau!;Bau;INTJ;discourse;Vieni;;;2,25162107
+25;Bau!;bau;Bau!;Bau;INTJ;discourse;Vieni;;;2,25162107
+25;Vieni;vieni;venire;venire;VERB;parataxis;Arriva;;4.80 ± 2.10;5,596576886
+25;,;;,;;PUNCT;punct;Vieni;;;
+25;che;che;che;che;SCONJ;mark;andiamo;;;7,250456545
+25;andiamo;andiamo;andare;andare;VERB;conj;Vieni;;4.20 ± 1.44;5,868904099
+25;a;a;a;a;ADP;case;caccia;;;7,004335738
+25;caccia;caccia;caccia;caccia;NOUN;obl;andiamo;;;4,781987837
+25;da;da;da;da;ADP;case;gatto;;;6,577812618
+25;il;il;il;il;DET;det;gatto;;;7,039560886
+25;gatto;gatto;gatto;gatto;NOUN;obl;andiamo;;2.56 ± 1.26;4,503840711
+25;!;;!;;PUNCT;punct;Vieni;;;
+25;>;;>;;PUNCT;punct;Vieni;;;
+25;>;;>;;PUNCT;punct;Arriva;;;
+25;.;;.;;PUNCT;punct;Arriva;;;
+26;Il;il;il;il;DET;det;ragno;;;7,039560886
+26;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+26;ragno;ragno;ragno;ragno;NOUN;nsubj;tesse;;4.48 ± 0.96;3,818289087
+26;tesse;tesse;tessere;tessere;VERB;root;ROOT;;;2,660745246
+26;e;e;e;e;CCONJ;cc;tace;;;2,741151583
+26;tace;tace;tacere;tacere;VERB;conj;tesse;;;2,829412487
+26;.;;.;;PUNCT;punct;tesse;;;
+27;Arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+27;il;il;il;il;DET;det;gatto;;;7,039560886
+27;gatto;gatto;gatto;gatto;NOUN;nsubj;Arriva;;2.56 ± 1.26;4,503840711
+27;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+27;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+27;dice;dice;dire;dire;VERB;conj;Arriva;;4.08 ± 1.73;5,609257672
+27;:<;;:<;;SYM;discourse;Arriva;;;
+27;<;;<;;PUNCT;punct;Maoo;;;
+27;Maoo;maoo;mao;mao;INTJ;discourse;Arriva;;;
+27;!;;!;;PUNCT;punct;Maoo;;;
+27;Maooo;maooo;Maooo;Maooo;INTJ;discourse;Arriva;;;
+27;!;;!;;PUNCT;punct;Maooo;;;
+28;Se;se;se;se;SCONJ;mark;andassimo;;;6,583110863
+28;andassimo;andassimo;andare;andare;VERB;root;ROOT;;4.20 ± 1.44;3,520321109
+28;a;a;a;a;ADP;mark;farci;;;7,004335738
+28;farci;farci;fare;fare;VERB;xcomp;andassimo;;4.40 ± 2.22;4,836738348
+28;un;un;uno;uno;DET;det;pisolino;;;7,065833912
+28;pisolino;pisolino;pisolino;pisolino;NOUN;obj;farci;;;3,63574843
+28;>;;>;;PUNCT;punct;andassimo;;;
+28;>;;>;;PUNCT;punct;andassimo;;;
+28;.;;.;;PUNCT;punct;andassimo;;;
+29;Il;il;il;il;DET;det;ragno;;;7,039560886
+29;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+29;ragno;ragno;ragno;ragno;NOUN;nsubj;tesse;;4.48 ± 0.96;3,818289087
+29;tesse;tesse;tessere;tessere;VERB;root;ROOT;;;2,660745246
+29;e;e;e;e;CCONJ;cc;tace;;;2,741151583
+29;tace;tace;tacere;tacere;VERB;conj;tesse;;;2,829412487
+29;.;;.;;PUNCT;punct;tesse;;;
+30;Arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+30;l’;l’;il;il;DET;det;anatra;;;
+30;anatra;anatra;anatra;anatra;NOUN;nsubj;Arriva;;5.12 ± 2.19;3,698104207
+30;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+30;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+30;dice;dice;dire;dire;VERB;conj;Arriva;;4.08 ± 1.73;5,609257672
+30;:;;:;;PUNCT;punct;dice;;;
+30;<;;<;;PUNCT;punct;Qua;;;
+30;<;;<;;PUNCT;punct;Qua;;;
+30;Qua;qua;qua;qua;ADV;parataxis;Arriva;;;5,522856403
+30;!;;!;;PUNCT;punct;Qua;;;
+30;Qua;qua;qua;qua;ADV;advmod;Vieni;;;5,522856403
+30;!;;!;;PUNCT;punct;Qua;;;
+30;Vieni;vieni;venire;venire;VERB;parataxis;Arriva;;4.80 ± 2.10;5,596576886
+30;con;con;con;con;ADP;case;me;;;6,620271703
+30;me;me;me;me;PRON;obl;Vieni;;;6,337855516
+30;a;a;a;a;ADP;mark;nuotare;;;7,004335738
+30;nuotare;nuotare;nuotare;nuotare;VERB;xcomp;Vieni;;5.28 ± 2.17;4,126178512
+30;?;;?;;PUNCT;punct;Vieni;;;
+31;>;;>;;PUNCT;root;ROOT;;;
+31;>;;>;;PUNCT;punct;>;;;
+31;.;;.;;PUNCT;punct;>;;;
+32;Il;il;il;il;DET;det;ragno;;;7,039560886
+32;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+32;ragno;ragno;ragno;ragno;NOUN;nsubj;smesso;;4.48 ± 0.96;3,818289087
+32;ha;ha;avere;avere;AUX;aux;smesso;;;6,684018637
+32;smesso;smesso;smettere;smettere;VERB;root;ROOT;;;4,553782533
+32;di;di;di;di;ADP;case;tessere;;;7,232814475
+32;tessere;tessere;tessera;tessera;NOUN;obl;smesso;;;3,224346986
+32;.;;.;;PUNCT;punct;smesso;;;
+33;La;la;il;il;DET;det;ragnatela;;;7,055331658
+33;ragnatela;ragnatela;ragnatela;ragnatela;NOUN;nsubj;pronta;;;3,110001322
+33;è;è;essere;essere;AUX;cop;pronta;;;7,249521761
+33;pronta;pronta;pronto;pronto;ADJ;root;ROOT;;;4,917324392
+33;.;;.;;PUNCT;punct;pronta;;;
+34;Allora;allora;allora;allora;ADV;advmod;arriva;;;6,072527547
+34;arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+34;il;il;il;il;DET;det;gallo;;;7,039560886
+34;gallo;gallo;gallo;gallo;NOUN;nsubj;arriva;;4.36 ± 1.87;3,601700463
+34;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+34;gli;gli;gli;gli;PRON;iobj;dice;;;6,227520191
+34;dice;dice;dire;dire;VERB;conj;arriva;;4.08 ± 1.73;5,609257672
+34;:;;:;;PUNCT;punct;arriva;;;
+35;<;;<;;PUNCT;punct;Chiccirichi;;;
+35;<;;<;;PUNCT;punct;Chiccirichi;;;
+35;Chiccirichi;chiccirichi;Chiccirichi;Chiccirichi;PROPN;root;ROOT;;;
+35;!;;!;;PUNCT;punct;Chiccirichi;;;
+36;Perché;perché;perché;perché;PRON;obl;andiamo;;;5,965637226
+36;non;non;non;non;ADV;advmod;andiamo;;;7,259198169
+36;andiamo;andiamo;andare;andare;VERB;root;ROOT;;4.20 ± 1.44;5,868904099
+36;assieme;assieme;assieme;assieme;ADV;advmod;andiamo;;;4,446678017
+36;ad;ad;a;a;ADP;mark;acchiappare;;;5,934389877
+36;acchiappare;acchiappare;acchiappare;acchiappare;VERB;xcomp;andiamo;;4.84 ± 1.52;2,911082533
+36;le;le;il;il;DET;det;mosche;;;6,624997683
+36;mosche;mosche;Mosca;Mosca;NOUN;obj;acchiappare;;;3,732502474
+36;?;;?;;PUNCT;punct;andiamo;;;
+37;>;;>;;PUNCT;root;ROOT;;;
+37;>;;>;;PUNCT;punct;>;;;
+37;.;;.;;PUNCT;punct;>;;;
+38;Il;il;il;il;DET;det;ragno;;;7,039560886
+38;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+38;ragno;ragno;ragno;ragno;NOUN;nsubj;tace;;4.48 ± 0.96;3,818289087
+38;tace;tace;tacere;tacere;VERB;root;ROOT;;;2,829412487
+38;e;e;e;e;CCONJ;cc;….;;;2,741151583
+38;….;…;….;…;X;conj;tace;;;
+38;Zac;zac;Zac;Zac;PROPN;vocative;tace;;;3,232315915
+38;!;;!;;PUNCT;punct;tace;;;
+39;Ha;ha;avere;avere;AUX;aux;acchiappato;;;6,684018637
+39;già;già;già;già;ADV;advmod;acchiappato;;;6,015979163
+39;acchiappato;acchiappato;acchiappare;acchiappare;VERB;root;ROOT;;4.84 ± 1.52;2,781987837
+39;una;una;uno;uno;DET;det;mosca;;;6,801817508
+39;mosca;mosca;mosca;mosca;NOUN;obj;acchiappato;;4.28 ± 1.54;1,491953226
+39;.;;.;;PUNCT;punct;acchiappato;;;
+40;Allora;allora;allora;allora;ADV;advmod;arriva;;;6,072527547
+40;arriva;arriva;arrivare;arrivare;VERB;root;ROOT;;;4,940504965
+40;la;la;il;il;DET;det;civetta;;;7,055331658
+40;civetta;civetta;civetta;civetta;NOUN;nsubj;arriva;;;3,173194463
+40;,;;,;;PUNCT;punct;dice;;;
+40;e;e;e;e;CCONJ;cc;dice;;;2,741151583
+40;dice;dice;dire;dire;VERB;conj;arriva;;4.08 ± 1.73;5,609257672
+40;:<;;:<;;SYM;discourse;arriva;;;
+40;<;;<;;PUNCT;punct;Uhuuu;;;
+40;Uhuuu;uhuuu;Uhuuu;Uhuuu;INTJ;discourse;arriva;;;1,19092323
+40;!;;!;;PUNCT;punct;Uhuuu;;;
+41;Chi;chi;chi;chi;PRON;nsubj;fatto;;;6,108444494
+41;ha;ha;avere;avere;AUX;aux;fatto;;;6,684018637
+41;fatto;fatto;fare;fare;VERB;root;ROOT;;4.40 ± 2.22;6,237129549
+41;quella;quella;quello;quello;DET;det;ragnatela;;;5,939281839
+41;bella;bella;bello;bello;ADJ;amod;ragnatela;;3.80 ± 2.35;5,484893151
+41;ragnatela;ragnatela;ragnatela;ragnatela;NOUN;obj;fatto;;;3,110001322
+41;?;;?;;PUNCT;punct;fatto;;;
+42;>;;>;;PUNCT;root;ROOT;;;
+42;>;;>;;PUNCT;punct;>;;;
+42;.;;.;;PUNCT;punct;>;;;
+43;E;e;e;e;CCONJ;cc;tace;;;2,741151583
+43;il;il;il;il;DET;det;ragno;;;7,039560886
+43;piccolo;piccolo;piccolo;piccolo;ADJ;amod;ragno;;4.12 ± 3.18;5,291431625
+43;ragno;ragno;ragno;ragno;NOUN;nsubj;tace;;4.48 ± 0.96;3,818289087
+43;tace;tace;tacere;tacere;VERB;root;ROOT;;;2,829412487
+43;,;;,;;PUNCT;punct;dorme;;;
+43;dorme;dorme;dormire;dormire;VERB;conj;tace;;3.08 ± 1.29;4,289566956
+43;già;già;già;già;ADV;advmod;dorme;;;6,015979163
+43;da;da;da;da;ADP;case;po';;;6,577812618
+43;un;un;uno;uno;DET;det;po';;;7,065833912
+43;po';po;poco;poco;ADV;advmod;dorme;;;4,399095757
+43;,;;,;;PUNCT;punct;giornata;;;
+43;è;è;essere;essere;AUX;aux;giornata;;;7,249521761
+43;stata;stata;essere;essere;AUX;cop;giornata;;;5,783216598
+43;una;una;uno;uno;DET;det;giornata;;;6,801817508
+43;dura;dura;duro;duro;ADJ;amod;giornata;;4.68 ± 2.34;4,766572845
+43;giornata;giornata;giornata;giornata;NOUN;conj;tace;;;5,003101004
+43;di;di;di;di;ADP;case;lavoro;;;7,232814475
+43;lavoro;lavoro;lavoro;lavoro;NOUN;nmod;giornata;;6.28 ± 3.34;5,810397445
+43;.;;.;;PUNCT;punct;tace;;;

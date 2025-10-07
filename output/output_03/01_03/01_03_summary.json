@@ -1,0 +1,30 @@
+{
+  "num_tokens": 403,
+  "num_sentences": 22,
+  "num_lemmas": 0,
+  "num_types": 131,
+  "TTR": 0,
+  "avg_sentence_length": 17.27,
+  "Zipf_mean": 5.3,
+  "Zipf_std": 1.77,
+  "percent_rare_words": 14.15,
+  "Gulpease_index": 70.96,
+  "top_lemmas": [],
+  "top_bigrams": [
+    " il",
+    "spingere il",
+    " che",
+    "che spingere",
+    "il paperetta",
+    "il anatra",
+    "anatra ",
+    "il gatto",
+    "a il",
+    "il lupo"
+  ],
+  "num_function_words": 167,
+  "num_content_words": 167,
+  "num_verbs": 56,
+  "num_adjectives": 14,
+  "num_nouns": 74
+}

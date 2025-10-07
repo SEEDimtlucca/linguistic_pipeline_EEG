@@ -1,0 +1,11 @@
+num_tokens,num_sentences,num_lemmas,num_types,TTR,avg_sentence_length,Zipf_mean,Zipf_std,percent_rare_words,Gulpease_index,top_lemmas,top_bigrams,num_function_words,num_content_words,num_verbs,num_adjectives,num_nouns,text_id
+403,22,0,131,0,17.27,5.3,1.77,14.15,70.96,[],"[' il', 'spingere il', ' che', 'che spingere', 'il paperetta', 'il anatra', 'anatra ', 'il gatto', 'a il', 'il lupo']",167,167,56,14,74,01_03
+376,44,0,104,0,8.48,4.9,1.69,21.64,94.21,[],"[' ', 'il piccolo', 'piccolo ragno', 'arrivare il', 'dire ', ' il', 'tacere ', 'e gli', 'gli dire', 'ragno tessere']",124,152,66,18,53,02_03
+566,40,0,209,0,13.65,5.4,1.57,10.05,78.42,[],"[' ', 'a il', ' flora', 'il suo', ' il', 'il mamma', 'miele ', ' Adele', ' non', 'da il']",197,244,87,19,103,03_03
+430,25,0,142,0,16.96,5.33,1.63,14.51,72.02,[],"['” ', ' “', ' il', 'il papà', 'il mamma', 'il pastasciutta', 'Lupetto ', 'il giorno', 'il lasagna', 'pastasciutta ']",156,175,58,10,83,04_03
+500,40,0,162,0,12.25,5.52,1.39,8.07,79.7,[],"[' “', '” ', ' ”', 'mamma ', 'il mamma', ' il', ' e', 'di pace', 'Eleonora ', '“ perché']",157,200,63,10,91,05_03
+384,20,0,149,0,18.75,5.28,1.48,8.78,67.18,[],"[' il', ' uno', 'affamato ', ' ma', 'uno bello', 'piccolo bruco', 'essere ancora', 'ancora affamato', ' essere', 'uno fetta']",142,179,34,37,68,06_03
+502,43,0,157,0,11.42,5.29,1.64,14.09,81.53,[],"[' “', ' ”', '” ', 'Nina ', 'il mamma', ' il', 'il lupo', 'il ciuccio', ' chiedere', '” “']",161,208,70,25,78,07_03
+415,24,0,119,0,16.67,5.55,1.44,9.66,73.12,[],"['mostro ', 'il mostro', ' ma', ' il', 'il bambino', 'uno mostro', 'di il', ' “', 'in il', 'si nascondere']",167,165,50,12,78,08_03
+509,38,0,164,0,13.0,5.37,1.57,11.02,79.2,[],"[' “', 'in testa', 'testa ', 'il piccolo', 'piccolo Talpa', ' ”', '” ', 'fare in', 'avere fare', ' e']",191,185,53,30,72,09_03
+436,25,0,108,0,16.56,5.16,1.59,10.0,72.78,[],"['Orso ', 'a il', 'il tana', 'tana di', ' Orso', 'buco ', 'il improvviso', 'Volpe ', 'di Orso', ' e']",165,180,46,11,100,10_03

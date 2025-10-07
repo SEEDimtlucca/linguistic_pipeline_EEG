@@ -1,429 +1,431 @@
-sentence_ids,tokens,tokens_no_punct,lemma,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
-0,Lupetto,lupetto,lupetto,lupetto,NOUN,nsubj,mangia,,,"2,433961279"
-0,mangia,mangia,mangiare,mangiare,VERB,root,ROOT,,3.24 ± 1.74,"4,605980088"
-0,solo,solo,solo,solo,ADV,advmod,pastasciutta,,4.60 ± 2.14,"6,359323473"
-0,pastasciutta,pastasciutta,pastasciutta,pastasciutta,NOUN,obj,mangia,,,"2,145165739"
-0,È,è,essere,essere,AUX,cop,ora,,,"7,249521761"
-0,l’,l’,il,il,DET,det,ora,,,
-0,ora,ora,ora,ora,NOUN,parataxis,mangia,,,"6,195882677"
-0,di,di,di,di,ADP,case,cena,,,"7,232814475"
-0,cena,cena,cena,cena,NOUN,nmod,ora,,4.04 ± 1.88,"5,095855057"
-0,",",,",",,PUNCT,punct,tira,,,
-0,la,la,il,il,DET,det,mamma,,,"7,055331658"
-0,mamma,mamma,mamma,mamma,NOUN,nsubj,tira,,1.88 ± 1.27,"5,66327005"
-0,tira,tira,tirare,tirare,VERB,conj,mangia,,4.44 ± 1.92,"4,482069992"
-0,fuori,fuori,fuori,fuori,ADV,advmod,tira,,,"5,872607584"
-0,una,una,uno,uno,DET,det,teglia,,,"6,801817508"
-0,teglia,teglia,teglia,teglia,NOUN,obj,tira,,7.44 ± 2.92,"2,668044485"
-0,da,da,da,da,ADP,case,forno,,,"6,577812618"
-0,il,il,il,il,DET,det,forno,,,"7,039560886"
-0,forno,forno,forno,forno,NOUN,nmod,teglia,,4.92 ± 1.98,"4,012764157"
-0,.,,.,,PUNCT,punct,mangia,,,
-1,“,“,“,“,PUNCT,punct,cos’,,,
-1,Che,che,che,che,DET,det,cos’,,,"7,250456545"
-1,cos’,cos’,cosa,cosa,PRON,root,ROOT,,,
-1,è,è,essere,essere,AUX,cop,cos’,,,"7,249521761"
-1,?,,?,,PUNCT,punct,cos’,,,
-1,”,”,”,”,PUNCT,punct,cos’,,,
-1,",",,",",,PUNCT,punct,cos’,,,
-1,chiede,chiede,chiedere,chiedere,VERB,parataxis,cos’,,,"4,493578784"
-1,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,chiede,,,"2,433961279"
-1,.,,.,,PUNCT,punct,cos’,,,
-2,“,“,“,“,PUNCT,punct,specialità,,,
-2,La,la,il,il,DET,det,specialità,,,"7,055331658"
-2,mia,mia,mio,mio,DET,det:poss,specialità,,,"6,242274517"
-2,specialità,specialità,specialità,specialità,NOUN,nsubj,soufflé,,,"3,863944137"
-2,”,”,”,”,PUNCT,punct,specialità,,,
-2,",",,",",,PUNCT,punct,dice,,,
-2,dice,dice,dire,dire,VERB,parataxis,soufflé,,4.08 ± 1.73,"5,609257672"
-2,la,la,il,il,DET,det,mamma,,,"7,055331658"
-2,mamma,mamma,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,"5,66327005"
-2,",",,",",,PUNCT,punct,dice,,,
-2,“,“,“,“,PUNCT,punct,soufflé,,,
-2,un,un,uno,uno,DET,det,soufflé,,,"7,065833912"
-2,soufflé,soufflé,soufflé,soufflé,NOUN,root,ROOT,,,"2,561991092"
-2,di,di,di,di,ADP,case,prosciutto,,,"7,232814475"
-2,prosciutto,prosciutto,prosciutto,prosciutto,NOUN,nmod,soufflé,,,"3,750231241"
-2,e,e,e,e,CCONJ,cc,funghi,,,"2,741151583"
-2,funghi,funghi,fungo,fungo,NOUN,conj,prosciutto,,4.60 ± 1.68,"3,808447765"
-2,”,”,”,”,PUNCT,punct,soufflé,,,
-2,.,,.,,PUNCT,punct,specialità,,,
-3,“,“,“,“,PUNCT,punct,piace,,,
-3,Bleeah,bleeah,Bleeah,Bleeah,PROPN,nsubj,piace,,,
-3,",",,",",,PUNCT,punct,Bleeah,,,
-3,non,non,non,non,ADV,advmod,piace,,,"7,259198169"
-3,mi,mi,mi,mi,PRON,iobj,piace,,,"6,769601972"
-3,piace,piace,piacere,piacere,VERB,root,ROOT,,7.64 ± 3.16,"5,587732603"
-3,”,”,”,”,PUNCT,punct,piace,,,
-3,",",,",",,PUNCT,punct,fa,,,
-3,fa,fa,fare,fare,VERB,parataxis,piace,,4.40 ± 2.22,"6,003549189"
-3,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,fa,,,"2,433961279"
-3,",",,",",,PUNCT,punct,allontana,,,
-3,e,e,e,e,CCONJ,cc,allontana,,,"2,741151583"
-3,allontana,allontana,allontanare,allontanare,VERB,conj,piace,,,"3,48758842"
-3,il,il,il,il,DET,det,piatto,,,"7,039560886"
-3,suo,suo,suo,suo,DET,det:poss,piatto,,,"6,051850878"
-3,piatto,piatto,piatto,piatto,NOUN,obj,allontana,,3.36 ± 1.50,"4,365419149"
-3,.,,.,,PUNCT,punct,piace,,,
-4,La,la,il,il,DET,det,mamma,,,"7,055331658"
-4,mamma,mamma,mamma,mamma,NOUN,nsubj,aggrotta,,1.88 ± 1.27,"5,66327005"
-4,aggrotta,aggrotta,aggrottare,aggrottare,VERB,root,ROOT,,,"1,889893234"
-4,le,le,il,il,DET,det,sopracciglia,,,"6,624997683"
-4,sopracciglia,sopracciglia,sopracciglia,sopracciglia,NOUN,obj,aggrotta,,,"3,538253245"
-4,",",,",",,PUNCT,punct,aggrotta,,,
-4,“,“,“,“,PUNCT,punct,assaggiar,,,
-4,prima,prima,prima,prima,ADV,mark,dire,,,"6,042129583"
-4,di,di,di,di,ADP,fixed,prima,,,"7,232814475"
-4,dire,dire,dire,dire,VERB,advcl,assaggiar,,4.08 ± 1.73,"5,98002779"
-4,che,che,che,che,SCONJ,mark,piace,,,"7,250456545"
-4,non,non,non,non,ADV,advmod,piace,,,"7,259198169"
-4,ti,ti,ti,ti,PRON,iobj,piace,,,"6,615643201"
-4,piace,piace,piacere,piacere,VERB,ccomp,dire,,7.64 ± 3.16,"5,587732603"
-4,",",,",",,PUNCT,punct,dire,,,
-4,dovresti,dovresti,dovere,dovere,AUX,aux,assaggiar,,,"5,301091908"
-4,assaggiar,assaggiar,assaggiare,assaggiare,VERB,conj,aggrotta,,,"1,844135744"
-4,lo,lo,lo,lo,PRON,obj,assaggiar,,,"6,655915487"
-4,",",,",",,PUNCT,punct,scopri,,,
-4,magari,magari,magari,magari,ADV,advmod,scopri,,,"5,253072584"
-4,scopri,scopri,scoprire,scoprire,VERB,conj,aggrotta,,,"4,011453079"
-4,che,che,che,che,SCONJ,mark,vai,,,"7,250456545"
-4,ne,ne,ne,ne,PRON,iobj,vai,,,"6,201935117"
-4,vai,vai,andare,andare,VERB,ccomp,scopri,,4.20 ± 1.44,"5,679544443"
-4,pazzo,pazzo,pazzo,pazzo,ADJ,xcomp,vai,,5.48 ± 2.08,"4,934354595"
-4,”,”,”,”,PUNCT,punct,aggrotta,,,
-4,.,,.,,PUNCT,punct,aggrotta,,,
-5,“,“,“,“,PUNCT,punct,ostina,,,
-5,No!,no,No!,No,INTJ,discourse,ostina,,,"6,605764599"
-5,”,”,”,”,PUNCT,punct,No!,,,
-5,",",,",",,PUNCT,punct,No!,,,
-5,si,si,si,si,PRON,expl,ostina,,,"6,553884221"
-5,ostina,ostina,ostinare,ostinare,VERB,root,ROOT,,,"2,446195735"
-5,lupetto,lupetto,lupetto,lupetto,NOUN,nsubj,ostina,,,"2,433961279"
-5,",",,",",,PUNCT,punct,piacciono,,,
-5,“,“,“,“,PUNCT,punct,piacciono,,,
-5,Non,non,non,non,ADV,advmod,piacciono,,,"7,259198169"
-5,mi,mi,mi,mi,PRON,iobj,piacciono,,,"6,769601972"
-5,piacciono,piacciono,piacere,piacere,VERB,parataxis,ostina,,7.64 ± 3.16,"4,914296797"
-5,i,i,il,il,DET,det,funghi,,,"6,584780852"
-5,funghi,funghi,fungo,fungo,NOUN,nsubj,piacciono,,4.60 ± 1.68,"3,808447765"
-5,",",,",",,PUNCT,punct,preferisco,,,
-5,preferisco,preferisco,preferire,preferire,VERB,conj,piacciono,,,"4,504157522"
-5,la,la,il,il,DET,det,pastasciutta,,,"7,055331658"
-5,pastasciutta,pastasciutta,pastasciutta,pastasciutta,NOUN,obj,preferisco,,,"2,145165739"
-5,.,,.,,PUNCT,punct,ostina,,,
-6,E,e,e,e,CCONJ,cc,tappa,,,"2,741151583"
-6,si,si,si,si,PRON,expl,tappa,,,"6,553884221"
-6,tappa,tappa,tappa,tappa,VERB,root,ROOT,,,"3,385437572"
-6,la,la,il,il,DET,det,bocca,,,"7,055331658"
-6,bocca,bocca,bocca,bocca,NOUN,nsubj,tappa,,2.44 ± 1.08,"4,963684877"
-6,!,,!,,PUNCT,punct,tappa,,,
-7,Il,il,il,il,DET,det,giorno,,,"7,039560886"
-7,giorno,giorno,giorno,giorno,NOUN,obl,rifiuta,,3.80 ± 1.76,"5,731502947"
-7,dopo,dopo,dopo,dopo,ADP,advmod,giorno,,,"5,792396528"
-7,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,rifiuta,,,"2,433961279"
-7,rifiuta,rifiuta,rifiutare,rifiutare,VERB,root,ROOT,,,"3,92331699"
-7,i,i,il,il,DET,det,pomodori,,,"6,584780852"
-7,pomodori,pomodori,pomodoro,pomodoro,NOUN,obj,rifiuta,,4.40 ± 1.89,"3,601700463"
-7,ripieni,ripieni,ripieno,ripieno,ADJ,amod,pomodori,,,"2,872164467"
-7,e,e,e,e,CCONJ,cc,mangia,,,"2,741151583"
-7,mangia,mangia,mangiare,mangiare,VERB,conj,rifiuta,,3.24 ± 1.74,"4,605980088"
-7,solo,solo,solo,solo,ADV,advmod,po’,,4.60 ± 2.14,"6,359323473"
-7,un,un,uno,uno,DET,det,po’,,,"7,065833912"
-7,po’,po’,poco,poco,PRON,obj,mangia,,,
-7,di,di,di,di,ADP,case,riso,,,"7,232814475"
-7,riso,riso,riso,riso,NOUN,nmod,po’,,5.68 ± 1.68,"4,238781957"
-7,",",,",",,PUNCT,punct,cerca,,,
-7,il,il,il,il,DET,det,papà,,,"7,039560886"
-7,papà,papà,papà,papà,NOUN,nsubj,cerca,,2.20 ± 1.12,"5,588106908"
-7,cerca,cerca,cercare,cercare,VERB,conj,rifiuta,,4.72 ± 2.28,"5,003535817"
-7,di,di,di,di,ADP,mark,farlo,,,"7,232814475"
-7,farlo,farlo,fare,fare,VERB,xcomp,cerca,,4.40 ± 2.22,"5,623860468"
-7,ridere,ridere,ridere,ridere,VERB,ccomp,farlo,,4.00 ± 1.66,"4,604893202"
-7,",",,",",,PUNCT,punct,fa,,,
-7,fa,fa,fare,fare,VERB,conj,rifiuta,,4.40 ± 2.22,"6,003549189"
-7,il,il,il,il,DET,det,pagliaccio,,,"7,039560886"
-7,pagliaccio,pagliaccio,pagliaccio,pagliaccio,NOUN,obj,fa,,,"3,689922594"
-7,",",,",",,PUNCT,punct,gioco,,,
-7,il,il,il,il,DET,det,gioco,,,"7,039560886"
-7,gioco,gioco,gioco,gioco,NOUN,conj,pagliaccio,,3.28 ± 1.24,"5,136047"
-7,di,di,di,di,ADP,case,aereo,,,"7,232814475"
-7,l’,l’,il,il,DET,det,aereo,,,
-7,aereo,aereo,aereo,aereo,NOUN,nmod,gioco,,5.44 ± 2.00,"4,870850551"
-7,",",,",",,PUNCT,punct,funziona,,,
-7,ma,ma,ma,ma,CCONJ,cc,funziona,,,"6,662005813"
-7,non,non,non,non,ADV,advmod,funziona,,,"7,259198169"
-7,funziona,funziona,funzionare,funzionare,VERB,conj,rifiuta,,,"4,959672295"
-7,",",,",",,PUNCT,punct,funziona,,,
-7,tutti,tutti,tutto,tutto,DET,det:predet,giorni,,,"6,110511188"
-7,i,i,il,il,DET,det,giorni,,,"6,584780852"
-7,giorni,giorni,giorno,giorno,NOUN,obl,funziona,,3.80 ± 1.76,"5,382499987"
-7,la,la,il,il,DET,det,storia,,,"7,055331658"
-7,stessa,stessa,stesso,stesso,ADJ,amod,storia,,,"5,313171884"
-7,storia,storia,storia,storia,NOUN,nsubj,funziona,,5.20 ± 1.41,"5,43885969"
-7,.,,.,,PUNCT,punct,rifiuta,,,
-8,A,a,a,a,ADP,case,Lupetto,,,"7,004335738"
-8,Lupetto,lupetto,Lupetto,Lupetto,PROPN,obl,piace,,,"2,433961279"
-8,non,non,non,non,ADV,advmod,piace,,,"7,259198169"
-8,piace,piace,piacere,piacere,VERB,root,ROOT,,7.64 ± 3.16,"5,587732603"
-8,questo,questo,questo,questo,PRON,nsubj,piace,,,"6,484206212"
-8,",",,",",,PUNCT,punct,piace,,,
-8,a,a,a,a,ADP,case,Lupetto,,,"7,004335738"
-8,Lupetto,lupetto,Lupetto,Lupetto,PROPN,obl,piace,,,"2,433961279"
-8,non,non,non,non,ADV,advmod,piace,,,"7,259198169"
-8,piace,piace,piacere,piacere,VERB,conj,piace,,7.64 ± 3.16,"5,587732603"
-8,quello…,quello…,quello…,quello…,ADV,mark,battaglia,,,
-8,Ogni,ogni,ogni,ogni,DET,det,pasto,,,"5,722242451"
-8,pasto,pasto,pasto,pasto,NOUN,nsubj,battaglia,,,"4,135159074"
-8,è,è,essere,essere,AUX,cop,battaglia,,,"7,249521761"
-8,una,una,uno,uno,DET,det,battaglia,,,"6,801817508"
-8,battaglia,battaglia,battaglia,battaglia,NOUN,conj,piace,,,"4,600940838"
-8,",",,",",,PUNCT,punct,vuole,,,
-8,lui,lui,lui,lui,PRON,nsubj,vuole,,,"6,077050011"
-8,vuole,vuole,volere,volere,VERB,conj,piace,,,"5,745182159"
-8,la,la,il,il,DET,det,pastasciutta,,,"7,055331658"
-8,pastasciutta,pastasciutta,pastasciutta,pastasciutta,NOUN,obj,vuole,,,"2,145165739"
-8,",",,",",,PUNCT,punct,vuole,,,
-8,tutti,tutti,tutto,tutto,DET,det:predet,giorni,,,"6,110511188"
-8,i,i,il,il,DET,det,giorni,,,"6,584780852"
-8,giorni,giorni,giorno,giorno,NOUN,nmod,pastasciutta,,3.80 ± 1.76,"5,382499987"
-8,la,la,il,il,DET,det,pastasciutta,,,"7,055331658"
-8,pastasciutta,pastasciutta,pastasciutta,pastasciutta,NOUN,obj,vuole,,,"2,145165739"
-8,.,,.,,PUNCT,punct,piace,,,
-9,Una,una,uno,uno,DET,det,sera,,,"6,801817508"
-9,sera,sera,sera,sera,NOUN,obl,rovescia,,4.60 ± 2.22,"5,361082228"
-9,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,rovescia,,,"2,433961279"
-9,rovescia,rovescia,rovesciare,rovesciare,VERB,root,ROOT,,6.24 ± 2.95,"3,730626469"
-9,il,il,il,il,DET,det,piatto,,,"7,039560886"
-9,piatto,piatto,piatto,piatto,NOUN,obj,rovescia,,3.36 ± 1.50,"4,365419149"
-9,perché,perché,perché,perché,SCONJ,mark,mangiare,,,"5,965637226"
-9,non,non,non,non,ADV,advmod,mangiare,,,"7,259198169"
-9,vuole,vuole,volere,volere,AUX,aux,mangiare,,,"5,745182159"
-9,mangiare,mangiare,mangiare,mangiare,VERB,advcl,rovescia,,3.24 ± 1.74,"5,112999615"
-9,i,i,il,il,DET,det,piselli,,,"6,584780852"
-9,piselli,piselli,pisello,pisello,NOUN,obj,mangiare,,4.04 ± 1.54,"3,518282164"
-9,.,,.,,PUNCT,punct,rovescia,,,
-10,“,“,“,“,PUNCT,punct,Fila,,,
-10,Fila,fila,fila,fila,NOUN,root,ROOT,,,"4,555192734"
-10,in,in,in,in,ADP,case,camera,,,"6,797274494"
-10,camera,camera,camera,camera,NOUN,nmod,Fila,,4.24 ± 2.09,"4,957596278"
-10,tua,tua,tuo,tuo,DET,det:poss,camera,,,"6,037748803"
-10,e,e,e,e,CCONJ,cc,calmati,,,"2,741151583"
-10,calmati,calmati,calmato,calmato,ADJ,conj,tua,,,"4,69122833"
-10,!,,!,,PUNCT,punct,Fila,,,
-10,”,”,”,”,PUNCT,punct,Fila,,,
-10,",",,",",,PUNCT,punct,Fila,,,
-10,gli,gli,gli,gli,PRON,iobj,dice,,,"6,227520191"
-10,dice,dice,dire,dire,VERB,parataxis,Fila,,4.08 ± 1.73,"5,609257672"
-10,il,il,il,il,DET,det,papà,,,"7,039560886"
-10,papà,papà,papà,papà,NOUN,nsubj,dice,,2.20 ± 1.12,"5,588106908"
-10,.,,.,,PUNCT,punct,Fila,,,
-11,“,“,“,“,PUNCT,punct,cenare,,,
-11,Io,io,io,io,PRON,nsubj,cenare,,,"6,536707533"
-11,e,e,e,e,CCONJ,cc,mamma,,,"2,741151583"
-11,la,la,il,il,DET,det,mamma,,,"7,055331658"
-11,mamma,mamma,mamma,mamma,NOUN,conj,Io,,1.88 ± 1.27,"5,66327005"
-11,vogliamo,vogliamo,volere,volere,AUX,aux,cenare,,,"5,054275835"
-11,cenare,cenare,cenare,cenare,VERB,root,ROOT,,,"3,938335038"
-11,tranquilli,tranquilli,tranquillo,tranquillo,ADJ,xcomp,cenare,,5.40 ± 1.22,"4,003502385"
-11,”,”,”,”,PUNCT,punct,cenare,,,
-11,.,,.,,PUNCT,punct,cenare,,,
-12,Il,il,il,il,DET,det,giorno,,,"7,039560886"
-12,giorno,giorno,giorno,giorno,NOUN,obl,cerca,,3.80 ± 1.76,"5,731502947"
-12,dopo,dopo,dopo,dopo,ADV,advmod,giorno,,,"5,792396528"
-12,la,la,il,il,DET,det,mamma,,,"7,055331658"
-12,mamma,mamma,mamma,mamma,NOUN,nsubj,cerca,,1.88 ± 1.27,"5,66327005"
-12,cerca,cerca,cercare,cercare,VERB,root,ROOT,,4.72 ± 2.28,"5,003535817"
-12,di,di,di,di,ADP,mark,farlo,,,"7,232814475"
-12,farlo,farlo,fare,fare,VERB,xcomp,cerca,,4.40 ± 2.22,"5,623860468"
-12,riflettere,riflettere,riflettere,riflettere,VERB,ccomp,farlo,,,"3,941045757"
-12,e,e,e,e,CCONJ,cc,dice,,,"2,741151583"
-12,gli,gli,gli,gli,PRON,iobj,dice,,,"6,227520191"
-12,dice,dice,dire,dire,VERB,conj,cerca,,4.08 ± 1.73,"5,609257672"
-12,“,“,“,“,PUNCT,punct,Hai,,,
-12,Hai,hai,avere,avere,VERB,ccomp,dice,,,"6,477590733"
-12,ragione,ragione,ragione,ragione,NOUN,obj,Hai,,,"5,500776874"
-12,",",,",",,PUNCT,punct,buona,,,
-12,la,la,il,il,DET,det,pastasciutta,,,"7,055331658"
-12,pastasciutta,pastasciutta,pastasciutta,pastasciutta,NOUN,nsubj,buona,,,"2,145165739"
-12,è,è,essere,essere,AUX,cop,buona,,,"7,249521761"
-12,buona,buona,buono,buono,ADJ,conj,cerca,,3.48 ± 1.50,"5,481803335"
-12,",",,",",,PUNCT,punct,mangiare,,,
-12,ma,ma,ma,ma,CCONJ,cc,mangiare,,,"6,662005813"
-12,per,per,per,per,ADP,mark,stare,,,"6,912435835"
-12,stare,stare,stare,stare,VERB,advcl,mangiare,,4.60 ± 2.35,"5,514886537"
-12,in,in,in,in,ADP,case,salute,,,"6,797274494"
-12,salute,salute,salute,salute,NOUN,obl,stare,,5.88 ± 2.01,"4,74933177"
-12,devi,devi,dovere,dovere,AUX,aux,mangiare,,,"5,770421013"
-12,mangiare,mangiare,mangiare,mangiare,VERB,conj,cerca,,3.24 ± 1.74,"5,112999615"
-12,un,un,uno,uno,DET,det,po’,,,"7,065833912"
-12,po’,po’,poco,poco,PRON,obj,mangiare,,,
-12,di,di,di,di,ADP,case,tutto,,,"7,232814475"
-12,tutto,tutto,tutto,tutto,PRON,nmod,po’,,,"6,306603623"
-12,e,e,e,e,CCONJ,cc,quello,,,"2,741151583"
-12,non,non,non,non,ADV,advmod,solamente,,,"7,259198169"
-12,solamente,solamente,solamente,solamente,ADV,advmod,quello,,,"4,39653354"
-12,quello,quello,quello,quello,PRON,conj,tutto,,,"6,160949149"
-12,che,che,che,che,PRON,nsubj,piace,,,"7,250456545"
-12,ti,ti,ti,ti,PRON,obj,piace,,,"6,615643201"
-12,piace,piace,piacere,piacere,VERB,acl:relcl,quello,,7.64 ± 3.16,"5,587732603"
-12,",",,",",,PUNCT,punct,capisci,,,
-12,capisci,capisci,capire,capire,VERB,conj,cerca,,,"5,05359118"
-12,?,,?,,PUNCT,punct,capisci,,,
-12,”,”,”,”,PUNCT,punct,capisci,,,
-12,.,,.,,PUNCT,punct,cerca,,,
-13,“,“,“,“,PUNCT,punct,piace,,,
-13,A,a,a,a,ADP,case,me,,,"7,004335738"
-13,me,me,me,me,PRON,obl,piace,,,"6,337855516"
-13,piace,piace,piacere,piacere,VERB,root,ROOT,,7.64 ± 3.16,"5,587732603"
-13,la,la,il,il,DET,det,pastasciutta,,,"7,055331658"
-13,pastasciutta,pastasciutta,pastasciutta,pastasciutta,NOUN,nsubj,piace,,,"2,145165739"
-13,”,”,”,”,PUNCT,punct,piace,,,
-13,",",,",",,PUNCT,punct,piace,,,
-13,ripete,ripete,ripetere,ripetere,VERB,parataxis,piace,,,"3,466234585"
-13,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,ripete,,,"2,433961279"
-13,.,,.,,PUNCT,punct,piace,,,
-14,Più,più,più,più,ADV,advmod,tardi,,,"6,382555861"
-14,tardi,tardi,tardi,tardi,ADV,advmod,cucinano,,,"5,285795974"
-14,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,cucinano,,,"2,433961279"
-14,e,e,e,e,CCONJ,cc,papà,,,"2,741151583"
-14,il,il,il,il,DET,det,papà,,,"7,039560886"
-14,papà,papà,papà,papà,NOUN,conj,Lupetto,,2.20 ± 1.12,"5,588106908"
-14,cucinano,cucinano,cucinare,cucinare,VERB,root,ROOT,,5.72 ± 2.75,"2,722402147"
-14,le,le,il,il,DET,det,lasagne,,,"6,624997683"
-14,lasagne,lasagne,lasagna,lasagna,NOUN,obj,cucinano,,,"3,296433415"
-14,",",,",",,PUNCT,punct,dispone,,,
-14,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,dispone,,,"2,433961279"
-14,dispone,dispone,disporre,disporre,VERB,conj,cucinano,,,"3,016998033"
-14,gli,gli,il,il,DET,det,strati,,,"6,227520191"
-14,strati,strati,strato,strato,NOUN,obj,dispone,,8.60 ± 3.21,"3,393683917"
-14,di,di,di,di,ADP,case,pasta,,,"7,232814475"
-14,pasta,pasta,pasta,pasta,NOUN,nmod,strati,,3.68 ± 1.52,"3,993012488"
-14,in,in,in,in,ADP,case,teglia,,,"6,797274494"
-14,la,la,il,il,DET,det,teglia,,,"7,055331658"
-14,teglia,teglia,teglia,teglia,NOUN,obl,dispone,,7.44 ± 2.92,"2,668044485"
-14,e,e,e,e,CCONJ,cc,aggiunge,,,"2,741151583"
-14,il,il,il,il,DET,det,papà,,,"7,039560886"
-14,papà,papà,papà,papà,NOUN,nsubj,aggiunge,,2.20 ± 1.12,"5,588106908"
-14,aggiunge,aggiunge,aggiungere,aggiungere,VERB,conj,cucinano,,,"3,268291135"
-14,il,il,il,il,DET,det,ragù,,,"7,039560886"
-14,ragù,ragù,ragù,ragù,NOUN,obj,aggiunge,,,"2,741151583"
-14,e,e,e,e,CCONJ,cc,verdure,,,"2,741151583"
-14,alcune,alcune,alcuno,alcuno,DET,det,verdure,,,"4,893008951"
-14,piccole,piccole,piccolo,piccolo,ADJ,amod,verdure,,4.12 ± 3.18,"4,427838194"
-14,verdure,verdure,verdura,verdura,NOUN,conj,ragù,,,"3,685773252"
-14,.,,.,,PUNCT,punct,cucinano,,,
-15,“,“,“,“,PUNCT,punct,no!,,,
-15,Ah,ah,ah,ah,INTJ,discourse,protesta,,,"2,25162107"
-15,no!,no,no!,no,INTJ,discourse,protesta,,,"6,605764599"
-15,”,”,”,”,PUNCT,punct,no!,,,
-15,",",,",",,PUNCT,punct,protesta,,,
-15,protesta,protesta,protesta,protesta,NOUN,root,ROOT,,,"3,650315718"
-15,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nmod,protesta,,,"2,433961279"
-15,.,,.,,PUNCT,punct,protesta,,,
-16,“,“,“,“,PUNCT,punct,piacciono,,,
-16,Le,le,il,il,DET,det,verdure,,,"6,624997683"
-16,verdure,verdure,verdura,verdura,NOUN,nsubj,piacciono,,,"3,685773252"
-16,non,non,non,non,ADV,advmod,piacciono,,,"7,259198169"
-16,mi,mi,mi,mi,PRON,iobj,piacciono,,,"6,769601972"
-16,piacciono,piacciono,piacere,piacere,VERB,root,ROOT,,7.64 ± 3.16,"4,914296797"
-16,”,”,”,”,PUNCT,punct,piacciono,,,
-16,.,,.,,PUNCT,punct,piacciono,,,
-17,“,“,“,“,PUNCT,punct,Vedrai,,,
-17,Vedrai,vedrai,vedere,vedere,VERB,root,ROOT,,4.60 ± 1.50,"4,627959949"
-17,quando,quando,quando,quando,SCONJ,mark,assaggi,,,"6,212844009"
-17,le,le,il,il,DET,det,assaggi,,,"6,624997683"
-17,assaggi,assaggi,assaggio,assaggio,NOUN,ccomp,Vedrai,,,"3,195244604"
-17,”,”,”,”,PUNCT,punct,Vedrai,,,
-17,",",,",",,PUNCT,punct,dice,,,
-17,gli,gli,gli,gli,PRON,iobj,dice,,,"6,227520191"
-17,dice,dice,dire,dire,VERB,parataxis,Vedrai,,4.08 ± 1.73,"5,609257672"
-17,il,il,il,il,DET,det,papà,,,"7,039560886"
-17,papà,papà,papà,papà,NOUN,nsubj,dice,,2.20 ± 1.12,"5,588106908"
-17,.,,.,,PUNCT,punct,Vedrai,,,
-18,Ecco,ecco,ecco,ecco,INTJ,discourse,pronte,,,"5,695815269"
-18,",",,",",,PUNCT,punct,Ecco,,,
-18,le,le,il,il,DET,det,lasagne,,,"6,624997683"
-18,lasagne,lasagne,lasagna,lasagna,NOUN,nsubj,pronte,,,"3,296433415"
-18,sono,sono,essere,essere,AUX,cop,pronte,,,"6,768130002"
-18,pronte,pronte,pronto,pronto,ADJ,root,ROOT,,,"4,027563772"
-18,",",,",",,PUNCT,punct,pronte,,,
-18,mmm,mmm,mmm,mmm,INTJ,discourse,pronte,,,"4,347017861"
-18,",",,",",,PUNCT,punct,profumino,,,
-18,che,che,che,che,DET,det,profumino,,,"7,250456545"
-18,profumino,profumino,profumino,profumino,NOUN,conj,pronte,,,"3,083017833"
-18,",",,",",,PUNCT,punct,spine,,,
-18,però,però,però,però,ADV,advmod,spine,,,"5,274174947"
-18,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,spine,,,"2,433961279"
-18,è,è,essere,essere,AUX,cop,spine,,,"7,249521761"
-18,su,su,su,su,ADP,case,spine,,,"6,000068652"
-18,le,le,il,il,DET,det,spine,,,"6,624997683"
-18,spine,spine,spina,spina,NOUN,conj,pronte,,6.00 ± 2.58,"3,500553397"
-18,",",,",",,PUNCT,punct,domanda,,,
-18,si,si,si,si,PRON,expl,domanda,,,"6,553884221"
-18,domanda,domanda,domandare,domandare,VERB,conj,pronte,,,"5,180684418"
-18,se,se,se,se,SCONJ,mark,piaceranno,,,"6,583110863"
-18,gli,gli,gli,gli,PRON,iobj,piaceranno,,,"6,227520191"
-18,piaceranno,piaceranno,piacere,piacere,VERB,ccomp,domanda,,7.64 ± 3.16,"3,236246209"
-18,.,,.,,PUNCT,punct,pronte,,,
-19,Lupetto,lupetto,lupetto,lupetto,NOUN,nsubj,assaggia,,,"2,433961279"
-19,assaggia,assaggia,assaggiare,assaggiare,VERB,root,ROOT,,,"3,420092933"
-19,le,le,il,il,DET,det,lasagne,,,"6,624997683"
-19,lasagne,lasagne,lasagna,lasagna,NOUN,obj,assaggia,,,"3,296433415"
-19,",",,",",,PUNCT,punct,deliziose,,,
-19,sono,sono,essere,essere,AUX,cop,deliziose,,,"6,768130002"
-19,deliziose,deliziose,delizioso,delizioso,ADJ,conj,assaggia,,,"3,338599554"
-19,e,e,e,e,CCONJ,cc,vuole,,,"2,741151583"
-19,ne,ne,ne,ne,PRON,iobj,vuole,,,"6,201935117"
-19,vuole,vuole,volere,volere,VERB,conj,assaggia,,,"5,745182159"
-19,ancora,ancora,ancora,ancora,ADV,advmod,vuole,,,"6,01813737"
-19,.,,.,,PUNCT,punct,assaggia,,,
-20,“,“,“,“,PUNCT,punct,no,,,
-20,Ah,ah,ah,ah,INTJ,discourse,no,,,"2,25162107"
-20,no,no,no,no,INTJ,root,ROOT,,,"6,605764599"
-20,!,,!,,PUNCT,punct,no,,,
-21,Le,le,il,il,DET,det,lasagne,,,"6,624997683"
-21,lasagne,lasagne,lasagna,lasagna,NOUN,nsubj,me,,,"3,296433415"
-21,sono,sono,essere,essere,AUX,cop,me,,,"6,768130002"
-21,solo,solo,solo,solo,ADV,advmod,me,,4.60 ± 2.14,"6,359323473"
-21,per,per,per,per,ADP,case,me,,,"6,912435835"
-21,me,me,me,me,PRON,root,ROOT,,,"6,337855516"
-21,”,”,”,”,PUNCT,punct,me,,,
-21,",",,",",,PUNCT,punct,prende,,,
-21,lo,lo,lo,lo,PRON,obj,prende,,,"6,655915487"
-21,prende,prende,prendere,prendere,VERB,parataxis,me,,4.36 ± 1.89,"4,869987548"
-21,in,in,in,in,ADP,case,giro,,,"6,797274494"
-21,giro,giro,giro,giro,NOUN,obl,prende,,,"5,36483757"
-21,il,il,il,il,DET,det,papà,,,"7,039560886"
-21,papà,papà,papà,papà,NOUN,nsubj,prende,,2.20 ± 1.12,"5,588106908"
-21,.,,.,,PUNCT,punct,me,,,
-22,“,“,“,“,PUNCT,punct,detto,,,
-22,Hai,hai,avere,avere,AUX,aux,detto,,,"6,477590733"
-22,detto,detto,dire,dire,VERB,root,ROOT,,4.08 ± 1.73,"6,180297396"
-22,che,che,che,che,SCONJ,mark,piacevano,,,"7,250456545"
-22,non,non,non,non,ADV,advmod,piacevano,,,"7,259198169"
-22,ti,ti,ti,ti,PRON,iobj,piacevano,,,"6,615643201"
-22,piacevano,piacevano,piacere,piacere,VERB,ccomp,detto,,7.64 ± 3.16,"3,711406763"
-22,le,le,il,il,DET,det,verdure,,,"6,624997683"
-22,verdure,verdure,verdura,verdura,NOUN,nsubj,piacevano,,,"3,685773252"
-22,”,”,”,”,PUNCT,punct,detto,,,
-22,.,,.,,PUNCT,punct,detto,,,
-23,“,“,“,“,PUNCT,punct,fanno,,,
-23,Le,le,il,il,DET,det,verdure,,,"6,624997683"
-23,verdure,verdure,verdura,verdura,NOUN,nsubj,fanno,,,"3,685773252"
-23,fanno,fanno,fare,fare,VERB,root,ROOT,,4.40 ± 2.22,"5,244769657"
-23,bene,bene,bene,bene,ADV,advmod,fanno,,,"6,454992194"
-23,a,a,a,a,ADP,case,salute,,,"7,004335738"
-23,la,la,il,il,DET,det,salute,,,"7,055331658"
-23,salute,salute,salute,salute,NOUN,obl,fanno,,5.88 ± 2.01,"4,74933177"
-23,”,”,”,”,PUNCT,punct,fanno,,,
-23,",",,",",,PUNCT,punct,fanno,,,
-23,risponde,risponde,rispondere,rispondere,VERB,parataxis,fanno,,3.88 ± 1.59,"4,376323713"
-23,Lupetto,lupetto,Lupetto,Lupetto,PROPN,nsubj,risponde,,,"2,433961279"
-23,e,e,e,e,CCONJ,cc,prende,,,"2,741151583"
-23,se,se,se,se,PRON,expl,prende,,,"6,583110863"
-23,ne,ne,ne,ne,PRON,iobj,prende,,,"6,201935117"
-23,prende,prende,prendere,prendere,VERB,conj,fanno,,4.36 ± 1.89,"4,869987548"
-23,un’,un’,uno,uno,DET,det,cucchiaiata,,,
-23,enorme,enorme,enorme,enorme,ADJ,amod,cucchiaiata,,,"4,620756226"
-23,cucchiaiata,cucchiaiata,cucchiaiata,cucchiaiata,NOUN,obj,prende,,,"2,321256999"
-23,.,,.,,PUNCT,punct,fanno,,,
+sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
+0,lupetto,lupetto,NOUN,nsubj,mangia,,,2.433961279
+0,mangia,mangiare,VERB,root,ROOT,,3.24 ± 1.74,4.605980088
+0,solo,solo,ADV,advmod,pastasciutta,,4.60 ± 2.14,6.359323473
+0,pastasciutta,pastasciutta,NOUN,obj,mangia,,,2.145165739
+0,,,PUNCT,punct,mangia,,,
+1,è,essere,AUX,cop,ora,,,7.249521761
+1,l’,il,DET,det,ora,,,
+1,ora,ora,NOUN,root,ROOT,,,6.195882677
+1,di,di,ADP,case,cena,,,7.232814475
+1,cena,cena,NOUN,nmod,ora,,4.04 ± 1.88,5.095855057
+1,,,PUNCT,punct,tira,,,
+1,la,il,DET,det,mamma,,,7.055331658
+1,mamma,mamma,NOUN,nsubj,tira,,1.88 ± 1.27,5.66327005
+1,tira,tirare,VERB,conj,ora,,4.44 ± 1.92,4.482069992
+1,fuori,fuori,ADV,advmod,tira,,,5.872607584
+1,una,uno,DET,det,teglia,,,6.801817508
+1,teglia,teglia,NOUN,obj,tira,,7.44 ± 2.92,2.668044485
+1,da,da,ADP,case,forno,,,6.577812618
+1,il,il,DET,det,forno,,,7.039560886
+1,forno,forno,NOUN,nmod,teglia,,4.92 ± 1.98,4.012764157
+1,,,PUNCT,punct,ora,,,
+2,“,“,PUNCT,punct,cos’,,,
+2,che,che,DET,det,cos’,,,7.250456545
+2,cos’,cosa,PRON,root,ROOT,,,
+2,è,essere,AUX,cop,cos’,,,7.249521761
+2,,,PUNCT,punct,cos’,,,
+2,”,”,PUNCT,punct,cos’,,,
+2,,,PUNCT,punct,cos’,,,
+2,chiede,chiedere,VERB,parataxis,cos’,,,4.493578784
+2,lupetto,Lupetto,PROPN,nsubj,chiede,,,2.433961279
+2,,,PUNCT,punct,cos’,,,
+3,“,“,PUNCT,punct,specialità,,,
+3,la,il,DET,det,specialità,,,7.055331658
+3,mia,mio,DET,det:poss,specialità,,,6.242274517
+3,specialità,specialità,NOUN,nsubj,soufflé,,,3.863944137
+3,”,”,PUNCT,punct,specialità,,,
+3,,,PUNCT,punct,dice,,,
+3,dice,dire,VERB,parataxis,soufflé,,4.08 ± 1.73,5.609257672
+3,la,il,DET,det,mamma,,,7.055331658
+3,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,5.66327005
+3,,,PUNCT,punct,dice,,,
+3,“,“,PUNCT,punct,soufflé,,,
+3,un,uno,DET,det,soufflé,,,7.065833912
+3,soufflé,soufflé,NOUN,root,ROOT,,,2.561991092
+3,di,di,ADP,case,prosciutto,,,7.232814475
+3,prosciutto,prosciutto,NOUN,nmod,soufflé,,,3.750231241
+3,e,e,CCONJ,cc,funghi,,,2.741151583
+3,funghi,fungo,NOUN,conj,prosciutto,,4.60 ± 1.68,3.808447765
+3,”,”,PUNCT,punct,soufflé,,,
+3,,,PUNCT,punct,specialità,,,
+4,“,“,PUNCT,punct,piace,,,
+4,bleh,Bleh,PROPN,nsubj,piace,,,1.734991274
+4,,,PUNCT,punct,Bleh,,,
+4,non,non,ADV,advmod,piace,,,7.259198169
+4,mi,mi,PRON,iobj,piace,,,6.769601972
+4,piace,piacere,VERB,root,ROOT,,7.64 ± 3.16,5.587732603
+4,”,”,PUNCT,punct,piace,,,
+4,,,PUNCT,punct,fa,,,
+4,fa,fare,VERB,parataxis,piace,,4.40 ± 2.22,6.003549189
+4,lupetto,Lupetto,PROPN,nsubj,fa,,,2.433961279
+4,,,PUNCT,punct,allontana,,,
+4,e,e,CCONJ,cc,allontana,,,2.741151583
+4,allontana,allontanare,VERB,conj,piace,,,3.48758842
+4,il,il,DET,det,piatto,,,7.039560886
+4,suo,suo,DET,det:poss,piatto,,,6.051850878
+4,piatto,piatto,NOUN,obj,allontana,,3.36 ± 1.50,4.365419149
+4,,,PUNCT,punct,piace,,,
+5,la,il,DET,det,mamma,,,7.055331658
+5,mamma,mamma,NOUN,nsubj,aggrotta,,1.88 ± 1.27,5.66327005
+5,aggrotta,aggrottare,VERB,root,ROOT,,,1.889893234
+5,le,il,DET,det,sopracciglia,,,6.624997683
+5,sopracciglia,sopracciglia,NOUN,obj,aggrotta,,,3.538253245
+5,,,PUNCT,punct,aggrotta,,,
+5,“,“,PUNCT,punct,assaggiar,,,
+5,prima,prima,ADV,mark,dire,,,6.042129583
+5,di,di,ADP,fixed,prima,,,7.232814475
+5,dire,dire,VERB,advcl,assaggiar,,4.08 ± 1.73,5.98002779
+5,che,che,SCONJ,mark,piace,,,7.250456545
+5,non,non,ADV,advmod,piace,,,7.259198169
+5,ti,ti,PRON,iobj,piace,,,6.615643201
+5,piace,piacere,VERB,ccomp,dire,,7.64 ± 3.16,5.587732603
+5,,,PUNCT,punct,dire,,,
+5,dovresti,dovere,AUX,aux,assaggiar,,,5.301091908
+5,assaggiar,assaggiare,VERB,conj,aggrotta,,,1.844135744
+5,lo,lo,PRON,obj,assaggiar,,,6.655915487
+5,,,PUNCT,punct,scopri,,,
+5,magari,magari,ADV,advmod,scopri,,,5.253072584
+5,scopri,scoprire,VERB,conj,aggrotta,,,4.011453079
+5,che,che,SCONJ,mark,vai,,,7.250456545
+5,ne,ne,PRON,iobj,vai,,,6.201935117
+5,vai,andare,VERB,ccomp,scopri,,4.20 ± 1.44,5.679544443
+5,pazzo,pazzo,ADJ,xcomp,vai,,5.48 ± 2.08,4.934354595
+5,”,”,PUNCT,punct,aggrotta,,,
+5,,,PUNCT,punct,aggrotta,,,
+6,“,“,PUNCT,punct,ostina,,,
+6,no,No,INTJ,discourse,ostina,,,6.605764599
+6,”,”,PUNCT,punct,No!,,,
+6,,,PUNCT,punct,No!,,,
+6,si,si,PRON,expl,ostina,,,6.553884221
+6,ostina,ostinare,VERB,root,ROOT,,,2.446195735
+6,lupetto,lupetto,NOUN,nsubj,ostina,,,2.433961279
+6,,,PUNCT,punct,piacciono,,,
+6,“,“,PUNCT,punct,piacciono,,,
+6,non,non,ADV,advmod,piacciono,,,7.259198169
+6,mi,mi,PRON,iobj,piacciono,,,6.769601972
+6,piacciono,piacere,VERB,parataxis,ostina,,7.64 ± 3.16,4.914296797
+6,i,il,DET,det,funghi,,,6.584780852
+6,funghi,fungo,NOUN,nsubj,piacciono,,4.60 ± 1.68,3.808447765
+6,,,PUNCT,punct,preferisco,,,
+6,preferisco,preferire,VERB,conj,piacciono,,,4.504157522
+6,la,il,DET,det,pastasciutta,,,7.055331658
+6,pastasciutta,pastasciutta,NOUN,obj,preferisco,,,2.145165739
+6,”,”,PUNCT,punct,piacciono,,,
+6,,,PUNCT,punct,ostina,,,
+7,e,e,CCONJ,cc,tappa,,,2.741151583
+7,si,si,PRON,expl,tappa,,,6.553884221
+7,tappa,tappa,VERB,root,ROOT,,,3.385437572
+7,la,il,DET,det,bocca,,,7.055331658
+7,bocca,bocca,NOUN,nsubj,tappa,,2.44 ± 1.08,4.963684877
+7,,,PUNCT,punct,tappa,,,
+8,il,il,DET,det,giorno,,,7.039560886
+8,giorno,giorno,NOUN,obl,rifiuta,,3.80 ± 1.76,5.731502947
+8,dopo,dopo,ADP,advmod,giorno,,,5.792396528
+8,lupetto,Lupetto,PROPN,nsubj,rifiuta,,,2.433961279
+8,rifiuta,rifiutare,VERB,root,ROOT,,,3.92331699
+8,i,il,DET,det,pomodori,,,6.584780852
+8,pomodori,pomodoro,NOUN,obj,rifiuta,,4.40 ± 1.89,3.601700463
+8,ripieni,ripieno,ADJ,amod,pomodori,,,2.872164467
+8,e,e,CCONJ,cc,mangia,,,2.741151583
+8,mangia,mangiare,VERB,conj,rifiuta,,3.24 ± 1.74,4.605980088
+8,solo,solo,ADV,advmod,po’,,4.60 ± 2.14,6.359323473
+8,un,uno,DET,det,po’,,,7.065833912
+8,po’,poco,PRON,obj,mangia,,,
+8,di,di,ADP,case,riso,,,7.232814475
+8,riso,riso,NOUN,nmod,po’,,5.68 ± 1.68,4.238781957
+8,,,PUNCT,punct,cerca,,,
+8,il,il,DET,det,papà,,,7.039560886
+8,papà,papà,NOUN,nsubj,cerca,,2.20 ± 1.12,5.588106908
+8,cerca,cercare,VERB,conj,rifiuta,,4.72 ± 2.28,5.003535817
+8,di,di,ADP,mark,farlo,,,7.232814475
+8,farlo,fare,VERB,xcomp,cerca,,4.40 ± 2.22,5.623860468
+8,ridere,ridere,VERB,ccomp,farlo,,4.00 ± 1.66,4.604893202
+8,,,PUNCT,punct,fa,,,
+8,fa,fare,VERB,conj,rifiuta,,4.40 ± 2.22,6.003549189
+8,il,il,DET,det,pagliaccio,,,7.039560886
+8,pagliaccio,pagliaccio,NOUN,obj,fa,,,3.689922594
+8,,,PUNCT,punct,gioco,,,
+8,il,il,DET,det,gioco,,,7.039560886
+8,gioco,gioco,NOUN,conj,pagliaccio,,3.28 ± 1.24,5.136047
+8,di,di,ADP,case,aereo,,,7.232814475
+8,l’,il,DET,det,aereo,,,
+8,aereo,aereo,NOUN,nmod,gioco,,5.44 ± 2.00,4.870850551
+8,,,PUNCT,punct,funziona,,,
+8,ma,ma,CCONJ,cc,funziona,,,6.662005813
+8,non,non,ADV,advmod,funziona,,,7.259198169
+8,funziona,funzionare,VERB,conj,rifiuta,,,4.959672295
+8,,,PUNCT,punct,funziona,,,
+8,tutti,tutto,DET,det:predet,giorni,,,6.110511188
+8,i,il,DET,det,giorni,,,6.584780852
+8,giorni,giorno,NOUN,obl,funziona,,3.80 ± 1.76,5.382499987
+8,la,il,DET,det,storia,,,7.055331658
+8,stessa,stesso,ADJ,amod,storia,,,5.313171884
+8,storia,storia,NOUN,nsubj,funziona,,5.20 ± 1.41,5.43885969
+8,,,PUNCT,punct,rifiuta,,,
+9,a,a,ADP,case,Lupetto,,,7.004335738
+9,lupetto,Lupetto,PROPN,obl,piace,,,2.433961279
+9,non,non,ADV,advmod,piace,,,7.259198169
+9,piace,piacere,VERB,root,ROOT,,7.64 ± 3.16,5.587732603
+9,questo,questo,PRON,nsubj,piace,,,6.484206212
+9,,,PUNCT,punct,piace,,,
+9,a,a,ADP,case,Lupetto,,,7.004335738
+9,lupetto,Lupetto,PROPN,obl,piace,,,2.433961279
+9,non,non,ADV,advmod,piace,,,7.259198169
+9,piace,piacere,VERB,conj,piace,,7.64 ± 3.16,5.587732603
+9,quello…,quello…,ADV,mark,battaglia,,,
+9,ogni,ogni,DET,det,pasto,,,5.722242451
+9,pasto,pasto,NOUN,nsubj,battaglia,,,4.135159074
+9,è,essere,AUX,cop,battaglia,,,7.249521761
+9,una,uno,DET,det,battaglia,,,6.801817508
+9,battaglia,battaglia,NOUN,conj,piace,,,4.600940838
+9,,,PUNCT,punct,vuole,,,
+9,lui,lui,PRON,nsubj,vuole,,,6.077050011
+9,vuole,volere,VERB,conj,piace,,,5.745182159
+9,la,il,DET,det,pastasciutta,,,7.055331658
+9,pastasciutta,pastasciutta,NOUN,obj,vuole,,,2.145165739
+9,,,PUNCT,punct,vuole,,,
+9,tutti,tutto,DET,det:predet,giorni,,,6.110511188
+9,i,il,DET,det,giorni,,,6.584780852
+9,giorni,giorno,NOUN,nmod,pastasciutta,,3.80 ± 1.76,5.382499987
+9,la,il,DET,det,pastasciutta,,,7.055331658
+9,pastasciutta,pastasciutta,NOUN,obj,vuole,,,2.145165739
+9,,,PUNCT,punct,piace,,,
+10,una,uno,DET,det,sera,,,6.801817508
+10,sera,sera,NOUN,obl,rovescia,,4.60 ± 2.22,5.361082228
+10,lupetto,Lupetto,PROPN,nsubj,rovescia,,,2.433961279
+10,rovescia,rovesciare,VERB,root,ROOT,,6.24 ± 2.95,3.730626469
+10,il,il,DET,det,piatto,,,7.039560886
+10,piatto,piatto,NOUN,obj,rovescia,,3.36 ± 1.50,4.365419149
+10,perché,perché,SCONJ,mark,mangiare,,,5.965637226
+10,non,non,ADV,advmod,mangiare,,,7.259198169
+10,vuole,volere,AUX,aux,mangiare,,,5.745182159
+10,mangiare,mangiare,VERB,advcl,rovescia,,3.24 ± 1.74,5.112999615
+10,i,il,DET,det,piselli,,,6.584780852
+10,piselli,pisello,NOUN,obj,mangiare,,4.04 ± 1.54,3.518282164
+10,,,PUNCT,punct,rovescia,,,
+11,“,“,PUNCT,punct,Fila,,,
+11,fila,fila,NOUN,root,ROOT,,,4.555192734
+11,in,in,ADP,case,camera,,,6.797274494
+11,camera,camera,NOUN,nmod,Fila,,4.24 ± 2.09,4.957596278
+11,tua,tuo,DET,det:poss,camera,,,6.037748803
+11,e,e,CCONJ,cc,calmati,,,2.741151583
+11,calmati,calmato,ADJ,conj,tua,,,4.69122833
+11,,,PUNCT,punct,Fila,,,
+11,”,”,PUNCT,punct,Fila,,,
+11,,,PUNCT,punct,Fila,,,
+11,gli,gli,PRON,iobj,dice,,,6.227520191
+11,dice,dire,VERB,parataxis,Fila,,4.08 ± 1.73,5.609257672
+11,il,il,DET,det,papà,,,7.039560886
+11,papà,papà,NOUN,nsubj,dice,,2.20 ± 1.12,5.588106908
+11,,,PUNCT,punct,Fila,,,
+12,“,“,PUNCT,punct,cenare,,,
+12,io,io,PRON,nsubj,cenare,,,6.536707533
+12,e,e,CCONJ,cc,mamma,,,2.741151583
+12,la,il,DET,det,mamma,,,7.055331658
+12,mamma,mamma,NOUN,conj,Io,,1.88 ± 1.27,5.66327005
+12,vogliamo,volere,AUX,aux,cenare,,,5.054275835
+12,cenare,cenare,VERB,root,ROOT,,,3.938335038
+12,tranquilli,tranquillo,ADJ,xcomp,cenare,,5.40 ± 1.22,4.003502385
+12,”,”,PUNCT,punct,cenare,,,
+12,,,PUNCT,punct,cenare,,,
+13,il,il,DET,det,giorno,,,7.039560886
+13,giorno,giorno,NOUN,obl,cerca,,3.80 ± 1.76,5.731502947
+13,dopo,dopo,ADV,advmod,giorno,,,5.792396528
+13,la,il,DET,det,mamma,,,7.055331658
+13,mamma,mamma,NOUN,nsubj,cerca,,1.88 ± 1.27,5.66327005
+13,cerca,cercare,VERB,root,ROOT,,4.72 ± 2.28,5.003535817
+13,di,di,ADP,mark,farlo,,,7.232814475
+13,farlo,fare,VERB,xcomp,cerca,,4.40 ± 2.22,5.623860468
+13,riflettere,riflettere,VERB,ccomp,farlo,,,3.941045757
+13,e,e,CCONJ,cc,dice,,,2.741151583
+13,gli,gli,PRON,iobj,dice,,,6.227520191
+13,dice,dire,VERB,conj,cerca,,4.08 ± 1.73,5.609257672
+13,“,“,PUNCT,punct,Hai,,,
+13,hai,avere,VERB,ccomp,dice,,,6.477590733
+13,ragione,ragione,NOUN,obj,Hai,,,5.500776874
+13,,,PUNCT,punct,buona,,,
+13,la,il,DET,det,pastasciutta,,,7.055331658
+13,pastasciutta,pastasciutta,NOUN,nsubj,buona,,,2.145165739
+13,è,essere,AUX,cop,buona,,,7.249521761
+13,buona,buono,ADJ,conj,cerca,,3.48 ± 1.50,5.481803335
+13,,,PUNCT,punct,mangiare,,,
+13,ma,ma,CCONJ,cc,mangiare,,,6.662005813
+13,per,per,ADP,mark,stare,,,6.912435835
+13,stare,stare,VERB,advcl,mangiare,,4.60 ± 2.35,5.514886537
+13,in,in,ADP,case,salute,,,6.797274494
+13,salute,salute,NOUN,obl,stare,,5.88 ± 2.01,4.74933177
+13,devi,dovere,AUX,aux,mangiare,,,5.770421013
+13,mangiare,mangiare,VERB,conj,cerca,,3.24 ± 1.74,5.112999615
+13,un,uno,DET,det,po’,,,7.065833912
+13,po’,poco,PRON,obj,mangiare,,,
+13,di,di,ADP,case,tutto,,,7.232814475
+13,tutto,tutto,PRON,nmod,po’,,,6.306603623
+13,e,e,CCONJ,cc,quello,,,2.741151583
+13,non,non,ADV,advmod,solamente,,,7.259198169
+13,solamente,solamente,ADV,advmod,quello,,,4.39653354
+13,quello,quello,PRON,conj,tutto,,,6.160949149
+13,che,che,PRON,nsubj,piace,,,7.250456545
+13,ti,ti,PRON,obj,piace,,,6.615643201
+13,piace,piacere,VERB,acl:relcl,quello,,7.64 ± 3.16,5.587732603
+13,,,PUNCT,punct,capisci,,,
+13,capisci,capire,VERB,conj,cerca,,,5.05359118
+13,,,PUNCT,punct,capisci,,,
+13,”,”,PUNCT,punct,capisci,,,
+13,,,PUNCT,punct,cerca,,,
+14,“,“,PUNCT,punct,piace,,,
+14,a,a,ADP,case,me,,,7.004335738
+14,me,me,PRON,obl,piace,,,6.337855516
+14,piace,piacere,VERB,root,ROOT,,7.64 ± 3.16,5.587732603
+14,la,il,DET,det,pastasciutta,,,7.055331658
+14,pastasciutta,pastasciutta,NOUN,nsubj,piace,,,2.145165739
+14,”,”,PUNCT,punct,piace,,,
+14,,,PUNCT,punct,piace,,,
+14,ripete,ripetere,VERB,parataxis,piace,,,3.466234585
+14,lupetto,Lupetto,PROPN,nsubj,ripete,,,2.433961279
+14,,,PUNCT,punct,piace,,,
+15,più,più,ADV,advmod,tardi,,,6.382555861
+15,tardi,tardi,ADV,advmod,cucinano,,,5.285795974
+15,lupetto,Lupetto,PROPN,nsubj,cucinano,,,2.433961279
+15,e,e,CCONJ,cc,papà,,,2.741151583
+15,il,il,DET,det,papà,,,7.039560886
+15,papà,papà,NOUN,conj,Lupetto,,2.20 ± 1.12,5.588106908
+15,cucinano,cucinare,VERB,root,ROOT,,5.72 ± 2.75,2.722402147
+15,le,il,DET,det,lasagne,,,6.624997683
+15,lasagne,lasagna,NOUN,obj,cucinano,,,3.296433415
+15,,,PUNCT,punct,dispone,,,
+15,lupetto,Lupetto,PROPN,nsubj,dispone,,,2.433961279
+15,dispone,disporre,VERB,conj,cucinano,,,3.016998033
+15,gli,il,DET,det,strati,,,6.227520191
+15,strati,strato,NOUN,obj,dispone,,8.60 ± 3.21,3.393683917
+15,di,di,ADP,case,pasta,,,7.232814475
+15,pasta,pasta,NOUN,nmod,strati,,3.68 ± 1.52,3.993012488
+15,in,in,ADP,case,teglia,,,6.797274494
+15,la,il,DET,det,teglia,,,7.055331658
+15,teglia,teglia,NOUN,obl,dispone,,7.44 ± 2.92,2.668044485
+15,e,e,CCONJ,cc,aggiunge,,,2.741151583
+15,il,il,DET,det,papà,,,7.039560886
+15,papà,papà,NOUN,nsubj,aggiunge,,2.20 ± 1.12,5.588106908
+15,aggiunge,aggiungere,VERB,conj,cucinano,,,3.268291135
+15,il,il,DET,det,ragù,,,7.039560886
+15,ragù,ragù,NOUN,obj,aggiunge,,,2.741151583
+15,e,e,CCONJ,cc,verdure,,,2.741151583
+15,alcune,alcuno,DET,det,verdure,,,4.893008951
+15,piccole,piccolo,ADJ,amod,verdure,,4.12 ± 3.18,4.427838194
+15,verdure,verdura,NOUN,conj,ragù,,,3.685773252
+15,,,PUNCT,punct,cucinano,,,
+16,“,“,PUNCT,punct,no!,,,
+16,ah,ah,INTJ,discourse,protesta,,,2.25162107
+16,no,no,INTJ,discourse,protesta,,,6.605764599
+16,”,”,PUNCT,punct,no!,,,
+16,,,PUNCT,punct,protesta,,,
+16,protesta,protesta,NOUN,root,ROOT,,,3.650315718
+16,lupetto,Lupetto,PROPN,nmod,protesta,,,2.433961279
+16,,,PUNCT,punct,protesta,,,
+17,“,“,PUNCT,punct,piacciono,,,
+17,le,il,DET,det,verdure,,,6.624997683
+17,verdure,verdura,NOUN,nsubj,piacciono,,,3.685773252
+17,non,non,ADV,advmod,piacciono,,,7.259198169
+17,mi,mi,PRON,iobj,piacciono,,,6.769601972
+17,piacciono,piacere,VERB,root,ROOT,,7.64 ± 3.16,4.914296797
+17,”,”,PUNCT,punct,piacciono,,,
+17,,,PUNCT,punct,piacciono,,,
+18,“,“,PUNCT,punct,Vedrai,,,
+18,vedrai,vedere,VERB,root,ROOT,,4.60 ± 1.50,4.627959949
+18,quando,quando,SCONJ,mark,assaggi,,,6.212844009
+18,le,il,DET,det,assaggi,,,6.624997683
+18,assaggi,assaggio,NOUN,ccomp,Vedrai,,,3.195244604
+18,”,”,PUNCT,punct,Vedrai,,,
+18,,,PUNCT,punct,dice,,,
+18,gli,gli,PRON,iobj,dice,,,6.227520191
+18,dice,dire,VERB,parataxis,Vedrai,,4.08 ± 1.73,5.609257672
+18,il,il,DET,det,papà,,,7.039560886
+18,papà,papà,NOUN,nsubj,dice,,2.20 ± 1.12,5.588106908
+18,,,PUNCT,punct,Vedrai,,,
+19,ecco,ecco,INTJ,discourse,pronte,,,5.695815269
+19,,,PUNCT,punct,Ecco,,,
+19,le,il,DET,det,lasagne,,,6.624997683
+19,lasagne,lasagna,NOUN,nsubj,pronte,,,3.296433415
+19,sono,essere,AUX,cop,pronte,,,6.768130002
+19,pronte,pronto,ADJ,root,ROOT,,,4.027563772
+19,,,PUNCT,punct,pronte,,,
+19,mmm,mmm,INTJ,discourse,pronte,,,4.347017861
+19,,,PUNCT,punct,profumino,,,
+19,che,che,DET,det,profumino,,,7.250456545
+19,profumino,profumino,NOUN,conj,pronte,,,3.083017833
+19,,,PUNCT,punct,spine,,,
+19,però,però,ADV,advmod,spine,,,5.274174947
+19,lupetto,Lupetto,PROPN,nsubj,spine,,,2.433961279
+19,è,essere,AUX,cop,spine,,,7.249521761
+19,su,su,ADP,case,spine,,,6.000068652
+19,le,il,DET,det,spine,,,6.624997683
+19,spine,spina,NOUN,conj,pronte,,6.00 ± 2.58,3.500553397
+19,,,PUNCT,punct,domanda,,,
+19,si,si,PRON,expl,domanda,,,6.553884221
+19,domanda,domandare,VERB,conj,pronte,,,5.180684418
+19,se,se,SCONJ,mark,piaceranno,,,6.583110863
+19,gli,gli,PRON,iobj,piaceranno,,,6.227520191
+19,piaceranno,piacere,VERB,ccomp,domanda,,7.64 ± 3.16,3.236246209
+19,,,PUNCT,punct,pronte,,,
+20,lupetto,lupetto,NOUN,nsubj,assaggia,,,2.433961279
+20,assaggia,assaggiare,VERB,root,ROOT,,,3.420092933
+20,le,il,DET,det,lasagne,,,6.624997683
+20,lasagne,lasagna,NOUN,obj,assaggia,,,3.296433415
+20,,,PUNCT,punct,deliziose,,,
+20,sono,essere,AUX,cop,deliziose,,,6.768130002
+20,deliziose,delizioso,ADJ,conj,assaggia,,,3.338599554
+20,e,e,CCONJ,cc,vuole,,,2.741151583
+20,ne,ne,PRON,iobj,vuole,,,6.201935117
+20,vuole,volere,VERB,conj,assaggia,,,5.745182159
+20,ancora,ancora,ADV,advmod,vuole,,,6.01813737
+20,,,PUNCT,punct,assaggia,,,
+21,“,“,PUNCT,punct,no,,,
+21,ah,ah,INTJ,discourse,no,,,2.25162107
+21,no,no,INTJ,root,ROOT,,,6.605764599
+21,,,PUNCT,punct,no,,,
+22,le,il,DET,det,lasagne,,,6.624997683
+22,lasagne,lasagna,NOUN,nsubj,me,,,3.296433415
+22,sono,essere,AUX,cop,me,,,6.768130002
+22,solo,solo,ADV,advmod,me,,4.60 ± 2.14,6.359323473
+22,per,per,ADP,case,me,,,6.912435835
+22,me,me,PRON,root,ROOT,,,6.337855516
+22,”,”,PUNCT,punct,me,,,
+22,,,PUNCT,punct,prende,,,
+22,lo,lo,PRON,obj,prende,,,6.655915487
+22,prende,prendere,VERB,parataxis,me,,4.36 ± 1.89,4.869987548
+22,in,in,ADP,case,giro,,,6.797274494
+22,giro,giro,NOUN,obl,prende,,,5.36483757
+22,il,il,DET,det,papà,,,7.039560886
+22,papà,papà,NOUN,nsubj,prende,,2.20 ± 1.12,5.588106908
+22,,,PUNCT,punct,me,,,
+23,“,“,PUNCT,punct,detto,,,
+23,hai,avere,AUX,aux,detto,,,6.477590733
+23,detto,dire,VERB,root,ROOT,,4.08 ± 1.73,6.180297396
+23,che,che,SCONJ,mark,piacevano,,,7.250456545
+23,non,non,ADV,advmod,piacevano,,,7.259198169
+23,ti,ti,PRON,iobj,piacevano,,,6.615643201
+23,piacevano,piacere,VERB,ccomp,detto,,7.64 ± 3.16,3.711406763
+23,le,il,DET,det,verdure,,,6.624997683
+23,verdure,verdura,NOUN,nsubj,piacevano,,,3.685773252
+23,”,”,PUNCT,punct,detto,,,
+23,,,PUNCT,punct,detto,,,
+24,“,“,PUNCT,punct,fanno,,,
+24,le,il,DET,det,verdure,,,6.624997683
+24,verdure,verdura,NOUN,nsubj,fanno,,,3.685773252
+24,fanno,fare,VERB,root,ROOT,,4.40 ± 2.22,5.244769657
+24,bene,bene,ADV,advmod,fanno,,,6.454992194
+24,a,a,ADP,case,salute,,,7.004335738
+24,la,il,DET,det,salute,,,7.055331658
+24,salute,salute,NOUN,obl,fanno,,5.88 ± 2.01,4.74933177
+24,”,”,PUNCT,punct,fanno,,,
+24,,,PUNCT,punct,fanno,,,
+24,risponde,rispondere,VERB,parataxis,fanno,,3.88 ± 1.59,4.376323713
+24,lupetto,Lupetto,PROPN,nsubj,risponde,,,2.433961279
+24,e,e,CCONJ,cc,prende,,,2.741151583
+24,se,se,PRON,expl,prende,,,6.583110863
+24,ne,ne,PRON,iobj,prende,,,6.201935117
+24,prende,prendere,VERB,conj,fanno,,4.36 ± 1.89,4.869987548
+24,un’,uno,DET,det,cucchiaiata,,,
+24,enorme,enorme,ADJ,amod,cucchiaiata,,,4.620756226
+24,cucchiaiata,cucchiaiata,NOUN,obj,prende,,,2.321256999
+24,,,PUNCT,punct,fanno,,,

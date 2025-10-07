@@ -1,0 +1,30 @@
+{
+  "num_tokens": 384,
+  "num_sentences": 20,
+  "num_lemmas": 0,
+  "num_types": 149,
+  "TTR": 0,
+  "avg_sentence_length": 18.75,
+  "Zipf_mean": 5.28,
+  "Zipf_std": 1.48,
+  "percent_rare_words": 8.78,
+  "Gulpease_index": 67.18,
+  "top_lemmas": [],
+  "top_bigrams": [
+    " il",
+    " uno",
+    "affamato ",
+    " ma",
+    "uno bello",
+    "piccolo bruco",
+    "essere ancora",
+    "ancora affamato",
+    " essere",
+    "uno fetta"
+  ],
+  "num_function_words": 142,
+  "num_content_words": 179,
+  "num_verbs": 34,
+  "num_adjectives": 37,
+  "num_nouns": 68
+}
