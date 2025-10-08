@@ -1,385 +1,385 @@
-sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
-0,il,il,DET,det,bruco,,,7.039560886
-0,bruco,bruco,NOUN,root,ROOT,,,3.023432143
-0,molto,molto,ADV,advmod,affamato,,,6.102695876
-0,affamato,affamato,ADJ,amod,bruco,,4.84 ± 2.15,3.853681062
-0,,,PUNCT,punct,bruco,,,
-1,a,a,ADP,case,luce,,,7.004335738
-1,la,il,DET,det,luce,,,7.055331658
-1,luce,luce,NOUN,obl,giaceva,,4.00 ± 2.42,5.005037586
-1,di,di,ADP,case,luna,,,7.232814475
-1,la,il,DET,det,luna,,,7.055331658
-1,luna,luna,NOUN,nmod,luce,,4.56 ± 1.47,4.705470983
-1,,,PUNCT,punct,luce,,,
-1,giaceva,giacere,VERB,root,ROOT,,,2.961775242
-1,su,su,ADP,case,foglia,,,6.000068652
-1,una,uno,DET,det,foglia,,,6.801817508
-1,foglia,foglia,NOUN,obl,giaceva,,4.08 ± 1.63,3.524370505
-1,,,PUNCT,punct,uovo,,,
-1,un,uno,DET,det,uovo,,,7.065833912
-1,piccolo,piccolo,ADJ,amod,uovo,,4.12 ± 3.18,5.291431625
-1,uovo,uovo,NOUN,conj,foglia,,4.52 ± 1.45,4.054840607
-1,,,PUNCT,punct,giaceva,,,
-2,una,uno,DET,det,domenica,,,6.801817508
-2,domenica,domenica,NOUN,obl,venne,,,4.456212856
-2,mattina,mattina,NOUN,compound,domenica,,4.08 ± 1.91,4.951684874
-2,,,PUNCT,punct,domenica,,,
-2,il,il,DET,det,sole,,,7.039560886
-2,sole,sole,NOUN,nsubj,venne,,3.64 ± 2.22,4.889371768
-2,caldo,caldo,ADJ,amod,sole,,3.88 ± 1.56,4.731565484
-2,venne,venire,VERB,root,ROOT,,4.80 ± 2.10,4.383072355
-2,su,su,ADV,advmod,venne,,,6.000068652
-2,e,e,CCONJ,cc,POP,,,2.741151583
-2,pop,POP,PROPN,conj,su,,,3.806347183
-2,,,PUNCT,punct,uscì,,,
-2,fuori,fuori,ADV,case,uovo,,,5.872607584
-2,da,da,ADP,fixed,fuori,,,6.577812618
-2,l’,il,DET,det,uovo,,,
-2,uovo,uovo,NOUN,obl,uscì,,4.52 ± 1.45,4.054840607
-2,uscì,uscire,VERB,conj,venne,,4.28 ± 2.32,3.539228093
-2,un,uno,DET,det,bruco,,,7.065833912
-2,piccolo,piccolo,ADJ,amod,bruco,,4.12 ± 3.18,5.291431625
-2,bruco,bruco,NOUN,nsubj,uscì,,,3.023432143
-2,,,PUNCT,punct,bruco,,,
-2,molto,molto,ADV,advmod,affamato,,,6.102695876
-2,affamato,affamato,ADJ,amod,bruco,,4.84 ± 2.15,3.853681062
-2,,,PUNCT,punct,venne,,,
-3,come,come,ADV,advmod,uovo,,,6.562704781
-3,fu,essere,AUX,cop,uovo,,,5.104021496
-3,fuori,fuori,ADV,case,uovo,,,5.872607584
-3,da,da,ADP,fixed,fuori,,,6.577812618
-3,l’,il,DET,det,uovo,,,
-3,uovo,uovo,NOUN,root,ROOT,,4.52 ± 1.45,4.054840607
-3,,,PUNCT,punct,iniziò,,,
-3,il,il,DET,det,bruco,,,7.039560886
-3,piccolo,piccolo,ADJ,amod,bruco,,4.12 ± 3.18,5.291431625
-3,bruco,bruco,NOUN,nsubj,iniziò,,,3.023432143
-3,iniziò,iniziare,VERB,conj,uovo,,,3.898493406
-3,subito,subito,ADV,advmod,iniziò,,,5.515761062
-3,a,a,ADP,mark,cercare,,,7.004335738
-3,cercare,cercare,VERB,xcomp,iniziò,,4.72 ± 2.28,5.080365005
-3,qualcosa,qualcosa,PRON,obj,cercare,,,6.034414514
-3,da,da,ADP,mark,mangiare,,,6.577812618
-3,mangiare,mangiare,VERB,acl,qualcosa,,3.24 ± 1.74,5.112999615
-3,,,PUNCT,punct,uovo,,,
-4,il,il,DET,det,lunedì,,,7.039560886
-4,lunedì,lunedì,NOUN,obl,trovò,,,4.355870603
-4,trovò,trovare,VERB,root,ROOT,,4.24 ± 1.61,3.799449264
-4,una,uno,DET,det,mela,,,6.801817508
-4,bella,bello,ADJ,amod,mela,,3.80 ± 2.35,5.484893151
-4,mela,mela,NOUN,obj,trovò,,3.84 ± 1.18,3.971600504
-4,rossa,rosso,ADJ,amod,mela,,3.12 ± 1.36,4.418809935
-4,e,e,CCONJ,cc,mangiò,,,2.741151583
-4,se,se,PRON,expl,mangiò,,,6.583110863
-4,la,la,PRON,obj,mangiò,,,7.055331658
-4,mangiò,mangiare,VERB,conj,trovò,,3.24 ± 1.74,2.829412487
-4,tutta,tutto,PRON,nsubj,mangiò,,,5.540385318
-4,,,PUNCT,punct,mangiò,,,
-4,ne,ne,PRON,iobj,felice,,,6.201935117
-4,fu,essere,AUX,cop,felice,,,5.104021496
-4,felice,felice,ADJ,conj,trovò,,4.32 ± 2.94,5.318513907
-4,,,PUNCT,punct,bastò,,,
-4,ma,ma,CCONJ,cc,bastò,,,6.662005813
-4,non,non,ADV,advmod,bastò,,,7.259198169
-4,gli,gli,PRON,iobj,bastò,,,6.227520191
-4,bastò,bastare,VERB,conj,trovò,,,2.367014489
-4,,,PUNCT,punct,trovò,,,
-5,infatti,infatti,ADV,advmod,affamato,,,4.752024614
-5,,,PUNCT,punct,Infatti,,,
-5,il,il,DET,det,bruco,,,7.039560886
-5,piccolo,piccolo,ADJ,amod,bruco,,4.12 ± 3.18,5.291431625
-5,bruco,bruco,NOUN,nsubj,affamato,,,3.023432143
-5,era,essere,AUX,cop,affamato,,,6.283626334
-5,ancora,ancora,ADV,advmod,affamato,,,6.01813737
-5,affamato,affamato,ADJ,root,ROOT,,4.84 ± 2.15,3.853681062
-5,,,PUNCT,punct,affamato,,,
-6,il,il,DET,det,martedì,,,7.039560886
-6,martedì,martedì,NOUN,nsubj,mangiò,,,4.227152774
-6,mangiò,mangiare,VERB,root,ROOT,,3.24 ± 1.74,2.829412487
-6,attraverso,attraverso,ADP,case,pere,,,4.749271739
-6,due,due,NUM,nummod,pere,,,5.996192947
-6,pere,pera,NOUN,obl,mangiò,,3.96 ± 3.02,3.247828081
-6,,,PUNCT,punct,riempì,,,
-6,ma,ma,CCONJ,cc,riempì,,,6.662005813
-6,anche,anche,ADV,advmod,pasto,,,6.115086172
-6,questo,questo,DET,det,pasto,,,6.484206212
-6,pasto,pasto,NOUN,nsubj,riempì,,,4.135159074
-6,non,non,ADV,advmod,riempì,,,7.259198169
-6,lo,lo,PRON,obj,riempì,,,6.655915487
-6,riempì,riempire,VERB,conj,mangiò,,,2.571134472
-6,,,PUNCT,punct,affamato,,,
-6,era,essere,AUX,cop,affamato,,,6.283626334
-6,ancora,ancora,ADV,advmod,affamato,,,6.01813737
-6,affamato,affamato,ADJ,conj,mangiò,,4.84 ± 2.15,3.853681062
-6,,,PUNCT,punct,mangiò,,,
-7,il,il,DET,det,mercoledì,,,7.039560886
-7,mercoledì,mercoledì,NOUN,obl,trovò,,,4.101547635
-7,,,PUNCT,punct,trovò,,,
-7,invece,invece,ADV,advmod,trovò,,,5.298963672
-7,,,PUNCT,punct,invece,,,
-7,trovò,trovare,VERB,root,ROOT,,4.24 ± 1.61,3.799449264
-7,in,in,ADP,case,giardino,,,6.797274494
-7,un,uno,DET,det,giardino,,,7.065833912
-7,giardino,giardino,NOUN,obl,trovò,,4.28 ± 1.37,4.462997018
-7,ben,bene,ADV,advmod,tre,,,5.179214572
-7,tre,tre,NUM,nummod,prugne,,,5.607871462
-7,prugne,prugne,NOUN,obj,trovò,,,3.115202516
-7,e,e,CCONJ,cc,mangiò,,,2.741151583
-7,se,se,SCONJ,mark,mangiò,,,6.583110863
-7,le,le,PRON,obj,mangiò,,,6.624997683
-7,mangiò,mangiare,VERB,conj,trovò,,3.24 ± 1.74,2.829412487
-7,una,uno,PRON,nsubj,mangiò,,,6.801817508
-7,dopo,dopo,ADP,case,altra,,,5.792396528
-7,l’,il,DET,det,altra,,,
-7,altra,altro,PRON,obl,mangiò,,,5.649409994
-7,,,PUNCT,punct,trovò,,,
-8,dopo,dopo,SCONJ,mark,mangiato,,,5.792396528
-8,aver,avere,AUX,aux,mangiato,,,5.517433184
-8,mangiato,mangiare,VERB,advcl,pensava,,3.24 ± 1.74,4.655561789
-8,così,così,ADV,advmod,mangiato,,,6.287788074
-8,tanto,tanto,ADV,advmod,mangiato,,,5.656885745
-8,pensava,pensare,VERB,root,ROOT,,,4.499487644
-8,di,di,ADP,mark,pieno,,,7.232814475
-8,essere,essere,AUX,cop,pieno,,,6.225206681
-8,pieno,pieno,ADJ,ccomp,pensava,,4.56 ± 2.86,4.865876178
-8,,,PUNCT,punct,bastò,,,
-8,ma,ma,CCONJ,cc,bastò,,,6.662005813
-8,anche,anche,ADV,advmod,pranzetto,,,6.115086172
-8,questo,questo,DET,det,pranzetto,,,6.484206212
-8,pranzetto,pranzetto,NOUN,nsubj,bastò,,,2.622286994
-8,non,non,ADV,advmod,bastò,,,7.259198169
-8,gli,gli,PRON,iobj,bastò,,,6.227520191
-8,bastò,bastare,VERB,conj,pensava,,,2.367014489
-8,per,per,ADP,mark,sentir,,,6.912435835
-8,sentir,sentire,VERB,advcl,bastò,,4.24 ± 1.67,3.530374671
-8,si,si,PRON,expl,sentir,,,6.553884221
-8,sazio,sazio,ADJ,xcomp,sentir,,,2.741151583
-8,,,PUNCT,punct,aveva,,,
-8,aveva,avere,VERB,conj,pensava,,,5.632280537
-8,ancora,ancora,ADV,advmod,aveva,,,6.01813737
-8,fame,fame,NOUN,obj,aveva,,3.12 ± 1.59,4.862974884
-8,,,PUNCT,punct,pensava,,,
-9,il,il,DET,det,giovedì,,,7.039560886
-9,giovedì,giovedì,NOUN,nsubj,giorno,,,4.215614092
-9,fu,essere,AUX,cop,giorno,,,5.104021496
-9,un,uno,DET,det,giorno,,,7.065833912
-9,giorno,giorno,NOUN,root,ROOT,,3.80 ± 1.76,5.731502947
-9,fortunato,fortunato,ADJ,amod,giorno,,5.96 ± 2.01,4.644088623
-9,,,PUNCT,punct,mangiò,,,
-9,mangiò,mangiare,VERB,conj,giorno,,3.24 ± 1.74,2.829412487
-9,attraverso,attraverso,ADP,case,fragole,,,4.749271739
-9,quattro,quattro,NUM,nummod,fragole,,,5.206534435
-9,fragole,fragola,NOUN,obl,mangiò,,4.40 ± 2.04,3.52336169
-9,,,PUNCT,punct,giorno,,,
-10,ma,ma,CCONJ,cc,affamato,,,6.662005813
-10,era,essere,AUX,cop,affamato,,,6.283626334
-10,ancora,ancora,ADV,advmod,affamato,,,6.01813737
-10,affamato,affamato,ADJ,root,ROOT,,4.84 ± 2.15,3.853681062
-10,,,PUNCT,punct,affamato,,,
-11,il,il,DET,det,venerdì,,,7.039560886
-11,venerdì,venerdì,NOUN,obl,entrò,,,4.501085295
-11,entrò,entrare,VERB,root,ROOT,,,3.539228093
-11,in,in,ADP,case,parco,,,6.797274494
-11,un,uno,DET,det,parco,,,7.065833912
-11,bellissimo,bello,ADJ,amod,parco,,3.80 ± 2.35,4.65039111
-11,parco,parco,NOUN,obl,entrò,,,4.475917617
-11,,,PUNCT,punct,parco,,,
-11,dove,dove,ADV,advmod,trovò,,,6.018789847
-11,trovò,trovare,VERB,acl:relcl,parco,,4.24 ± 1.61,3.799449264
-11,cinque,cinque,NUM,nummod,arance,,,5.222170066
-11,arance,arancia,NOUN,obj,trovò,,3.20 ± 1.26,3.349285722
-11,cadute,caduto,ADJ,amod,arance,,,3.404440987
-11,,,PUNCT,punct,entrò,,,
-12,ma,ma,CCONJ,cc,affamato,,,6.662005813
-12,era,essere,AUX,cop,affamato,,,6.283626334
-12,ancora,ancora,ADV,advmod,affamato,,,6.01813737
-12,affamato,affamato,ADJ,root,ROOT,,4.84 ± 2.15,3.853681062
-12,,,PUNCT,punct,affamato,,,
-13,il,il,DET,det,sabato,,,7.039560886
-13,sabato,sabato,NOUN,obl,giorno,,,4.497562671
-13,,,PUNCT,punct,sabato,,,
-13,fu,essere,AUX,cop,giorno,,,5.104021496
-13,il,il,DET,det,giorno,,,7.039560886
-13,giorno,giorno,NOUN,root,ROOT,,3.80 ± 1.76,5.731502947
-13,più,più,ADV,advmod,ricco,,,6.382555861
-13,ricco,ricco,ADJ,amod,giorno,,6.67 ± 2.51,4.420860916
-13,,,PUNCT,punct,mangiò,,,
-13,mangiò,mangiare,VERB,conj,giorno,,3.24 ± 1.74,2.829412487
-13,attraverso,attraverso,ADP,case,pezzo,,,4.749271739
-13,un,uno,DET,det,pezzo,,,7.065833912
-13,pezzo,pezzo,NOUN,obl,mangiò,,,4.907135319
-13,di,di,ADP,case,torta,,,7.232814475
-13,torta,torta,NOUN,nmod,pezzo,,2.96 ± 0.93,4.610796405
-13,a,a,ADP,case,cioccolato,,,7.004335738
-13,il,il,DET,det,cioccolato,,,7.039560886
-13,cioccolato,cioccolato,NOUN,nmod,torta,,3.52 ± 1.45,4.259294648
-13,…,…,PUNCT,punct,mangiò,,,
-13,un,uno,DET,det,cono,,,7.065833912
-13,cono,cono,NOUN,parataxis,mangiò,,,3.329225928
-13,gelato…,gelato…,ADJ,amod,cono,,,
-13,,,PUNCT,punct,giorno,,,
-14,un,uno,DET,det,cetriolino…,,,7.065833912
-14,cetriolino…,cetriolino…,NOUN,nmod,fetta,,,
-14,una,uno,DET,det,fetta,,,6.801817508
-14,fetta,fetta,NOUN,root,ROOT,,4.88 ± 1.99,3.853208746
-14,di,di,ADP,case,formaggio,,,7.232814475
-14,formaggio,formaggio,NOUN,nmod,fetta,,4.64 ± 1.73,4.324621776
-14,svizzero,svizzero,ADJ,amod,formaggio,,,3.2981332
-14,,,PUNCT,punct,fetta,,,
-14,una,uno,DET,det,fetta,,,6.801817508
-14,fetta,fetta,NOUN,conj,fetta,,4.88 ± 1.99,3.853208746
-14,di,di,ADP,case,salame,,,7.232814475
-14,salame,salame,NOUN,nmod,fetta,,,3.379851714
-14,,,PUNCT,punct,lecca,,,
-14,un,uno,DET,det,lecca,,,7.065833912
-14,lecca,leccare,NOUN,conj,fetta,,5.16 ± 3.29,3.50479045
-14,lecca,leccio,ADJ,amod,lecca,,,3.50479045
-14,,,PUNCT,punct,fetta,,,
-14,una,uno,DET,det,fetta,,,6.801817508
-14,fetta,fetta,NOUN,conj,fetta,,4.88 ± 1.99,3.853208746
-14,di,di,ADP,case,torta,,,7.232814475
-14,torta,torta,NOUN,nmod,fetta,,2.96 ± 0.93,4.610796405
-14,di,di,ADP,case,ciliegie,,,7.232814475
-14,ciliegie,ciliegia,NOUN,nmod,torta,,5.88 ± 2.07,3.140313237
-14,,,PUNCT,punct,salsiccia,,,
-14,una,uno,DET,det,salsiccia,,,6.801817508
-14,salsiccia,salsiccia,NOUN,conj,fetta,,,3.638081261
-14,,,PUNCT,punct,fetta,,,
-15,un,uno,DET,det,cupcake,,,7.065833912
-15,cupcake,cupcake,NOUN,root,ROOT,,,3.532357755
-15,e,e,CCONJ,cc,fetta,,,2.741151583
-15,una,uno,DET,det,fetta,,,6.801817508
-15,fetta,fetta,NOUN,conj,cupcake,,4.88 ± 1.99,3.853208746
-15,di,di,ADP,case,anguria,,,7.232814475
-15,anguria,anguria,NOUN,nmod,fetta,,4.40 ± 1.87,2.946798086
-15,,,PUNCT,punct,ebbe,,,
-15,ma,ma,CCONJ,cc,ebbe,,,6.662005813
-15,quella,quello,DET,det,notte,,,5.939281839
-15,notte,notte,NOUN,obl,ebbe,,3.28 ± 1.34,5.521062946
-15,,,PUNCT,punct,ebbe,,,
-15,purtroppo,purtroppo,ADV,advmod,ebbe,,,4.458094958
-15,,,PUNCT,punct,purtroppo,,,
-15,ebbe,avere,VERB,conj,cupcake,,,3.961038525
-15,un,uno,DET,det,mal,,,7.065833912
-15,mal,male,NOUN,obj,ebbe,,,4.431722001
-15,di,di,ADP,case,pancia,,,7.232814475
-15,pancia,pancia,NOUN,nmod,mal,,4.92 ± 1.68,4.162199079
-15,,,PUNCT,punct,cupcake,,,
-16,il,il,DET,det,giorno,,,7.039560886
-16,giorno,giorno,NOUN,obl,domenica,,3.80 ± 1.76,5.731502947
-16,dopo,dopo,ADV,advmod,giorno,,,5.792396528
-16,,,PUNCT,punct,giorno,,,
-16,fu,essere,AUX,cop,domenica,,,5.104021496
-16,di,di,ADP,case,domenica,,,7.232814475
-16,nuovo,nuovo,ADJ,amod,domenica,,3.72 ± 1.54,5.649402438
-16,domenica,domenica,NOUN,root,ROOT,,,4.456212856
-16,,,PUNCT,punct,domenica,,,
-16,il,il,DET,det,bruco,,,7.039560886
-16,bruco,bruco,NOUN,nsubj,domenica,,,3.023432143
-16,,,PUNCT,punct,cambiò,,,
-16,cambiò,cambiare,VERB,conj,domenica,,,3.467385034
-16,menù,menù,NOUN,obj,cambiò,,,3.686467568
-16,e,e,CCONJ,cc,mangiò,,,2.741151583
-16,mangiò,mangiare,VERB,conj,domenica,,3.24 ± 1.74,2.829412487
-16,soltanto,soltanto,ADV,advmod,mangiò,,,4.944582877
-16,una,uno,DET,det,foglia,,,6.801817508
-16,bella,bello,ADJ,amod,foglia,,3.80 ± 2.35,5.484893151
-16,foglia,foglia,NOUN,obj,mangiò,,4.08 ± 1.63,3.524370505
-16,verde,verde,ADJ,amod,foglia,,3.84 ± 1.37,4.586948127
-16,e,e,CCONJ,cc,sentì,,,2.741151583
-16,dopo,dopo,ADV,case,questo,,,5.792396528
-16,di,di,ADP,fixed,dopo,,,7.232814475
-16,questo,questo,PRON,obl,sentì,,,6.484206212
-16,si,si,PRON,expl,sentì,,,6.553884221
-16,sentì,sentire,VERB,conj,domenica,,4.24 ± 1.67,3.420092933
-16,molto,molto,ADV,advmod,meglio,,,6.102695876
-16,meglio,meglio,ADV,advmod,sentì,,,5.752066371
-16,,,PUNCT,punct,affamato,,,
-16,ora,ora,ADV,advmod,affamato,,,6.195882677
-16,non,non,ADV,advmod,affamato,,,7.259198169
-16,era,essere,AUX,cop,affamato,,,6.283626334
-16,più,più,ADV,advmod,affamato,,,6.382555861
-16,affamato,affamato,ADJ,conj,domenica,,4.84 ± 2.15,3.853681062
-16,e,e,CCONJ,cc,bruco,,,2.741151583
-16,non,non,ADV,advmod,bruco,,,7.259198169
-16,era,essere,AUX,cop,bruco,,,6.283626334
-16,più,più,ADV,advmod,bruco,,,6.382555861
-16,un,uno,DET,det,bruco,,,7.065833912
-16,piccolo,piccolo,ADJ,amod,bruco,,4.12 ± 3.18,5.291431625
-16,bruco,bruco,NOUN,conj,affamato,,,3.023432143
-16,,,PUNCT,punct,bruco,,,
-16,anzi,anzi,ADV,advmod,bruco,,,4.520422806
-16,,,PUNCT,punct,bruco,,,
-16,era,essere,AUX,cop,bruco,,,6.283626334
-16,un,uno,DET,det,bruco,,,7.065833912
-16,bruco,bruco,NOUN,conj,affamato,,,3.023432143
-16,grande,grande,ADJ,amod,bruco,,4.64 ± 2.04,5.615282093
-16,e,e,CCONJ,cc,cicciotto,,,2.741151583
-16,cicciotto,cicciotto,ADJ,conj,grande,,,2.421372151
-16,,,PUNCT,punct,domenica,,,
-17,finalmente,finalmente,ADV,advmod,costruì,,,4.939266335
-17,satollo,satollo,ADJ,amod,costruì,,,1.367014489
-17,e,e,CCONJ,cc,felice,,,2.741151583
-17,felice,felice,ADJ,conj,satollo,,4.32 ± 2.94,5.318513907
-17,si,si,PRON,expl,costruì,,,6.553884221
-17,costruì,costruire,VERB,root,ROOT,,5.40 ± 2.74,3.137866501
-17,intorno,intorno,ADV,case,sé,,,4.86047254
-17,a,a,ADP,fixed,intorno,,,7.004335738
-17,sé,sé,PRON,obl,costruì,,,4.255006666
-17,,,PUNCT,punct,casetta,,,
-17,una,uno,DET,det,casetta,,,6.801817508
-17,bella,bello,ADJ,amod,casetta,,3.80 ± 2.35,5.484893151
-17,casetta,casetta,NOUN,appos,sé,,3.96 ± 1.67,3.630255924
-17,,,PUNCT,punct,casetta,,,
-17,che,che,PRON,nsubj,chiama,,,7.250456545
-17,si,si,PRON,expl,chiama,,,6.553884221
-17,chiama,chiamare,VERB,acl:relcl,casetta,,,5.287068211
-17,bozzolo,bozzolo,NOUN,xcomp,chiama,,,2.919277012
-17,,,PUNCT,punct,costruì,,,
-18,rimase,rimanere,VERB,root,ROOT,,,3.767840186
-18,a,a,ADP,case,interno,,,7.004335738
-18,l’,il,DET,det,interno,,,
-18,interno,interno,NOUN,obl,Rimase,,,4.702071009
-18,di,di,ADP,case,casetta,,,7.232814475
-18,la,il,DET,det,casetta,,,7.055331658
-18,sua,suo,DET,det:poss,casetta,,,6.022524285
-18,piccola,piccolo,ADJ,amod,casetta,,4.12 ± 3.18,5.234049628
-18,e,e,CCONJ,cc,stretta,,,2.741151583
-18,stretta,stretto,ADJ,conj,piccola,,,4.074868425
-18,casetta,casetta,NOUN,nmod,interno,,3.96 ± 1.67,3.630255924
-18,per,per,ADP,case,più,,,6.912435835
-18,più,più,PRON,obl,Rimase,,,6.382555861
-18,di,di,ADP,case,settimane,,,7.232814475
-18,due,due,NUM,nummod,settimane,,,5.996192947
-18,settimane,settimana,NOUN,nmod,più,,,5.017581022
-18,,,PUNCT,punct,Rimase,,,
-19,poi,poi,ADV,advmod,rosicchiò,,,5.853751865
-19,,,PUNCT,punct,Poi,,,
-19,quando,quando,SCONJ,mark,sentì,,,6.212844009
-19,si,si,PRON,expl,sentì,,,6.553884221
-19,sentì,sentire,VERB,advcl,rosicchiò,,4.24 ± 1.67,3.420092933
-19,pronto,pronto,ADJ,xcomp,sentì,,,5.462393089
-19,ad,a,ADP,mark,uscire,,,5.934389877
-19,uscire,uscire,VERB,advcl,pronto,,4.28 ± 2.32,5.293751258
-19,,,PUNCT,punct,sentì,,,
-19,rosicchiò,rosicchiare,VERB,root,ROOT,,,
-19,un,uno,DET,det,buco,,,7.065833912
-19,buco,buco,NOUN,obj,rosicchiò,,,4.52628082
-19,in,in,ADP,case,bozzolo,,,6.797274494
-19,il,il,DET,det,bozzolo,,,7.039560886
-19,bozzolo,bozzolo,NOUN,obl,rosicchiò,,,2.919277012
-19,,,PUNCT,punct,spinse,,,
-19,si,si,PRON,expl,spinse,,,6.553884221
-19,spinse,spingere,VERB,conj,rosicchiò,,4.88 ± 1.48,3.023432143
-19,fuori,fuori,ADV,advmod,spinse,,,5.872607584
-19,con,con,ADP,case,forze,,,6.620271703
-19,tutte,tutto,DET,det:predet,forze,,,5.553895518
-19,le,il,DET,det,forze,,,6.624997683
-19,sue,suo,DET,det:poss,forze,,,5.298082303
-19,forze,forza,NOUN,obl,spinse,,,4.523260679
-19,e,e,CCONJ,cc,diventò,,,2.741151583
-19,diventò,diventare,VERB,conj,rosicchiò,,,3.563835233
-19,una,uno,DET,det,farfalla,,,6.801817508
-19,bellissima,bello,ADJ,amod,farfalla,,3.80 ± 2.35,4.752203544
-19,farfalla,farfalla,NOUN,xcomp,diventò,,3.64 ± 1.35,3.691296944
-19,,,PUNCT,punct,rosicchiò,,,
+token_id,sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
+1,0,il,il,DET,det,bruco,,,7.039560886
+2,0,bruco,bruco,NOUN,root,ROOT,,,3.023432143
+3,0,molto,molto,ADV,advmod,affamato,,,6.102695876
+4,0,affamato,affamato,ADJ,amod,bruco,,4.84 ± 2.15,3.853681062
+5,0,,,PUNCT,punct,bruco,,,
+6,1,a,a,ADP,case,luce,,,7.004335738
+7,1,la,il,DET,det,luce,,,7.055331658
+8,1,luce,luce,NOUN,obl,giaceva,,4.00 ± 2.42,5.005037586
+9,1,di,di,ADP,case,luna,,,7.232814475
+10,1,la,il,DET,det,luna,,,7.055331658
+11,1,luna,luna,NOUN,nmod,luce,,4.56 ± 1.47,4.705470983
+12,1,,,PUNCT,punct,luce,,,
+13,1,giaceva,giacere,VERB,root,ROOT,,,2.961775242
+14,1,su,su,ADP,case,foglia,,,6.000068652
+15,1,una,uno,DET,det,foglia,,,6.801817508
+16,1,foglia,foglia,NOUN,obl,giaceva,,4.08 ± 1.63,3.524370505
+17,1,,,PUNCT,punct,uovo,,,
+18,1,un,uno,DET,det,uovo,,,7.065833912
+19,1,piccolo,piccolo,ADJ,amod,uovo,,4.12 ± 3.18,5.291431625
+20,1,uovo,uovo,NOUN,conj,foglia,,4.52 ± 1.45,4.054840607
+21,1,,,PUNCT,punct,giaceva,,,
+22,2,una,uno,DET,det,domenica,,,6.801817508
+23,2,domenica,domenica,NOUN,obl,venne,,,4.456212856
+24,2,mattina,mattina,NOUN,compound,domenica,,4.08 ± 1.91,4.951684874
+25,2,,,PUNCT,punct,domenica,,,
+26,2,il,il,DET,det,sole,,,7.039560886
+27,2,sole,sole,NOUN,nsubj,venne,,3.64 ± 2.22,4.889371768
+28,2,caldo,caldo,ADJ,amod,sole,,3.88 ± 1.56,4.731565484
+29,2,venne,venire,VERB,root,ROOT,,4.80 ± 2.10,4.383072355
+30,2,su,su,ADV,advmod,venne,,,6.000068652
+31,2,e,e,CCONJ,cc,POP,,,2.741151583
+32,2,pop,POP,PROPN,conj,su,,,3.806347183
+33,2,,,PUNCT,punct,uscì,,,
+34,2,fuori,fuori,ADV,case,uovo,,,5.872607584
+35,2,da,da,ADP,fixed,fuori,,,6.577812618
+36,2,l’,il,DET,det,uovo,,,
+37,2,uovo,uovo,NOUN,obl,uscì,,4.52 ± 1.45,4.054840607
+38,2,uscì,uscire,VERB,conj,venne,,4.28 ± 2.32,3.539228093
+39,2,un,uno,DET,det,bruco,,,7.065833912
+40,2,piccolo,piccolo,ADJ,amod,bruco,,4.12 ± 3.18,5.291431625
+41,2,bruco,bruco,NOUN,nsubj,uscì,,,3.023432143
+42,2,,,PUNCT,punct,bruco,,,
+43,2,molto,molto,ADV,advmod,affamato,,,6.102695876
+44,2,affamato,affamato,ADJ,amod,bruco,,4.84 ± 2.15,3.853681062
+45,2,,,PUNCT,punct,venne,,,
+46,3,come,come,ADV,advmod,uovo,,,6.562704781
+47,3,fu,essere,AUX,cop,uovo,,,5.104021496
+48,3,fuori,fuori,ADV,case,uovo,,,5.872607584
+49,3,da,da,ADP,fixed,fuori,,,6.577812618
+50,3,l’,il,DET,det,uovo,,,
+51,3,uovo,uovo,NOUN,root,ROOT,,4.52 ± 1.45,4.054840607
+52,3,,,PUNCT,punct,iniziò,,,
+53,3,il,il,DET,det,bruco,,,7.039560886
+54,3,piccolo,piccolo,ADJ,amod,bruco,,4.12 ± 3.18,5.291431625
+55,3,bruco,bruco,NOUN,nsubj,iniziò,,,3.023432143
+56,3,iniziò,iniziare,VERB,conj,uovo,,,3.898493406
+57,3,subito,subito,ADV,advmod,iniziò,,,5.515761062
+58,3,a,a,ADP,mark,cercare,,,7.004335738
+59,3,cercare,cercare,VERB,xcomp,iniziò,,4.72 ± 2.28,5.080365005
+60,3,qualcosa,qualcosa,PRON,obj,cercare,,,6.034414514
+61,3,da,da,ADP,mark,mangiare,,,6.577812618
+62,3,mangiare,mangiare,VERB,acl,qualcosa,,3.24 ± 1.74,5.112999615
+63,3,,,PUNCT,punct,uovo,,,
+64,4,il,il,DET,det,lunedì,,,7.039560886
+65,4,lunedì,lunedì,NOUN,obl,trovò,,,4.355870603
+66,4,trovò,trovare,VERB,root,ROOT,,4.24 ± 1.61,3.799449264
+67,4,una,uno,DET,det,mela,,,6.801817508
+68,4,bella,bello,ADJ,amod,mela,,3.80 ± 2.35,5.484893151
+69,4,mela,mela,NOUN,obj,trovò,,3.84 ± 1.18,3.971600504
+70,4,rossa,rosso,ADJ,amod,mela,,3.12 ± 1.36,4.418809935
+71,4,e,e,CCONJ,cc,mangiò,,,2.741151583
+72,4,se,se,PRON,expl,mangiò,,,6.583110863
+73,4,la,la,PRON,obj,mangiò,,,7.055331658
+74,4,mangiò,mangiare,VERB,conj,trovò,,3.24 ± 1.74,2.829412487
+75,4,tutta,tutto,PRON,nsubj,mangiò,,,5.540385318
+76,4,,,PUNCT,punct,mangiò,,,
+77,4,ne,ne,PRON,iobj,felice,,,6.201935117
+78,4,fu,essere,AUX,cop,felice,,,5.104021496
+79,4,felice,felice,ADJ,conj,trovò,,4.32 ± 2.94,5.318513907
+80,4,,,PUNCT,punct,bastò,,,
+81,4,ma,ma,CCONJ,cc,bastò,,,6.662005813
+82,4,non,non,ADV,advmod,bastò,,,7.259198169
+83,4,gli,gli,PRON,iobj,bastò,,,6.227520191
+84,4,bastò,bastare,VERB,conj,trovò,,,2.367014489
+85,4,,,PUNCT,punct,trovò,,,
+86,5,infatti,infatti,ADV,advmod,affamato,,,4.752024614
+87,5,,,PUNCT,punct,Infatti,,,
+88,5,il,il,DET,det,bruco,,,7.039560886
+89,5,piccolo,piccolo,ADJ,amod,bruco,,4.12 ± 3.18,5.291431625
+90,5,bruco,bruco,NOUN,nsubj,affamato,,,3.023432143
+91,5,era,essere,AUX,cop,affamato,,,6.283626334
+92,5,ancora,ancora,ADV,advmod,affamato,,,6.01813737
+93,5,affamato,affamato,ADJ,root,ROOT,,4.84 ± 2.15,3.853681062
+94,5,,,PUNCT,punct,affamato,,,
+95,6,il,il,DET,det,martedì,,,7.039560886
+96,6,martedì,martedì,NOUN,nsubj,mangiò,,,4.227152774
+97,6,mangiò,mangiare,VERB,root,ROOT,,3.24 ± 1.74,2.829412487
+98,6,attraverso,attraverso,ADP,case,pere,,,4.749271739
+99,6,due,due,NUM,nummod,pere,,,5.996192947
+100,6,pere,pera,NOUN,obl,mangiò,,3.96 ± 3.02,3.247828081
+101,6,,,PUNCT,punct,riempì,,,
+102,6,ma,ma,CCONJ,cc,riempì,,,6.662005813
+103,6,anche,anche,ADV,advmod,pasto,,,6.115086172
+104,6,questo,questo,DET,det,pasto,,,6.484206212
+105,6,pasto,pasto,NOUN,nsubj,riempì,,,4.135159074
+106,6,non,non,ADV,advmod,riempì,,,7.259198169
+107,6,lo,lo,PRON,obj,riempì,,,6.655915487
+108,6,riempì,riempire,VERB,conj,mangiò,,,2.571134472
+109,6,,,PUNCT,punct,affamato,,,
+110,6,era,essere,AUX,cop,affamato,,,6.283626334
+111,6,ancora,ancora,ADV,advmod,affamato,,,6.01813737
+112,6,affamato,affamato,ADJ,conj,mangiò,,4.84 ± 2.15,3.853681062
+113,6,,,PUNCT,punct,mangiò,,,
+114,7,il,il,DET,det,mercoledì,,,7.039560886
+115,7,mercoledì,mercoledì,NOUN,obl,trovò,,,4.101547635
+116,7,,,PUNCT,punct,trovò,,,
+117,7,invece,invece,ADV,advmod,trovò,,,5.298963672
+118,7,,,PUNCT,punct,invece,,,
+119,7,trovò,trovare,VERB,root,ROOT,,4.24 ± 1.61,3.799449264
+120,7,in,in,ADP,case,giardino,,,6.797274494
+121,7,un,uno,DET,det,giardino,,,7.065833912
+122,7,giardino,giardino,NOUN,obl,trovò,,4.28 ± 1.37,4.462997018
+123,7,ben,bene,ADV,advmod,tre,,,5.179214572
+124,7,tre,tre,NUM,nummod,prugne,,,5.607871462
+125,7,prugne,prugne,NOUN,obj,trovò,,,3.115202516
+126,7,e,e,CCONJ,cc,mangiò,,,2.741151583
+127,7,se,se,SCONJ,mark,mangiò,,,6.583110863
+128,7,le,le,PRON,obj,mangiò,,,6.624997683
+129,7,mangiò,mangiare,VERB,conj,trovò,,3.24 ± 1.74,2.829412487
+130,7,una,uno,PRON,nsubj,mangiò,,,6.801817508
+131,7,dopo,dopo,ADP,case,altra,,,5.792396528
+132,7,l’,il,DET,det,altra,,,
+133,7,altra,altro,PRON,obl,mangiò,,,5.649409994
+134,7,,,PUNCT,punct,trovò,,,
+135,8,dopo,dopo,SCONJ,mark,mangiato,,,5.792396528
+136,8,aver,avere,AUX,aux,mangiato,,,5.517433184
+137,8,mangiato,mangiare,VERB,advcl,pensava,,3.24 ± 1.74,4.655561789
+138,8,così,così,ADV,advmod,mangiato,,,6.287788074
+139,8,tanto,tanto,ADV,advmod,mangiato,,,5.656885745
+140,8,pensava,pensare,VERB,root,ROOT,,,4.499487644
+141,8,di,di,ADP,mark,pieno,,,7.232814475
+142,8,essere,essere,AUX,cop,pieno,,,6.225206681
+143,8,pieno,pieno,ADJ,ccomp,pensava,,4.56 ± 2.86,4.865876178
+144,8,,,PUNCT,punct,bastò,,,
+145,8,ma,ma,CCONJ,cc,bastò,,,6.662005813
+146,8,anche,anche,ADV,advmod,pranzetto,,,6.115086172
+147,8,questo,questo,DET,det,pranzetto,,,6.484206212
+148,8,pranzetto,pranzetto,NOUN,nsubj,bastò,,,2.622286994
+149,8,non,non,ADV,advmod,bastò,,,7.259198169
+150,8,gli,gli,PRON,iobj,bastò,,,6.227520191
+151,8,bastò,bastare,VERB,conj,pensava,,,2.367014489
+152,8,per,per,ADP,mark,sentir,,,6.912435835
+153,8,sentir,sentire,VERB,advcl,bastò,,4.24 ± 1.67,3.530374671
+154,8,si,si,PRON,expl,sentir,,,6.553884221
+155,8,sazio,sazio,ADJ,xcomp,sentir,,,2.741151583
+156,8,,,PUNCT,punct,aveva,,,
+157,8,aveva,avere,VERB,conj,pensava,,,5.632280537
+158,8,ancora,ancora,ADV,advmod,aveva,,,6.01813737
+159,8,fame,fame,NOUN,obj,aveva,,3.12 ± 1.59,4.862974884
+160,8,,,PUNCT,punct,pensava,,,
+161,9,il,il,DET,det,giovedì,,,7.039560886
+162,9,giovedì,giovedì,NOUN,nsubj,giorno,,,4.215614092
+163,9,fu,essere,AUX,cop,giorno,,,5.104021496
+164,9,un,uno,DET,det,giorno,,,7.065833912
+165,9,giorno,giorno,NOUN,root,ROOT,,3.80 ± 1.76,5.731502947
+166,9,fortunato,fortunato,ADJ,amod,giorno,,5.96 ± 2.01,4.644088623
+167,9,,,PUNCT,punct,mangiò,,,
+168,9,mangiò,mangiare,VERB,conj,giorno,,3.24 ± 1.74,2.829412487
+169,9,attraverso,attraverso,ADP,case,fragole,,,4.749271739
+170,9,quattro,quattro,NUM,nummod,fragole,,,5.206534435
+171,9,fragole,fragola,NOUN,obl,mangiò,,4.40 ± 2.04,3.52336169
+172,9,,,PUNCT,punct,giorno,,,
+173,10,ma,ma,CCONJ,cc,affamato,,,6.662005813
+174,10,era,essere,AUX,cop,affamato,,,6.283626334
+175,10,ancora,ancora,ADV,advmod,affamato,,,6.01813737
+176,10,affamato,affamato,ADJ,root,ROOT,,4.84 ± 2.15,3.853681062
+177,10,,,PUNCT,punct,affamato,,,
+178,11,il,il,DET,det,venerdì,,,7.039560886
+179,11,venerdì,venerdì,NOUN,obl,entrò,,,4.501085295
+180,11,entrò,entrare,VERB,root,ROOT,,,3.539228093
+181,11,in,in,ADP,case,parco,,,6.797274494
+182,11,un,uno,DET,det,parco,,,7.065833912
+183,11,bellissimo,bello,ADJ,amod,parco,,3.80 ± 2.35,4.65039111
+184,11,parco,parco,NOUN,obl,entrò,,,4.475917617
+185,11,,,PUNCT,punct,parco,,,
+186,11,dove,dove,ADV,advmod,trovò,,,6.018789847
+187,11,trovò,trovare,VERB,acl:relcl,parco,,4.24 ± 1.61,3.799449264
+188,11,cinque,cinque,NUM,nummod,arance,,,5.222170066
+189,11,arance,arancia,NOUN,obj,trovò,,3.20 ± 1.26,3.349285722
+190,11,cadute,caduto,ADJ,amod,arance,,,3.404440987
+191,11,,,PUNCT,punct,entrò,,,
+192,12,ma,ma,CCONJ,cc,affamato,,,6.662005813
+193,12,era,essere,AUX,cop,affamato,,,6.283626334
+194,12,ancora,ancora,ADV,advmod,affamato,,,6.01813737
+195,12,affamato,affamato,ADJ,root,ROOT,,4.84 ± 2.15,3.853681062
+196,12,,,PUNCT,punct,affamato,,,
+197,13,il,il,DET,det,sabato,,,7.039560886
+198,13,sabato,sabato,NOUN,obl,giorno,,,4.497562671
+199,13,,,PUNCT,punct,sabato,,,
+200,13,fu,essere,AUX,cop,giorno,,,5.104021496
+201,13,il,il,DET,det,giorno,,,7.039560886
+202,13,giorno,giorno,NOUN,root,ROOT,,3.80 ± 1.76,5.731502947
+203,13,più,più,ADV,advmod,ricco,,,6.382555861
+204,13,ricco,ricco,ADJ,amod,giorno,,6.67 ± 2.51,4.420860916
+205,13,,,PUNCT,punct,mangiò,,,
+206,13,mangiò,mangiare,VERB,conj,giorno,,3.24 ± 1.74,2.829412487
+207,13,attraverso,attraverso,ADP,case,pezzo,,,4.749271739
+208,13,un,uno,DET,det,pezzo,,,7.065833912
+209,13,pezzo,pezzo,NOUN,obl,mangiò,,,4.907135319
+210,13,di,di,ADP,case,torta,,,7.232814475
+211,13,torta,torta,NOUN,nmod,pezzo,,2.96 ± 0.93,4.610796405
+212,13,a,a,ADP,case,cioccolato,,,7.004335738
+213,13,il,il,DET,det,cioccolato,,,7.039560886
+214,13,cioccolato,cioccolato,NOUN,nmod,torta,,3.52 ± 1.45,4.259294648
+215,13,…,…,PUNCT,punct,mangiò,,,
+216,13,un,uno,DET,det,cono,,,7.065833912
+217,13,cono,cono,NOUN,parataxis,mangiò,,,3.329225928
+218,13,gelato…,gelato…,ADJ,amod,cono,,,
+219,13,,,PUNCT,punct,giorno,,,
+220,14,un,uno,DET,det,cetriolino…,,,7.065833912
+221,14,cetriolino…,cetriolino…,NOUN,nmod,fetta,,,
+222,14,una,uno,DET,det,fetta,,,6.801817508
+223,14,fetta,fetta,NOUN,root,ROOT,,4.88 ± 1.99,3.853208746
+224,14,di,di,ADP,case,formaggio,,,7.232814475
+225,14,formaggio,formaggio,NOUN,nmod,fetta,,4.64 ± 1.73,4.324621776
+226,14,svizzero,svizzero,ADJ,amod,formaggio,,,3.2981332
+227,14,,,PUNCT,punct,fetta,,,
+228,14,una,uno,DET,det,fetta,,,6.801817508
+229,14,fetta,fetta,NOUN,conj,fetta,,4.88 ± 1.99,3.853208746
+230,14,di,di,ADP,case,salame,,,7.232814475
+231,14,salame,salame,NOUN,nmod,fetta,,,3.379851714
+232,14,,,PUNCT,punct,lecca,,,
+233,14,un,uno,DET,det,lecca,,,7.065833912
+234,14,lecca,leccare,NOUN,conj,fetta,,5.16 ± 3.29,3.50479045
+235,14,lecca,leccio,ADJ,amod,lecca,,,3.50479045
+236,14,,,PUNCT,punct,fetta,,,
+237,14,una,uno,DET,det,fetta,,,6.801817508
+238,14,fetta,fetta,NOUN,conj,fetta,,4.88 ± 1.99,3.853208746
+239,14,di,di,ADP,case,torta,,,7.232814475
+240,14,torta,torta,NOUN,nmod,fetta,,2.96 ± 0.93,4.610796405
+241,14,di,di,ADP,case,ciliegie,,,7.232814475
+242,14,ciliegie,ciliegia,NOUN,nmod,torta,,5.88 ± 2.07,3.140313237
+243,14,,,PUNCT,punct,salsiccia,,,
+244,14,una,uno,DET,det,salsiccia,,,6.801817508
+245,14,salsiccia,salsiccia,NOUN,conj,fetta,,,3.638081261
+246,14,,,PUNCT,punct,fetta,,,
+247,15,un,uno,DET,det,cupcake,,,7.065833912
+248,15,cupcake,cupcake,NOUN,root,ROOT,,,3.532357755
+249,15,e,e,CCONJ,cc,fetta,,,2.741151583
+250,15,una,uno,DET,det,fetta,,,6.801817508
+251,15,fetta,fetta,NOUN,conj,cupcake,,4.88 ± 1.99,3.853208746
+252,15,di,di,ADP,case,anguria,,,7.232814475
+253,15,anguria,anguria,NOUN,nmod,fetta,,4.40 ± 1.87,2.946798086
+254,15,,,PUNCT,punct,ebbe,,,
+255,15,ma,ma,CCONJ,cc,ebbe,,,6.662005813
+256,15,quella,quello,DET,det,notte,,,5.939281839
+257,15,notte,notte,NOUN,obl,ebbe,,3.28 ± 1.34,5.521062946
+258,15,,,PUNCT,punct,ebbe,,,
+259,15,purtroppo,purtroppo,ADV,advmod,ebbe,,,4.458094958
+260,15,,,PUNCT,punct,purtroppo,,,
+261,15,ebbe,avere,VERB,conj,cupcake,,,3.961038525
+262,15,un,uno,DET,det,mal,,,7.065833912
+263,15,mal,male,NOUN,obj,ebbe,,,4.431722001
+264,15,di,di,ADP,case,pancia,,,7.232814475
+265,15,pancia,pancia,NOUN,nmod,mal,,4.92 ± 1.68,4.162199079
+266,15,,,PUNCT,punct,cupcake,,,
+267,16,il,il,DET,det,giorno,,,7.039560886
+268,16,giorno,giorno,NOUN,obl,domenica,,3.80 ± 1.76,5.731502947
+269,16,dopo,dopo,ADV,advmod,giorno,,,5.792396528
+270,16,,,PUNCT,punct,giorno,,,
+271,16,fu,essere,AUX,cop,domenica,,,5.104021496
+272,16,di,di,ADP,case,domenica,,,7.232814475
+273,16,nuovo,nuovo,ADJ,amod,domenica,,3.72 ± 1.54,5.649402438
+274,16,domenica,domenica,NOUN,root,ROOT,,,4.456212856
+275,16,,,PUNCT,punct,domenica,,,
+276,16,il,il,DET,det,bruco,,,7.039560886
+277,16,bruco,bruco,NOUN,nsubj,domenica,,,3.023432143
+278,16,,,PUNCT,punct,cambiò,,,
+279,16,cambiò,cambiare,VERB,conj,domenica,,,3.467385034
+280,16,menù,menù,NOUN,obj,cambiò,,,3.686467568
+281,16,e,e,CCONJ,cc,mangiò,,,2.741151583
+282,16,mangiò,mangiare,VERB,conj,domenica,,3.24 ± 1.74,2.829412487
+283,16,soltanto,soltanto,ADV,advmod,mangiò,,,4.944582877
+284,16,una,uno,DET,det,foglia,,,6.801817508
+285,16,bella,bello,ADJ,amod,foglia,,3.80 ± 2.35,5.484893151
+286,16,foglia,foglia,NOUN,obj,mangiò,,4.08 ± 1.63,3.524370505
+287,16,verde,verde,ADJ,amod,foglia,,3.84 ± 1.37,4.586948127
+288,16,e,e,CCONJ,cc,sentì,,,2.741151583
+289,16,dopo,dopo,ADV,case,questo,,,5.792396528
+290,16,di,di,ADP,fixed,dopo,,,7.232814475
+291,16,questo,questo,PRON,obl,sentì,,,6.484206212
+292,16,si,si,PRON,expl,sentì,,,6.553884221
+293,16,sentì,sentire,VERB,conj,domenica,,4.24 ± 1.67,3.420092933
+294,16,molto,molto,ADV,advmod,meglio,,,6.102695876
+295,16,meglio,meglio,ADV,advmod,sentì,,,5.752066371
+296,16,,,PUNCT,punct,affamato,,,
+297,16,ora,ora,ADV,advmod,affamato,,,6.195882677
+298,16,non,non,ADV,advmod,affamato,,,7.259198169
+299,16,era,essere,AUX,cop,affamato,,,6.283626334
+300,16,più,più,ADV,advmod,affamato,,,6.382555861
+301,16,affamato,affamato,ADJ,conj,domenica,,4.84 ± 2.15,3.853681062
+302,16,e,e,CCONJ,cc,bruco,,,2.741151583
+303,16,non,non,ADV,advmod,bruco,,,7.259198169
+304,16,era,essere,AUX,cop,bruco,,,6.283626334
+305,16,più,più,ADV,advmod,bruco,,,6.382555861
+306,16,un,uno,DET,det,bruco,,,7.065833912
+307,16,piccolo,piccolo,ADJ,amod,bruco,,4.12 ± 3.18,5.291431625
+308,16,bruco,bruco,NOUN,conj,affamato,,,3.023432143
+309,16,,,PUNCT,punct,bruco,,,
+310,16,anzi,anzi,ADV,advmod,bruco,,,4.520422806
+311,16,,,PUNCT,punct,bruco,,,
+312,16,era,essere,AUX,cop,bruco,,,6.283626334
+313,16,un,uno,DET,det,bruco,,,7.065833912
+314,16,bruco,bruco,NOUN,conj,affamato,,,3.023432143
+315,16,grande,grande,ADJ,amod,bruco,,4.64 ± 2.04,5.615282093
+316,16,e,e,CCONJ,cc,cicciotto,,,2.741151583
+317,16,cicciotto,cicciotto,ADJ,conj,grande,,,2.421372151
+318,16,,,PUNCT,punct,domenica,,,
+319,17,finalmente,finalmente,ADV,advmod,costruì,,,4.939266335
+320,17,satollo,satollo,ADJ,amod,costruì,,,1.367014489
+321,17,e,e,CCONJ,cc,felice,,,2.741151583
+322,17,felice,felice,ADJ,conj,satollo,,4.32 ± 2.94,5.318513907
+323,17,si,si,PRON,expl,costruì,,,6.553884221
+324,17,costruì,costruire,VERB,root,ROOT,,5.40 ± 2.74,3.137866501
+325,17,intorno,intorno,ADV,case,sé,,,4.86047254
+326,17,a,a,ADP,fixed,intorno,,,7.004335738
+327,17,sé,sé,PRON,obl,costruì,,,4.255006666
+328,17,,,PUNCT,punct,casetta,,,
+329,17,una,uno,DET,det,casetta,,,6.801817508
+330,17,bella,bello,ADJ,amod,casetta,,3.80 ± 2.35,5.484893151
+331,17,casetta,casetta,NOUN,appos,sé,,3.96 ± 1.67,3.630255924
+332,17,,,PUNCT,punct,casetta,,,
+333,17,che,che,PRON,nsubj,chiama,,,7.250456545
+334,17,si,si,PRON,expl,chiama,,,6.553884221
+335,17,chiama,chiamare,VERB,acl:relcl,casetta,,,5.287068211
+336,17,bozzolo,bozzolo,NOUN,xcomp,chiama,,,2.919277012
+337,17,,,PUNCT,punct,costruì,,,
+338,18,rimase,rimanere,VERB,root,ROOT,,,3.767840186
+339,18,a,a,ADP,case,interno,,,7.004335738
+340,18,l’,il,DET,det,interno,,,
+341,18,interno,interno,NOUN,obl,Rimase,,,4.702071009
+342,18,di,di,ADP,case,casetta,,,7.232814475
+343,18,la,il,DET,det,casetta,,,7.055331658
+344,18,sua,suo,DET,det:poss,casetta,,,6.022524285
+345,18,piccola,piccolo,ADJ,amod,casetta,,4.12 ± 3.18,5.234049628
+346,18,e,e,CCONJ,cc,stretta,,,2.741151583
+347,18,stretta,stretto,ADJ,conj,piccola,,,4.074868425
+348,18,casetta,casetta,NOUN,nmod,interno,,3.96 ± 1.67,3.630255924
+349,18,per,per,ADP,case,più,,,6.912435835
+350,18,più,più,PRON,obl,Rimase,,,6.382555861
+351,18,di,di,ADP,case,settimane,,,7.232814475
+352,18,due,due,NUM,nummod,settimane,,,5.996192947
+353,18,settimane,settimana,NOUN,nmod,più,,,5.017581022
+354,18,,,PUNCT,punct,Rimase,,,
+355,19,poi,poi,ADV,advmod,rosicchiò,,,5.853751865
+356,19,,,PUNCT,punct,Poi,,,
+357,19,quando,quando,SCONJ,mark,sentì,,,6.212844009
+358,19,si,si,PRON,expl,sentì,,,6.553884221
+359,19,sentì,sentire,VERB,advcl,rosicchiò,,4.24 ± 1.67,3.420092933
+360,19,pronto,pronto,ADJ,xcomp,sentì,,,5.462393089
+361,19,ad,a,ADP,mark,uscire,,,5.934389877
+362,19,uscire,uscire,VERB,advcl,pronto,,4.28 ± 2.32,5.293751258
+363,19,,,PUNCT,punct,sentì,,,
+364,19,rosicchiò,rosicchiare,VERB,root,ROOT,,,
+365,19,un,uno,DET,det,buco,,,7.065833912
+366,19,buco,buco,NOUN,obj,rosicchiò,,,4.52628082
+367,19,in,in,ADP,case,bozzolo,,,6.797274494
+368,19,il,il,DET,det,bozzolo,,,7.039560886
+369,19,bozzolo,bozzolo,NOUN,obl,rosicchiò,,,2.919277012
+370,19,,,PUNCT,punct,spinse,,,
+371,19,si,si,PRON,expl,spinse,,,6.553884221
+372,19,spinse,spingere,VERB,conj,rosicchiò,,4.88 ± 1.48,3.023432143
+373,19,fuori,fuori,ADV,advmod,spinse,,,5.872607584
+374,19,con,con,ADP,case,forze,,,6.620271703
+375,19,tutte,tutto,DET,det:predet,forze,,,5.553895518
+376,19,le,il,DET,det,forze,,,6.624997683
+377,19,sue,suo,DET,det:poss,forze,,,5.298082303
+378,19,forze,forza,NOUN,obl,spinse,,,4.523260679
+379,19,e,e,CCONJ,cc,diventò,,,2.741151583
+380,19,diventò,diventare,VERB,conj,rosicchiò,,,3.563835233
+381,19,una,uno,DET,det,farfalla,,,6.801817508
+382,19,bellissima,bello,ADJ,amod,farfalla,,3.80 ± 2.35,4.752203544
+383,19,farfalla,farfalla,NOUN,xcomp,diventò,,3.64 ± 1.35,3.691296944
+384,19,,,PUNCT,punct,rosicchiò,,,

@@ -4,7 +4,6 @@ import json
 import math
 import string
 from collections import Counter
-import matplotlib.pyplot as plt
 import pandas as pd
 import stanza
 from nltk import bigrams
@@ -53,8 +52,6 @@ def process_text_file(filepath, output_dir):
             raw_lemma = word.lemma
             clean_token = raw_token.lower().translate(str.maketrans("","", string.punctuation)) #bisogna capire perché non ha eliminato tutta la punteggiatura, ""--> sono rimasti
             clean_lemma = raw_lemma.translate(str.maketrans("","",string.punctuation))
-            tokens.append(raw_token)
-            lemma.append(raw_lemma)
             clean_tokens.append(clean_token)
             clean_lemmas.append(clean_lemma)
             PoS.append(word.pos)
@@ -74,7 +71,7 @@ def process_text_file(filepath, output_dir):
 
     df = pd.DataFrame({
         "sentence_ids": sentence_ids,
-        "tokens_no_punct": clean_tokens, #non sono utili entrambi, forse va bene anche solo questo no punct
+        "tokens_no_punct": clean_tokens, 
         "lemma_no_punct": clean_lemmas,
         "PoS": PoS,
         "depparse": depparse,
@@ -85,6 +82,8 @@ def process_text_file(filepath, output_dir):
     df["AoA(m+sd)"] = df["lemma_no_punct"].map(aoa_dict)
     df["Zipf_freq"] = df["tokens_no_punct"].map(freq_dict)
 
+    df["token_id"] = range(1, len(df)+1)
+    df = df[["token_id", "sentence_ids", "tokens_no_punct", "lemma_no_punct", "PoS", "depparse", "head", "constituency", "AoA(m+sd)", "Zipf_freq"]]
 
     name_base = os.path.splitext(os.path.basename(filepath))[0]
     file_output_dir = os.path.join (output_dir, name_base)
@@ -93,36 +92,12 @@ def process_text_file(filepath, output_dir):
     df.to_csv(csv_path, index=False)
     logging.info(f"Saved CSV: {csv_path}")
     
-    #eliminato per ora
-    # # Frequency plot
-    # lemma_freq = Counter(clean_lemmas)
-    # sorted_lemma = lemma_freq.most_common()
-    # labels, values = zip(*sorted_lemma)
-
-    # plt.style.use("seaborn-v0_8")
-    # plt.figure(figsize=(10, 6))
-    # plt.bar(labels, values, color="powderblue")
-    # plt.plot(labels, values, color='lightsteelblue', linestyle='-', linewidth=2)
-    # step = max(1, len(labels) // 10)  
-    # xticks_positions = list(range(0, len(labels), step))
-    # xticks_labels = [labels[i] for i in xticks_positions]
-    
-    # plt.xticks(xticks_positions, xticks_labels, rotation=45)
-
-    # plt.title(f"Lemma Frequency: {name_base}")
-    # plt.xlabel("Lemma")
-    # plt.ylabel("Frequency")
-    # plt.tight_layout()
-
-    # plot_path = os.path.join(file_output_dir, f"{name_base}_lemma_freq.png")
-    # plt.savefig(plot_path)
-    # plt.close()
-    # logging.info(f"Saved plot: {plot_path}")
-
     #statistics
+    clean_tokens = [t for t in clean_tokens if t.strip()]
+    clean_lemmas = [l for l in clean_lemmas if l.strip()]
     num_tokens = len(clean_tokens)
     num_sentence = len(doc.sentences)
-    num_lemmas = len(clean_lemma)
+    num_lemmas = len(clean_lemmas)
     num_types = len(set(clean_lemmas))
     ttr = num_types/num_lemmas if num_lemmas > 0 else 0
     sentence_lengths = [len(sentence.tokens) for sentence in doc.sentences]
@@ -139,7 +114,7 @@ def process_text_file(filepath, output_dir):
 
 
     zipf_values = df["Zipf_freq"].dropna()
-    zipf_mean = zipf_values.mean() #zipf 5 = parole comuni, zipf<3 --> parole rare
+    zipf_mean = zipf_values.mean()
     zipf_std = zipf_values.std()
     rare_words = zipf_values[zipf_values <3]
     percent_rare = len(rare_words)/len(zipf_values) * 100
@@ -147,9 +122,13 @@ def process_text_file(filepath, output_dir):
     num_letters = sum(len(t) for t in clean_tokens if t)
     gulpease = 89 + (300 * num_sentence - 10 * num_letters)/ num_tokens if num_tokens > 0 else 0
     # https://it.wikipedia.org/wiki/Indice_Gulpease G <40 = testo difficile
-    top_lemmas = Counter(clean_lemma).most_common(20)
-    bigram_list = list(bigrams(clean_lemmas))
-    top_bigrams = Counter(bigram_list).most_common(10)
+    bigram_list = list(bigrams(clean_tokens))
+    lemma_freq = Counter(clean_lemmas)
+    top_lemmas = lemma_freq.most_common(20)
+    top_lemmas_rel = [f"{lemma} ({round(count / num_tokens * 100, 1)}%)" for lemma, count in top_lemmas]
+    bigram_freq = Counter(bigram_list)
+    top_bigrams = bigram_freq.most_common(10)
+    top_bigrams_rel = [f"{a} {b} ({round(count / len(bigram_list) * 100, 1)}%)" for (a, b), count in top_bigrams]
 
     summary_stats = {
     "num_tokens": num_tokens,
@@ -160,16 +139,26 @@ def process_text_file(filepath, output_dir):
     "avg_sentence_length": round(avg_sentence_length, 2),
     "Zipf_mean": round(zipf_mean, 2),
     "Zipf_std": round(zipf_std, 2),
+    "Zipf_freq": f"{zipf_mean:.2f} ± {zipf_std:.2f}",
     "percent_rare_words": round(percent_rare, 2),
     "Gulpease_index": round(gulpease, 2),
-    "top_lemmas": top_lemmas,
-    "top_bigrams": [f"{a} {b}" for (a, b), _ in top_bigrams],
+    "top_lemmas": top_lemmas_rel,
+    "top_bigrams": top_bigrams_rel,
+    
     "num_function_words": num_function_words,
-    "num_content_words": num_content_words,
-    "num_verbs": num_verbs,
-    "num_adjectives": num_adjectives,
-    "num_nouns": num_nouns
+    "num_function_words_display": f"{num_function_words} ({round(num_function_words / num_tokens * 100, 1)}%)",
 
+    "num_content_words": num_content_words,
+    "num_content_words_display": f"{num_content_words} ({round(num_content_words / num_tokens * 100, 1)}%)",
+
+    "num_verbs": num_verbs,
+    "num_verbs_display": f"{num_verbs} ({round(num_verbs / num_tokens * 100, 1)}%)",
+
+    "num_adjectives": num_adjectives,
+    "num_adjectives_display": f"{num_adjectives} ({round(num_adjectives / num_tokens * 100, 1)}%)",
+
+    "num_nouns": num_nouns,
+    "num_nouns_display": f"{num_nouns} ({round(num_nouns / num_tokens * 100, 1)}%)"
     }
 
    

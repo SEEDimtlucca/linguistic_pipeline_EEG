@@ -1,404 +1,404 @@
-sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
-0,il,il,DET,det,fatto,,,7.039560886
-0,fatto,fatto,NOUN,nsubj,è,,,6.237129549
-0,è,essere,VERB,root,ROOT,,,7.249521761
-0,,,PUNCT,punct,è,,,
-1,il,il,DET,det,fatto,,,7.039560886
-1,fatto,fatto,NOUN,nsubj,è,,,6.237129549
-1,è,essere,VERB,root,ROOT,,,7.249521761
-1,che,che,SCONJ,mark,decisa,,,7.250456545
-1,la,il,DET,det,paperetta,,,7.055331658
-1,paperetta,paperetta,NOUN,nsubj,decisa,,,1.734991274
-1,non,non,ADV,advmod,decisa,,,7.259198169
-1,si,si,PRON,expl,decisa,,,6.553884221
-1,era,essere,AUX,aux,decisa,,,6.283626334
-1,ancora,ancora,ADV,advmod,decisa,,,6.01813737
-1,decisa,decidere,VERB,ccomp,è,,,3.49086613
-1,a,a,ADP,mark,tuffar,,,7.004335738
-1,tuffar,tuffare,VERB,xcomp,decisa,,,
-1,si,si,PRON,expl,tuffar,,,6.553884221
-1,in,in,ADP,case,stagno,,,6.797274494
-1,lo,il,DET,det,stagno,,,6.655915487
-1,stagno,stagno,NOUN,obl,tuffar,,,3.560139087
-1,,,PUNCT,punct,è,,,
-2,così,così,ADV,advmod,spiegò,,,6.287788074
-2,l’,il,DET,det,anatra,,,
-2,anatra,anatra,NOUN,nsubj,spiegò,,5.12 ± 2.19,3.698104207
-2,,,PUNCT,punct,anatra,,,
-2,su,su,ADP,case,bordo,,,6.000068652
-2,il,il,DET,det,bordo,,,7.039560886
-2,bordo,bordo,NOUN,obl,spiegò,,6.40 ± 2.47,4.652271664
-2,di,di,ADP,case,specchio,,,7.232814475
-2,lo,il,DET,det,specchio,,,6.655915487
-2,specchio,specchio,NOUN,nmod,bordo,,4.64 ± 2.41,4.26901738
-2,d’,di,ADP,case,acqua,,,
-2,acqua,acqua,NOUN,nmod,specchio,,2.96 ± 1.24,5.23681316
-2,,,PUNCT,punct,anatra,,,
-2,le,le,PRON,iobj,spiegò,,,6.624997683
-2,spiegò,spiegare,VERB,root,ROOT,,,2.848934627
-2,,,PUNCT,punct,spiegò,,,
-2,con,con,ADP,case,pazienza,,,6.620271703
-2,pazienza,pazienza,NOUN,obl,spiegò,,,4.350189561
-2,,,PUNCT,punct,spiegò,,,
-2,i,il,DET,det,vantaggi,,,6.584780852
-2,vantaggi,vantaggio,NOUN,obj,spiegò,,7.76 ± 2.31,3.70943717
-2,di,di,ADP,case,nuoto,,,7.232814475
-2,il,il,DET,det,nuoto,,,7.039560886
-2,nuoto,nuoto,NOUN,nmod,vantaggi,,,3.729999329
-2,,,PUNCT,punct,spiegò,,,
-3,ma,ma,CCONJ,cc,riuscì,,,6.662005813
-3,non,non,ADV,advmod,riuscì,,,7.259198169
-3,le,le,PRON,iobj,riuscì,,,6.624997683
-3,riuscì,riuscire,VERB,root,ROOT,,,3.594043751
-3,affatto,affatto,ADV,advmod,riuscì,,,4.736972096
-3,di,di,ADP,mark,convincer,,,7.232814475
-3,convincer,convincere,VERB,xcomp,riuscì,,,1.367014489
-3,la,la,PRON,obj,convincer,,,7.055331658
-3,e,e,CCONJ,cc,decise,,,2.741151583
-3,,,PUNCT,punct,decise,,,
-3,vedendo,vedere,VERB,advcl,decise,,4.60 ± 1.50,3.97696444
-3,che,che,SCONJ,mark,otteneva,,,7.250456545
-3,con,con,ADP,case,buone,,,6.620271703
-3,le,il,DET,det,buone,,,6.624997683
-3,buone,buono,ADJ,obl,otteneva,,3.48 ± 1.50,4.709700299
-3,non,non,ADV,advmod,otteneva,,,7.259198169
-3,otteneva,ottenere,VERB,ccomp,vedendo,,,2.533345911
-3,nu,nu,ADV,advmod,la,,,3.640401629
-3,la,la,PRON,obj,otteneva,,,7.055331658
-3,,,PUNCT,punct,vedendo,,,
-3,decise,decidere,VERB,conj,riuscì,,,3.766688211
-3,senz’,senz,ADP,case,altro,,,
-3,altro,altro,PRON,obl,decise,,,5.925371002
-3,di,di,ADP,mark,spinger,,,7.232814475
-3,spinger,spingere,VERB,xcomp,decise,,4.88 ± 1.48,1.19092323
-3,la,la,PRON,obj,spinger,,,7.055331658
-3,in,in,ADP,case,acqua,,,6.797274494
-3,acqua,acqua,NOUN,obl,spinger,,2.96 ± 1.24,5.23681316
-3,,,PUNCT,punct,riuscì,,,
-4,senza,senza,ADP,case,successo,,,5.710022415
-4,alcun,alcuno,DET,det,successo,,,4.714084175
-4,successo,successo,NOUN,root,ROOT,,7.56 ± 2.83,5.64883539
-4,,,PUNCT,punct,successo,,,
-5,a,a,ADP,case,punto,,,7.004335738
-5,quel,quello,DET,det,punto,,,5.90824416
-5,punto,punto,NOUN,obl,chiamò,,,5.322012335
-5,,,PUNCT,punct,punto,,,
-5,l’,il,DET,det,anatra,,,
-5,anatra,anatra,NOUN,nsubj,chiamò,,5.12 ± 2.19,3.698104207
-5,indispettita,indispettito,ADJ,amod,anatra,,,1.491953226
-5,,,PUNCT,punct,anatra,,,
-5,chiamò,chiamare,VERB,root,ROOT,,,3.683683619
-5,in,in,ADP,case,aiuto,,,6.797274494
-5,aiuto,aiuto,NOUN,obl,chiamò,,,5.40063926
-5,il,il,DET,det,gatto,,,7.039560886
-5,gatto,gatto,NOUN,obj,chiamò,,2.56 ± 1.26,4.503840711
-5,,,PUNCT,punct,chiamò,,,
-6,il,il,DET,det,gatto,,,7.039560886
-6,gatto,gatto,NOUN,nsubj,spinse,,2.56 ± 1.26,4.503840711
-6,spinse,spingere,VERB,root,ROOT,,4.88 ± 1.48,3.023432143
-6,l’,il,DET,det,anatra,,,
-6,anatra,anatra,NOUN,obj,spinse,,5.12 ± 2.19,3.698104207
-6,,,PUNCT,punct,anatra,,,
-6,che,che,PRON,nsubj,spingeva,,,7.250456545
-6,spingeva,spingere,VERB,acl:relcl,anatra,,4.88 ± 1.48,2.958079096
-6,la,il,DET,det,paperetta,,,7.055331658
-6,paperetta,paperetta,NOUN,obj,spingeva,,,1.734991274
-6,,,PUNCT,punct,paperetta,,,
-6,che,che,PRON,nsubj,mosse,,,7.250456545
-6,nemmeno,nemmeno,ADV,advmod,mosse,,,5.368733783
-6,si,si,PRON,expl,mosse,,,6.553884221
-6,mosse,muovere,VERB,acl:relcl,paperetta,,,3.868530183
-6,,,PUNCT,punct,spinse,,,
-7,chiamarono,chiamare,VERB,root,ROOT,,,3.112609706
-7,allora,allora,ADV,advmod,Chiamarono,,,6.072527547
-7,il,il,DET,det,cane,,,7.039560886
-7,cane,cane,NOUN,nsubj,Chiamarono,,2.76 ± 1.23,5.020066123
-7,,,PUNCT,punct,cane,,,
-7,che,che,PRON,nsubj,spinse,,,7.250456545
-7,spinse,spingere,VERB,acl:relcl,cane,,4.88 ± 1.48,3.023432143
-7,il,il,DET,det,gatto,,,7.039560886
-7,gatto,gatto,NOUN,obj,spinse,,2.56 ± 1.26,4.503840711
-7,,,PUNCT,punct,gatto,,,
-7,che,che,PRON,nsubj,spingeva,,,7.250456545
-7,spingeva,spingere,VERB,acl:relcl,gatto,,4.88 ± 1.48,2.958079096
-7,l’,il,DET,det,anatra,,,
-7,anatra,anatra,NOUN,obj,spingeva,,5.12 ± 2.19,3.698104207
-7,,,PUNCT,punct,anatra,,,
-7,che,che,PRON,nsubj,spingeva,,,7.250456545
-7,spingeva,spingere,VERB,acl:relcl,anatra,,4.88 ± 1.48,2.958079096
-7,la,il,DET,det,paperetta,,,7.055331658
-7,paperetta,paperetta,NOUN,obj,spingeva,,,1.734991274
-7,che,che,PRON,nsubj,sembrava,,,7.250456545
-7,sembrava,sembrare,VERB,acl:relcl,paperetta,,,4.840112001
-7,incollata,incollare,VERB,xcomp,sembrava,,,2.834375907
-7,a,a,ADP,case,terra,,,7.004335738
-7,terra,terra,NOUN,obl,incollata,,4.52 ± 2.87,5.30993154
-7,,,PUNCT,punct,Chiamarono,,,
-8,infine,infine,ADV,advmod,arrivò,,,3.973037378
-8,,,PUNCT,punct,Infine,,,
-8,arrivò,arrivare,VERB,root,ROOT,,,3.97589694
-8,anche,anche,ADV,advmod,tacchino,,,6.115086172
-8,il,il,DET,det,tacchino,,,7.039560886
-8,tacchino,tacchino,NOUN,nsubj,arrivò,,5.08 ± 1.80,3.919277012
-8,che,che,PRON,nsubj,spinse,,,7.250456545
-8,spinse,spingere,VERB,acl:relcl,tacchino,,4.88 ± 1.48,3.023432143
-8,il,il,DET,det,cane,,,7.039560886
-8,cane,cane,NOUN,obj,spinse,,2.76 ± 1.23,5.020066123
-8,,,PUNCT,punct,cane,,,
-8,che,che,PRON,nsubj,spingeva,,,7.250456545
-8,spingeva,spingere,VERB,acl:relcl,cane,,4.88 ± 1.48,2.958079096
-8,il,il,DET,det,gatto,,,7.039560886
-8,gatto,gatto,NOUN,obj,spingeva,,2.56 ± 1.26,4.503840711
-8,,,PUNCT,punct,gatto,,,
-8,che,che,PRON,nsubj,spingeva,,,7.250456545
-8,spingeva,spingere,VERB,acl:relcl,gatto,,4.88 ± 1.48,2.958079096
-8,l’,il,DET,det,anatra,,,
-8,anatra,anatra,NOUN,obj,spingeva,,5.12 ± 2.19,3.698104207
-8,,,PUNCT,punct,anatra,,,
-8,che,che,PRON,nsubj,spingeva,,,7.250456545
-8,spingeva,spingere,VERB,acl:relcl,anatra,,4.88 ± 1.48,2.958079096
-8,la,il,DET,det,paperetta,,,7.055331658
-8,paperetta,paperetta,NOUN,obj,spingeva,,,1.734991274
-8,,,PUNCT,punct,paperetta,,,
-8,che,che,PRON,nsubj,spostava,,,7.250456545
-8,non,non,ADV,advmod,spostava,,,7.259198169
-8,si,si,PRON,expl,spostava,,,6.553884221
-8,spostava,spostare,VERB,acl:relcl,paperetta,,,2.561991092
-8,di,di,ADP,case,millimetro,,,7.232814475
-8,un,uno,DET,det,millimetro,,,7.065833912
-8,millimetro,millimetro,NOUN,obl,spostava,,,2.911082533
-8,,,PUNCT,punct,arrivò,,,
-9,e,e,CCONJ,cc,incominciò,,,2.741151583
-9,proprio,proprio,ADV,advmod,sembrò,,,5.884320377
-9,quando,quando,SCONJ,mark,sembrò,,,6.212844009
-9,sembrò,sembrare,VERB,advcl,incominciò,,,3.255381219
-9,che,che,SCONJ,mark,venir,,,7.250456545
-9,la,il,DET,det,resistenza,,,7.055331658
-9,sua,suo,DET,det:poss,resistenza,,,6.022524285
-9,resistenza,resistenza,NOUN,nsubj,venir,,,4.222735501
-9,potesse,potere,AUX,aux,venir,,,4.643246447
-9,venir,venire,VERB,ccomp,sembrò,,4.80 ± 2.10,3.812618692
-9,meno,meno,ADV,advmod,venir,,,5.428567488
-9,,,PUNCT,punct,sembrò,,,
-9,il,il,DET,det,tacchino,,,7.039560886
-9,tacchino,tacchino,NOUN,nsubj,incominciò,,5.08 ± 1.80,3.919277012
-9,incominciò,incominciare,VERB,root,ROOT,,,2.458094958
-9,ad,a,ADP,mark,urlare,,,5.934389877
-9,urlare,urlare,VERB,xcomp,incominciò,,,4.239559218
-9,,,PUNCT,punct,incominciò,,,
-10,“,“,PUNCT,punct,lupo,,,
-10,a,a,ADP,case,lupo,,,7.004335738
-10,il,il,DET,det,lupo,,,7.039560886
-10,lupo,lupo,NOUN,root,ROOT,,3.92 ± 0.86,4.449560513
-10,,,PUNCT,punct,lupo,,,
-11,a,a,ADP,case,lupo,,,7.004335738
-11,il,il,DET,det,lupo,,,7.039560886
-11,lupo,lupo,NOUN,root,ROOT,,3.92 ± 0.86,4.449560513
-11,,,PUNCT,punct,lupo,,,
-11,”,”,PUNCT,punct,lupo,,,
-11,,,PUNCT,punct,lupo,,,
-12,e,e,CCONJ,cc,tuffarono,,,2.741151583
-12,tutti,tutto,PRON,nsubj,tuffarono,,,6.110511188
-12,si,si,PRON,expl,tuffarono,,,6.553884221
-12,tuffarono,tuffare,VERB,root,ROOT,,,1.734991274
-12,in,in,ADP,case,stagno,,,6.797274494
-12,lo,il,DET,det,stagno,,,6.655915487
-12,stagno,stagno,NOUN,obl,tuffarono,,,3.560139087
-12,,,PUNCT,punct,tuffarono,,,
-13,no,No,INTJ,discourse,tutti,,,6.605764599
-13,,,PUNCT,punct,No,,,
-13,non,non,ADV,advmod,tutti,,,7.259198169
-13,tutti,tutto,PRON,root,ROOT,,,6.110511188
-13,,,PUNCT,punct,tutti,,,
-14,naturalmente,naturalmente,ADV,advmod,rimase,,,4.707061807
-14,la,il,DET,det,paperetta,,,7.055331658
-14,paperetta,paperetta,NOUN,nsubj,rimase,,,1.734991274
-14,rimase,rimanere,VERB,root,ROOT,,,3.767840186
-14,a,a,ADP,case,posto,,,7.004335738
-14,il,il,DET,det,posto,,,7.039560886
-14,suo,suo,DET,det:poss,posto,,,6.051850878
-14,posto,posto,NOUN,obl,rimase,,,5.771979272
-14,,,PUNCT,punct,rimase,,,
-15,l’,il,DET,det,anatra,,,
-15,anatra,anatra,NOUN,nsubj,urlarono,,5.12 ± 2.19,3.698104207
-15,,,PUNCT,punct,gatto,,,
-15,il,il,DET,det,gatto,,,7.039560886
-15,gatto,gatto,NOUN,conj,anatra,,2.56 ± 1.26,4.503840711
-15,,,PUNCT,punct,cane,,,
-15,il,il,DET,det,cane,,,7.039560886
-15,cane,cane,NOUN,conj,anatra,,2.76 ± 1.23,5.020066123
-15,,,PUNCT,punct,tacchino,,,
-15,il,il,DET,det,tacchino,,,7.039560886
-15,tacchino,tacchino,NOUN,conj,anatra,,5.08 ± 1.80,3.919277012
-15,urlarono,urlare,VERB,root,ROOT,,,1.96907448
-15,,,PUNCT,punct,urlarono,,,
-16,“,“,PUNCT,punct,Buttati,,,
-16,buttati,buttare,VERB,advcl,è,,4.20 ± 1.55,3.690610313
-16,,,PUNCT,punct,Buttati,,,
-16,c’,ci,PRON,expl,è,,,
-16,è,essere,VERB,root,ROOT,,,7.249521761
-16,il,il,DET,det,lupo,,,7.039560886
-16,lupo,lupo,NOUN,nsubj,è,,3.92 ± 0.86,4.449560513
-16,,,PUNCT,punct,è,,,
-16,”,”,PUNCT,punct,è,,,
-16,,,PUNCT,punct,è,,,
-17,ma,ma,CCONJ,cc,vedeva,,,6.662005813
-17,la,il,DET,det,paperetta,,,7.055331658
-17,paperetta,paperetta,NOUN,nsubj,vedeva,,,1.734991274
-17,non,non,ADV,advmod,vedeva,,,7.259198169
-17,vedeva,vedere,VERB,root,ROOT,,4.60 ± 1.50,3.958450129
-17,per,per,ADP,case,niente,,,6.912435835
-17,niente,niente,PRON,obl,vedeva,,,6.061505616
-17,il,il,DET,det,lupo,,,7.039560886
-17,lupo,lupo,NOUN,obj,vedeva,,3.92 ± 0.86,4.449560513
-17,,,PUNCT,punct,vedeva,,,
-17,vedeva,vedere,VERB,parataxis,vedeva,,4.60 ± 1.50,3.958450129
-17,un,uno,DET,det,animale,,,7.065833912
-17,animale,animale,NOUN,obj,vedeva,,3.24 ± 1.13,4.478164941
-17,grosso,grosso,ADJ,amod,animale,,,4.872797352
-17,,,PUNCT,punct,brutto,,,
-17,brutto,brutto,ADJ,conj,grosso,,3.28 ± 1.43,4.90302551
-17,e,e,CCONJ,cc,peloso,,,2.741151583
-17,peloso,peloso,ADJ,conj,grosso,,,3.407089132
-17,,,PUNCT,punct,animale,,,
-17,le,il,DET,det,intenzioni,,,6.624997683
-17,cui,cui,DET,det:poss,intenzioni,,,5.832035278
-17,intenzioni,intenzione,NOUN,nsubj,evidenti,,,4.1007466
-17,,,PUNCT,punct,intenzioni,,,
-17,per,per,ADP,case,lei,,,6.912435835
-17,lei,lei,PRON,obl,evidenti,,,6.235566848
-17,,,PUNCT,punct,lei,,,
-17,erano,essere,AUX,cop,evidenti,,,5.476165392
-17,fin,fino,ADV,case,troppo,,,4.822772692
-17,troppo,troppo,ADV,advmod,evidenti,,,5.669092764
-17,evidenti,evidente,ADJ,acl:relcl,animale,,7.96 ± 2.07,3.228349728
-17,,,PUNCT,punct,evidenti,,,
-17,spinger,spingere,VERB,parataxis,evidenti,,4.88 ± 1.48,1.19092323
-17,la,la,PRON,obj,spinger,,,7.055331658
-17,in,in,ADP,case,acqua,,,6.797274494
-17,acqua,acqua,NOUN,obl,spinger,,2.96 ± 1.24,5.23681316
-17,,,PUNCT,punct,vedeva,,,
-18,il,il,DET,det,fatto,,,7.039560886
-18,fatto,fatto,NOUN,nsubj,trovava,,,6.237129549
-18,è,essere,AUX,aux,trovava,,,7.249521761
-18,,,PUNCT,punct,trovava,,,
-18,a,a,ADP,case,momento,,,7.004335738
-18,il,il,DET,det,momento,,,7.039560886
-18,momento,momento,NOUN,obl,trovava,,5.96 ± 2.85,5.627006329
-18,,,PUNCT,punct,momento,,,
-18,non,non,ADV,advmod,trovava,,,7.259198169
-18,si,si,PRON,expl,trovava,,,6.553884221
-18,trovava,trovare,VERB,root,ROOT,,4.24 ± 1.61,4.092653922
-18,in,in,ADP,case,stato,,,6.797274494
-18,lo,il,DET,det,stato,,,6.655915487
-18,stato,stato,NOUN,obl,trovava,,,6.123059474
-18,d’,di,ADP,case,animo,,,
-18,animo,animo,NOUN,nmod,stato,,,3.865784371
-18,ideale,ideale,ADJ,amod,animo,,,4.063662057
-18,per,per,ADP,mark,bagnar,,,6.912435835
-18,bagnar,bagnare,VERB,advcl,trovava,,,
-18,si,si,PRON,expl,bagnar,,,6.553884221
-18,,,PUNCT,punct,spiccò,,,
-18,così,così,ADV,advmod,spiccò,,,6.287788074
-18,spiccò,spiccare,VERB,conj,trovava,,,1.491953226
-18,un,uno,DET,det,salto,,,7.065833912
-18,gran,grande,ADJ,amod,salto,,4.64 ± 2.04,5.00500427
-18,salto,salto,NOUN,obj,spiccò,,,4.36860399
-18,e,e,CCONJ,cc,andò,,,2.741151583
-18,andò,andare,VERB,conj,trovava,,4.20 ± 1.44,4.231723291
-18,a,a,ADP,mark,beccare,,,7.004335738
-18,beccare,beccare,VERB,xcomp,andò,,,3.689922594
-18,il,il,DET,det,naso,,,7.039560886
-18,naso,naso,NOUN,obj,beccare,,3.24 ± 1.69,4.637615696
-18,di,di,ADP,case,lupo,,,7.232814475
-18,il,il,DET,det,lupo,,,7.039560886
-18,lupo,lupo,NOUN,nmod,naso,,3.92 ± 0.86,4.449560513
-18,,,PUNCT,punct,trovava,,,
-19,ci,ci,PRON,expl,mise,,,6.517126939
-19,mise,mettere,VERB,root,ROOT,,4.28 ± 1.59,3.850364012
-19,tutto,tutto,PRON,nsubj,mise,,,6.306603623
-19,l’,il,DET,det,impegno,,,
-19,impegno,impegno,NOUN,nsubj,mise,,,4.250107848
-19,possibile,possibile,ADJ,amod,impegno,,,5.26961562
-19,e,e,CCONJ,cc,fuggì,,,2.741151583
-19,il,il,DET,det,lupo,,,7.039560886
-19,lupo,lupo,NOUN,nsubj,fuggì,,3.92 ± 0.86,4.449560513
-19,,,PUNCT,punct,lupo,,,
-19,colto,cogliere,VERB,acl,lupo,,,3.792440014
-19,a,a,ADP,case,sprovvista,,,7.004335738
-19,la,il,DET,det,sprovvista,,,7.055331658
-19,sprovvista,sprovvista,NOUN,obl,colto,,,3.270104476
-19,,,PUNCT,punct,ululando,,,
-19,ululando,ululare,VERB,conj,colto,,,2.065984493
-19,e,e,CCONJ,cc,ululando,,,2.741151583
-19,ululando,ululare,VERB,conj,ululando,,,2.065984493
-19,,,PUNCT,punct,lupo,,,
-19,fuggì,fuggire,VERB,conj,mise,,,2.965440196
-19,a,a,ADP,case,zampe,,,7.004335738
-19,zampe,zampa,NOUN,obl,fuggì,,4.44 ± 1.50,3.854152865
-19,levate,levato,ADJ,amod,zampe,,,3.175450543
-19,,,PUNCT,punct,mise,,,
-20,l’,il,DET,det,anatra,,,
-20,anatra,anatra,NOUN,nsubj,uscirono,,5.12 ± 2.19,3.698104207
-20,,,PUNCT,punct,gatto,,,
-20,il,il,DET,det,gatto,,,7.039560886
-20,gatto,gatto,NOUN,conj,anatra,,2.56 ± 1.26,4.503840711
-20,,,PUNCT,punct,cane,,,
-20,il,il,DET,det,cane,,,7.039560886
-20,cane,cane,NOUN,conj,anatra,,2.76 ± 1.23,5.020066123
-20,e,e,CCONJ,cc,tacchino,,,2.741151583
-20,il,il,DET,det,tacchino,,,7.039560886
-20,tacchino,tacchino,NOUN,conj,anatra,,5.08 ± 1.80,3.919277012
-20,uscirono,uscire,VERB,root,ROOT,,4.28 ± 2.32,2.808971327
-20,da,da,ADP,case,stagno,,,6.577812618
-20,lo,il,DET,det,stagno,,,6.655915487
-20,stagno,stagno,NOUN,obl,uscirono,,,3.560139087
-20,,,PUNCT,punct,mogi,,,
-20,mogi,mogio,NOUN,conj,stagno,,,1.588863239
-20,mogi,mogio,NOUN,compound,mogi,,,1.588863239
-20,,,PUNCT,punct,grondanti,,,
-20,grondanti,grondante,ADJ,amod,mogi,,,1.588863239
-20,d’,di,ADP,case,acqua,,,
-20,acqua,acqua,NOUN,obl,grondanti,,2.96 ± 1.24,5.23681316
-20,e,e,CCONJ,cc,andarono,,,2.741151583
-20,se,se,PRON,expl,andarono,,,6.583110863
-20,ne,ne,PRON,iobj,andarono,,,6.201935117
-20,andarono,andare,VERB,conj,uscirono,,4.20 ± 1.44,3.513142525
-20,via,via,ADV,advmod,andarono,,,5.774643298
-20,,,PUNCT,punct,uscirono,,,
-21,il,il,DET,det,fatto,,,7.039560886
-21,fatto,fatto,NOUN,nsubj,è,,,6.237129549
-21,è,essere,VERB,root,ROOT,,,7.249521761
-21,che,che,SCONJ,mark,fatta,,,7.250456545
-21,la,il,DET,det,giornata,,,7.055331658
-21,giornata,giornata,NOUN,nsubj,fatta,,,5.003101004
-21,si,si,PRON,expl,fatta,,,6.553884221
-21,era,essere,AUX,aux,fatta,,,6.283626334
-21,fatta,fare,VERB,ccomp,è,,4.40 ± 2.22,5.238100711
-21,bella,bello,ADJ,xcomp,fatta,,3.80 ± 2.35,5.484893151
-21,e,e,CCONJ,cc,scaldava,,,2.741151583
-21,il,il,DET,det,sole,,,7.039560886
-21,sole,sole,NOUN,nsubj,scaldava,,3.64 ± 2.22,4.889371768
-21,scaldava,scaldare,VERB,conj,fatta,,,1.792983221
-21,l’,il,DET,det,aria,,,
-21,aria,aria,NOUN,obj,scaldava,,4.40 ± 1.80,5.026360125
-21,e,e,CCONJ,cc,paperetta,,,2.741151583
-21,a,a,ADP,case,paperetta,,,7.004335738
-21,la,il,DET,det,paperetta,,,7.055331658
-21,paperetta,paperetta,NOUN,conj,aria,,,1.734991274
-21,,,PUNCT,punct,sembrò,,,
-21,nu,nu,PRON,nsubj,sembrò,,,3.640401629
-21,la,la,PRON,obj,sembrò,,,7.055331658
-21,sembrò,sembrare,VERB,conj,è,,,3.255381219
-21,più,più,ADV,advmod,opportuno,,,6.382555861
-21,opportuno,opportuno,ADJ,xcomp,sembrò,,,3.623892521
-21,che,che,SCONJ,mark,far,,,7.250456545
-21,far,fare,VERB,ccomp,sembrò,,4.40 ± 2.22,5.356330794
-21,si,si,PRON,expl,far,,,6.553884221
-21,un,uno,DET,det,bagnetto,,,7.065833912
-21,bel,bello,ADJ,amod,bagnetto,,3.80 ± 2.35,5.34960228
-21,bagnetto,bagnetto,NOUN,obj,far,,,3.023432143
-21,in,in,ADP,case,stagno,,,6.797274494
-21,lo,il,DET,det,stagno,,,6.655915487
-21,stagno,stagno,NOUN,obl,far,,,3.560139087
-21,,,PUNCT,punct,è,,,
+token_id,sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
+1,0,il,il,DET,det,fatto,,,7.039560886
+2,0,fatto,fatto,NOUN,nsubj,è,,,6.237129549
+3,0,è,essere,VERB,root,ROOT,,,7.249521761
+4,0,,,PUNCT,punct,è,,,
+5,1,il,il,DET,det,fatto,,,7.039560886
+6,1,fatto,fatto,NOUN,nsubj,è,,,6.237129549
+7,1,è,essere,VERB,root,ROOT,,,7.249521761
+8,1,che,che,SCONJ,mark,decisa,,,7.250456545
+9,1,la,il,DET,det,paperetta,,,7.055331658
+10,1,paperetta,paperetta,NOUN,nsubj,decisa,,,1.734991274
+11,1,non,non,ADV,advmod,decisa,,,7.259198169
+12,1,si,si,PRON,expl,decisa,,,6.553884221
+13,1,era,essere,AUX,aux,decisa,,,6.283626334
+14,1,ancora,ancora,ADV,advmod,decisa,,,6.01813737
+15,1,decisa,decidere,VERB,ccomp,è,,,3.49086613
+16,1,a,a,ADP,mark,tuffar,,,7.004335738
+17,1,tuffar,tuffare,VERB,xcomp,decisa,,,
+18,1,si,si,PRON,expl,tuffar,,,6.553884221
+19,1,in,in,ADP,case,stagno,,,6.797274494
+20,1,lo,il,DET,det,stagno,,,6.655915487
+21,1,stagno,stagno,NOUN,obl,tuffar,,,3.560139087
+22,1,,,PUNCT,punct,è,,,
+23,2,così,così,ADV,advmod,spiegò,,,6.287788074
+24,2,l’,il,DET,det,anatra,,,
+25,2,anatra,anatra,NOUN,nsubj,spiegò,,5.12 ± 2.19,3.698104207
+26,2,,,PUNCT,punct,anatra,,,
+27,2,su,su,ADP,case,bordo,,,6.000068652
+28,2,il,il,DET,det,bordo,,,7.039560886
+29,2,bordo,bordo,NOUN,obl,spiegò,,6.40 ± 2.47,4.652271664
+30,2,di,di,ADP,case,specchio,,,7.232814475
+31,2,lo,il,DET,det,specchio,,,6.655915487
+32,2,specchio,specchio,NOUN,nmod,bordo,,4.64 ± 2.41,4.26901738
+33,2,d’,di,ADP,case,acqua,,,
+34,2,acqua,acqua,NOUN,nmod,specchio,,2.96 ± 1.24,5.23681316
+35,2,,,PUNCT,punct,anatra,,,
+36,2,le,le,PRON,iobj,spiegò,,,6.624997683
+37,2,spiegò,spiegare,VERB,root,ROOT,,,2.848934627
+38,2,,,PUNCT,punct,spiegò,,,
+39,2,con,con,ADP,case,pazienza,,,6.620271703
+40,2,pazienza,pazienza,NOUN,obl,spiegò,,,4.350189561
+41,2,,,PUNCT,punct,spiegò,,,
+42,2,i,il,DET,det,vantaggi,,,6.584780852
+43,2,vantaggi,vantaggio,NOUN,obj,spiegò,,7.76 ± 2.31,3.70943717
+44,2,di,di,ADP,case,nuoto,,,7.232814475
+45,2,il,il,DET,det,nuoto,,,7.039560886
+46,2,nuoto,nuoto,NOUN,nmod,vantaggi,,,3.729999329
+47,2,,,PUNCT,punct,spiegò,,,
+48,3,ma,ma,CCONJ,cc,riuscì,,,6.662005813
+49,3,non,non,ADV,advmod,riuscì,,,7.259198169
+50,3,le,le,PRON,iobj,riuscì,,,6.624997683
+51,3,riuscì,riuscire,VERB,root,ROOT,,,3.594043751
+52,3,affatto,affatto,ADV,advmod,riuscì,,,4.736972096
+53,3,di,di,ADP,mark,convincer,,,7.232814475
+54,3,convincer,convincere,VERB,xcomp,riuscì,,,1.367014489
+55,3,la,la,PRON,obj,convincer,,,7.055331658
+56,3,e,e,CCONJ,cc,decise,,,2.741151583
+57,3,,,PUNCT,punct,decise,,,
+58,3,vedendo,vedere,VERB,advcl,decise,,4.60 ± 1.50,3.97696444
+59,3,che,che,SCONJ,mark,otteneva,,,7.250456545
+60,3,con,con,ADP,case,buone,,,6.620271703
+61,3,le,il,DET,det,buone,,,6.624997683
+62,3,buone,buono,ADJ,obl,otteneva,,3.48 ± 1.50,4.709700299
+63,3,non,non,ADV,advmod,otteneva,,,7.259198169
+64,3,otteneva,ottenere,VERB,ccomp,vedendo,,,2.533345911
+65,3,nu,nu,ADV,advmod,la,,,3.640401629
+66,3,la,la,PRON,obj,otteneva,,,7.055331658
+67,3,,,PUNCT,punct,vedendo,,,
+68,3,decise,decidere,VERB,conj,riuscì,,,3.766688211
+69,3,senz’,senz,ADP,case,altro,,,
+70,3,altro,altro,PRON,obl,decise,,,5.925371002
+71,3,di,di,ADP,mark,spinger,,,7.232814475
+72,3,spinger,spingere,VERB,xcomp,decise,,4.88 ± 1.48,1.19092323
+73,3,la,la,PRON,obj,spinger,,,7.055331658
+74,3,in,in,ADP,case,acqua,,,6.797274494
+75,3,acqua,acqua,NOUN,obl,spinger,,2.96 ± 1.24,5.23681316
+76,3,,,PUNCT,punct,riuscì,,,
+77,4,senza,senza,ADP,case,successo,,,5.710022415
+78,4,alcun,alcuno,DET,det,successo,,,4.714084175
+79,4,successo,successo,NOUN,root,ROOT,,7.56 ± 2.83,5.64883539
+80,4,,,PUNCT,punct,successo,,,
+81,5,a,a,ADP,case,punto,,,7.004335738
+82,5,quel,quello,DET,det,punto,,,5.90824416
+83,5,punto,punto,NOUN,obl,chiamò,,,5.322012335
+84,5,,,PUNCT,punct,punto,,,
+85,5,l’,il,DET,det,anatra,,,
+86,5,anatra,anatra,NOUN,nsubj,chiamò,,5.12 ± 2.19,3.698104207
+87,5,indispettita,indispettito,ADJ,amod,anatra,,,1.491953226
+88,5,,,PUNCT,punct,anatra,,,
+89,5,chiamò,chiamare,VERB,root,ROOT,,,3.683683619
+90,5,in,in,ADP,case,aiuto,,,6.797274494
+91,5,aiuto,aiuto,NOUN,obl,chiamò,,,5.40063926
+92,5,il,il,DET,det,gatto,,,7.039560886
+93,5,gatto,gatto,NOUN,obj,chiamò,,2.56 ± 1.26,4.503840711
+94,5,,,PUNCT,punct,chiamò,,,
+95,6,il,il,DET,det,gatto,,,7.039560886
+96,6,gatto,gatto,NOUN,nsubj,spinse,,2.56 ± 1.26,4.503840711
+97,6,spinse,spingere,VERB,root,ROOT,,4.88 ± 1.48,3.023432143
+98,6,l’,il,DET,det,anatra,,,
+99,6,anatra,anatra,NOUN,obj,spinse,,5.12 ± 2.19,3.698104207
+100,6,,,PUNCT,punct,anatra,,,
+101,6,che,che,PRON,nsubj,spingeva,,,7.250456545
+102,6,spingeva,spingere,VERB,acl:relcl,anatra,,4.88 ± 1.48,2.958079096
+103,6,la,il,DET,det,paperetta,,,7.055331658
+104,6,paperetta,paperetta,NOUN,obj,spingeva,,,1.734991274
+105,6,,,PUNCT,punct,paperetta,,,
+106,6,che,che,PRON,nsubj,mosse,,,7.250456545
+107,6,nemmeno,nemmeno,ADV,advmod,mosse,,,5.368733783
+108,6,si,si,PRON,expl,mosse,,,6.553884221
+109,6,mosse,muovere,VERB,acl:relcl,paperetta,,,3.868530183
+110,6,,,PUNCT,punct,spinse,,,
+111,7,chiamarono,chiamare,VERB,root,ROOT,,,3.112609706
+112,7,allora,allora,ADV,advmod,Chiamarono,,,6.072527547
+113,7,il,il,DET,det,cane,,,7.039560886
+114,7,cane,cane,NOUN,nsubj,Chiamarono,,2.76 ± 1.23,5.020066123
+115,7,,,PUNCT,punct,cane,,,
+116,7,che,che,PRON,nsubj,spinse,,,7.250456545
+117,7,spinse,spingere,VERB,acl:relcl,cane,,4.88 ± 1.48,3.023432143
+118,7,il,il,DET,det,gatto,,,7.039560886
+119,7,gatto,gatto,NOUN,obj,spinse,,2.56 ± 1.26,4.503840711
+120,7,,,PUNCT,punct,gatto,,,
+121,7,che,che,PRON,nsubj,spingeva,,,7.250456545
+122,7,spingeva,spingere,VERB,acl:relcl,gatto,,4.88 ± 1.48,2.958079096
+123,7,l’,il,DET,det,anatra,,,
+124,7,anatra,anatra,NOUN,obj,spingeva,,5.12 ± 2.19,3.698104207
+125,7,,,PUNCT,punct,anatra,,,
+126,7,che,che,PRON,nsubj,spingeva,,,7.250456545
+127,7,spingeva,spingere,VERB,acl:relcl,anatra,,4.88 ± 1.48,2.958079096
+128,7,la,il,DET,det,paperetta,,,7.055331658
+129,7,paperetta,paperetta,NOUN,obj,spingeva,,,1.734991274
+130,7,che,che,PRON,nsubj,sembrava,,,7.250456545
+131,7,sembrava,sembrare,VERB,acl:relcl,paperetta,,,4.840112001
+132,7,incollata,incollare,VERB,xcomp,sembrava,,,2.834375907
+133,7,a,a,ADP,case,terra,,,7.004335738
+134,7,terra,terra,NOUN,obl,incollata,,4.52 ± 2.87,5.30993154
+135,7,,,PUNCT,punct,Chiamarono,,,
+136,8,infine,infine,ADV,advmod,arrivò,,,3.973037378
+137,8,,,PUNCT,punct,Infine,,,
+138,8,arrivò,arrivare,VERB,root,ROOT,,,3.97589694
+139,8,anche,anche,ADV,advmod,tacchino,,,6.115086172
+140,8,il,il,DET,det,tacchino,,,7.039560886
+141,8,tacchino,tacchino,NOUN,nsubj,arrivò,,5.08 ± 1.80,3.919277012
+142,8,che,che,PRON,nsubj,spinse,,,7.250456545
+143,8,spinse,spingere,VERB,acl:relcl,tacchino,,4.88 ± 1.48,3.023432143
+144,8,il,il,DET,det,cane,,,7.039560886
+145,8,cane,cane,NOUN,obj,spinse,,2.76 ± 1.23,5.020066123
+146,8,,,PUNCT,punct,cane,,,
+147,8,che,che,PRON,nsubj,spingeva,,,7.250456545
+148,8,spingeva,spingere,VERB,acl:relcl,cane,,4.88 ± 1.48,2.958079096
+149,8,il,il,DET,det,gatto,,,7.039560886
+150,8,gatto,gatto,NOUN,obj,spingeva,,2.56 ± 1.26,4.503840711
+151,8,,,PUNCT,punct,gatto,,,
+152,8,che,che,PRON,nsubj,spingeva,,,7.250456545
+153,8,spingeva,spingere,VERB,acl:relcl,gatto,,4.88 ± 1.48,2.958079096
+154,8,l’,il,DET,det,anatra,,,
+155,8,anatra,anatra,NOUN,obj,spingeva,,5.12 ± 2.19,3.698104207
+156,8,,,PUNCT,punct,anatra,,,
+157,8,che,che,PRON,nsubj,spingeva,,,7.250456545
+158,8,spingeva,spingere,VERB,acl:relcl,anatra,,4.88 ± 1.48,2.958079096
+159,8,la,il,DET,det,paperetta,,,7.055331658
+160,8,paperetta,paperetta,NOUN,obj,spingeva,,,1.734991274
+161,8,,,PUNCT,punct,paperetta,,,
+162,8,che,che,PRON,nsubj,spostava,,,7.250456545
+163,8,non,non,ADV,advmod,spostava,,,7.259198169
+164,8,si,si,PRON,expl,spostava,,,6.553884221
+165,8,spostava,spostare,VERB,acl:relcl,paperetta,,,2.561991092
+166,8,di,di,ADP,case,millimetro,,,7.232814475
+167,8,un,uno,DET,det,millimetro,,,7.065833912
+168,8,millimetro,millimetro,NOUN,obl,spostava,,,2.911082533
+169,8,,,PUNCT,punct,arrivò,,,
+170,9,e,e,CCONJ,cc,incominciò,,,2.741151583
+171,9,proprio,proprio,ADV,advmod,sembrò,,,5.884320377
+172,9,quando,quando,SCONJ,mark,sembrò,,,6.212844009
+173,9,sembrò,sembrare,VERB,advcl,incominciò,,,3.255381219
+174,9,che,che,SCONJ,mark,venir,,,7.250456545
+175,9,la,il,DET,det,resistenza,,,7.055331658
+176,9,sua,suo,DET,det:poss,resistenza,,,6.022524285
+177,9,resistenza,resistenza,NOUN,nsubj,venir,,,4.222735501
+178,9,potesse,potere,AUX,aux,venir,,,4.643246447
+179,9,venir,venire,VERB,ccomp,sembrò,,4.80 ± 2.10,3.812618692
+180,9,meno,meno,ADV,advmod,venir,,,5.428567488
+181,9,,,PUNCT,punct,sembrò,,,
+182,9,il,il,DET,det,tacchino,,,7.039560886
+183,9,tacchino,tacchino,NOUN,nsubj,incominciò,,5.08 ± 1.80,3.919277012
+184,9,incominciò,incominciare,VERB,root,ROOT,,,2.458094958
+185,9,ad,a,ADP,mark,urlare,,,5.934389877
+186,9,urlare,urlare,VERB,xcomp,incominciò,,,4.239559218
+187,9,,,PUNCT,punct,incominciò,,,
+188,10,“,“,PUNCT,punct,lupo,,,
+189,10,a,a,ADP,case,lupo,,,7.004335738
+190,10,il,il,DET,det,lupo,,,7.039560886
+191,10,lupo,lupo,NOUN,root,ROOT,,3.92 ± 0.86,4.449560513
+192,10,,,PUNCT,punct,lupo,,,
+193,11,a,a,ADP,case,lupo,,,7.004335738
+194,11,il,il,DET,det,lupo,,,7.039560886
+195,11,lupo,lupo,NOUN,root,ROOT,,3.92 ± 0.86,4.449560513
+196,11,,,PUNCT,punct,lupo,,,
+197,11,”,”,PUNCT,punct,lupo,,,
+198,11,,,PUNCT,punct,lupo,,,
+199,12,e,e,CCONJ,cc,tuffarono,,,2.741151583
+200,12,tutti,tutto,PRON,nsubj,tuffarono,,,6.110511188
+201,12,si,si,PRON,expl,tuffarono,,,6.553884221
+202,12,tuffarono,tuffare,VERB,root,ROOT,,,1.734991274
+203,12,in,in,ADP,case,stagno,,,6.797274494
+204,12,lo,il,DET,det,stagno,,,6.655915487
+205,12,stagno,stagno,NOUN,obl,tuffarono,,,3.560139087
+206,12,,,PUNCT,punct,tuffarono,,,
+207,13,no,No,INTJ,discourse,tutti,,,6.605764599
+208,13,,,PUNCT,punct,No,,,
+209,13,non,non,ADV,advmod,tutti,,,7.259198169
+210,13,tutti,tutto,PRON,root,ROOT,,,6.110511188
+211,13,,,PUNCT,punct,tutti,,,
+212,14,naturalmente,naturalmente,ADV,advmod,rimase,,,4.707061807
+213,14,la,il,DET,det,paperetta,,,7.055331658
+214,14,paperetta,paperetta,NOUN,nsubj,rimase,,,1.734991274
+215,14,rimase,rimanere,VERB,root,ROOT,,,3.767840186
+216,14,a,a,ADP,case,posto,,,7.004335738
+217,14,il,il,DET,det,posto,,,7.039560886
+218,14,suo,suo,DET,det:poss,posto,,,6.051850878
+219,14,posto,posto,NOUN,obl,rimase,,,5.771979272
+220,14,,,PUNCT,punct,rimase,,,
+221,15,l’,il,DET,det,anatra,,,
+222,15,anatra,anatra,NOUN,nsubj,urlarono,,5.12 ± 2.19,3.698104207
+223,15,,,PUNCT,punct,gatto,,,
+224,15,il,il,DET,det,gatto,,,7.039560886
+225,15,gatto,gatto,NOUN,conj,anatra,,2.56 ± 1.26,4.503840711
+226,15,,,PUNCT,punct,cane,,,
+227,15,il,il,DET,det,cane,,,7.039560886
+228,15,cane,cane,NOUN,conj,anatra,,2.76 ± 1.23,5.020066123
+229,15,,,PUNCT,punct,tacchino,,,
+230,15,il,il,DET,det,tacchino,,,7.039560886
+231,15,tacchino,tacchino,NOUN,conj,anatra,,5.08 ± 1.80,3.919277012
+232,15,urlarono,urlare,VERB,root,ROOT,,,1.96907448
+233,15,,,PUNCT,punct,urlarono,,,
+234,16,“,“,PUNCT,punct,Buttati,,,
+235,16,buttati,buttare,VERB,advcl,è,,4.20 ± 1.55,3.690610313
+236,16,,,PUNCT,punct,Buttati,,,
+237,16,c’,ci,PRON,expl,è,,,
+238,16,è,essere,VERB,root,ROOT,,,7.249521761
+239,16,il,il,DET,det,lupo,,,7.039560886
+240,16,lupo,lupo,NOUN,nsubj,è,,3.92 ± 0.86,4.449560513
+241,16,,,PUNCT,punct,è,,,
+242,16,”,”,PUNCT,punct,è,,,
+243,16,,,PUNCT,punct,è,,,
+244,17,ma,ma,CCONJ,cc,vedeva,,,6.662005813
+245,17,la,il,DET,det,paperetta,,,7.055331658
+246,17,paperetta,paperetta,NOUN,nsubj,vedeva,,,1.734991274
+247,17,non,non,ADV,advmod,vedeva,,,7.259198169
+248,17,vedeva,vedere,VERB,root,ROOT,,4.60 ± 1.50,3.958450129
+249,17,per,per,ADP,case,niente,,,6.912435835
+250,17,niente,niente,PRON,obl,vedeva,,,6.061505616
+251,17,il,il,DET,det,lupo,,,7.039560886
+252,17,lupo,lupo,NOUN,obj,vedeva,,3.92 ± 0.86,4.449560513
+253,17,,,PUNCT,punct,vedeva,,,
+254,17,vedeva,vedere,VERB,parataxis,vedeva,,4.60 ± 1.50,3.958450129
+255,17,un,uno,DET,det,animale,,,7.065833912
+256,17,animale,animale,NOUN,obj,vedeva,,3.24 ± 1.13,4.478164941
+257,17,grosso,grosso,ADJ,amod,animale,,,4.872797352
+258,17,,,PUNCT,punct,brutto,,,
+259,17,brutto,brutto,ADJ,conj,grosso,,3.28 ± 1.43,4.90302551
+260,17,e,e,CCONJ,cc,peloso,,,2.741151583
+261,17,peloso,peloso,ADJ,conj,grosso,,,3.407089132
+262,17,,,PUNCT,punct,animale,,,
+263,17,le,il,DET,det,intenzioni,,,6.624997683
+264,17,cui,cui,DET,det:poss,intenzioni,,,5.832035278
+265,17,intenzioni,intenzione,NOUN,nsubj,evidenti,,,4.1007466
+266,17,,,PUNCT,punct,intenzioni,,,
+267,17,per,per,ADP,case,lei,,,6.912435835
+268,17,lei,lei,PRON,obl,evidenti,,,6.235566848
+269,17,,,PUNCT,punct,lei,,,
+270,17,erano,essere,AUX,cop,evidenti,,,5.476165392
+271,17,fin,fino,ADV,case,troppo,,,4.822772692
+272,17,troppo,troppo,ADV,advmod,evidenti,,,5.669092764
+273,17,evidenti,evidente,ADJ,acl:relcl,animale,,7.96 ± 2.07,3.228349728
+274,17,,,PUNCT,punct,evidenti,,,
+275,17,spinger,spingere,VERB,parataxis,evidenti,,4.88 ± 1.48,1.19092323
+276,17,la,la,PRON,obj,spinger,,,7.055331658
+277,17,in,in,ADP,case,acqua,,,6.797274494
+278,17,acqua,acqua,NOUN,obl,spinger,,2.96 ± 1.24,5.23681316
+279,17,,,PUNCT,punct,vedeva,,,
+280,18,il,il,DET,det,fatto,,,7.039560886
+281,18,fatto,fatto,NOUN,nsubj,trovava,,,6.237129549
+282,18,è,essere,AUX,aux,trovava,,,7.249521761
+283,18,,,PUNCT,punct,trovava,,,
+284,18,a,a,ADP,case,momento,,,7.004335738
+285,18,il,il,DET,det,momento,,,7.039560886
+286,18,momento,momento,NOUN,obl,trovava,,5.96 ± 2.85,5.627006329
+287,18,,,PUNCT,punct,momento,,,
+288,18,non,non,ADV,advmod,trovava,,,7.259198169
+289,18,si,si,PRON,expl,trovava,,,6.553884221
+290,18,trovava,trovare,VERB,root,ROOT,,4.24 ± 1.61,4.092653922
+291,18,in,in,ADP,case,stato,,,6.797274494
+292,18,lo,il,DET,det,stato,,,6.655915487
+293,18,stato,stato,NOUN,obl,trovava,,,6.123059474
+294,18,d’,di,ADP,case,animo,,,
+295,18,animo,animo,NOUN,nmod,stato,,,3.865784371
+296,18,ideale,ideale,ADJ,amod,animo,,,4.063662057
+297,18,per,per,ADP,mark,bagnar,,,6.912435835
+298,18,bagnar,bagnare,VERB,advcl,trovava,,,
+299,18,si,si,PRON,expl,bagnar,,,6.553884221
+300,18,,,PUNCT,punct,spiccò,,,
+301,18,così,così,ADV,advmod,spiccò,,,6.287788074
+302,18,spiccò,spiccare,VERB,conj,trovava,,,1.491953226
+303,18,un,uno,DET,det,salto,,,7.065833912
+304,18,gran,grande,ADJ,amod,salto,,4.64 ± 2.04,5.00500427
+305,18,salto,salto,NOUN,obj,spiccò,,,4.36860399
+306,18,e,e,CCONJ,cc,andò,,,2.741151583
+307,18,andò,andare,VERB,conj,trovava,,4.20 ± 1.44,4.231723291
+308,18,a,a,ADP,mark,beccare,,,7.004335738
+309,18,beccare,beccare,VERB,xcomp,andò,,,3.689922594
+310,18,il,il,DET,det,naso,,,7.039560886
+311,18,naso,naso,NOUN,obj,beccare,,3.24 ± 1.69,4.637615696
+312,18,di,di,ADP,case,lupo,,,7.232814475
+313,18,il,il,DET,det,lupo,,,7.039560886
+314,18,lupo,lupo,NOUN,nmod,naso,,3.92 ± 0.86,4.449560513
+315,18,,,PUNCT,punct,trovava,,,
+316,19,ci,ci,PRON,expl,mise,,,6.517126939
+317,19,mise,mettere,VERB,root,ROOT,,4.28 ± 1.59,3.850364012
+318,19,tutto,tutto,PRON,nsubj,mise,,,6.306603623
+319,19,l’,il,DET,det,impegno,,,
+320,19,impegno,impegno,NOUN,nsubj,mise,,,4.250107848
+321,19,possibile,possibile,ADJ,amod,impegno,,,5.26961562
+322,19,e,e,CCONJ,cc,fuggì,,,2.741151583
+323,19,il,il,DET,det,lupo,,,7.039560886
+324,19,lupo,lupo,NOUN,nsubj,fuggì,,3.92 ± 0.86,4.449560513
+325,19,,,PUNCT,punct,lupo,,,
+326,19,colto,cogliere,VERB,acl,lupo,,,3.792440014
+327,19,a,a,ADP,case,sprovvista,,,7.004335738
+328,19,la,il,DET,det,sprovvista,,,7.055331658
+329,19,sprovvista,sprovvista,NOUN,obl,colto,,,3.270104476
+330,19,,,PUNCT,punct,ululando,,,
+331,19,ululando,ululare,VERB,conj,colto,,,2.065984493
+332,19,e,e,CCONJ,cc,ululando,,,2.741151583
+333,19,ululando,ululare,VERB,conj,ululando,,,2.065984493
+334,19,,,PUNCT,punct,lupo,,,
+335,19,fuggì,fuggire,VERB,conj,mise,,,2.965440196
+336,19,a,a,ADP,case,zampe,,,7.004335738
+337,19,zampe,zampa,NOUN,obl,fuggì,,4.44 ± 1.50,3.854152865
+338,19,levate,levato,ADJ,amod,zampe,,,3.175450543
+339,19,,,PUNCT,punct,mise,,,
+340,20,l’,il,DET,det,anatra,,,
+341,20,anatra,anatra,NOUN,nsubj,uscirono,,5.12 ± 2.19,3.698104207
+342,20,,,PUNCT,punct,gatto,,,
+343,20,il,il,DET,det,gatto,,,7.039560886
+344,20,gatto,gatto,NOUN,conj,anatra,,2.56 ± 1.26,4.503840711
+345,20,,,PUNCT,punct,cane,,,
+346,20,il,il,DET,det,cane,,,7.039560886
+347,20,cane,cane,NOUN,conj,anatra,,2.76 ± 1.23,5.020066123
+348,20,e,e,CCONJ,cc,tacchino,,,2.741151583
+349,20,il,il,DET,det,tacchino,,,7.039560886
+350,20,tacchino,tacchino,NOUN,conj,anatra,,5.08 ± 1.80,3.919277012
+351,20,uscirono,uscire,VERB,root,ROOT,,4.28 ± 2.32,2.808971327
+352,20,da,da,ADP,case,stagno,,,6.577812618
+353,20,lo,il,DET,det,stagno,,,6.655915487
+354,20,stagno,stagno,NOUN,obl,uscirono,,,3.560139087
+355,20,,,PUNCT,punct,mogi,,,
+356,20,mogi,mogio,NOUN,conj,stagno,,,1.588863239
+357,20,mogi,mogio,NOUN,compound,mogi,,,1.588863239
+358,20,,,PUNCT,punct,grondanti,,,
+359,20,grondanti,grondante,ADJ,amod,mogi,,,1.588863239
+360,20,d’,di,ADP,case,acqua,,,
+361,20,acqua,acqua,NOUN,obl,grondanti,,2.96 ± 1.24,5.23681316
+362,20,e,e,CCONJ,cc,andarono,,,2.741151583
+363,20,se,se,PRON,expl,andarono,,,6.583110863
+364,20,ne,ne,PRON,iobj,andarono,,,6.201935117
+365,20,andarono,andare,VERB,conj,uscirono,,4.20 ± 1.44,3.513142525
+366,20,via,via,ADV,advmod,andarono,,,5.774643298
+367,20,,,PUNCT,punct,uscirono,,,
+368,21,il,il,DET,det,fatto,,,7.039560886
+369,21,fatto,fatto,NOUN,nsubj,è,,,6.237129549
+370,21,è,essere,VERB,root,ROOT,,,7.249521761
+371,21,che,che,SCONJ,mark,fatta,,,7.250456545
+372,21,la,il,DET,det,giornata,,,7.055331658
+373,21,giornata,giornata,NOUN,nsubj,fatta,,,5.003101004
+374,21,si,si,PRON,expl,fatta,,,6.553884221
+375,21,era,essere,AUX,aux,fatta,,,6.283626334
+376,21,fatta,fare,VERB,ccomp,è,,4.40 ± 2.22,5.238100711
+377,21,bella,bello,ADJ,xcomp,fatta,,3.80 ± 2.35,5.484893151
+378,21,e,e,CCONJ,cc,scaldava,,,2.741151583
+379,21,il,il,DET,det,sole,,,7.039560886
+380,21,sole,sole,NOUN,nsubj,scaldava,,3.64 ± 2.22,4.889371768
+381,21,scaldava,scaldare,VERB,conj,fatta,,,1.792983221
+382,21,l’,il,DET,det,aria,,,
+383,21,aria,aria,NOUN,obj,scaldava,,4.40 ± 1.80,5.026360125
+384,21,e,e,CCONJ,cc,paperetta,,,2.741151583
+385,21,a,a,ADP,case,paperetta,,,7.004335738
+386,21,la,il,DET,det,paperetta,,,7.055331658
+387,21,paperetta,paperetta,NOUN,conj,aria,,,1.734991274
+388,21,,,PUNCT,punct,sembrò,,,
+389,21,nu,nu,PRON,nsubj,sembrò,,,3.640401629
+390,21,la,la,PRON,obj,sembrò,,,7.055331658
+391,21,sembrò,sembrare,VERB,conj,è,,,3.255381219
+392,21,più,più,ADV,advmod,opportuno,,,6.382555861
+393,21,opportuno,opportuno,ADJ,xcomp,sembrò,,,3.623892521
+394,21,che,che,SCONJ,mark,far,,,7.250456545
+395,21,far,fare,VERB,ccomp,sembrò,,4.40 ± 2.22,5.356330794
+396,21,si,si,PRON,expl,far,,,6.553884221
+397,21,un,uno,DET,det,bagnetto,,,7.065833912
+398,21,bel,bello,ADJ,amod,bagnetto,,3.80 ± 2.35,5.34960228
+399,21,bagnetto,bagnetto,NOUN,obj,far,,,3.023432143
+400,21,in,in,ADP,case,stagno,,,6.797274494
+401,21,lo,il,DET,det,stagno,,,6.655915487
+402,21,stagno,stagno,NOUN,obl,far,,,3.560139087
+403,21,,,PUNCT,punct,è,,,

@@ -12,6 +12,7 @@ def process_folder(input_dir, output_dir):
     for filename in os.listdir(input_dir):
         if filename.endswith(".txt"):
             filepath = os.path.join(input_dir, filename)
+            print(f"Processing file: {filename}")
             process_text_file(filepath, output_dir)
 
 def aggregate_summaries(output_dir):
@@ -31,6 +32,28 @@ def aggregate_summaries(output_dir):
                         summary_rows.append(data)
     if summary_rows:
         df_summary = pd.DataFrame(summary_rows)
+        cols = ["text_id"] + [c for c in df_summary.columns if c != "text_id"]
+        df_summary = df_summary[cols]
+        
+        for col in df_summary.columns:
+            if col.endswith("_display"):
+                base = col.replace("_display", "")
+                if base in df_summary.columns:
+                    df_summary[base] = df_summary[col]
+
+        numeric_cols = [c for c in df_summary.columns if c not in ["text_id", "top_lemmas", "top_bigrams", "Zipf_freq"] and not c.endswith("_display")]
+        
+        mean_row = df_summary[numeric_cols].mean(numeric_only=True)
+        std_row  = df_summary[numeric_cols].std(numeric_only=True)
+
+        combined = {}
+        for col in numeric_cols:
+            if col in mean_row.index:
+                combined[col] = f"{mean_row[col]:.2f} ± {std_row[col]:.2f}"
+        combined["text_id"] = "MEAN ± STD"
+        empty_row = {col: "" for col in df_summary.columns}
+        df_summary = pd.concat([df_summary, pd.DataFrame([empty_row, combined])], ignore_index=True)
+
         summary_csv_path = os.path.join(output_dir, "summary_all_texts.csv")
         df_summary.to_csv(summary_csv_path, index=False)
         print(f"Saved aggregated summary: {summary_csv_path}")
@@ -45,5 +68,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     process_folder(args.input, args.output)
-    process_folder(args.input, args.output)
     aggregate_summaries(args.output)
+
+    

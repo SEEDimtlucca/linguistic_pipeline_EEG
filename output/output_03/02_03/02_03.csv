@@ -1,377 +1,377 @@
-sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
-0,il,il,DET,det,ragno,,,7.039560886
-0,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-0,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
-0,tesse,tessere,VERB,root,ROOT,,,2.660745246
-0,e,e,CCONJ,cc,tace,,,2.741151583
-0,tace,tacere,VERB,conj,tesse,,,2.829412487
-0,,,PUNCT,punct,tesse,,,
-1,splende,splendere,VERB,root,ROOT,,,3.270104476
-1,il,il,DET,det,sole,,,7.039560886
-1,sole,sole,NOUN,obj,Splende,,3.64 ± 2.22,4.889371768
-1,e,e,CCONJ,cc,soffia,,,2.741151583
-1,soffia,soffiare,VERB,conj,Splende,,4.40 ± 2.75,3.614169104
-1,il,il,DET,det,vento,,,7.039560886
-1,vento,vento,NOUN,obj,soffia,,4.64 ± 1.96,4.536100847
-1,,,PUNCT,punct,Splende,,,
-2,soffia,soffiare,VERB,root,ROOT,,4.40 ± 2.75,3.614169104
-2,già,già,ADV,advmod,Soffia,,,6.015979163
-2,di,di,ADP,case,mattino,,,7.232814475
-2,buon,buono,ADJ,amod,mattino,,3.48 ± 1.50,5.376096942
-2,mattino,mattino,NOUN,obl,Soffia,,,4.473771833
-2,e,e,CCONJ,cc,porta,,,2.741151583
-2,porta,portare,VERB,conj,Soffia,,4.52 ± 2.06,5.473918988
-2,con,con,ADP,case,sé,,,6.620271703
-2,sé,sé,PRON,obl,porta,,,4.255006666
-2,sopra,sopra,ADP,case,campi,,,5.153505635
-2,i,il,DET,det,campi,,,6.584780852
-2,campi,campo,NOUN,obl,porta,,4.52 ± 1.56,4.200161601
-2,il,il,DET,det,ragno,,,7.039560886
-2,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-2,ragno,ragno,NOUN,obj,porta,,4.48 ± 0.96,3.818289087
-2,,,PUNCT,punct,Soffia,,,
-3,con,con,ADP,case,argenteo,,,6.620271703
-3,l’,il,DET,det,argenteo,,,
-3,argenteo,argenteo,NOUN,obl,rimane,,,2.421372151
-3,filo,filo,NOUN,compound,argenteo,,,4.325578372
-3,sottile,sottile,ADJ,amod,filo,,,3.863021088
-3,il,il,DET,det,ragno,,,7.039560886
-3,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-3,ragno,ragno,NOUN,nsubj,rimane,,4.48 ± 0.96,3.818289087
-3,rimane,rimanere,VERB,root,ROOT,,,4.524571987
-3,impigliato,impigliare,VERB,xcomp,rimane,,,2.834375907
-3,fra,fra,ADP,case,pali,,,5.034249462
-3,i,il,DET,det,pali,,,6.584780852
-3,pali,palo,NOUN,obl,impigliato,,4.92 ± 3.03,3.199523402
-3,di,di,ADP,case,recinto,,,7.232814475
-3,un,uno,DET,det,recinto,,,7.065833912
-3,recinto,recinto,NOUN,nmod,pali,,,3.691982492
-3,…,…,PUNCT,punct,rimane,,,
-3,e,e,CCONJ,cc,comincia,,,2.741151583
-3,comincia,cominciare,VERB,conj,rimane,,,4.545415831
-3,subito,subito,ADV,advmod,comincia,,,5.515761062
-3,a,a,ADP,mark,tessere,,,7.004335738
-3,tessere,tessere,VERB,xcomp,comincia,,,3.224346986
-3,la,il,DET,det,tela,,,7.055331658
-3,sua,suo,DET,det:poss,tela,,,6.022524285
-3,tela,tela,NOUN,obj,tessere,,7.84 ± 2.10,3.550758712
-3,,,PUNCT,punct,rimane,,,
-4,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-4,il,il,DET,det,cavallo,,,7.039560886
-4,cavallo,cavallo,NOUN,nsubj,Arriva,,3.92 ± 1.53,4.765822219
-4,e,e,CCONJ,cc,dice,,,2.741151583
-4,gli,gli,PRON,iobj,dice,,,6.227520191
-4,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
-4,,,PUNCT,punct,dice,,,
-4,,,PUNCT,punct,Hiii,,,
-4,,,PUNCT,punct,Hiii,,,
-4,hiii,Hiii,INTJ,discourse,Arriva,,,1.367014489
-4,,,PUNCT,punct,Hiii,,,
-4,hiii,Hiii,INTJ,discourse,Arriva,,,1.367014489
-4,,,PUNCT,punct,Hiii,,,
-5,vuoi,volere,AUX,aux,venire,,,5.995743909
-5,venire,venire,VERB,root,ROOT,,4.80 ± 2.10,5.41855288
-5,a,a,ADP,mark,cavalcare,,,7.004335738
-5,cavalcare,cavalcare,VERB,xcomp,venire,,,3.648805127
-5,,,PUNCT,punct,venire,,,
-6,,,PUNCT,root,ROOT,,,
-6,,,PUNCT,punct,>,,,
-6,,,PUNCT,punct,>,,,
-7,il,il,DET,det,ragno,,,7.039560886
-7,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-7,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
-7,tesse,tessere,VERB,root,ROOT,,,2.660745246
-7,e,e,CCONJ,cc,tace,,,2.741151583
-7,tace,tacere,VERB,conj,tesse,,,2.829412487
-7,,,PUNCT,punct,tesse,,,
-8,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-8,la,il,DET,det,mucca,,,7.055331658
-8,mucca,mucca,NOUN,nsubj,Arriva,,4.00 ± 1.63,3.952851068
-8,e,e,CCONJ,cc,dice,,,2.741151583
-8,gli,gli,PRON,iobj,dice,,,6.227520191
-8,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
-8,,,PUNCT,punct,Arriva,,,
-9,,,PUNCT,punct,Muuu!,,,
-9,,,PUNCT,punct,Muuu!,,,
-9,muuu,Muuu,INTJ,root,ROOT,,,2.065984493
-9,muuu,Muuu,PROPN,vocative,Muuu!,,,2.065984493
-9,,,PUNCT,punct,Muuu!,,,
-10,vuoi,volere,AUX,aux,mangiare,,,5.995743909
-10,mangiare,mangiare,VERB,root,ROOT,,3.24 ± 1.74,5.112999615
-10,un,uno,DET,det,po',,,7.065833912
-10,po,poco,PRON,obj,mangiare,,,4.399095757
-10,di,di,ADP,case,fieno,,,7.232814475
-10,fieno,fieno,NOUN,nmod,po',,6.24 ± 1.67,3.374193074
-10,e,e,CCONJ,cc,avena,,,2.741151583
-10,di,di,ADP,case,avena,,,7.232814475
-10,avena,avena,NOUN,conj,fieno,,,3.340142343
-10,,,PUNCT,punct,mangiare,,,
-11,,,PUNCT,root,ROOT,,,
-11,,,PUNCT,punct,>,,,
-11,,,PUNCT,punct,>,,,
-12,il,il,DET,det,ragno,,,7.039560886
-12,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-12,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
-12,tesse,tessere,VERB,root,ROOT,,,2.660745246
-12,e,e,CCONJ,cc,tace,,,2.741151583
-12,tace,tacere,VERB,conj,tesse,,,2.829412487
-12,,,PUNCT,punct,tesse,,,
-13,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-13,la,il,DET,det,pecora,,,7.055331658
-13,pecora,pecora,NOUN,nsubj,Arriva,,3.28 ± 1.21,3.645005501
-13,e,e,CCONJ,cc,dice,,,2.741151583
-13,gli,gli,PRON,iobj,dice,,,6.227520191
-13,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
-13,,,PUNCT,punct,Arriva,,,
-14,,,PUNCT,punct,Beee!,,,
-14,,,PUNCT,punct,Beee!,,,
-14,beee,Beee,INTJ,root,ROOT,,,1.734991274
-14,beee,Beee,PROPN,vocative,Beee!,,,1.734991274
-14,,,PUNCT,punct,Beee!,,,
-15,andiamo,andare,VERB,root,ROOT,,4.20 ± 1.44,5.868904099
-15,insieme,insieme,ADV,advmod,Andiamo,,,5.500638545
-15,per,per,ADP,case,prati,,,6.912435835
-15,prati,prato,NOUN,obl,Andiamo,,4.96 ± 2.21,3.112609706
-15,,,PUNCT,punct,Andiamo,,,
-16,,,PUNCT,root,ROOT,,,
-16,,,PUNCT,punct,>,,,
-16,,,PUNCT,punct,>,,,
-17,il,il,DET,det,ragno,,,7.039560886
-17,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-17,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
-17,tesse,tessere,VERB,root,ROOT,,,2.660745246
-17,e,e,CCONJ,cc,tace,,,2.741151583
-17,tace,tacere,VERB,conj,tesse,,,2.829412487
-17,,,PUNCT,punct,tesse,,,
-18,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-18,la,il,DET,det,capra,,,7.055331658
-18,capra,capra,NOUN,nsubj,Arriva,,3.52 ± 1.29,3.85226257
-18,e,e,CCONJ,cc,dice,,,2.741151583
-18,gli,gli,PRON,iobj,dice,,,6.227520191
-18,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
-18,,,PUNCT,punct,Arriva,,,
-19,,,PUNCT,punct,Facciamo,,,
-19,,,PUNCT,punct,Facciamo,,,
-19,meee,Meee,INTJ,discourse,Facciamo,,,1.367014489
-19,meee,Meee,PROPN,vocative,Facciamo,,,1.367014489
-19,,,PUNCT,punct,Meee,,,
-19,facciamo,fare,VERB,root,ROOT,,4.40 ± 2.22,5.388300287
-19,chi,chi,PRON,obj,Facciamo,,,6.108444494
-19,salta,saltare,VERB,acl:relcl,chi,,3.48 ± 1.66,4.385576302
-19,di,di,ADP,case,più,,,7.232814475
-19,più,più,ADV,advmod,salta,,,6.382555861
-19,,,PUNCT,punct,Facciamo,,,
-19,,,PUNCT,punct,Facciamo,,,
-19,,,PUNCT,punct,Facciamo,,,
-19,,,PUNCT,punct,Facciamo,,,
-20,il,il,DET,det,ragno,,,7.039560886
-20,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-20,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
-20,tesse,tessere,VERB,root,ROOT,,,2.660745246
-20,e,e,CCONJ,cc,tace,,,2.741151583
-20,tace,tacere,VERB,conj,tesse,,,2.829412487
-20,,,PUNCT,punct,tesse,,,
-21,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-21,il,il,DET,det,maiale,,,7.039560886
-21,maiale,maiale,NOUN,nsubj,Arriva,,4.20 ± 1.61,4.362357131
-21,e,e,CCONJ,cc,dice,,,2.741151583
-21,gli,gli,PRON,iobj,dice,,,6.227520191
-21,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
-21,,,PUNCT,punct,Arriva,,,
-22,,,PUNCT,punct,andiamo,,,
-22,,,PUNCT,punct,Gronf!,,,
-22,gronf,Gronf,PROPN,nsubj,andiamo,,,
-22,gronf,Gronf,PROPN,flat:name,Gronf!,,,
-22,,,PUNCT,punct,Gronf!,,,
-22,perché,perché,ADV,advmod,andiamo,,,5.965637226
-22,non,non,ADV,advmod,andiamo,,,7.259198169
-22,andiamo,andare,VERB,root,ROOT,,4.20 ± 1.44,5.868904099
-22,a,a,ADP,mark,rotolar,,,7.004335738
-22,rotolar,rotolare,VERB,xcomp,andiamo,,,
-22,ci,ci,PRON,expl,rotolar,,,6.517126939
-22,in,in,ADP,case,prato,,,6.797274494
-22,il,il,DET,det,prato,,,7.039560886
-22,prato,prato,NOUN,obl,rotolar,,4.96 ± 2.21,3.865325043
-22,,,PUNCT,punct,andiamo,,,
-23,,,PUNCT,root,ROOT,,,
-23,,,PUNCT,punct,>,,,
-23,,,PUNCT,punct,>,,,
-24,il,il,DET,det,ragno,,,7.039560886
-24,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-24,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
-24,tesse,tessere,VERB,root,ROOT,,,2.660745246
-24,e,e,CCONJ,cc,tace,,,2.741151583
-24,tace,tacere,VERB,conj,tesse,,,2.829412487
-24,,,PUNCT,punct,tesse,,,
-25,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-25,il,il,DET,det,cane,,,7.039560886
-25,cane,cane,NOUN,nsubj,Arriva,,2.76 ± 1.23,5.020066123
-25,e,e,CCONJ,cc,dice,,,2.741151583
-25,gli,gli,PRON,iobj,dice,,,6.227520191
-25,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
-25,,,SYM,discourse,Arriva,,,
-25,,,PUNCT,punct,Vieni,,,
-25,bau,Bau,INTJ,discourse,Vieni,,,2.25162107
-25,bau,Bau,INTJ,discourse,Vieni,,,2.25162107
-25,vieni,venire,VERB,parataxis,Arriva,,4.80 ± 2.10,5.596576886
-25,,,PUNCT,punct,Vieni,,,
-25,che,che,SCONJ,mark,andiamo,,,7.250456545
-25,andiamo,andare,VERB,conj,Vieni,,4.20 ± 1.44,5.868904099
-25,a,a,ADP,case,caccia,,,7.004335738
-25,caccia,caccia,NOUN,obl,andiamo,,,4.781987837
-25,da,da,ADP,case,gatto,,,6.577812618
-25,il,il,DET,det,gatto,,,7.039560886
-25,gatto,gatto,NOUN,obl,andiamo,,2.56 ± 1.26,4.503840711
-25,,,PUNCT,punct,Vieni,,,
-25,,,PUNCT,punct,Vieni,,,
-25,,,PUNCT,punct,Arriva,,,
-25,,,PUNCT,punct,Arriva,,,
-26,il,il,DET,det,ragno,,,7.039560886
-26,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-26,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
-26,tesse,tessere,VERB,root,ROOT,,,2.660745246
-26,e,e,CCONJ,cc,tace,,,2.741151583
-26,tace,tacere,VERB,conj,tesse,,,2.829412487
-26,,,PUNCT,punct,tesse,,,
-27,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-27,il,il,DET,det,gatto,,,7.039560886
-27,gatto,gatto,NOUN,nsubj,Arriva,,2.56 ± 1.26,4.503840711
-27,e,e,CCONJ,cc,dice,,,2.741151583
-27,gli,gli,PRON,iobj,dice,,,6.227520191
-27,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
-27,,,SYM,discourse,Arriva,,,
-27,,,PUNCT,punct,Maoo,,,
-27,maoo,mao,INTJ,discourse,Arriva,,,
-27,,,PUNCT,punct,Maoo,,,
-27,maooo,Maooo,INTJ,discourse,Arriva,,,
-27,,,PUNCT,punct,Maooo,,,
-28,se,se,SCONJ,mark,andassimo,,,6.583110863
-28,andassimo,andare,VERB,root,ROOT,,4.20 ± 1.44,3.520321109
-28,a,a,ADP,mark,farci,,,7.004335738
-28,farci,fare,VERB,xcomp,andassimo,,4.40 ± 2.22,4.836738348
-28,un,uno,DET,det,pisolino,,,7.065833912
-28,pisolino,pisolino,NOUN,obj,farci,,,3.63574843
-28,,,PUNCT,punct,andassimo,,,
-28,,,PUNCT,punct,andassimo,,,
-28,,,PUNCT,punct,andassimo,,,
-29,il,il,DET,det,ragno,,,7.039560886
-29,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-29,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
-29,tesse,tessere,VERB,root,ROOT,,,2.660745246
-29,e,e,CCONJ,cc,tace,,,2.741151583
-29,tace,tacere,VERB,conj,tesse,,,2.829412487
-29,,,PUNCT,punct,tesse,,,
-30,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-30,l’,il,DET,det,anatra,,,
-30,anatra,anatra,NOUN,nsubj,Arriva,,5.12 ± 2.19,3.698104207
-30,e,e,CCONJ,cc,dice,,,2.741151583
-30,gli,gli,PRON,iobj,dice,,,6.227520191
-30,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
-30,,,PUNCT,punct,dice,,,
-30,,,PUNCT,punct,Qua,,,
-30,,,PUNCT,punct,Qua,,,
-30,qua,qua,ADV,parataxis,Arriva,,,5.522856403
-30,,,PUNCT,punct,Qua,,,
-30,qua,qua,ADV,advmod,Vieni,,,5.522856403
-30,,,PUNCT,punct,Qua,,,
-30,vieni,venire,VERB,parataxis,Arriva,,4.80 ± 2.10,5.596576886
-30,con,con,ADP,case,me,,,6.620271703
-30,me,me,PRON,obl,Vieni,,,6.337855516
-30,a,a,ADP,mark,nuotare,,,7.004335738
-30,nuotare,nuotare,VERB,xcomp,Vieni,,5.28 ± 2.17,4.126178512
-30,,,PUNCT,punct,Vieni,,,
-31,,,PUNCT,root,ROOT,,,
-31,,,PUNCT,punct,>,,,
-31,,,PUNCT,punct,>,,,
-32,il,il,DET,det,ragno,,,7.039560886
-32,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-32,ragno,ragno,NOUN,nsubj,smesso,,4.48 ± 0.96,3.818289087
-32,ha,avere,AUX,aux,smesso,,,6.684018637
-32,smesso,smettere,VERB,root,ROOT,,,4.553782533
-32,di,di,ADP,case,tessere,,,7.232814475
-32,tessere,tessera,NOUN,obl,smesso,,,3.224346986
-32,,,PUNCT,punct,smesso,,,
-33,la,il,DET,det,ragnatela,,,7.055331658
-33,ragnatela,ragnatela,NOUN,nsubj,pronta,,,3.110001322
-33,è,essere,AUX,cop,pronta,,,7.249521761
-33,pronta,pronto,ADJ,root,ROOT,,,4.917324392
-33,,,PUNCT,punct,pronta,,,
-34,allora,allora,ADV,advmod,arriva,,,6.072527547
-34,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-34,il,il,DET,det,gallo,,,7.039560886
-34,gallo,gallo,NOUN,nsubj,arriva,,4.36 ± 1.87,3.601700463
-34,e,e,CCONJ,cc,dice,,,2.741151583
-34,gli,gli,PRON,iobj,dice,,,6.227520191
-34,dice,dire,VERB,conj,arriva,,4.08 ± 1.73,5.609257672
-34,,,PUNCT,punct,arriva,,,
-35,,,PUNCT,punct,Chiccirichi,,,
-35,,,PUNCT,punct,Chiccirichi,,,
-35,chiccirichi,Chiccirichi,PROPN,root,ROOT,,,
-35,,,PUNCT,punct,Chiccirichi,,,
-36,perché,perché,PRON,obl,andiamo,,,5.965637226
-36,non,non,ADV,advmod,andiamo,,,7.259198169
-36,andiamo,andare,VERB,root,ROOT,,4.20 ± 1.44,5.868904099
-36,assieme,assieme,ADV,advmod,andiamo,,,4.446678017
-36,ad,a,ADP,mark,acchiappare,,,5.934389877
-36,acchiappare,acchiappare,VERB,xcomp,andiamo,,4.84 ± 1.52,2.911082533
-36,le,il,DET,det,mosche,,,6.624997683
-36,mosche,Mosca,NOUN,obj,acchiappare,,,3.732502474
-36,,,PUNCT,punct,andiamo,,,
-37,,,PUNCT,root,ROOT,,,
-37,,,PUNCT,punct,>,,,
-37,,,PUNCT,punct,>,,,
-38,il,il,DET,det,ragno,,,7.039560886
-38,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-38,ragno,ragno,NOUN,nsubj,tace,,4.48 ± 0.96,3.818289087
-38,tace,tacere,VERB,root,ROOT,,,2.829412487
-38,e,e,CCONJ,cc,….,,,2.741151583
-38,…,…,X,conj,tace,,,
-38,zac,Zac,PROPN,vocative,tace,,,3.232315915
-38,,,PUNCT,punct,tace,,,
-39,ha,avere,AUX,aux,acchiappato,,,6.684018637
-39,già,già,ADV,advmod,acchiappato,,,6.015979163
-39,acchiappato,acchiappare,VERB,root,ROOT,,4.84 ± 1.52,2.781987837
-39,una,uno,DET,det,mosca,,,6.801817508
-39,mosca,mosca,NOUN,obj,acchiappato,,4.28 ± 1.54,1.491953226
-39,,,PUNCT,punct,acchiappato,,,
-40,allora,allora,ADV,advmod,arriva,,,6.072527547
-40,arriva,arrivare,VERB,root,ROOT,,,4.940504965
-40,la,il,DET,det,civetta,,,7.055331658
-40,civetta,civetta,NOUN,nsubj,arriva,,,3.173194463
-40,,,PUNCT,punct,dice,,,
-40,e,e,CCONJ,cc,dice,,,2.741151583
-40,dice,dire,VERB,conj,arriva,,4.08 ± 1.73,5.609257672
-40,,,SYM,discourse,arriva,,,
-40,,,PUNCT,punct,Uhuuu,,,
-40,uhuuu,Uhuuu,INTJ,discourse,arriva,,,1.19092323
-40,,,PUNCT,punct,Uhuuu,,,
-41,chi,chi,PRON,nsubj,fatto,,,6.108444494
-41,ha,avere,AUX,aux,fatto,,,6.684018637
-41,fatto,fare,VERB,root,ROOT,,4.40 ± 2.22,6.237129549
-41,quella,quello,DET,det,ragnatela,,,5.939281839
-41,bella,bello,ADJ,amod,ragnatela,,3.80 ± 2.35,5.484893151
-41,ragnatela,ragnatela,NOUN,obj,fatto,,,3.110001322
-41,,,PUNCT,punct,fatto,,,
-42,,,PUNCT,root,ROOT,,,
-42,,,PUNCT,punct,>,,,
-42,,,PUNCT,punct,>,,,
-43,e,e,CCONJ,cc,tace,,,2.741151583
-43,il,il,DET,det,ragno,,,7.039560886
-43,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
-43,ragno,ragno,NOUN,nsubj,tace,,4.48 ± 0.96,3.818289087
-43,tace,tacere,VERB,root,ROOT,,,2.829412487
-43,,,PUNCT,punct,dorme,,,
-43,dorme,dormire,VERB,conj,tace,,3.08 ± 1.29,4.289566956
-43,già,già,ADV,advmod,dorme,,,6.015979163
-43,da,da,ADP,case,po',,,6.577812618
-43,un,uno,DET,det,po',,,7.065833912
-43,po,poco,ADV,advmod,dorme,,,4.399095757
-43,,,PUNCT,punct,giornata,,,
-43,è,essere,AUX,aux,giornata,,,7.249521761
-43,stata,essere,AUX,cop,giornata,,,5.783216598
-43,una,uno,DET,det,giornata,,,6.801817508
-43,dura,duro,ADJ,amod,giornata,,4.68 ± 2.34,4.766572845
-43,giornata,giornata,NOUN,conj,tace,,,5.003101004
-43,di,di,ADP,case,lavoro,,,7.232814475
-43,lavoro,lavoro,NOUN,nmod,giornata,,6.28 ± 3.34,5.810397445
-43,,,PUNCT,punct,tace,,,
+token_id,sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
+1,0,il,il,DET,det,ragno,,,7.039560886
+2,0,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+3,0,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
+4,0,tesse,tessere,VERB,root,ROOT,,,2.660745246
+5,0,e,e,CCONJ,cc,tace,,,2.741151583
+6,0,tace,tacere,VERB,conj,tesse,,,2.829412487
+7,0,,,PUNCT,punct,tesse,,,
+8,1,splende,splendere,VERB,root,ROOT,,,3.270104476
+9,1,il,il,DET,det,sole,,,7.039560886
+10,1,sole,sole,NOUN,obj,Splende,,3.64 ± 2.22,4.889371768
+11,1,e,e,CCONJ,cc,soffia,,,2.741151583
+12,1,soffia,soffiare,VERB,conj,Splende,,4.40 ± 2.75,3.614169104
+13,1,il,il,DET,det,vento,,,7.039560886
+14,1,vento,vento,NOUN,obj,soffia,,4.64 ± 1.96,4.536100847
+15,1,,,PUNCT,punct,Splende,,,
+16,2,soffia,soffiare,VERB,root,ROOT,,4.40 ± 2.75,3.614169104
+17,2,già,già,ADV,advmod,Soffia,,,6.015979163
+18,2,di,di,ADP,case,mattino,,,7.232814475
+19,2,buon,buono,ADJ,amod,mattino,,3.48 ± 1.50,5.376096942
+20,2,mattino,mattino,NOUN,obl,Soffia,,,4.473771833
+21,2,e,e,CCONJ,cc,porta,,,2.741151583
+22,2,porta,portare,VERB,conj,Soffia,,4.52 ± 2.06,5.473918988
+23,2,con,con,ADP,case,sé,,,6.620271703
+24,2,sé,sé,PRON,obl,porta,,,4.255006666
+25,2,sopra,sopra,ADP,case,campi,,,5.153505635
+26,2,i,il,DET,det,campi,,,6.584780852
+27,2,campi,campo,NOUN,obl,porta,,4.52 ± 1.56,4.200161601
+28,2,il,il,DET,det,ragno,,,7.039560886
+29,2,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+30,2,ragno,ragno,NOUN,obj,porta,,4.48 ± 0.96,3.818289087
+31,2,,,PUNCT,punct,Soffia,,,
+32,3,con,con,ADP,case,argenteo,,,6.620271703
+33,3,l’,il,DET,det,argenteo,,,
+34,3,argenteo,argenteo,NOUN,obl,rimane,,,2.421372151
+35,3,filo,filo,NOUN,compound,argenteo,,,4.325578372
+36,3,sottile,sottile,ADJ,amod,filo,,,3.863021088
+37,3,il,il,DET,det,ragno,,,7.039560886
+38,3,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+39,3,ragno,ragno,NOUN,nsubj,rimane,,4.48 ± 0.96,3.818289087
+40,3,rimane,rimanere,VERB,root,ROOT,,,4.524571987
+41,3,impigliato,impigliare,VERB,xcomp,rimane,,,2.834375907
+42,3,fra,fra,ADP,case,pali,,,5.034249462
+43,3,i,il,DET,det,pali,,,6.584780852
+44,3,pali,palo,NOUN,obl,impigliato,,4.92 ± 3.03,3.199523402
+45,3,di,di,ADP,case,recinto,,,7.232814475
+46,3,un,uno,DET,det,recinto,,,7.065833912
+47,3,recinto,recinto,NOUN,nmod,pali,,,3.691982492
+48,3,…,…,PUNCT,punct,rimane,,,
+49,3,e,e,CCONJ,cc,comincia,,,2.741151583
+50,3,comincia,cominciare,VERB,conj,rimane,,,4.545415831
+51,3,subito,subito,ADV,advmod,comincia,,,5.515761062
+52,3,a,a,ADP,mark,tessere,,,7.004335738
+53,3,tessere,tessere,VERB,xcomp,comincia,,,3.224346986
+54,3,la,il,DET,det,tela,,,7.055331658
+55,3,sua,suo,DET,det:poss,tela,,,6.022524285
+56,3,tela,tela,NOUN,obj,tessere,,7.84 ± 2.10,3.550758712
+57,3,,,PUNCT,punct,rimane,,,
+58,4,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+59,4,il,il,DET,det,cavallo,,,7.039560886
+60,4,cavallo,cavallo,NOUN,nsubj,Arriva,,3.92 ± 1.53,4.765822219
+61,4,e,e,CCONJ,cc,dice,,,2.741151583
+62,4,gli,gli,PRON,iobj,dice,,,6.227520191
+63,4,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
+64,4,,,PUNCT,punct,dice,,,
+65,4,,,PUNCT,punct,Hiii,,,
+66,4,,,PUNCT,punct,Hiii,,,
+67,4,hiii,Hiii,INTJ,discourse,Arriva,,,1.367014489
+68,4,,,PUNCT,punct,Hiii,,,
+69,4,hiii,Hiii,INTJ,discourse,Arriva,,,1.367014489
+70,4,,,PUNCT,punct,Hiii,,,
+71,5,vuoi,volere,AUX,aux,venire,,,5.995743909
+72,5,venire,venire,VERB,root,ROOT,,4.80 ± 2.10,5.41855288
+73,5,a,a,ADP,mark,cavalcare,,,7.004335738
+74,5,cavalcare,cavalcare,VERB,xcomp,venire,,,3.648805127
+75,5,,,PUNCT,punct,venire,,,
+76,6,,,PUNCT,root,ROOT,,,
+77,6,,,PUNCT,punct,>,,,
+78,6,,,PUNCT,punct,>,,,
+79,7,il,il,DET,det,ragno,,,7.039560886
+80,7,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+81,7,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
+82,7,tesse,tessere,VERB,root,ROOT,,,2.660745246
+83,7,e,e,CCONJ,cc,tace,,,2.741151583
+84,7,tace,tacere,VERB,conj,tesse,,,2.829412487
+85,7,,,PUNCT,punct,tesse,,,
+86,8,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+87,8,la,il,DET,det,mucca,,,7.055331658
+88,8,mucca,mucca,NOUN,nsubj,Arriva,,4.00 ± 1.63,3.952851068
+89,8,e,e,CCONJ,cc,dice,,,2.741151583
+90,8,gli,gli,PRON,iobj,dice,,,6.227520191
+91,8,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
+92,8,,,PUNCT,punct,Arriva,,,
+93,9,,,PUNCT,punct,Muuu!,,,
+94,9,,,PUNCT,punct,Muuu!,,,
+95,9,muuu,Muuu,INTJ,root,ROOT,,,2.065984493
+96,9,muuu,Muuu,PROPN,vocative,Muuu!,,,2.065984493
+97,9,,,PUNCT,punct,Muuu!,,,
+98,10,vuoi,volere,AUX,aux,mangiare,,,5.995743909
+99,10,mangiare,mangiare,VERB,root,ROOT,,3.24 ± 1.74,5.112999615
+100,10,un,uno,DET,det,po',,,7.065833912
+101,10,po,poco,PRON,obj,mangiare,,,4.399095757
+102,10,di,di,ADP,case,fieno,,,7.232814475
+103,10,fieno,fieno,NOUN,nmod,po',,6.24 ± 1.67,3.374193074
+104,10,e,e,CCONJ,cc,avena,,,2.741151583
+105,10,di,di,ADP,case,avena,,,7.232814475
+106,10,avena,avena,NOUN,conj,fieno,,,3.340142343
+107,10,,,PUNCT,punct,mangiare,,,
+108,11,,,PUNCT,root,ROOT,,,
+109,11,,,PUNCT,punct,>,,,
+110,11,,,PUNCT,punct,>,,,
+111,12,il,il,DET,det,ragno,,,7.039560886
+112,12,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+113,12,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
+114,12,tesse,tessere,VERB,root,ROOT,,,2.660745246
+115,12,e,e,CCONJ,cc,tace,,,2.741151583
+116,12,tace,tacere,VERB,conj,tesse,,,2.829412487
+117,12,,,PUNCT,punct,tesse,,,
+118,13,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+119,13,la,il,DET,det,pecora,,,7.055331658
+120,13,pecora,pecora,NOUN,nsubj,Arriva,,3.28 ± 1.21,3.645005501
+121,13,e,e,CCONJ,cc,dice,,,2.741151583
+122,13,gli,gli,PRON,iobj,dice,,,6.227520191
+123,13,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
+124,13,,,PUNCT,punct,Arriva,,,
+125,14,,,PUNCT,punct,Beee!,,,
+126,14,,,PUNCT,punct,Beee!,,,
+127,14,beee,Beee,INTJ,root,ROOT,,,1.734991274
+128,14,beee,Beee,PROPN,vocative,Beee!,,,1.734991274
+129,14,,,PUNCT,punct,Beee!,,,
+130,15,andiamo,andare,VERB,root,ROOT,,4.20 ± 1.44,5.868904099
+131,15,insieme,insieme,ADV,advmod,Andiamo,,,5.500638545
+132,15,per,per,ADP,case,prati,,,6.912435835
+133,15,prati,prato,NOUN,obl,Andiamo,,4.96 ± 2.21,3.112609706
+134,15,,,PUNCT,punct,Andiamo,,,
+135,16,,,PUNCT,root,ROOT,,,
+136,16,,,PUNCT,punct,>,,,
+137,16,,,PUNCT,punct,>,,,
+138,17,il,il,DET,det,ragno,,,7.039560886
+139,17,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+140,17,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
+141,17,tesse,tessere,VERB,root,ROOT,,,2.660745246
+142,17,e,e,CCONJ,cc,tace,,,2.741151583
+143,17,tace,tacere,VERB,conj,tesse,,,2.829412487
+144,17,,,PUNCT,punct,tesse,,,
+145,18,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+146,18,la,il,DET,det,capra,,,7.055331658
+147,18,capra,capra,NOUN,nsubj,Arriva,,3.52 ± 1.29,3.85226257
+148,18,e,e,CCONJ,cc,dice,,,2.741151583
+149,18,gli,gli,PRON,iobj,dice,,,6.227520191
+150,18,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
+151,18,,,PUNCT,punct,Arriva,,,
+152,19,,,PUNCT,punct,Facciamo,,,
+153,19,,,PUNCT,punct,Facciamo,,,
+154,19,meee,Meee,INTJ,discourse,Facciamo,,,1.367014489
+155,19,meee,Meee,PROPN,vocative,Facciamo,,,1.367014489
+156,19,,,PUNCT,punct,Meee,,,
+157,19,facciamo,fare,VERB,root,ROOT,,4.40 ± 2.22,5.388300287
+158,19,chi,chi,PRON,obj,Facciamo,,,6.108444494
+159,19,salta,saltare,VERB,acl:relcl,chi,,3.48 ± 1.66,4.385576302
+160,19,di,di,ADP,case,più,,,7.232814475
+161,19,più,più,ADV,advmod,salta,,,6.382555861
+162,19,,,PUNCT,punct,Facciamo,,,
+163,19,,,PUNCT,punct,Facciamo,,,
+164,19,,,PUNCT,punct,Facciamo,,,
+165,19,,,PUNCT,punct,Facciamo,,,
+166,20,il,il,DET,det,ragno,,,7.039560886
+167,20,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+168,20,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
+169,20,tesse,tessere,VERB,root,ROOT,,,2.660745246
+170,20,e,e,CCONJ,cc,tace,,,2.741151583
+171,20,tace,tacere,VERB,conj,tesse,,,2.829412487
+172,20,,,PUNCT,punct,tesse,,,
+173,21,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+174,21,il,il,DET,det,maiale,,,7.039560886
+175,21,maiale,maiale,NOUN,nsubj,Arriva,,4.20 ± 1.61,4.362357131
+176,21,e,e,CCONJ,cc,dice,,,2.741151583
+177,21,gli,gli,PRON,iobj,dice,,,6.227520191
+178,21,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
+179,21,,,PUNCT,punct,Arriva,,,
+180,22,,,PUNCT,punct,andiamo,,,
+181,22,,,PUNCT,punct,Gronf!,,,
+182,22,gronf,Gronf,PROPN,nsubj,andiamo,,,
+183,22,gronf,Gronf,PROPN,flat:name,Gronf!,,,
+184,22,,,PUNCT,punct,Gronf!,,,
+185,22,perché,perché,ADV,advmod,andiamo,,,5.965637226
+186,22,non,non,ADV,advmod,andiamo,,,7.259198169
+187,22,andiamo,andare,VERB,root,ROOT,,4.20 ± 1.44,5.868904099
+188,22,a,a,ADP,mark,rotolar,,,7.004335738
+189,22,rotolar,rotolare,VERB,xcomp,andiamo,,,
+190,22,ci,ci,PRON,expl,rotolar,,,6.517126939
+191,22,in,in,ADP,case,prato,,,6.797274494
+192,22,il,il,DET,det,prato,,,7.039560886
+193,22,prato,prato,NOUN,obl,rotolar,,4.96 ± 2.21,3.865325043
+194,22,,,PUNCT,punct,andiamo,,,
+195,23,,,PUNCT,root,ROOT,,,
+196,23,,,PUNCT,punct,>,,,
+197,23,,,PUNCT,punct,>,,,
+198,24,il,il,DET,det,ragno,,,7.039560886
+199,24,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+200,24,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
+201,24,tesse,tessere,VERB,root,ROOT,,,2.660745246
+202,24,e,e,CCONJ,cc,tace,,,2.741151583
+203,24,tace,tacere,VERB,conj,tesse,,,2.829412487
+204,24,,,PUNCT,punct,tesse,,,
+205,25,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+206,25,il,il,DET,det,cane,,,7.039560886
+207,25,cane,cane,NOUN,nsubj,Arriva,,2.76 ± 1.23,5.020066123
+208,25,e,e,CCONJ,cc,dice,,,2.741151583
+209,25,gli,gli,PRON,iobj,dice,,,6.227520191
+210,25,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
+211,25,,,SYM,discourse,Arriva,,,
+212,25,,,PUNCT,punct,Vieni,,,
+213,25,bau,Bau,INTJ,discourse,Vieni,,,2.25162107
+214,25,bau,Bau,INTJ,discourse,Vieni,,,2.25162107
+215,25,vieni,venire,VERB,parataxis,Arriva,,4.80 ± 2.10,5.596576886
+216,25,,,PUNCT,punct,Vieni,,,
+217,25,che,che,SCONJ,mark,andiamo,,,7.250456545
+218,25,andiamo,andare,VERB,conj,Vieni,,4.20 ± 1.44,5.868904099
+219,25,a,a,ADP,case,caccia,,,7.004335738
+220,25,caccia,caccia,NOUN,obl,andiamo,,,4.781987837
+221,25,da,da,ADP,case,gatto,,,6.577812618
+222,25,il,il,DET,det,gatto,,,7.039560886
+223,25,gatto,gatto,NOUN,obl,andiamo,,2.56 ± 1.26,4.503840711
+224,25,,,PUNCT,punct,Vieni,,,
+225,25,,,PUNCT,punct,Vieni,,,
+226,25,,,PUNCT,punct,Arriva,,,
+227,25,,,PUNCT,punct,Arriva,,,
+228,26,il,il,DET,det,ragno,,,7.039560886
+229,26,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+230,26,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
+231,26,tesse,tessere,VERB,root,ROOT,,,2.660745246
+232,26,e,e,CCONJ,cc,tace,,,2.741151583
+233,26,tace,tacere,VERB,conj,tesse,,,2.829412487
+234,26,,,PUNCT,punct,tesse,,,
+235,27,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+236,27,il,il,DET,det,gatto,,,7.039560886
+237,27,gatto,gatto,NOUN,nsubj,Arriva,,2.56 ± 1.26,4.503840711
+238,27,e,e,CCONJ,cc,dice,,,2.741151583
+239,27,gli,gli,PRON,iobj,dice,,,6.227520191
+240,27,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
+241,27,,,SYM,discourse,Arriva,,,
+242,27,,,PUNCT,punct,Maoo,,,
+243,27,maoo,mao,INTJ,discourse,Arriva,,,
+244,27,,,PUNCT,punct,Maoo,,,
+245,27,maooo,Maooo,INTJ,discourse,Arriva,,,
+246,27,,,PUNCT,punct,Maooo,,,
+247,28,se,se,SCONJ,mark,andassimo,,,6.583110863
+248,28,andassimo,andare,VERB,root,ROOT,,4.20 ± 1.44,3.520321109
+249,28,a,a,ADP,mark,farci,,,7.004335738
+250,28,farci,fare,VERB,xcomp,andassimo,,4.40 ± 2.22,4.836738348
+251,28,un,uno,DET,det,pisolino,,,7.065833912
+252,28,pisolino,pisolino,NOUN,obj,farci,,,3.63574843
+253,28,,,PUNCT,punct,andassimo,,,
+254,28,,,PUNCT,punct,andassimo,,,
+255,28,,,PUNCT,punct,andassimo,,,
+256,29,il,il,DET,det,ragno,,,7.039560886
+257,29,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+258,29,ragno,ragno,NOUN,nsubj,tesse,,4.48 ± 0.96,3.818289087
+259,29,tesse,tessere,VERB,root,ROOT,,,2.660745246
+260,29,e,e,CCONJ,cc,tace,,,2.741151583
+261,29,tace,tacere,VERB,conj,tesse,,,2.829412487
+262,29,,,PUNCT,punct,tesse,,,
+263,30,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+264,30,l’,il,DET,det,anatra,,,
+265,30,anatra,anatra,NOUN,nsubj,Arriva,,5.12 ± 2.19,3.698104207
+266,30,e,e,CCONJ,cc,dice,,,2.741151583
+267,30,gli,gli,PRON,iobj,dice,,,6.227520191
+268,30,dice,dire,VERB,conj,Arriva,,4.08 ± 1.73,5.609257672
+269,30,,,PUNCT,punct,dice,,,
+270,30,,,PUNCT,punct,Qua,,,
+271,30,,,PUNCT,punct,Qua,,,
+272,30,qua,qua,ADV,parataxis,Arriva,,,5.522856403
+273,30,,,PUNCT,punct,Qua,,,
+274,30,qua,qua,ADV,advmod,Vieni,,,5.522856403
+275,30,,,PUNCT,punct,Qua,,,
+276,30,vieni,venire,VERB,parataxis,Arriva,,4.80 ± 2.10,5.596576886
+277,30,con,con,ADP,case,me,,,6.620271703
+278,30,me,me,PRON,obl,Vieni,,,6.337855516
+279,30,a,a,ADP,mark,nuotare,,,7.004335738
+280,30,nuotare,nuotare,VERB,xcomp,Vieni,,5.28 ± 2.17,4.126178512
+281,30,,,PUNCT,punct,Vieni,,,
+282,31,,,PUNCT,root,ROOT,,,
+283,31,,,PUNCT,punct,>,,,
+284,31,,,PUNCT,punct,>,,,
+285,32,il,il,DET,det,ragno,,,7.039560886
+286,32,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+287,32,ragno,ragno,NOUN,nsubj,smesso,,4.48 ± 0.96,3.818289087
+288,32,ha,avere,AUX,aux,smesso,,,6.684018637
+289,32,smesso,smettere,VERB,root,ROOT,,,4.553782533
+290,32,di,di,ADP,case,tessere,,,7.232814475
+291,32,tessere,tessera,NOUN,obl,smesso,,,3.224346986
+292,32,,,PUNCT,punct,smesso,,,
+293,33,la,il,DET,det,ragnatela,,,7.055331658
+294,33,ragnatela,ragnatela,NOUN,nsubj,pronta,,,3.110001322
+295,33,è,essere,AUX,cop,pronta,,,7.249521761
+296,33,pronta,pronto,ADJ,root,ROOT,,,4.917324392
+297,33,,,PUNCT,punct,pronta,,,
+298,34,allora,allora,ADV,advmod,arriva,,,6.072527547
+299,34,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+300,34,il,il,DET,det,gallo,,,7.039560886
+301,34,gallo,gallo,NOUN,nsubj,arriva,,4.36 ± 1.87,3.601700463
+302,34,e,e,CCONJ,cc,dice,,,2.741151583
+303,34,gli,gli,PRON,iobj,dice,,,6.227520191
+304,34,dice,dire,VERB,conj,arriva,,4.08 ± 1.73,5.609257672
+305,34,,,PUNCT,punct,arriva,,,
+306,35,,,PUNCT,punct,Chiccirichi,,,
+307,35,,,PUNCT,punct,Chiccirichi,,,
+308,35,chiccirichi,Chiccirichi,PROPN,root,ROOT,,,
+309,35,,,PUNCT,punct,Chiccirichi,,,
+310,36,perché,perché,PRON,obl,andiamo,,,5.965637226
+311,36,non,non,ADV,advmod,andiamo,,,7.259198169
+312,36,andiamo,andare,VERB,root,ROOT,,4.20 ± 1.44,5.868904099
+313,36,assieme,assieme,ADV,advmod,andiamo,,,4.446678017
+314,36,ad,a,ADP,mark,acchiappare,,,5.934389877
+315,36,acchiappare,acchiappare,VERB,xcomp,andiamo,,4.84 ± 1.52,2.911082533
+316,36,le,il,DET,det,mosche,,,6.624997683
+317,36,mosche,Mosca,NOUN,obj,acchiappare,,,3.732502474
+318,36,,,PUNCT,punct,andiamo,,,
+319,37,,,PUNCT,root,ROOT,,,
+320,37,,,PUNCT,punct,>,,,
+321,37,,,PUNCT,punct,>,,,
+322,38,il,il,DET,det,ragno,,,7.039560886
+323,38,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+324,38,ragno,ragno,NOUN,nsubj,tace,,4.48 ± 0.96,3.818289087
+325,38,tace,tacere,VERB,root,ROOT,,,2.829412487
+326,38,e,e,CCONJ,cc,….,,,2.741151583
+327,38,…,…,X,conj,tace,,,
+328,38,zac,Zac,PROPN,vocative,tace,,,3.232315915
+329,38,,,PUNCT,punct,tace,,,
+330,39,ha,avere,AUX,aux,acchiappato,,,6.684018637
+331,39,già,già,ADV,advmod,acchiappato,,,6.015979163
+332,39,acchiappato,acchiappare,VERB,root,ROOT,,4.84 ± 1.52,2.781987837
+333,39,una,uno,DET,det,mosca,,,6.801817508
+334,39,mosca,mosca,NOUN,obj,acchiappato,,4.28 ± 1.54,1.491953226
+335,39,,,PUNCT,punct,acchiappato,,,
+336,40,allora,allora,ADV,advmod,arriva,,,6.072527547
+337,40,arriva,arrivare,VERB,root,ROOT,,,4.940504965
+338,40,la,il,DET,det,civetta,,,7.055331658
+339,40,civetta,civetta,NOUN,nsubj,arriva,,,3.173194463
+340,40,,,PUNCT,punct,dice,,,
+341,40,e,e,CCONJ,cc,dice,,,2.741151583
+342,40,dice,dire,VERB,conj,arriva,,4.08 ± 1.73,5.609257672
+343,40,,,SYM,discourse,arriva,,,
+344,40,,,PUNCT,punct,Uhuuu,,,
+345,40,uhuuu,Uhuuu,INTJ,discourse,arriva,,,1.19092323
+346,40,,,PUNCT,punct,Uhuuu,,,
+347,41,chi,chi,PRON,nsubj,fatto,,,6.108444494
+348,41,ha,avere,AUX,aux,fatto,,,6.684018637
+349,41,fatto,fare,VERB,root,ROOT,,4.40 ± 2.22,6.237129549
+350,41,quella,quello,DET,det,ragnatela,,,5.939281839
+351,41,bella,bello,ADJ,amod,ragnatela,,3.80 ± 2.35,5.484893151
+352,41,ragnatela,ragnatela,NOUN,obj,fatto,,,3.110001322
+353,41,,,PUNCT,punct,fatto,,,
+354,42,,,PUNCT,root,ROOT,,,
+355,42,,,PUNCT,punct,>,,,
+356,42,,,PUNCT,punct,>,,,
+357,43,e,e,CCONJ,cc,tace,,,2.741151583
+358,43,il,il,DET,det,ragno,,,7.039560886
+359,43,piccolo,piccolo,ADJ,amod,ragno,,4.12 ± 3.18,5.291431625
+360,43,ragno,ragno,NOUN,nsubj,tace,,4.48 ± 0.96,3.818289087
+361,43,tace,tacere,VERB,root,ROOT,,,2.829412487
+362,43,,,PUNCT,punct,dorme,,,
+363,43,dorme,dormire,VERB,conj,tace,,3.08 ± 1.29,4.289566956
+364,43,già,già,ADV,advmod,dorme,,,6.015979163
+365,43,da,da,ADP,case,po',,,6.577812618
+366,43,un,uno,DET,det,po',,,7.065833912
+367,43,po,poco,ADV,advmod,dorme,,,4.399095757
+368,43,,,PUNCT,punct,giornata,,,
+369,43,è,essere,AUX,aux,giornata,,,7.249521761
+370,43,stata,essere,AUX,cop,giornata,,,5.783216598
+371,43,una,uno,DET,det,giornata,,,6.801817508
+372,43,dura,duro,ADJ,amod,giornata,,4.68 ± 2.34,4.766572845
+373,43,giornata,giornata,NOUN,conj,tace,,,5.003101004
+374,43,di,di,ADP,case,lavoro,,,7.232814475
+375,43,lavoro,lavoro,NOUN,nmod,giornata,,6.28 ± 3.34,5.810397445
+376,43,,,PUNCT,punct,tace,,,

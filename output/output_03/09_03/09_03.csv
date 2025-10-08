@@ -1,510 +1,510 @@
-sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
-0,chi,chi,PRON,nsubj,fatta,,,6.108444494
-0,me,me,PRON,iobj,fatta,,,6.337855516
-0,l,lo,PRON,obj,fatta,,,6.640107629
-0,ha,avere,AUX,aux,fatta,,,6.684018637
-0,fatta,fare,VERB,root,ROOT,,4.40 ± 2.22,5.238100711
-0,in,in,ADP,case,testa,,,6.797274494
-0,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
-0,,,PUNCT,punct,fatta,,,
-1,una,uno,DET,det,sera,,,6.801817508
-1,sera,sera,NOUN,obl,successe,,4.60 ± 2.22,5.361082228
-1,,,PUNCT,punct,sera,,,
-1,quando,quando,SCONJ,mark,mise,,,6.212844009
-1,come,come,ADP,case,solito,,,6.562704781
-1,a,a,ADP,fixed,come,,,7.004335738
-1,il,il,DET,det,solito,,,7.039560886
-1,solito,solito,NOUN,obl,mise,,,4.966096615
-1,,,PUNCT,punct,solito,,,
-1,la,il,DET,det,Talpa,,,7.055331658
-1,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-1,talpa,Talpa,PROPN,nsubj,mise,,,3.862096073
-1,mise,mettere,VERB,root,ROOT,,4.28 ± 1.59,3.850364012
-1,la,il,DET,det,testa,,,7.055331658
-1,testa,testa,NOUN,obj,mise,,3.32 ± 1.44,5.506904066
-1,fuori,fuori,ADV,case,tana,,,5.872607584
-1,da,da,ADP,fixed,fuori,,,6.577812618
-1,la,il,DET,det,tana,,,7.055331658
-1,tana,tana,NOUN,obl,mise,,4.32 ± 1.77,3.747828499
-1,per,per,ADP,mark,controllare,,,6.912435835
-1,controllare,controllare,VERB,advcl,mise,,,4.90171733
-1,se,se,SCONJ,mark,andato,,,6.583110863
-1,il,il,DET,det,sole,,,7.039560886
-1,sole,sole,NOUN,nsubj,andato,,3.64 ± 2.22,4.889371768
-1,se,se,PRON,expl,andato,,,6.583110863
-1,n’,ne,PRON,expl,andato,,,
-1,era,essere,AUX,aux,andato,,,6.283626334
-1,andato,andare,VERB,ccomp,controllare,,4.20 ± 1.44,5.36269355
-1,,,PUNCT,punct,andato,,,
-1,ecco,ecco,ADV,advmod,successe,,,5.695815269
-1,cosa,cosa,PRON,obj,successe,,,6.632253028
-1,successe,succedere,VERB,conj,mise,,,4.046442386
-1,,,PUNCT,punct,successe,,,
-2,era,essere,AUX,cop,rotondo,,,6.283626334
-2,rotondo,rotondo,ADJ,root,ROOT,,,2.98331492
-2,e,e,CCONJ,cc,marrone,,,2.741151583
-2,marrone,marrone,ADJ,conj,rotondo,,3.64 ± 1.58,3.804765052
-2,,,PUNCT,punct,pareva,,,
-2,pareva,parere,VERB,conj,rotondo,,,3.623090499
-2,un,uno,DET,det,po',,,7.065833912
-2,po,poco,ADV,advmod,pareva,,,4.399095757
-2,una,uno,DET,det,salsiccia,,,6.801817508
-2,salsiccia,salsiccia,NOUN,nsubj,pareva,,,3.638081261
-2,,,PUNCT,punct,cadde,,,
-2,e,e,CCONJ,cc,cadde,,,2.741151583
-2,il,il,DET,det,peggio,,,7.039560886
-2,peggio,peggio,NOUN,nsubj,cadde,,,4.85523607
-2,fu,essere,AUX,aux,cadde,,,5.104021496
-2,che,che,SCONJ,mark,cadde,,,7.250456545
-2,le,le,PRON,iobj,cadde,,,6.624997683
-2,cadde,cadere,VERB,conj,rotondo,,2.88 ± 1.45,3.592323771
-2,proprio,proprio,ADV,advmod,testa,,,5.884320377
-2,in,in,ADP,case,testa,,,6.797274494
-2,testa,testa,NOUN,obl,cadde,,3.32 ± 1.44,5.506904066
-2,,,PUNCT,punct,rotondo,,,
-3,“,“,PUNCT,punct,schifo,,,
-3,ma,ma,CCONJ,cc,schifo,,,6.662005813
-3,che,che,DET,det,schifo,,,7.250456545
-3,schifo,schifo,NOUN,root,ROOT,,,4.853492197
-3,,,PUNCT,punct,schifo,,,
-3,”,”,PUNCT,punct,schifo,,,
-3,,,PUNCT,punct,schifo,,,
-3,esclamò,esclamare,VERB,parataxis,schifo,,,2.120342156
-3,la,il,DET,det,Talpa,,,7.055331658
-3,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-3,talpa,Talpa,PROPN,nsubj,esclamò,,,3.862096073
-3,,,PUNCT,punct,schifo,,,
-4,“,“,PUNCT,punct,è,,,
-4,chi,chi,PRON,nsubj,è,,,6.108444494
-4,è,essere,VERB,root,ROOT,,,7.249521761
-4,che,che,PRON,nsubj,fatta,,,7.250456545
-4,me,me,PRON,iobj,fatta,,,6.337855516
-4,l’,il,PRON,obj,fatta,,,
-4,ha,avere,AUX,aux,fatta,,,6.684018637
-4,fatta,fare,VERB,ccomp,è,,4.40 ± 2.22,5.238100711
-4,in,in,ADP,case,testa,,,6.797274494
-4,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
-4,,,PUNCT,punct,è,,,
-5,”,”,PUNCT,punct,scoprir,,,
-5,miope,Miope,PROPN,nsubj,scoprir,,,2.808971327
-5,com’,come,SCONJ,mark,era,,,
-5,era,essere,VERB,advcl,scoprir,,,6.283626334
-5,,,PUNCT,punct,scoprir,,,
-5,non,non,ADV,advmod,scoprir,,,7.259198169
-5,poteva,potere,AUX,aux,scoprir,,,4.87822919
-5,scoprir,scoprire,VERB,root,ROOT,,,1.668044485
-5,lo,lo,PRON,obj,scoprir,,,6.655915487
-5,da,da,ADP,case,sola,,,6.577812618
-5,sola,solo,ADJ,obl,scoprir,,4.60 ± 2.14,5.290759195
-5,,,PUNCT,punct,scoprir,,,
-6,“,“,PUNCT,punct,piccione,,,
-6,dì,dì,ADV,advmod,piccione,,,4.853114221
-6,un,uno,DET,det,po',,,7.065833912
-6,po,poco,ADV,advmod,piccione,,,4.399095757
-6,piccione,piccione,NOUN,root,ROOT,,5.96 ± 2.26,3.412337468
-6,,,PUNCT,punct,piccione,,,
-6,is,is,X,conj,piccione,,,4.08273935
-6,i,i,X,flat:foreign,is,,,6.584780852
-6,tu,tu,PRON,flat:foreign,is,,,6.414765586
-6,che,che,PRON,nsubj,fatta,,,7.250456545
-6,me,me,PRON,iobj,fatta,,,6.337855516
-6,l’,il,PRON,obj,fatta,,,
-6,hai,avere,AUX,aux,fatta,,,6.477590733
-6,fatta,fare,VERB,acl:relcl,piccione,,4.40 ± 2.22,5.238100711
-6,in,in,ADP,case,testa,,,6.797274494
-6,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
-6,,,PUNCT,punct,piccione,,,
-7,”,”,PUNCT,punct,io,,,
-7,“,“,PUNCT,punct,io,,,
-7,mmmm,mmmm,INTJ,discourse,io,,,
-7,,,PUNCT,punct,mmmm,,,
-7,io,io,PRON,root,ROOT,,,6.536707533
-7,,,PUNCT,punct,io,,,
-8,ma,ma,CCONJ,cc,figurati,,,6.662005813
-8,no,no,INTJ,discourse,figurati,,,6.605764599
-8,,,PUNCT,punct,no,,,
-8,figurati,figurare,VERB,root,ROOT,,,4.201858895
-8,,,PUNCT,punct,figurati,,,
-9,io,io,PRON,nsubj,faccio,,,6.536707533
-9,la,la,PRON,obj,faccio,,,7.055331658
-9,faccio,fare,VERB,root,ROOT,,4.40 ± 2.22,5.545550207
-9,così,così,ADV,advmod,faccio,,,6.287788074
-9,”,”,PUNCT,punct,faccio,,,
-9,,,PUNCT,punct,splash,,,
-9,e,e,CCONJ,cc,splash,,,2.741151583
-9,splash,splash,NOUN,discourse,faccio,,,2.668044485
-9,,,PUNCT,punct,faccio,,,
-10,uno,uno,DET,det,spruzzo,,,6.015055575
-10,spruzzo,spruzzare,NOUN,nsubj,spruzzò,,,3.071736822
-10,lattiginoso,lattiginoso,ADJ,amod,spruzzo,,,1.844135744
-10,spruzzò,spruzzare,VERB,root,ROOT,,,1.367014489
-10,proprio,proprio,ADV,advmod,talpa,,,5.884320377
-10,davanti,davanti,ADV,case,talpa,,,5.087862602
-10,a,a,ADP,fixed,davanti,,,7.004335738
-10,la,il,DET,det,talpa,,,7.055331658
-10,piccola,piccolo,ADJ,amod,talpa,,4.12 ± 3.18,5.234049628
-10,talpa,talpa,NOUN,obl,spruzzò,,5.72 ± 2.49,3.862096073
-10,,,PUNCT,punct,spruzzò,,,
-10,picchiettandole,picchiettare,VERB,advcl,spruzzò,,,
-10,la,il,DET,det,zampa,,,7.055331658
-10,zampa,zampa,NOUN,obj,picchiettandole,,4.44 ± 1.50,3.628673793
-10,destra,destro,ADJ,amod,zampa,,,4.749751755
-10,,,PUNCT,punct,spruzzò,,,
-11,“,“,PUNCT,punct,cavallo,,,
-11,ehi,ehi,INTJ,discourse,cavallo,,,1.844135744
-11,cavallo,cavallo,NOUN,root,ROOT,,3.92 ± 1.53,4.765822219
-11,,,PUNCT,punct,is,,,
-11,is,is,X,conj,cavallo,,,4.08273935
-11,i,i,X,flat:foreign,is,,,6.584780852
-11,tu,tu,PRON,flat:foreign,is,,,6.414765586
-11,che,che,PRON,nsubj,fatta,,,7.250456545
-11,me,me,PRON,iobj,fatta,,,6.337855516
-11,l’,il,PRON,obj,fatta,,,
-11,hai,avere,AUX,aux,fatta,,,6.477590733
-11,fatta,fare,VERB,acl:relcl,cavallo,,4.40 ± 2.22,5.238100711
-11,in,in,ADP,case,testa,,,6.797274494
-11,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
-11,,,PUNCT,punct,cavallo,,,
-12,”,”,PUNCT,root,ROOT,,,
-13,il,il,DET,det,cavallo,,,7.039560886
-13,cavallo,cavallo,NOUN,nsubj,rispose,,3.92 ± 1.53,4.765822219
-13,rispose,rispondere,VERB,root,ROOT,,3.88 ± 1.59,3.603383777
-13,,,PUNCT,punct,rispose,,,
-14,“,“,PUNCT,punct,Io,,,
-14,io,io,PRON,root,ROOT,,,6.536707533
-14,,,PUNCT,punct,Io,,,
-15,ma,ma,CCONJ,cc,va,,,6.662005813
-15,va,andare,VERB,root,ROOT,,4.20 ± 1.44,6.162363764
-15,,,PUNCT,punct,va,,,
-16,io,io,PRON,nsubj,faccio,,,6.536707533
-16,la,la,PRON,obj,faccio,,,7.055331658
-16,faccio,fare,VERB,root,ROOT,,4.40 ± 2.22,5.545550207
-16,così,così,ADV,advmod,faccio,,,6.287788074
-16,”,”,PUNCT,punct,faccio,,,
-16,,,PUNCT,punct,bombardò,,,
-16,e,e,CCONJ,cc,bombardò,,,2.741151583
-16,bombardò,bombardare,VERB,conj,faccio,,,1.588863239
-16,l’,il,DET,det,erba,,,
-16,erba,erba,NOUN,obj,bombardò,,3.88 ± 1.39,4.450278157
-16,di,di,ADP,case,pallottole,,,7.232814475
-16,cinque,cinque,NUM,nummod,pallottole,,,5.222170066
-16,grasse,grasso,ADJ,amod,pallottole,,5.88 ± 2.11,3.313139108
-16,e,e,CCONJ,cc,grosse,,,2.741151583
-16,grosse,grosso,ADJ,conj,grasse,,,3.963611585
-16,pallottole,pallottola,NOUN,nmod,erba,,7.64 ± 1.91,3.791896126
-16,,,PUNCT,punct,faccio,,,
-17,la,il,DET,det,Talpa,,,7.055331658
-17,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-17,talpa,Talpa,PROPN,nsubj:pass,impressionata,,,3.862096073
-17,ne,ne,PRON,iobj,impressionata,,,6.201935117
-17,fu,essere,AUX,aux:pass,impressionata,,,5.104021496
-17,molto,molto,ADV,advmod,impressionata,,,6.102695876
-17,impressionata,impressionare,VERB,root,ROOT,,,3.207956569
-17,,,PUNCT,punct,impressionata,,,
-18,“,“,PUNCT,punct,Dì,,,
-18,dì,dì,INTJ,root,ROOT,,,4.853114221
-18,,,PUNCT,punct,Dì,,,
-18,su,su,ADV,advmod,Dì,,,6.000068652
-18,,,PUNCT,punct,mucca,,,
-18,mucca,mucca,NOUN,conj,Dì,,4.00 ± 1.63,3.952851068
-18,,,PUNCT,punct,is,,,
-18,is,is,X,conj,Dì,,,4.08273935
-18,i,i,X,flat:foreign,is,,,6.584780852
-18,tu,tu,PRON,flat:name,is,,,6.414765586
-18,che,che,PRON,nsubj,fatta,,,7.250456545
-18,me,me,PRON,iobj,fatta,,,6.337855516
-18,l’,il,PRON,obj,fatta,,,
-18,hai,avere,AUX,aux,fatta,,,6.477590733
-18,fatta,fare,VERB,acl:relcl,is,,4.40 ± 2.22,5.238100711
-18,in,in,ADP,case,testa,,,6.797274494
-18,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
-18,,,PUNCT,punct,Dì,,,
-19,”,”,PUNCT,punct,io,,,
-19,“,“,PUNCT,punct,io,,,
-19,mmmmmuh,mmmmmuh,INTJ,discourse,io,,,
-19,,,PUNCT,punct,mmmmmuh,,,
-19,io,io,PRON,root,ROOT,,,6.536707533
-19,,,PUNCT,punct,io,,,
-20,ma,ma,CCONJ,cc,dici,,,6.662005813
-20,che,che,PRON,obj,dici,,,7.250456545
-20,dici,dire,VERB,root,ROOT,,4.08 ± 1.73,5.443387891
-20,,,PUNCT,punct,dici,,,
-21,io,io,PRON,nsubj,faccio,,,6.536707533
-21,la,la,PRON,obj,faccio,,,7.055331658
-21,faccio,fare,VERB,root,ROOT,,4.40 ± 2.22,5.545550207
-21,così,così,ADV,advmod,faccio,,,6.287788074
-21,”,”,PUNCT,punct,faccio,,,
-21,,,PUNCT,punct,depositò,,,
-21,e,e,CCONJ,cc,patatafff,,,2.741151583
-21,patatafff,patatafff,NOUN,vocative,depositò,,,
-21,,,PUNCT,punct,patatafff,,,
-21,un’,uno,DET,det,focaccia,,,
-21,immensa,immenso,ADJ,amod,focaccia,,,3.372766818
-21,focaccia,focaccia,NOUN,nsubj,depositò,,,2.990263779
-21,verdastra,verdastro,ADJ,amod,focaccia,,,1.367014489
-21,si,si,PRON,expl,depositò,,,6.553884221
-21,depositò,depositare,VERB,conj,faccio,,,1.844135744
-21,mollemente,mollemente,ADV,advmod,depositò,,,1.19092323
-21,a,a,ADP,case,suolo,,,7.004335738
-21,il,il,DET,det,suolo,,,7.039560886
-21,suolo,suolo,NOUN,obl,depositò,,7.56 ± 2.42,3.990263779
-21,,,PUNCT,punct,faccio,,,
-22,“,“,PUNCT,punct,fortuna,,,
-22,che,che,DET,det,fortuna,,,7.250456545
-22,fortuna,fortuna,NOUN,root,ROOT,,,5.128416047
-22,che,che,SCONJ,mark,lei,,,7.250456545
-22,non,non,ADV,advmod,lei,,,7.259198169
-22,è,essere,AUX,aux,lei,,,7.249521761
-22,stata,essere,AUX,cop,lei,,,5.783216598
-22,lei,lei,PRON,ccomp,fortuna,,,6.235566848
-22,a,a,ADP,mark,farmela,,,7.004335738
-22,farmela,farmilare,VERB,ccomp,lei,,,3.389580317
-22,in,in,ADP,case,testa,,,6.797274494
-22,testa,testa,NOUN,obl,farmela,,3.32 ± 1.44,5.506904066
-22,,,PUNCT,punct,fortuna,,,
-22,”,”,PUNCT,punct,fortuna,,,
-22,,,PUNCT,punct,fortuna,,,
-22,pensò,pensare,VERB,parataxis,fortuna,,,3.538253245
-22,la,il,DET,det,Talpa,,,7.055331658
-22,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-22,talpa,Talpa,PROPN,nsubj,pensò,,,3.862096073
-22,,,PUNCT,punct,fortuna,,,
-23,“,“,PUNCT,punct,Ascolta,,,
-23,ascolta,ascoltare,VERB,root,ROOT,,,5.267181268
-23,maiale,maiale,NOUN,obj,Ascolta,,4.20 ± 1.61,4.362357131
-23,,,PUNCT,punct,is,,,
-23,is,is,X,parataxis,Ascolta,,,4.08273935
-23,i,i,X,flat:foreign,is,,,6.584780852
-23,tu,tu,PRON,flat:name,is,,,6.414765586
-23,che,che,PRON,nsubj,fatta,,,7.250456545
-23,me,me,PRON,iobj,fatta,,,6.337855516
-23,l’,il,PRON,obj,fatta,,,
-23,hai,avere,AUX,aux,fatta,,,6.477590733
-23,fatta,fare,VERB,acl:relcl,is,,4.40 ± 2.22,5.238100711
-23,in,in,ADP,case,testa,,,6.797274494
-23,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
-23,,,PUNCT,punct,Ascolta,,,
-24,”,”,PUNCT,punct,gronf,,,
-24,“,“,PUNCT,punct,gronf,,,
-24,gronf,grondia,NOUN,root,ROOT,,,
-24,,,PUNCT,punct,gronf,,,
-24,io,io,PRON,nmod,gronf,,,6.536707533
-24,,,PUNCT,punct,gronf,,,
-25,ma,ma,CCONJ,cc,mai,,,6.662005813
-25,quando,quando,SCONJ,mark,mai,,,6.212844009
-25,mai,mai,ADV,root,ROOT,,,6.144963021
-25,,,PUNCT,punct,mai,,,
-26,io,io,PRON,nsubj,faccio,,,6.536707533
-26,la,la,PRON,obj,faccio,,,7.055331658
-26,faccio,fare,VERB,root,ROOT,,4.40 ± 2.22,5.545550207
-26,così,così,ADV,advmod,faccio,,,6.287788074
-26,”,”,PUNCT,punct,faccio,,,
-26,,,PUNCT,punct,proiettò,,,
-26,e,e,CCONJ,cc,pruff,,,2.741151583
-26,pruff,pruffal,NOUN,nsubj,proiettò,,,
-26,,,PUNCT,punct,pruff,,,
-26,proiettò,proiettare,VERB,conj,faccio,,,1.588863239
-26,un,uno,DET,det,monticello,,,7.065833912
-26,monticello,monticello,NOUN,obj,proiettò,,,2.03602127
-26,bruno,bruno,ADJ,amod,monticello,,,2.065984493
-26,e,e,CCONJ,cc,molle,,,2.741151583
-26,molle,mollo,ADJ,conj,bruno,,,3.33393803
-26,su,su,ADP,case,campo,,,6.000068652
-26,il,il,DET,det,campo,,,7.039560886
-26,campo,campo,NOUN,obl,proiettò,,4.52 ± 1.56,5.007926363
-26,,,PUNCT,punct,faccio,,,
-27,“,“,PUNCT,punct,tappò,,,
-27,bleah,Bleah,INTJ,discourse,tappò,,,3.427712329
-27,”,”,PUNCT,punct,Bleah,,,
-27,,,PUNCT,punct,Bleah,,,
-27,la,il,DET,det,Talpa,,,7.055331658
-27,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-27,talpa,Talpa,PROPN,nsubj,tappò,,,3.862096073
-27,si,si,PRON,expl,tappò,,,6.553884221
-27,tappò,tappare,VERB,root,ROOT,,,1.734991274
-27,il,il,DET,det,naso,,,7.039560886
-27,naso,naso,NOUN,obj,tappò,,3.24 ± 1.69,4.637615696
-27,,,PUNCT,punct,tappò,,,
-28,“,“,PUNCT,punct,voi,,,
-28,voi,voi,PRON,nsubj,voi,,,5.827651777
-28,,,PUNCT,punct,Voi,,,
-28,laggiù,laggiù,ADV,advmod,voi,,,4.913927132
-28,,,PUNCT,punct,laggiù,,,
-28,siete,essere,AUX,cop,voi,,,5.565708224
-28,voi,voi,PRON,root,ROOT,,,5.827651777
-28,che…,che…,ADV,advmod,voi,,,
-28,”,”,PUNCT,punct,voi,,,
-28,cominciò,cominciare,VERB,parataxis,voi,,,3.877112464
-28,la,il,DET,det,Talpa,,,7.055331658
-28,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-28,talpa,Talpa,PROPN,nsubj,cominciò,,,3.862096073
-28,,,PUNCT,punct,vide,,,
-28,ma,ma,CCONJ,cc,vide,,,6.662005813
-28,quando,quando,SCONJ,mark,avvicinò,,,6.212844009
-28,si,si,PRON,expl,avvicinò,,,6.553884221
-28,avvicinò,avvicinare,VERB,advcl,vide,,,2.96907448
-28,vide,vedere,VERB,conj,cominciò,,4.60 ± 1.50,3.892491215
-28,solo,solo,ADV,advmod,mosche,,4.60 ± 2.14,6.359323473
-28,due,due,NUM,nummod,mosche,,,5.996192947
-28,grandi,grande,ADJ,amod,mosche,,4.64 ± 2.04,4.918545808
-28,mosche,Mosca,NOUN,obj,vide,,,3.732502474
-28,nere,nero,ADJ,amod,mosche,,4.24 ± 1.74,3.79352575
-28,che,che,PRON,nsubj,abbuffando,,,7.250456545
-28,stavano,stare,AUX,aux,abbuffando,,4.60 ± 2.35,4.560417392
-28,abbuffando,abbuffare,VERB,acl:relcl,mosche,,,1.844135744
-28,si,si,PRON,expl,abbuffando,,,6.553884221
-28,,,PUNCT,punct,voi,,,
-29,“,“,PUNCT,punct,pensò,,,
-29,finalmente,finalmente,ADV,advmod,pensò,,,4.939266335
-29,qualcuno,qualcuno,PRON,nsubj,pensò,,,5.830633781
-29,che,che,PRON,nsubj,intende,,,7.250456545
-29,se,se,PRON,expl,intende,,,6.583110863
-29,ne,ne,PRON,iobj,intende,,,6.201935117
-29,intende,intendere,VERB,acl:relcl,qualcuno,,,4.458681447
-29,”,”,PUNCT,punct,intende,,,
-29,,,PUNCT,punct,qualcuno,,,
-29,pensò,pensare,VERB,root,ROOT,,,3.538253245
-29,la,il,DET,det,Talpa,,,7.055331658
-29,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-29,talpa,Talpa,PROPN,nsubj,pensò,,,3.862096073
-29,,,PUNCT,punct,pensò,,,
-30,“,“,PUNCT,punct,fatta,,,
-30,chi,chi,PRON,nsubj,fatta,,,6.108444494
-30,può,potere,AUX,aux,fatta,,,5.884100369
-30,avermela,avere,AUX,aux,fatta,,,2.622286994
-30,fatta,fare,VERB,root,ROOT,,4.40 ± 2.22,5.238100711
-30,in,in,ADP,case,testa,,,6.797274494
-30,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
-30,,,PUNCT,punct,fatta,,,
-31,me,me,PRON,expl,sapete,,,6.337855516
-31,lo,lo,PRON,obj,sapete,,,6.655915487
-31,sapete,sapere,VERB,root,ROOT,,,5.126858533
-31,dire,dire,VERB,ccomp,sapete,,4.08 ± 1.73,5.98002779
-31,,,PUNCT,punct,sapete,,,
-31,”,”,PUNCT,punct,sapete,,,
-31,sussurrò,sussurrare,VERB,parataxis,sapete,,,2.458094958
-31,,,PUNCT,punct,sapete,,,
-32,“,“,PUNCT,punct,zzz,,,
-32,zzz,zzale,NOUN,root,ROOT,,,1.792983221
-32,,,PUNCT,punct,zzz,,,
-32,così,così,ADV,advmod,zzz,,,6.287788074
-32,,,PUNCT,punct,zzz,,,
-32,zzz,zzale,NOUN,conj,zzz,,,1.792983221
-32,,,PUNCT,punct,muoverti,,,
-32,non,non,ADV,advmod,muoverti,,,7.259198169
-32,muoverti,muovere,VERB,conj,zzz,,,4.33998831
-32,”,”,PUNCT,punct,muoverti,,,
-32,,,PUNCT,punct,zzz,,,
-32,ronzarono,ronzare,VERB,parataxis,muoverti,,,
-32,le,il,DET,det,mosche,,,6.624997683
-32,mosche,Mosca,NOUN,nsubj,ronzarono,,,3.732502474
-32,,,PUNCT,punct,zzz,,,
-33,e,e,CCONJ,cc,è,,,2.741151583
-33,dopo,dopo,ADP,case,attimo,,,5.792396528
-33,un,uno,DET,det,attimo,,,7.065833912
-33,attimo,attimo,NOUN,obl,è,,,5.167914775
-33,,,PUNCT,punct,attimo,,,
-33,“,“,PUNCT,punct,è,,,
-33,non,non,ADV,advmod,è,,,7.259198169
-33,c’,ci,PRON,expl,è,,,
-33,è,essere,VERB,root,ROOT,,,7.249521761
-33,dubbio,dubbio,NOUN,nsubj,è,,,4.60806264
-33,,,PUNCT,punct,cane,,,
-33,è,essere,AUX,aux,cane,,,7.249521761
-33,stato,essere,AUX,cop,cane,,,6.123059474
-33,un,uno,DET,det,cane,,,7.065833912
-33,cane,cane,NOUN,conj,è,,2.76 ± 1.23,5.020066123
-33,,,PUNCT,punct,è,,,
-33,”,”,PUNCT,punct,è,,,
-33,finalmente,finalmente,ADV,advmod,sapeva,,,4.939266335
-33,la,il,DET,det,Talpa,,,7.055331658
-33,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-33,talpa,Talpa,PROPN,nsubj,sapeva,,,3.862096073
-33,sapeva,sapere,VERB,parataxis,è,,,4.895245371
-33,chi,chi,PRON,obj,sapeva,,,6.108444494
-33,fosse,essere,AUX,cop,disgraziato,,,5.645585191
-33,quel,quello,DET,det,disgraziato,,,5.90824416
-33,disgraziato,disgraziato,NOUN,acl:relcl,chi,,,3.640401629
-33,che,che,PRON,nsubj,fatta,,,7.250456545
-33,gliel’,gliela,PRON,obj,fatta,,,
-33,aveva,avere,AUX,aux,fatta,,,5.632280537
-33,fatta,fare,VERB,acl:relcl,disgraziato,,4.40 ± 2.22,5.238100711
-33,in,in,ADP,case,testa,,,6.797274494
-33,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
-33,,,PUNCT,punct,Gianmaria,,,
-33,era,essere,AUX,cop,Gianmaria,,,6.283626334
-33,gianmaria,Gianmaria,PROPN,parataxis,sapeva,,,
-33,,,PUNCT,punct,Gianmaria,,,
-33,il,il,DET,det,cane,,,7.039560886
-33,cane,cane,NOUN,appos,Gianmaria,,2.76 ± 1.23,5.020066123
-33,di,di,ADP,case,macellaio,,,7.232814475
-33,il,il,DET,det,macellaio,,,7.039560886
-33,macellaio,macellaio,NOUN,nmod,cane,,,3.848457118
-33,,,PUNCT,punct,Gianmaria,,,
-34,e,e,CCONJ,cc,vendetta,,,2.741151583
-34,ora,ora,ADV,advmod,vendetta,,,6.195882677
-34,,,PUNCT,punct,ora,,,
-34,vendetta,vendetta,NOUN,root,ROOT,,8.04 ± 2.57,4.42239282
-34,,,PUNCT,punct,vendetta,,,
-34,tremenda,tremendo,ADJ,amod,vendetta,,,3.65779085
-34,vendetta,vendetta,NOUN,conj,vendetta,,8.04 ± 2.57,4.42239282
-34,,,PUNCT,punct,vendetta,,,
-35,veloce,veloce,ADJ,amod,arrampicò,,4.16 ± 1.84,4.884518288
-35,come,come,ADP,case,lampo,,,6.562704781
-35,il,il,DET,det,lampo,,,7.039560886
-35,lampo,lampo,NOUN,obl,Veloce,,,3.731252705
-35,,,PUNCT,punct,Veloce,,,
-35,la,il,DET,det,Talpa,,,7.055331658
-35,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-35,talpa,Talpa,PROPN,nsubj,arrampicò,,,3.862096073
-35,si,si,PRON,expl,arrampicò,,,6.553884221
-35,arrampicò,arrampicare,VERB,root,ROOT,,,2.19092323
-35,su,su,ADP,case,cuccia,,,6.000068652
-35,la,il,DET,det,cuccia,,,7.055331658
-35,cuccia,cuccia,NOUN,obl,arrampicò,,,3.452186099
-35,di,di,ADP,case,Gian,,,7.232814475
-35,gian,Gian,PROPN,nmod,cuccia,,,
-35,maria,Maria,PROPN,flat:name,Gian,,,2.168646835
-35,,,PUNCT,punct,ping,,,
-35,e,e,CCONJ,cc,ping,,,2.741151583
-35,ping,ping,NOUN,conj,Gian,,,
-35,,,PUNCT,punct,arrampicò,,,
-36,spedì,spedire,VERB,root,ROOT,,,2.653321228
-36,una,uno,DET,det,salsiccietta,,,6.801817508
-36,minuscola,minuscolo,ADJ,amod,salsiccietta,,,3.313139108
-36,salsiccietta,salsiccietta,NOUN,obj,Spedì,,,
-36,nera,nero,ADJ,amod,salsiccietta,,4.24 ± 1.74,4.460085795
-36,,,PUNCT,punct,Spedì,,,
-36,su,su,ADP,case,testa,,,6.000068652
-36,la,il,DET,det,testa,,,7.055331658
-36,testa,testa,NOUN,obl,Spedì,,3.32 ± 1.44,5.506904066
-36,di,di,ADP,case,cane,,,7.232814475
-36,il,il,DET,det,cane,,,7.039560886
-36,cane,cane,NOUN,nmod,testa,,2.76 ± 1.23,5.020066123
-36,,,PUNCT,punct,Spedì,,,
-37,“,“,PUNCT,punct,qua,,,
-37,ecco,ecco,ADV,advmod,qua,,,5.695815269
-37,qua,qua,ADV,root,ROOT,,,5.522856403
-37,,,PUNCT,punct,qua,,,
-37,”,”,PUNCT,punct,qua,,,
-37,,,PUNCT,punct,infilò,,,
-37,felice,felice,ADJ,amod,infilò,,4.32 ± 2.94,5.318513907
-37,e,e,CCONJ,cc,soddisfatta,,,2.741151583
-37,soddisfatta,soddisfatto,ADJ,conj,felice,,7.60 ± 2.35,3.586249623
-37,la,il,DET,det,Talpa,,,7.055331658
-37,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
-37,talpa,Talpa,PROPN,nsubj,infilò,,,3.862096073
-37,si,si,PRON,expl,infilò,,,6.553884221
-37,infilò,infilare,VERB,parataxis,qua,,,2.52336169
-37,sotto,sotto,ADP,case,terra,,,5.502104716
-37,terra,terra,NOUN,obl,infilò,,4.52 ± 2.87,5.30993154
-37,,,PUNCT,punct,terra,,,
-37,dove,dove,ADV,advmod,fare,,,6.018789847
-37,nessuno,nessuno,PRON,nsubj,fare,,,5.7664863
-37,gliela,glielo,PRON,nsubj,fare,,,1.19092323
-37,avrebbe,avere,AUX,aux,fare,,,5.414146516
-37,potuta,potere,AUX,aux,fare,,,3.788069718
-37,fare,fare,VERB,acl:relcl,terra,,4.40 ± 2.22,6.231286207
-37,in,in,ADP,case,testa,,,6.797274494
-37,testa,testa,NOUN,obl,fare,,3.32 ± 1.44,5.506904066
-37,,,PUNCT,punct,infilò,,,
+token_id,sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
+1,0,chi,chi,PRON,nsubj,fatta,,,6.108444494
+2,0,me,me,PRON,iobj,fatta,,,6.337855516
+3,0,l,lo,PRON,obj,fatta,,,6.640107629
+4,0,ha,avere,AUX,aux,fatta,,,6.684018637
+5,0,fatta,fare,VERB,root,ROOT,,4.40 ± 2.22,5.238100711
+6,0,in,in,ADP,case,testa,,,6.797274494
+7,0,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
+8,0,,,PUNCT,punct,fatta,,,
+9,1,una,uno,DET,det,sera,,,6.801817508
+10,1,sera,sera,NOUN,obl,successe,,4.60 ± 2.22,5.361082228
+11,1,,,PUNCT,punct,sera,,,
+12,1,quando,quando,SCONJ,mark,mise,,,6.212844009
+13,1,come,come,ADP,case,solito,,,6.562704781
+14,1,a,a,ADP,fixed,come,,,7.004335738
+15,1,il,il,DET,det,solito,,,7.039560886
+16,1,solito,solito,NOUN,obl,mise,,,4.966096615
+17,1,,,PUNCT,punct,solito,,,
+18,1,la,il,DET,det,Talpa,,,7.055331658
+19,1,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+20,1,talpa,Talpa,PROPN,nsubj,mise,,,3.862096073
+21,1,mise,mettere,VERB,root,ROOT,,4.28 ± 1.59,3.850364012
+22,1,la,il,DET,det,testa,,,7.055331658
+23,1,testa,testa,NOUN,obj,mise,,3.32 ± 1.44,5.506904066
+24,1,fuori,fuori,ADV,case,tana,,,5.872607584
+25,1,da,da,ADP,fixed,fuori,,,6.577812618
+26,1,la,il,DET,det,tana,,,7.055331658
+27,1,tana,tana,NOUN,obl,mise,,4.32 ± 1.77,3.747828499
+28,1,per,per,ADP,mark,controllare,,,6.912435835
+29,1,controllare,controllare,VERB,advcl,mise,,,4.90171733
+30,1,se,se,SCONJ,mark,andato,,,6.583110863
+31,1,il,il,DET,det,sole,,,7.039560886
+32,1,sole,sole,NOUN,nsubj,andato,,3.64 ± 2.22,4.889371768
+33,1,se,se,PRON,expl,andato,,,6.583110863
+34,1,n’,ne,PRON,expl,andato,,,
+35,1,era,essere,AUX,aux,andato,,,6.283626334
+36,1,andato,andare,VERB,ccomp,controllare,,4.20 ± 1.44,5.36269355
+37,1,,,PUNCT,punct,andato,,,
+38,1,ecco,ecco,ADV,advmod,successe,,,5.695815269
+39,1,cosa,cosa,PRON,obj,successe,,,6.632253028
+40,1,successe,succedere,VERB,conj,mise,,,4.046442386
+41,1,,,PUNCT,punct,successe,,,
+42,2,era,essere,AUX,cop,rotondo,,,6.283626334
+43,2,rotondo,rotondo,ADJ,root,ROOT,,,2.98331492
+44,2,e,e,CCONJ,cc,marrone,,,2.741151583
+45,2,marrone,marrone,ADJ,conj,rotondo,,3.64 ± 1.58,3.804765052
+46,2,,,PUNCT,punct,pareva,,,
+47,2,pareva,parere,VERB,conj,rotondo,,,3.623090499
+48,2,un,uno,DET,det,po',,,7.065833912
+49,2,po,poco,ADV,advmod,pareva,,,4.399095757
+50,2,una,uno,DET,det,salsiccia,,,6.801817508
+51,2,salsiccia,salsiccia,NOUN,nsubj,pareva,,,3.638081261
+52,2,,,PUNCT,punct,cadde,,,
+53,2,e,e,CCONJ,cc,cadde,,,2.741151583
+54,2,il,il,DET,det,peggio,,,7.039560886
+55,2,peggio,peggio,NOUN,nsubj,cadde,,,4.85523607
+56,2,fu,essere,AUX,aux,cadde,,,5.104021496
+57,2,che,che,SCONJ,mark,cadde,,,7.250456545
+58,2,le,le,PRON,iobj,cadde,,,6.624997683
+59,2,cadde,cadere,VERB,conj,rotondo,,2.88 ± 1.45,3.592323771
+60,2,proprio,proprio,ADV,advmod,testa,,,5.884320377
+61,2,in,in,ADP,case,testa,,,6.797274494
+62,2,testa,testa,NOUN,obl,cadde,,3.32 ± 1.44,5.506904066
+63,2,,,PUNCT,punct,rotondo,,,
+64,3,“,“,PUNCT,punct,schifo,,,
+65,3,ma,ma,CCONJ,cc,schifo,,,6.662005813
+66,3,che,che,DET,det,schifo,,,7.250456545
+67,3,schifo,schifo,NOUN,root,ROOT,,,4.853492197
+68,3,,,PUNCT,punct,schifo,,,
+69,3,”,”,PUNCT,punct,schifo,,,
+70,3,,,PUNCT,punct,schifo,,,
+71,3,esclamò,esclamare,VERB,parataxis,schifo,,,2.120342156
+72,3,la,il,DET,det,Talpa,,,7.055331658
+73,3,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+74,3,talpa,Talpa,PROPN,nsubj,esclamò,,,3.862096073
+75,3,,,PUNCT,punct,schifo,,,
+76,4,“,“,PUNCT,punct,è,,,
+77,4,chi,chi,PRON,nsubj,è,,,6.108444494
+78,4,è,essere,VERB,root,ROOT,,,7.249521761
+79,4,che,che,PRON,nsubj,fatta,,,7.250456545
+80,4,me,me,PRON,iobj,fatta,,,6.337855516
+81,4,l’,il,PRON,obj,fatta,,,
+82,4,ha,avere,AUX,aux,fatta,,,6.684018637
+83,4,fatta,fare,VERB,ccomp,è,,4.40 ± 2.22,5.238100711
+84,4,in,in,ADP,case,testa,,,6.797274494
+85,4,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
+86,4,,,PUNCT,punct,è,,,
+87,5,”,”,PUNCT,punct,scoprir,,,
+88,5,miope,Miope,PROPN,nsubj,scoprir,,,2.808971327
+89,5,com’,come,SCONJ,mark,era,,,
+90,5,era,essere,VERB,advcl,scoprir,,,6.283626334
+91,5,,,PUNCT,punct,scoprir,,,
+92,5,non,non,ADV,advmod,scoprir,,,7.259198169
+93,5,poteva,potere,AUX,aux,scoprir,,,4.87822919
+94,5,scoprir,scoprire,VERB,root,ROOT,,,1.668044485
+95,5,lo,lo,PRON,obj,scoprir,,,6.655915487
+96,5,da,da,ADP,case,sola,,,6.577812618
+97,5,sola,solo,ADJ,obl,scoprir,,4.60 ± 2.14,5.290759195
+98,5,,,PUNCT,punct,scoprir,,,
+99,6,“,“,PUNCT,punct,piccione,,,
+100,6,dì,dì,ADV,advmod,piccione,,,4.853114221
+101,6,un,uno,DET,det,po',,,7.065833912
+102,6,po,poco,ADV,advmod,piccione,,,4.399095757
+103,6,piccione,piccione,NOUN,root,ROOT,,5.96 ± 2.26,3.412337468
+104,6,,,PUNCT,punct,piccione,,,
+105,6,is,is,X,conj,piccione,,,4.08273935
+106,6,i,i,X,flat:foreign,is,,,6.584780852
+107,6,tu,tu,PRON,flat:foreign,is,,,6.414765586
+108,6,che,che,PRON,nsubj,fatta,,,7.250456545
+109,6,me,me,PRON,iobj,fatta,,,6.337855516
+110,6,l’,il,PRON,obj,fatta,,,
+111,6,hai,avere,AUX,aux,fatta,,,6.477590733
+112,6,fatta,fare,VERB,acl:relcl,piccione,,4.40 ± 2.22,5.238100711
+113,6,in,in,ADP,case,testa,,,6.797274494
+114,6,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
+115,6,,,PUNCT,punct,piccione,,,
+116,7,”,”,PUNCT,punct,io,,,
+117,7,“,“,PUNCT,punct,io,,,
+118,7,mmmm,mmmm,INTJ,discourse,io,,,
+119,7,,,PUNCT,punct,mmmm,,,
+120,7,io,io,PRON,root,ROOT,,,6.536707533
+121,7,,,PUNCT,punct,io,,,
+122,8,ma,ma,CCONJ,cc,figurati,,,6.662005813
+123,8,no,no,INTJ,discourse,figurati,,,6.605764599
+124,8,,,PUNCT,punct,no,,,
+125,8,figurati,figurare,VERB,root,ROOT,,,4.201858895
+126,8,,,PUNCT,punct,figurati,,,
+127,9,io,io,PRON,nsubj,faccio,,,6.536707533
+128,9,la,la,PRON,obj,faccio,,,7.055331658
+129,9,faccio,fare,VERB,root,ROOT,,4.40 ± 2.22,5.545550207
+130,9,così,così,ADV,advmod,faccio,,,6.287788074
+131,9,”,”,PUNCT,punct,faccio,,,
+132,9,,,PUNCT,punct,splash,,,
+133,9,e,e,CCONJ,cc,splash,,,2.741151583
+134,9,splash,splash,NOUN,discourse,faccio,,,2.668044485
+135,9,,,PUNCT,punct,faccio,,,
+136,10,uno,uno,DET,det,spruzzo,,,6.015055575
+137,10,spruzzo,spruzzare,NOUN,nsubj,spruzzò,,,3.071736822
+138,10,lattiginoso,lattiginoso,ADJ,amod,spruzzo,,,1.844135744
+139,10,spruzzò,spruzzare,VERB,root,ROOT,,,1.367014489
+140,10,proprio,proprio,ADV,advmod,talpa,,,5.884320377
+141,10,davanti,davanti,ADV,case,talpa,,,5.087862602
+142,10,a,a,ADP,fixed,davanti,,,7.004335738
+143,10,la,il,DET,det,talpa,,,7.055331658
+144,10,piccola,piccolo,ADJ,amod,talpa,,4.12 ± 3.18,5.234049628
+145,10,talpa,talpa,NOUN,obl,spruzzò,,5.72 ± 2.49,3.862096073
+146,10,,,PUNCT,punct,spruzzò,,,
+147,10,picchiettandole,picchiettare,VERB,advcl,spruzzò,,,
+148,10,la,il,DET,det,zampa,,,7.055331658
+149,10,zampa,zampa,NOUN,obj,picchiettandole,,4.44 ± 1.50,3.628673793
+150,10,destra,destro,ADJ,amod,zampa,,,4.749751755
+151,10,,,PUNCT,punct,spruzzò,,,
+152,11,“,“,PUNCT,punct,cavallo,,,
+153,11,ehi,ehi,INTJ,discourse,cavallo,,,1.844135744
+154,11,cavallo,cavallo,NOUN,root,ROOT,,3.92 ± 1.53,4.765822219
+155,11,,,PUNCT,punct,is,,,
+156,11,is,is,X,conj,cavallo,,,4.08273935
+157,11,i,i,X,flat:foreign,is,,,6.584780852
+158,11,tu,tu,PRON,flat:foreign,is,,,6.414765586
+159,11,che,che,PRON,nsubj,fatta,,,7.250456545
+160,11,me,me,PRON,iobj,fatta,,,6.337855516
+161,11,l’,il,PRON,obj,fatta,,,
+162,11,hai,avere,AUX,aux,fatta,,,6.477590733
+163,11,fatta,fare,VERB,acl:relcl,cavallo,,4.40 ± 2.22,5.238100711
+164,11,in,in,ADP,case,testa,,,6.797274494
+165,11,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
+166,11,,,PUNCT,punct,cavallo,,,
+167,12,”,”,PUNCT,root,ROOT,,,
+168,13,il,il,DET,det,cavallo,,,7.039560886
+169,13,cavallo,cavallo,NOUN,nsubj,rispose,,3.92 ± 1.53,4.765822219
+170,13,rispose,rispondere,VERB,root,ROOT,,3.88 ± 1.59,3.603383777
+171,13,,,PUNCT,punct,rispose,,,
+172,14,“,“,PUNCT,punct,Io,,,
+173,14,io,io,PRON,root,ROOT,,,6.536707533
+174,14,,,PUNCT,punct,Io,,,
+175,15,ma,ma,CCONJ,cc,va,,,6.662005813
+176,15,va,andare,VERB,root,ROOT,,4.20 ± 1.44,6.162363764
+177,15,,,PUNCT,punct,va,,,
+178,16,io,io,PRON,nsubj,faccio,,,6.536707533
+179,16,la,la,PRON,obj,faccio,,,7.055331658
+180,16,faccio,fare,VERB,root,ROOT,,4.40 ± 2.22,5.545550207
+181,16,così,così,ADV,advmod,faccio,,,6.287788074
+182,16,”,”,PUNCT,punct,faccio,,,
+183,16,,,PUNCT,punct,bombardò,,,
+184,16,e,e,CCONJ,cc,bombardò,,,2.741151583
+185,16,bombardò,bombardare,VERB,conj,faccio,,,1.588863239
+186,16,l’,il,DET,det,erba,,,
+187,16,erba,erba,NOUN,obj,bombardò,,3.88 ± 1.39,4.450278157
+188,16,di,di,ADP,case,pallottole,,,7.232814475
+189,16,cinque,cinque,NUM,nummod,pallottole,,,5.222170066
+190,16,grasse,grasso,ADJ,amod,pallottole,,5.88 ± 2.11,3.313139108
+191,16,e,e,CCONJ,cc,grosse,,,2.741151583
+192,16,grosse,grosso,ADJ,conj,grasse,,,3.963611585
+193,16,pallottole,pallottola,NOUN,nmod,erba,,7.64 ± 1.91,3.791896126
+194,16,,,PUNCT,punct,faccio,,,
+195,17,la,il,DET,det,Talpa,,,7.055331658
+196,17,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+197,17,talpa,Talpa,PROPN,nsubj:pass,impressionata,,,3.862096073
+198,17,ne,ne,PRON,iobj,impressionata,,,6.201935117
+199,17,fu,essere,AUX,aux:pass,impressionata,,,5.104021496
+200,17,molto,molto,ADV,advmod,impressionata,,,6.102695876
+201,17,impressionata,impressionare,VERB,root,ROOT,,,3.207956569
+202,17,,,PUNCT,punct,impressionata,,,
+203,18,“,“,PUNCT,punct,Dì,,,
+204,18,dì,dì,INTJ,root,ROOT,,,4.853114221
+205,18,,,PUNCT,punct,Dì,,,
+206,18,su,su,ADV,advmod,Dì,,,6.000068652
+207,18,,,PUNCT,punct,mucca,,,
+208,18,mucca,mucca,NOUN,conj,Dì,,4.00 ± 1.63,3.952851068
+209,18,,,PUNCT,punct,is,,,
+210,18,is,is,X,conj,Dì,,,4.08273935
+211,18,i,i,X,flat:foreign,is,,,6.584780852
+212,18,tu,tu,PRON,flat:name,is,,,6.414765586
+213,18,che,che,PRON,nsubj,fatta,,,7.250456545
+214,18,me,me,PRON,iobj,fatta,,,6.337855516
+215,18,l’,il,PRON,obj,fatta,,,
+216,18,hai,avere,AUX,aux,fatta,,,6.477590733
+217,18,fatta,fare,VERB,acl:relcl,is,,4.40 ± 2.22,5.238100711
+218,18,in,in,ADP,case,testa,,,6.797274494
+219,18,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
+220,18,,,PUNCT,punct,Dì,,,
+221,19,”,”,PUNCT,punct,io,,,
+222,19,“,“,PUNCT,punct,io,,,
+223,19,mmmmmuh,mmmmmuh,INTJ,discourse,io,,,
+224,19,,,PUNCT,punct,mmmmmuh,,,
+225,19,io,io,PRON,root,ROOT,,,6.536707533
+226,19,,,PUNCT,punct,io,,,
+227,20,ma,ma,CCONJ,cc,dici,,,6.662005813
+228,20,che,che,PRON,obj,dici,,,7.250456545
+229,20,dici,dire,VERB,root,ROOT,,4.08 ± 1.73,5.443387891
+230,20,,,PUNCT,punct,dici,,,
+231,21,io,io,PRON,nsubj,faccio,,,6.536707533
+232,21,la,la,PRON,obj,faccio,,,7.055331658
+233,21,faccio,fare,VERB,root,ROOT,,4.40 ± 2.22,5.545550207
+234,21,così,così,ADV,advmod,faccio,,,6.287788074
+235,21,”,”,PUNCT,punct,faccio,,,
+236,21,,,PUNCT,punct,depositò,,,
+237,21,e,e,CCONJ,cc,patatafff,,,2.741151583
+238,21,patatafff,patatafff,NOUN,vocative,depositò,,,
+239,21,,,PUNCT,punct,patatafff,,,
+240,21,un’,uno,DET,det,focaccia,,,
+241,21,immensa,immenso,ADJ,amod,focaccia,,,3.372766818
+242,21,focaccia,focaccia,NOUN,nsubj,depositò,,,2.990263779
+243,21,verdastra,verdastro,ADJ,amod,focaccia,,,1.367014489
+244,21,si,si,PRON,expl,depositò,,,6.553884221
+245,21,depositò,depositare,VERB,conj,faccio,,,1.844135744
+246,21,mollemente,mollemente,ADV,advmod,depositò,,,1.19092323
+247,21,a,a,ADP,case,suolo,,,7.004335738
+248,21,il,il,DET,det,suolo,,,7.039560886
+249,21,suolo,suolo,NOUN,obl,depositò,,7.56 ± 2.42,3.990263779
+250,21,,,PUNCT,punct,faccio,,,
+251,22,“,“,PUNCT,punct,fortuna,,,
+252,22,che,che,DET,det,fortuna,,,7.250456545
+253,22,fortuna,fortuna,NOUN,root,ROOT,,,5.128416047
+254,22,che,che,SCONJ,mark,lei,,,7.250456545
+255,22,non,non,ADV,advmod,lei,,,7.259198169
+256,22,è,essere,AUX,aux,lei,,,7.249521761
+257,22,stata,essere,AUX,cop,lei,,,5.783216598
+258,22,lei,lei,PRON,ccomp,fortuna,,,6.235566848
+259,22,a,a,ADP,mark,farmela,,,7.004335738
+260,22,farmela,farmilare,VERB,ccomp,lei,,,3.389580317
+261,22,in,in,ADP,case,testa,,,6.797274494
+262,22,testa,testa,NOUN,obl,farmela,,3.32 ± 1.44,5.506904066
+263,22,,,PUNCT,punct,fortuna,,,
+264,22,”,”,PUNCT,punct,fortuna,,,
+265,22,,,PUNCT,punct,fortuna,,,
+266,22,pensò,pensare,VERB,parataxis,fortuna,,,3.538253245
+267,22,la,il,DET,det,Talpa,,,7.055331658
+268,22,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+269,22,talpa,Talpa,PROPN,nsubj,pensò,,,3.862096073
+270,22,,,PUNCT,punct,fortuna,,,
+271,23,“,“,PUNCT,punct,Ascolta,,,
+272,23,ascolta,ascoltare,VERB,root,ROOT,,,5.267181268
+273,23,maiale,maiale,NOUN,obj,Ascolta,,4.20 ± 1.61,4.362357131
+274,23,,,PUNCT,punct,is,,,
+275,23,is,is,X,parataxis,Ascolta,,,4.08273935
+276,23,i,i,X,flat:foreign,is,,,6.584780852
+277,23,tu,tu,PRON,flat:name,is,,,6.414765586
+278,23,che,che,PRON,nsubj,fatta,,,7.250456545
+279,23,me,me,PRON,iobj,fatta,,,6.337855516
+280,23,l’,il,PRON,obj,fatta,,,
+281,23,hai,avere,AUX,aux,fatta,,,6.477590733
+282,23,fatta,fare,VERB,acl:relcl,is,,4.40 ± 2.22,5.238100711
+283,23,in,in,ADP,case,testa,,,6.797274494
+284,23,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
+285,23,,,PUNCT,punct,Ascolta,,,
+286,24,”,”,PUNCT,punct,gronf,,,
+287,24,“,“,PUNCT,punct,gronf,,,
+288,24,gronf,grondia,NOUN,root,ROOT,,,
+289,24,,,PUNCT,punct,gronf,,,
+290,24,io,io,PRON,nmod,gronf,,,6.536707533
+291,24,,,PUNCT,punct,gronf,,,
+292,25,ma,ma,CCONJ,cc,mai,,,6.662005813
+293,25,quando,quando,SCONJ,mark,mai,,,6.212844009
+294,25,mai,mai,ADV,root,ROOT,,,6.144963021
+295,25,,,PUNCT,punct,mai,,,
+296,26,io,io,PRON,nsubj,faccio,,,6.536707533
+297,26,la,la,PRON,obj,faccio,,,7.055331658
+298,26,faccio,fare,VERB,root,ROOT,,4.40 ± 2.22,5.545550207
+299,26,così,così,ADV,advmod,faccio,,,6.287788074
+300,26,”,”,PUNCT,punct,faccio,,,
+301,26,,,PUNCT,punct,proiettò,,,
+302,26,e,e,CCONJ,cc,pruff,,,2.741151583
+303,26,pruff,pruffal,NOUN,nsubj,proiettò,,,
+304,26,,,PUNCT,punct,pruff,,,
+305,26,proiettò,proiettare,VERB,conj,faccio,,,1.588863239
+306,26,un,uno,DET,det,monticello,,,7.065833912
+307,26,monticello,monticello,NOUN,obj,proiettò,,,2.03602127
+308,26,bruno,bruno,ADJ,amod,monticello,,,2.065984493
+309,26,e,e,CCONJ,cc,molle,,,2.741151583
+310,26,molle,mollo,ADJ,conj,bruno,,,3.33393803
+311,26,su,su,ADP,case,campo,,,6.000068652
+312,26,il,il,DET,det,campo,,,7.039560886
+313,26,campo,campo,NOUN,obl,proiettò,,4.52 ± 1.56,5.007926363
+314,26,,,PUNCT,punct,faccio,,,
+315,27,“,“,PUNCT,punct,tappò,,,
+316,27,bleah,Bleah,INTJ,discourse,tappò,,,3.427712329
+317,27,”,”,PUNCT,punct,Bleah,,,
+318,27,,,PUNCT,punct,Bleah,,,
+319,27,la,il,DET,det,Talpa,,,7.055331658
+320,27,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+321,27,talpa,Talpa,PROPN,nsubj,tappò,,,3.862096073
+322,27,si,si,PRON,expl,tappò,,,6.553884221
+323,27,tappò,tappare,VERB,root,ROOT,,,1.734991274
+324,27,il,il,DET,det,naso,,,7.039560886
+325,27,naso,naso,NOUN,obj,tappò,,3.24 ± 1.69,4.637615696
+326,27,,,PUNCT,punct,tappò,,,
+327,28,“,“,PUNCT,punct,voi,,,
+328,28,voi,voi,PRON,nsubj,voi,,,5.827651777
+329,28,,,PUNCT,punct,Voi,,,
+330,28,laggiù,laggiù,ADV,advmod,voi,,,4.913927132
+331,28,,,PUNCT,punct,laggiù,,,
+332,28,siete,essere,AUX,cop,voi,,,5.565708224
+333,28,voi,voi,PRON,root,ROOT,,,5.827651777
+334,28,che…,che…,ADV,advmod,voi,,,
+335,28,”,”,PUNCT,punct,voi,,,
+336,28,cominciò,cominciare,VERB,parataxis,voi,,,3.877112464
+337,28,la,il,DET,det,Talpa,,,7.055331658
+338,28,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+339,28,talpa,Talpa,PROPN,nsubj,cominciò,,,3.862096073
+340,28,,,PUNCT,punct,vide,,,
+341,28,ma,ma,CCONJ,cc,vide,,,6.662005813
+342,28,quando,quando,SCONJ,mark,avvicinò,,,6.212844009
+343,28,si,si,PRON,expl,avvicinò,,,6.553884221
+344,28,avvicinò,avvicinare,VERB,advcl,vide,,,2.96907448
+345,28,vide,vedere,VERB,conj,cominciò,,4.60 ± 1.50,3.892491215
+346,28,solo,solo,ADV,advmod,mosche,,4.60 ± 2.14,6.359323473
+347,28,due,due,NUM,nummod,mosche,,,5.996192947
+348,28,grandi,grande,ADJ,amod,mosche,,4.64 ± 2.04,4.918545808
+349,28,mosche,Mosca,NOUN,obj,vide,,,3.732502474
+350,28,nere,nero,ADJ,amod,mosche,,4.24 ± 1.74,3.79352575
+351,28,che,che,PRON,nsubj,abbuffando,,,7.250456545
+352,28,stavano,stare,AUX,aux,abbuffando,,4.60 ± 2.35,4.560417392
+353,28,abbuffando,abbuffare,VERB,acl:relcl,mosche,,,1.844135744
+354,28,si,si,PRON,expl,abbuffando,,,6.553884221
+355,28,,,PUNCT,punct,voi,,,
+356,29,“,“,PUNCT,punct,pensò,,,
+357,29,finalmente,finalmente,ADV,advmod,pensò,,,4.939266335
+358,29,qualcuno,qualcuno,PRON,nsubj,pensò,,,5.830633781
+359,29,che,che,PRON,nsubj,intende,,,7.250456545
+360,29,se,se,PRON,expl,intende,,,6.583110863
+361,29,ne,ne,PRON,iobj,intende,,,6.201935117
+362,29,intende,intendere,VERB,acl:relcl,qualcuno,,,4.458681447
+363,29,”,”,PUNCT,punct,intende,,,
+364,29,,,PUNCT,punct,qualcuno,,,
+365,29,pensò,pensare,VERB,root,ROOT,,,3.538253245
+366,29,la,il,DET,det,Talpa,,,7.055331658
+367,29,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+368,29,talpa,Talpa,PROPN,nsubj,pensò,,,3.862096073
+369,29,,,PUNCT,punct,pensò,,,
+370,30,“,“,PUNCT,punct,fatta,,,
+371,30,chi,chi,PRON,nsubj,fatta,,,6.108444494
+372,30,può,potere,AUX,aux,fatta,,,5.884100369
+373,30,avermela,avere,AUX,aux,fatta,,,2.622286994
+374,30,fatta,fare,VERB,root,ROOT,,4.40 ± 2.22,5.238100711
+375,30,in,in,ADP,case,testa,,,6.797274494
+376,30,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
+377,30,,,PUNCT,punct,fatta,,,
+378,31,me,me,PRON,expl,sapete,,,6.337855516
+379,31,lo,lo,PRON,obj,sapete,,,6.655915487
+380,31,sapete,sapere,VERB,root,ROOT,,,5.126858533
+381,31,dire,dire,VERB,ccomp,sapete,,4.08 ± 1.73,5.98002779
+382,31,,,PUNCT,punct,sapete,,,
+383,31,”,”,PUNCT,punct,sapete,,,
+384,31,sussurrò,sussurrare,VERB,parataxis,sapete,,,2.458094958
+385,31,,,PUNCT,punct,sapete,,,
+386,32,“,“,PUNCT,punct,zzz,,,
+387,32,zzz,zzale,NOUN,root,ROOT,,,1.792983221
+388,32,,,PUNCT,punct,zzz,,,
+389,32,così,così,ADV,advmod,zzz,,,6.287788074
+390,32,,,PUNCT,punct,zzz,,,
+391,32,zzz,zzale,NOUN,conj,zzz,,,1.792983221
+392,32,,,PUNCT,punct,muoverti,,,
+393,32,non,non,ADV,advmod,muoverti,,,7.259198169
+394,32,muoverti,muovere,VERB,conj,zzz,,,4.33998831
+395,32,”,”,PUNCT,punct,muoverti,,,
+396,32,,,PUNCT,punct,zzz,,,
+397,32,ronzarono,ronzare,VERB,parataxis,muoverti,,,
+398,32,le,il,DET,det,mosche,,,6.624997683
+399,32,mosche,Mosca,NOUN,nsubj,ronzarono,,,3.732502474
+400,32,,,PUNCT,punct,zzz,,,
+401,33,e,e,CCONJ,cc,è,,,2.741151583
+402,33,dopo,dopo,ADP,case,attimo,,,5.792396528
+403,33,un,uno,DET,det,attimo,,,7.065833912
+404,33,attimo,attimo,NOUN,obl,è,,,5.167914775
+405,33,,,PUNCT,punct,attimo,,,
+406,33,“,“,PUNCT,punct,è,,,
+407,33,non,non,ADV,advmod,è,,,7.259198169
+408,33,c’,ci,PRON,expl,è,,,
+409,33,è,essere,VERB,root,ROOT,,,7.249521761
+410,33,dubbio,dubbio,NOUN,nsubj,è,,,4.60806264
+411,33,,,PUNCT,punct,cane,,,
+412,33,è,essere,AUX,aux,cane,,,7.249521761
+413,33,stato,essere,AUX,cop,cane,,,6.123059474
+414,33,un,uno,DET,det,cane,,,7.065833912
+415,33,cane,cane,NOUN,conj,è,,2.76 ± 1.23,5.020066123
+416,33,,,PUNCT,punct,è,,,
+417,33,”,”,PUNCT,punct,è,,,
+418,33,finalmente,finalmente,ADV,advmod,sapeva,,,4.939266335
+419,33,la,il,DET,det,Talpa,,,7.055331658
+420,33,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+421,33,talpa,Talpa,PROPN,nsubj,sapeva,,,3.862096073
+422,33,sapeva,sapere,VERB,parataxis,è,,,4.895245371
+423,33,chi,chi,PRON,obj,sapeva,,,6.108444494
+424,33,fosse,essere,AUX,cop,disgraziato,,,5.645585191
+425,33,quel,quello,DET,det,disgraziato,,,5.90824416
+426,33,disgraziato,disgraziato,NOUN,acl:relcl,chi,,,3.640401629
+427,33,che,che,PRON,nsubj,fatta,,,7.250456545
+428,33,gliel’,gliela,PRON,obj,fatta,,,
+429,33,aveva,avere,AUX,aux,fatta,,,5.632280537
+430,33,fatta,fare,VERB,acl:relcl,disgraziato,,4.40 ± 2.22,5.238100711
+431,33,in,in,ADP,case,testa,,,6.797274494
+432,33,testa,testa,NOUN,obl,fatta,,3.32 ± 1.44,5.506904066
+433,33,,,PUNCT,punct,Gianmaria,,,
+434,33,era,essere,AUX,cop,Gianmaria,,,6.283626334
+435,33,gianmaria,Gianmaria,PROPN,parataxis,sapeva,,,
+436,33,,,PUNCT,punct,Gianmaria,,,
+437,33,il,il,DET,det,cane,,,7.039560886
+438,33,cane,cane,NOUN,appos,Gianmaria,,2.76 ± 1.23,5.020066123
+439,33,di,di,ADP,case,macellaio,,,7.232814475
+440,33,il,il,DET,det,macellaio,,,7.039560886
+441,33,macellaio,macellaio,NOUN,nmod,cane,,,3.848457118
+442,33,,,PUNCT,punct,Gianmaria,,,
+443,34,e,e,CCONJ,cc,vendetta,,,2.741151583
+444,34,ora,ora,ADV,advmod,vendetta,,,6.195882677
+445,34,,,PUNCT,punct,ora,,,
+446,34,vendetta,vendetta,NOUN,root,ROOT,,8.04 ± 2.57,4.42239282
+447,34,,,PUNCT,punct,vendetta,,,
+448,34,tremenda,tremendo,ADJ,amod,vendetta,,,3.65779085
+449,34,vendetta,vendetta,NOUN,conj,vendetta,,8.04 ± 2.57,4.42239282
+450,34,,,PUNCT,punct,vendetta,,,
+451,35,veloce,veloce,ADJ,amod,arrampicò,,4.16 ± 1.84,4.884518288
+452,35,come,come,ADP,case,lampo,,,6.562704781
+453,35,il,il,DET,det,lampo,,,7.039560886
+454,35,lampo,lampo,NOUN,obl,Veloce,,,3.731252705
+455,35,,,PUNCT,punct,Veloce,,,
+456,35,la,il,DET,det,Talpa,,,7.055331658
+457,35,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+458,35,talpa,Talpa,PROPN,nsubj,arrampicò,,,3.862096073
+459,35,si,si,PRON,expl,arrampicò,,,6.553884221
+460,35,arrampicò,arrampicare,VERB,root,ROOT,,,2.19092323
+461,35,su,su,ADP,case,cuccia,,,6.000068652
+462,35,la,il,DET,det,cuccia,,,7.055331658
+463,35,cuccia,cuccia,NOUN,obl,arrampicò,,,3.452186099
+464,35,di,di,ADP,case,Gian,,,7.232814475
+465,35,gian,Gian,PROPN,nmod,cuccia,,,
+466,35,maria,Maria,PROPN,flat:name,Gian,,,2.168646835
+467,35,,,PUNCT,punct,ping,,,
+468,35,e,e,CCONJ,cc,ping,,,2.741151583
+469,35,ping,ping,NOUN,conj,Gian,,,
+470,35,,,PUNCT,punct,arrampicò,,,
+471,36,spedì,spedire,VERB,root,ROOT,,,2.653321228
+472,36,una,uno,DET,det,salsiccietta,,,6.801817508
+473,36,minuscola,minuscolo,ADJ,amod,salsiccietta,,,3.313139108
+474,36,salsiccietta,salsiccietta,NOUN,obj,Spedì,,,
+475,36,nera,nero,ADJ,amod,salsiccietta,,4.24 ± 1.74,4.460085795
+476,36,,,PUNCT,punct,Spedì,,,
+477,36,su,su,ADP,case,testa,,,6.000068652
+478,36,la,il,DET,det,testa,,,7.055331658
+479,36,testa,testa,NOUN,obl,Spedì,,3.32 ± 1.44,5.506904066
+480,36,di,di,ADP,case,cane,,,7.232814475
+481,36,il,il,DET,det,cane,,,7.039560886
+482,36,cane,cane,NOUN,nmod,testa,,2.76 ± 1.23,5.020066123
+483,36,,,PUNCT,punct,Spedì,,,
+484,37,“,“,PUNCT,punct,qua,,,
+485,37,ecco,ecco,ADV,advmod,qua,,,5.695815269
+486,37,qua,qua,ADV,root,ROOT,,,5.522856403
+487,37,,,PUNCT,punct,qua,,,
+488,37,”,”,PUNCT,punct,qua,,,
+489,37,,,PUNCT,punct,infilò,,,
+490,37,felice,felice,ADJ,amod,infilò,,4.32 ± 2.94,5.318513907
+491,37,e,e,CCONJ,cc,soddisfatta,,,2.741151583
+492,37,soddisfatta,soddisfatto,ADJ,conj,felice,,7.60 ± 2.35,3.586249623
+493,37,la,il,DET,det,Talpa,,,7.055331658
+494,37,piccola,piccolo,ADJ,amod,Talpa,,4.12 ± 3.18,5.234049628
+495,37,talpa,Talpa,PROPN,nsubj,infilò,,,3.862096073
+496,37,si,si,PRON,expl,infilò,,,6.553884221
+497,37,infilò,infilare,VERB,parataxis,qua,,,2.52336169
+498,37,sotto,sotto,ADP,case,terra,,,5.502104716
+499,37,terra,terra,NOUN,obl,infilò,,4.52 ± 2.87,5.30993154
+500,37,,,PUNCT,punct,terra,,,
+501,37,dove,dove,ADV,advmod,fare,,,6.018789847
+502,37,nessuno,nessuno,PRON,nsubj,fare,,,5.7664863
+503,37,gliela,glielo,PRON,nsubj,fare,,,1.19092323
+504,37,avrebbe,avere,AUX,aux,fare,,,5.414146516
+505,37,potuta,potere,AUX,aux,fare,,,3.788069718
+506,37,fare,fare,VERB,acl:relcl,terra,,4.40 ± 2.22,6.231286207
+507,37,in,in,ADP,case,testa,,,6.797274494
+508,37,testa,testa,NOUN,obl,fare,,3.32 ± 1.44,5.506904066
+509,37,,,PUNCT,punct,infilò,,,

@@ -1,437 +1,437 @@
-sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
-0,orso,orso,NOUN,root,ROOT,,4.48 ± 1.53,4.192007611
-0,buco,buco,NOUN,compound,Orso,,,4.52628082
-0,,,PUNCT,punct,Orso,,,
-1,orso,Orso,PROPN,nsubj,perso,,,4.192007611
-1,si,si,PRON,expl,perso,,,6.553884221
-1,è,essere,AUX,aux,perso,,,7.249521761
-1,perso,perdere,VERB,root,ROOT,,,5.292824891
-1,in,in,ADP,case,bosco,,,6.797274494
-1,il,il,DET,det,bosco,,,7.039560886
-1,bosco,bosco,NOUN,obl,perso,,4.52 ± 1.26,4.24188269
-1,e,e,CCONJ,cc,trova,,,2.741151583
-1,non,non,ADV,advmod,trova,,,7.259198169
-1,trova,trovare,VERB,conj,perso,,4.24 ± 1.61,4.979657089
-1,più,più,ADV,advmod,trova,,,6.382555861
-1,la,il,DET,det,tana,,,7.055331658
-1,sua,suo,DET,det:poss,tana,,,6.022524285
-1,tana,tana,NOUN,obj,trova,,4.32 ± 1.77,3.747828499
-1,,,PUNCT,punct,perso,,,
-2,si,si,PRON,expl,mette,,,6.553884221
-2,mette,mettere,VERB,root,ROOT,,4.28 ± 1.59,4.624212915
-2,in,in,ADP,case,cammino,,,6.797274494
-2,cammino,cammino,NOUN,obl,mette,,,4.175000264
-2,e,e,CCONJ,cc,improvviso,,,2.741151583
-2,a,a,ADP,case,improvviso,,,7.004335738
-2,l’,il,DET,det,improvviso,,,
-2,improvviso,improvviso,ADJ,obl,mette,,,4.516644088
-2,,,PUNCT,punct,mette,,,
-2,badabum,BADABUM,INTJ,discourse,mette,,,2.003836587
-2,,,PUNCT,punct,casca,,,
-2,casca,cascare,VERB,conj,mette,,,3.173194463
-2,in,in,ADP,case,buco,,,6.797274494
-2,un,uno,DET,det,buco,,,7.065833912
-2,buco,buco,NOUN,obl,casca,,,4.52628082
-2,,,PUNCT,punct,mette,,,
-3,ma,ma,CCONJ,cc,tana,,,6.662005813
-3,è,essere,AUX,cop,tana,,,7.249521761
-3,la,il,DET,det,tana,,,7.055331658
-3,tana,tana,NOUN,root,ROOT,,4.32 ± 1.77,3.747828499
-3,di,di,ADP,case,Volpe,,,7.232814475
-3,volpe,Volpe,PROPN,nmod,tana,,,3.774122004
-3,,,PUNCT,punct,tana,,,
-4,orso,Orso,PROPN,nsubj,iniziano,,,4.192007611
-4,e,e,CCONJ,cc,Volpe,,,2.741151583
-4,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
-4,iniziano,iniziare,VERB,root,ROOT,,,3.867159447
-4,a,a,ADP,mark,camminare,,,7.004335738
-4,camminare,camminare,VERB,xcomp,iniziano,,3.68 ± 1.46,4.521134015
-4,a,a,ADP,case,ricerca,,,7.004335738
-4,la,il,DET,det,ricerca,,,7.055331658
-4,ricerca,ricerca,NOUN,obl,camminare,,,4.769218535
-4,di,di,ADP,case,tana,,,7.232814475
-4,la,il,DET,det,tana,,,7.055331658
-4,tana,tana,NOUN,nmod,ricerca,,4.32 ± 1.77,3.747828499
-4,di,di,ADP,case,Orso,,,7.232814475
-4,orso,Orso,PROPN,nmod,tana,,,4.192007611
-4,,,PUNCT,punct,attraversano,,,
-4,attraversano,attraversare,VERB,conj,iniziano,,,3.216229095
-4,i,il,DET,det,campi,,,6.584780852
-4,campi,campo,NOUN,obj,attraversano,,4.52 ± 1.56,4.200161601
-4,,,PUNCT,punct,BADABUM!,,,
-4,e,e,CCONJ,cc,improvviso,,,2.741151583
-4,a,a,ADP,case,improvviso,,,7.004335738
-4,l’,il,DET,det,improvviso,,,
-4,improvviso,improvviso,ADJ,obl,cascano,,,4.516644088
-4,,,PUNCT,punct,BADABUM!,,,
-4,badabum,badabu,NOUN,conj,campi,,,2.003836587
-4,,,PUNCT,punct,BADABUM!,,,
-4,spatapam,SPATAPAM,INTJ,conj,BADABUM!,,,
-4,,,PUNCT,punct,cascano,,,
-4,cascano,cascare,VERB,conj,iniziano,,,2.734991274
-4,in,in,ADP,case,buco,,,6.797274494
-4,un,uno,DET,det,buco,,,7.065833912
-4,buco,buco,NOUN,obl,cascano,,,4.52628082
-4,,,PUNCT,punct,iniziano,,,
-5,ma,ma,CCONJ,cc,tana,,,6.662005813
-5,è,essere,AUX,cop,tana,,,7.249521761
-5,la,il,DET,det,tana,,,7.055331658
-5,tana,tana,NOUN,root,ROOT,,4.32 ± 1.77,3.747828499
-5,di,di,ADP,case,Talpa,,,7.232814475
-5,talpa,Talpa,PROPN,nmod,tana,,,3.862096073
-5,,,PUNCT,punct,tana,,,
-5,orso,Orso,PROPN,nsubj,iniziano,,,4.192007611
-5,,,PUNCT,punct,Volpe,,,
-5,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
-5,e,e,CCONJ,cc,Talpa,,,2.741151583
-5,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
-5,,,PUNCT,punct,Orso,,,
-5,iniziano,iniziare,VERB,parataxis,tana,,,3.867159447
-5,a,a,ADP,mark,camminare,,,7.004335738
-5,camminare,camminare,VERB,xcomp,iniziano,,3.68 ± 1.46,4.521134015
-5,,,PUNCT,punct,iniziano,,,
-5,a,a,ADP,case,ricerca,,,7.004335738
-5,la,il,DET,det,ricerca,,,7.055331658
-5,ricerca,ricerca,NOUN,obl,camminare,,,4.769218535
-5,di,di,ADP,case,tana,,,7.232814475
-5,la,il,DET,det,tana,,,7.055331658
-5,tana,tana,NOUN,nmod,ricerca,,4.32 ± 1.77,3.747828499
-5,di,di,ADP,case,Orso,,,7.232814475
-5,orso,Orso,PROPN,nmod,tana,,,4.192007611
-5,,,PUNCT,punct,tana,,,
-6,attraversano,attraversare,VERB,root,ROOT,,,3.216229095
-6,il,il,DET,det,fiume,,,7.039560886
-6,fiume,fiume,NOUN,obj,Attraversano,,4.80 ± 1.63,4.560880837
-6,,,PUNCT,punct,BADABUM!,,,
-6,e,e,CCONJ,cc,BADABUM!,,,2.741151583
-6,a,a,ADP,case,improvviso,,,7.004335738
-6,l’,il,DET,det,improvviso,,,
-6,improvviso,improvviso,ADJ,obl,Attraversano,,,4.516644088
-6,,,PUNCT,punct,BADABUM!,,,
-6,badabum,badabu,NOUN,conj,fiume,,,2.003836587
-6,,,PUNCT,punct,SPATAPAM,,,
-6,spatapam,SPATAPAM,PROPN,conj,BADABUM!,,,
-6,,,PUNCT,punct,BADABUM!,,,
-6,,,PUNCT,punct,BEDEBENG!,,,
-6,bedebeng,BEDEBENG,INTJ,discourse,cascano,,,
-6,,,PUNCT,punct,BEDEBENG!,,,
-6,cascano,cascare,VERB,conj,Attraversano,,,2.734991274
-6,in,in,ADP,case,buco,,,6.797274494
-6,un,uno,DET,det,buco,,,7.065833912
-6,buco,buco,NOUN,obl,cascano,,,4.52628082
-6,,,PUNCT,punct,tana,,,
-6,ma,ma,CCONJ,cc,tana,,,6.662005813
-6,è,essere,AUX,cop,tana,,,7.249521761
-6,la,il,DET,det,tana,,,7.055331658
-6,tana,tana,NOUN,conj,Attraversano,,4.32 ± 1.77,3.747828499
-6,di,di,ADP,case,Rospo,,,7.232814475
-6,rospo,Rospo,PROPN,nmod,tana,,,3.834869143
-6,,,PUNCT,punct,Attraversano,,,
-7,orso,Orso,PROPN,nsubj,iniziano,,,4.192007611
-7,,,PUNCT,punct,Volpe,,,
-7,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
-7,,,PUNCT,punct,Talpa,,,
-7,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
-7,e,e,CCONJ,cc,Rospo,,,2.741151583
-7,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
-7,,,PUNCT,punct,Orso,,,
-7,iniziano,iniziare,VERB,root,ROOT,,,3.867159447
-7,a,a,ADP,mark,camminare,,,7.004335738
-7,camminare,camminare,VERB,xcomp,iniziano,,3.68 ± 1.46,4.521134015
-7,,,PUNCT,punct,camminare,,,
-7,a,a,ADP,case,ricerca,,,7.004335738
-7,la,il,DET,det,ricerca,,,7.055331658
-7,ricerca,ricerca,NOUN,obl,camminare,,,4.769218535
-7,di,di,ADP,case,tana,,,7.232814475
-7,la,il,DET,det,tana,,,7.055331658
-7,tana,tana,NOUN,nmod,ricerca,,4.32 ± 1.77,3.747828499
-7,di,di,ADP,case,Orso,,,7.232814475
-7,orso,Orso,PROPN,nmod,tana,,,4.192007611
-7,,,PUNCT,punct,iniziano,,,
-8,e,e,CCONJ,cc,cascano,,,2.741151583
-8,a,a,ADP,case,improvviso,,,7.004335738
-8,l’,il,DET,det,improvviso,,,
-8,improvviso,improvviso,ADJ,obl,cascano,,,4.516644088
-8,,,PUNCT,punct,BADABUM!,,,
-8,badabum,BADABUM,INTJ,discourse,improvviso,,,2.003836587
-8,,,PUNCT,punct,SPATAPAM,,,
-8,spatapam,SPATAPAM,INTJ,conj,BADABUM!,,,
-8,,,PUNCT,punct,SPATAPAM,,,
-8,,,PUNCT,punct,BEDEBENG!,,,
-8,bedebeng,BEDEBENG,INTJ,discourse,cascano,,,
-8,,,PUNCT,punct,BIDIBONG!,,,
-8,bidibong,BIDIBONG,INTJ,discourse,cascano,,,
-8,,,PUNCT,punct,BIDIBONG!,,,
-8,cascano,cascare,VERB,root,ROOT,,,2.734991274
-8,in,in,ADP,case,buco,,,6.797274494
-8,un,uno,DET,det,buco,,,7.065833912
-8,buco,buco,NOUN,obl,cascano,,,4.52628082
-8,,,PUNCT,punct,tana,,,
-8,ma,ma,CCONJ,cc,tana,,,6.662005813
-8,è,essere,AUX,cop,tana,,,7.249521761
-8,la,il,DET,det,tana,,,7.055331658
-8,tana,tana,NOUN,conj,cascano,,4.32 ± 1.77,3.747828499
-8,di,di,ADP,case,Formica,,,7.232814475
-8,formica,Formica,PROPN,nmod,tana,,,3.390952497
-8,,,PUNCT,punct,cascano,,,
-9,orso,Orso,PROPN,nsubj,iniziano,,,4.192007611
-9,,,PUNCT,punct,Volpe,,,
-9,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
-9,,,PUNCT,punct,Talpa,,,
-9,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
-9,,,PUNCT,punct,Rospo,,,
-9,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
-9,e,e,CCONJ,cc,Formica,,,2.741151583
-9,formica,Formica,PROPN,conj,Orso,,,3.390952497
-9,iniziano,iniziare,VERB,root,ROOT,,,3.867159447
-9,a,a,ADP,mark,camminare,,,7.004335738
-9,camminare,camminare,VERB,xcomp,iniziano,,3.68 ± 1.46,4.521134015
-9,,,PUNCT,punct,camminare,,,
-9,a,a,ADP,case,ricerca,,,7.004335738
-9,la,il,DET,det,ricerca,,,7.055331658
-9,ricerca,ricerca,NOUN,obl,camminare,,,4.769218535
-9,di,di,ADP,case,tana,,,7.232814475
-9,la,il,DET,det,tana,,,7.055331658
-9,tana,tana,NOUN,nmod,ricerca,,4.32 ± 1.77,3.747828499
-9,di,di,ADP,case,Orso,,,7.232814475
-9,orso,Orso,PROPN,nmod,tana,,,4.192007611
-9,,,PUNCT,punct,iniziano,,,
-10,attraversano,attraversare,VERB,root,ROOT,,,3.216229095
-10,il,il,DET,det,deserto,,,7.039560886
-10,deserto,deserto,NOUN,obj,Attraversano,,,4.243809465
-10,,,PUNCT,punct,improvviso,,,
-10,e,e,CCONJ,cc,improvviso,,,2.741151583
-10,a,a,ADP,case,improvviso,,,7.004335738
-10,l’,il,DET,det,improvviso,,,
-10,improvviso,improvviso,ADJ,nmod,elefante,,,4.516644088
-10,,,PUNCT,punct,elefante,,,
-10,un,uno,DET,det,elefante,,,7.065833912
-10,elefante,elefante,NOUN,conj,Attraversano,,4.04 ± 1.54,3.8254005
-10,,,PUNCT,punct,Attraversano,,,
-11,“,“,PUNCT,punct,persi,,,
-11,vi,vi,PRON,iobj,persi,,,5.855804847
-11,siete,essere,AUX,aux,persi,,,5.565708224
-11,persi,perdere,VERB,root,ROOT,,,4.14661098
-11,,,PUNCT,punct,persi,,,
-12,presto,presto,ADV,root,ROOT,,,5.386809051
-12,,,PUNCT,punct,Presto,,,
-13,tutti,tutto,PRON,root,ROOT,,,6.110511188
-13,in,in,ADP,case,groppa,,,6.797274494
-13,groppa,groppa,NOUN,nmod,Tutti,,,2.88111931
-13,,,PUNCT,punct,Tutti,,,
-13,”,”,PUNCT,punct,Tutti,,,
-13,,,PUNCT,punct,Tutti,,,
-13,dice,dire,VERB,parataxis,Tutti,,4.08 ± 1.73,5.609257672
-13,l’,il,DET,det,elefante,,,
-13,elefante,elefante,NOUN,nsubj,dice,,4.04 ± 1.54,3.8254005
-13,,,PUNCT,punct,Tutti,,,
-14,e,e,CCONJ,cc,arrampicano,,,2.741151583
-14,allora,allora,ADV,advmod,arrampicano,,,6.072527547
-14,orso,Orso,PROPN,nsubj,arrampicano,,,4.192007611
-14,,,PUNCT,punct,Volpe,,,
-14,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
-14,,,PUNCT,punct,Talpa,,,
-14,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
-14,,,PUNCT,punct,Rospo,,,
-14,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
-14,e,e,CCONJ,cc,Formica,,,2.741151583
-14,formica,Formica,PROPN,conj,Orso,,,3.390952497
-14,si,si,PRON,expl,arrampicano,,,6.553884221
-14,arrampicano,arrampicare,VERB,root,ROOT,,,2.304866582
-14,su,su,ADP,case,schiena,,,6.000068652
-14,la,il,DET,det,schiena,,,7.055331658
-14,schiena,schiena,NOUN,obl,arrampicano,,4.40 ± 1.47,4.545127741
-14,di,di,ADP,case,elefante,,,7.232814475
-14,elefante,elefante,NOUN,nmod,schiena,,4.04 ± 1.54,3.8254005
-14,,,PUNCT,punct,arrampicano,,,
-15,elefante,elefante,NOUN,nsubj,mette,,4.04 ± 1.54,3.8254005
-15,si,si,PRON,expl,mette,,,6.553884221
-15,mette,mettere,VERB,root,ROOT,,4.28 ± 1.59,4.624212915
-15,in,in,ADP,case,cammino,,,6.797274494
-15,cammino,cammino,NOUN,obl,mette,,,4.175000264
-15,,,PUNCT,punct,marciano,,,
-15,marciano,marciare,VERB,conj,mette,,,
-15,in,in,ADP,case,deserto,,,6.797274494
-15,il,il,DET,det,deserto,,,7.039560886
-15,deserto,deserto,NOUN,obl,marciano,,,4.243809465
-15,e,e,CCONJ,cc,guadano,,,2.741151583
-15,poi,poi,ADV,advmod,guadano,,,5.853751865
-15,,,PUNCT,punct,guadano,,,
-15,guadano,guadare,VERB,conj,mette,,,
-15,il,il,DET,det,fiume,,,7.039560886
-15,fiume,fiume,NOUN,obj,guadano,,4.80 ± 1.63,4.560880837
-15,,,PUNCT,punct,mette,,,
-16,e,e,CCONJ,cc,zigzagano,,,2.741151583
-16,poi,poi,ADV,advmod,zigzagano,,,5.853751865
-16,a,a,ADP,case,improvviso,,,7.004335738
-16,l’,il,DET,det,improvviso,,,
-16,improvviso,improvviso,ADJ,obl,zigzagano,,,4.516644088
-16,zigzagano,zigzagare,VERB,root,ROOT,,,
-16,per,per,ADP,case,bosco,,,6.912435835
-16,il,il,DET,det,bosco,,,7.039560886
-16,bosco,bosco,NOUN,obl,zigzagano,,4.52 ± 1.26,4.24188269
-16,,,PUNCT,punct,zigzagano,,,
-17,la,il,DET,det,tana,,,7.055331658
-17,tana,tana,NOUN,root,ROOT,,4.32 ± 1.77,3.747828499
-17,di,di,ADP,case,Orso,,,7.232814475
-17,orso,Orso,PROPN,nmod,tana,,,4.192007611
-17,,,PUNCT,punct,tana,,,
-17,tutti,tutto,PRON,parataxis,tana,,,6.110511188
-17,dentro,dentro,ADV,parataxis,tana,,,5.582881078
-17,,,PUNCT,punct,tana,,,
-18,badabum,BADABUM,INTJ,root,ROOT,,,2.003836587
-18,,,PUNCT,punct,SPATAPAM,,,
-18,spatapam,SPATAPAM,INTJ,conj,BADABUM!,,,
-18,,,PUNCT,punct,SPATAPAM,,,
-18,,,PUNCT,punct,BEDEBENG!,,,
-18,bedebeng,BEDEBENG,INTJ,conj,BADABUM!,,,
-18,,,PUNCT,punct,BIDIBONG,,,
-18,bidibong,BIDIBONG,PROPN,conj,BADABUM!,,,
-18,,,PUNCT,punct,BIDIBONG,,,
-18,tic,Tic,INTJ,discourse,BADABUM!,,,3.623090499
-18,,,PUNCT,punct,Tic,,,
-18,finalmente,finalmente,ADV,advmod,Orso,,,4.939266335
-18,orso,Orso,PROPN,nsubj,casa,,,4.192007611
-18,,,PUNCT,punct,Volpe,,,
-18,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
-18,,,PUNCT,punct,Talpa,,,
-18,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
-18,,,PUNCT,punct,Rospo,,,
-18,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
-18,e,e,CCONJ,cc,Formica,,,2.741151583
-18,formica,Formica,PROPN,conj,Orso,,,3.390952497
-18,sono,essere,AUX,cop,casa,,,6.768130002
-18,tutti,tutto,PRON,nsubj,casa,,,6.110511188
-18,insieme,insieme,ADV,case,casa,,,5.500638545
-18,a,a,ADP,case,casa,,,7.004335738
-18,casa,casa,NOUN,parataxis,BADABUM!,,3.40 ± 1.63,6.003702937
-18,di,di,ADP,case,Orso,,,7.232814475
-18,orso,Orso,PROPN,nmod,casa,,,4.192007611
-18,ma,ma,CCONJ,cc,è,,,6.662005813
-18,,,PUNCT,punct,è,,,
-18,elefante,Elefante,PROPN,nsubj,è,,,3.8254005
-18,,,PUNCT,punct,Elefante,,,
-18,dov’,dove,ADV,advmod,è,,,
-18,è,essere,VERB,conj,casa,,,7.249521761
-18,,,PUNCT,punct,è,,,
-19,guardano,guardare,VERB,root,ROOT,,5.08 ± 1.68,3.990952589
-19,in,in,ADP,case,alto,,,6.797274494
-19,alto,alto,ADV,advmod,Guardano,,4.04 ± 1.10,4.974719651
-19,e,e,CCONJ,cc,vedono,,,2.741151583
-19,vedono,vedere,VERB,conj,Guardano,,4.60 ± 1.50,4.306367313
-19,solo,solo,ADV,advmod,proboscide,,4.60 ± 2.14,6.359323473
-19,una,uno,DET,det,proboscide,,,6.801817508
-19,lunga,lungo,ADJ,amod,proboscide,,4.12 ± 1.33,4.724568209
-19,proboscide,proboscide,NOUN,obj,vedono,,,2.561991092
-19,,,PUNCT,punct,Guardano,,,
-20,“,“,PUNCT,punct,passo,,,
-20,non,non,ADV,advmod,passo,,,7.259198169
-20,passo,passire,VERB,root,ROOT,,,4.979268395
-20,da,da,ADP,case,buco,,,6.577812618
-20,il,il,DET,det,buco,,,7.039560886
-20,buco,buco,NOUN,obl,passo,,,4.52628082
-20,”,”,PUNCT,punct,passo,,,
-20,,,PUNCT,punct,passo,,,
-20,,,PUNCT,punct,urla,,,
-20,urla,urlare,VERB,parataxis,passo,,,4.328593767
-20,elefante,Elefante,PROPN,nsubj,urla,,,3.8254005
-20,,,PUNCT,punct,urla,,,
-21,orso,Orso,PROPN,nsubj,mettono,,,4.192007611
-21,,,PUNCT,punct,Volpe,,,
-21,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
-21,,,PUNCT,punct,Talpa,,,
-21,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
-21,,,PUNCT,punct,Rospo,,,
-21,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
-21,e,e,CCONJ,cc,Formica,,,2.741151583
-21,formica,Formica,PROPN,conj,Orso,,,3.390952497
-21,si,si,PRON,expl,mettono,,,6.553884221
-21,mettono,mettere,VERB,root,ROOT,,4.28 ± 1.59,4.204392462
-21,a,a,ADP,mark,scavare,,,7.004335738
-21,scavare,scavare,VERB,xcomp,mettono,,,4.0084886
-21,e,e,CCONJ,cc,scava,,,2.741151583
-21,scava,scavare,VERB,conj,mettono,,,3.371335863
-21,,,PUNCT,punct,scava,,,
-21,scava,scavare,VERB,conj,mettono,,,3.371335863
-21,,,PUNCT,punct,scava,,,
-21,scava,scavare,VERB,conj,mettono,,,3.371335863
-21,ecco,ecco,ADV,advmod,scava,,,5.695815269
-21,che,che,SCONJ,mark,riescono,,,7.250456545
-21,riescono,riuscire,VERB,ccomp,scava,,,4.134912105
-21,ad,a,ADP,mark,allargare,,,5.934389877
-21,allargare,allargare,VERB,xcomp,riescono,,,3.277283061
-21,il,il,DET,det,buco,,,7.039560886
-21,buco,buco,NOUN,obj,allargare,,,4.52628082
-21,,,PUNCT,punct,grande,,,
-21,ma,ma,CCONJ,cc,grande,,,6.662005813
-21,elefante,Elefante,PROPN,nsubj,grande,,,3.8254005
-21,è,essere,AUX,cop,grande,,,7.249521761
-21,ancora,ancora,ADV,advmod,grande,,,6.01813737
-21,troppo,troppo,ADV,advmod,grande,,,5.669092764
-21,grande,grande,ADJ,conj,mettono,,4.64 ± 2.04,5.615282093
-21,,,PUNCT,punct,mettono,,,
-22,si,si,PRON,expl,vede,,,6.553884221
-22,vede,vedere,VERB,root,ROOT,,4.60 ± 1.50,5.039789442
-22,solo,solo,ADV,advmod,testa,,4.60 ± 2.14,6.359323473
-22,la,il,DET,det,testa,,,7.055331658
-22,testa,testa,NOUN,nsubj,vede,,3.32 ± 1.44,5.506904066
-22,,,PUNCT,punct,vede,,,
-23,allora,allora,ADV,advmod,decidono,,,6.072527547
-23,decidono,decidere,VERB,root,ROOT,,,3.309848983
-23,di,di,ADP,mark,uscire,,,7.232814475
-23,uscire,uscire,VERB,xcomp,decidono,,4.28 ± 2.32,5.293751258
-23,tutti,tutto,PRON,obj,uscire,,,6.110511188
-23,quanti,quanto,PRON,obj,uscire,,,5.101200701
-23,da,da,ADP,case,tana,,,6.577812618
-23,la,il,DET,det,tana,,,7.055331658
-23,tana,tana,NOUN,obl,uscire,,4.32 ± 1.77,3.747828499
-23,per,per,ADP,mark,fare,,,6.912435835
-23,fare,fare,VERB,advcl,uscire,,4.40 ± 2.22,6.231286207
-23,una,uno,DET,det,merenda,,,6.801817508
-23,bella,bello,ADJ,amod,merenda,,3.80 ± 2.35,5.484893151
-23,merenda,merenda,NOUN,obj,fare,,,3.279059319
-23,su,su,ADP,case,erba,,,6.000068652
-23,l’,il,DET,det,erba,,,
-23,erba,erba,NOUN,obl,fare,,3.88 ± 1.39,4.450278157
-23,anche,anche,ADV,advmod,Elefante,,,6.115086172
-23,con,con,ADP,case,Elefante,,,6.620271703
-23,elefante,Elefante,PROPN,obl,fare,,,3.8254005
-23,,,PUNCT,punct,decidono,,,
-24,orso,Orso,PROPN,nsubj,prende,,,4.192007611
-24,prende,prendere,VERB,root,ROOT,,4.36 ± 1.89,4.869987548
-24,un,uno,DET,det,po’,,,7.065833912
-24,po’,poco,PRON,obj,prende,,,
-24,di,di,ADP,case,miele,,,7.232814475
-24,miele,miele,NOUN,nmod,po’,,4.32 ± 1.22,4.20481329
-24,da,da,ADP,case,dispensa,,,6.577812618
-24,la,il,DET,det,dispensa,,,7.055331658
-24,sua,suo,DET,det:poss,dispensa,,,6.022524285
-24,dispensa,dispensa,NOUN,obl,prende,,,3.393683917
-24,e,e,CCONJ,cc,raccoglie,,,2.741151583
-24,formica,Formica,PROPN,nsubj,raccoglie,,,3.390952497
-24,raccoglie,raccogliere,VERB,conj,prende,,,3.428969333
-24,tante,tanto,DET,det,bricioline,,,4.828613049
-24,bricioline,briciolina,NOUN,obj,raccoglie,,,
-24,che,che,PRON,nsubj,trova,,,7.250456545
-24,trova,trovare,VERB,acl:relcl,bricioline,,4.24 ± 1.61,4.979657089
-24,qua,qua,ADV,advmod,trova,,,5.522856403
-24,e,e,CCONJ,cc,là,,,2.741151583
-24,là,là,ADV,conj,qua,,,
-24,e,e,CCONJ,cc,fatto,,,2.741151583
-24,così,così,ADV,advmod,fatto,,,6.287788074
-24,ecco,ecco,ADV,advmod,fatto,,,5.695815269
-24,fatto,fatto,NOUN,conj,prende,,,6.237129549
-24,che,che,SCONJ,mark,mangiano,,,7.250456545
-24,tutti,tutto,PRON,nsubj,mangiano,,,6.110511188
-24,mangiano,mangiare,VERB,ccomp,fatto,,3.24 ± 1.74,3.986803247
-24,contenti,contento,ADJ,xcomp,mangiano,,4.12 ± 3.55,4.04765212
-24,quella,quello,DET,det,merenda,,,5.939281839
-24,buffa,buffo,ADJ,amod,merenda,,,3.702137931
-24,merenda,merenda,NOUN,obj,mangiano,,,3.279059319
-24,pucciando,pucciare,VERB,advcl,mangiano,,,
-24,le,il,DET,det,briciole,,,6.624997683
-24,briciole,briciola,NOUN,obj,pucciando,,,3.372766818
-24,in,in,ADP,case,miele,,,6.797274494
-24,il,il,DET,det,miele,,,7.039560886
-24,miele,miele,NOUN,obl,pucciando,,4.32 ± 1.22,4.20481329
-24,,,PUNCT,punct,prende,,,
+token_id,sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
+1,0,orso,orso,NOUN,root,ROOT,,4.48 ± 1.53,4.192007611
+2,0,buco,buco,NOUN,compound,Orso,,,4.52628082
+3,0,,,PUNCT,punct,Orso,,,
+4,1,orso,Orso,PROPN,nsubj,perso,,,4.192007611
+5,1,si,si,PRON,expl,perso,,,6.553884221
+6,1,è,essere,AUX,aux,perso,,,7.249521761
+7,1,perso,perdere,VERB,root,ROOT,,,5.292824891
+8,1,in,in,ADP,case,bosco,,,6.797274494
+9,1,il,il,DET,det,bosco,,,7.039560886
+10,1,bosco,bosco,NOUN,obl,perso,,4.52 ± 1.26,4.24188269
+11,1,e,e,CCONJ,cc,trova,,,2.741151583
+12,1,non,non,ADV,advmod,trova,,,7.259198169
+13,1,trova,trovare,VERB,conj,perso,,4.24 ± 1.61,4.979657089
+14,1,più,più,ADV,advmod,trova,,,6.382555861
+15,1,la,il,DET,det,tana,,,7.055331658
+16,1,sua,suo,DET,det:poss,tana,,,6.022524285
+17,1,tana,tana,NOUN,obj,trova,,4.32 ± 1.77,3.747828499
+18,1,,,PUNCT,punct,perso,,,
+19,2,si,si,PRON,expl,mette,,,6.553884221
+20,2,mette,mettere,VERB,root,ROOT,,4.28 ± 1.59,4.624212915
+21,2,in,in,ADP,case,cammino,,,6.797274494
+22,2,cammino,cammino,NOUN,obl,mette,,,4.175000264
+23,2,e,e,CCONJ,cc,improvviso,,,2.741151583
+24,2,a,a,ADP,case,improvviso,,,7.004335738
+25,2,l’,il,DET,det,improvviso,,,
+26,2,improvviso,improvviso,ADJ,obl,mette,,,4.516644088
+27,2,,,PUNCT,punct,mette,,,
+28,2,badabum,BADABUM,INTJ,discourse,mette,,,2.003836587
+29,2,,,PUNCT,punct,casca,,,
+30,2,casca,cascare,VERB,conj,mette,,,3.173194463
+31,2,in,in,ADP,case,buco,,,6.797274494
+32,2,un,uno,DET,det,buco,,,7.065833912
+33,2,buco,buco,NOUN,obl,casca,,,4.52628082
+34,2,,,PUNCT,punct,mette,,,
+35,3,ma,ma,CCONJ,cc,tana,,,6.662005813
+36,3,è,essere,AUX,cop,tana,,,7.249521761
+37,3,la,il,DET,det,tana,,,7.055331658
+38,3,tana,tana,NOUN,root,ROOT,,4.32 ± 1.77,3.747828499
+39,3,di,di,ADP,case,Volpe,,,7.232814475
+40,3,volpe,Volpe,PROPN,nmod,tana,,,3.774122004
+41,3,,,PUNCT,punct,tana,,,
+42,4,orso,Orso,PROPN,nsubj,iniziano,,,4.192007611
+43,4,e,e,CCONJ,cc,Volpe,,,2.741151583
+44,4,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
+45,4,iniziano,iniziare,VERB,root,ROOT,,,3.867159447
+46,4,a,a,ADP,mark,camminare,,,7.004335738
+47,4,camminare,camminare,VERB,xcomp,iniziano,,3.68 ± 1.46,4.521134015
+48,4,a,a,ADP,case,ricerca,,,7.004335738
+49,4,la,il,DET,det,ricerca,,,7.055331658
+50,4,ricerca,ricerca,NOUN,obl,camminare,,,4.769218535
+51,4,di,di,ADP,case,tana,,,7.232814475
+52,4,la,il,DET,det,tana,,,7.055331658
+53,4,tana,tana,NOUN,nmod,ricerca,,4.32 ± 1.77,3.747828499
+54,4,di,di,ADP,case,Orso,,,7.232814475
+55,4,orso,Orso,PROPN,nmod,tana,,,4.192007611
+56,4,,,PUNCT,punct,attraversano,,,
+57,4,attraversano,attraversare,VERB,conj,iniziano,,,3.216229095
+58,4,i,il,DET,det,campi,,,6.584780852
+59,4,campi,campo,NOUN,obj,attraversano,,4.52 ± 1.56,4.200161601
+60,4,,,PUNCT,punct,BADABUM!,,,
+61,4,e,e,CCONJ,cc,improvviso,,,2.741151583
+62,4,a,a,ADP,case,improvviso,,,7.004335738
+63,4,l’,il,DET,det,improvviso,,,
+64,4,improvviso,improvviso,ADJ,obl,cascano,,,4.516644088
+65,4,,,PUNCT,punct,BADABUM!,,,
+66,4,badabum,badabu,NOUN,conj,campi,,,2.003836587
+67,4,,,PUNCT,punct,BADABUM!,,,
+68,4,spatapam,SPATAPAM,INTJ,conj,BADABUM!,,,
+69,4,,,PUNCT,punct,cascano,,,
+70,4,cascano,cascare,VERB,conj,iniziano,,,2.734991274
+71,4,in,in,ADP,case,buco,,,6.797274494
+72,4,un,uno,DET,det,buco,,,7.065833912
+73,4,buco,buco,NOUN,obl,cascano,,,4.52628082
+74,4,,,PUNCT,punct,iniziano,,,
+75,5,ma,ma,CCONJ,cc,tana,,,6.662005813
+76,5,è,essere,AUX,cop,tana,,,7.249521761
+77,5,la,il,DET,det,tana,,,7.055331658
+78,5,tana,tana,NOUN,root,ROOT,,4.32 ± 1.77,3.747828499
+79,5,di,di,ADP,case,Talpa,,,7.232814475
+80,5,talpa,Talpa,PROPN,nmod,tana,,,3.862096073
+81,5,,,PUNCT,punct,tana,,,
+82,5,orso,Orso,PROPN,nsubj,iniziano,,,4.192007611
+83,5,,,PUNCT,punct,Volpe,,,
+84,5,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
+85,5,e,e,CCONJ,cc,Talpa,,,2.741151583
+86,5,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
+87,5,,,PUNCT,punct,Orso,,,
+88,5,iniziano,iniziare,VERB,parataxis,tana,,,3.867159447
+89,5,a,a,ADP,mark,camminare,,,7.004335738
+90,5,camminare,camminare,VERB,xcomp,iniziano,,3.68 ± 1.46,4.521134015
+91,5,,,PUNCT,punct,iniziano,,,
+92,5,a,a,ADP,case,ricerca,,,7.004335738
+93,5,la,il,DET,det,ricerca,,,7.055331658
+94,5,ricerca,ricerca,NOUN,obl,camminare,,,4.769218535
+95,5,di,di,ADP,case,tana,,,7.232814475
+96,5,la,il,DET,det,tana,,,7.055331658
+97,5,tana,tana,NOUN,nmod,ricerca,,4.32 ± 1.77,3.747828499
+98,5,di,di,ADP,case,Orso,,,7.232814475
+99,5,orso,Orso,PROPN,nmod,tana,,,4.192007611
+100,5,,,PUNCT,punct,tana,,,
+101,6,attraversano,attraversare,VERB,root,ROOT,,,3.216229095
+102,6,il,il,DET,det,fiume,,,7.039560886
+103,6,fiume,fiume,NOUN,obj,Attraversano,,4.80 ± 1.63,4.560880837
+104,6,,,PUNCT,punct,BADABUM!,,,
+105,6,e,e,CCONJ,cc,BADABUM!,,,2.741151583
+106,6,a,a,ADP,case,improvviso,,,7.004335738
+107,6,l’,il,DET,det,improvviso,,,
+108,6,improvviso,improvviso,ADJ,obl,Attraversano,,,4.516644088
+109,6,,,PUNCT,punct,BADABUM!,,,
+110,6,badabum,badabu,NOUN,conj,fiume,,,2.003836587
+111,6,,,PUNCT,punct,SPATAPAM,,,
+112,6,spatapam,SPATAPAM,PROPN,conj,BADABUM!,,,
+113,6,,,PUNCT,punct,BADABUM!,,,
+114,6,,,PUNCT,punct,BEDEBENG!,,,
+115,6,bedebeng,BEDEBENG,INTJ,discourse,cascano,,,
+116,6,,,PUNCT,punct,BEDEBENG!,,,
+117,6,cascano,cascare,VERB,conj,Attraversano,,,2.734991274
+118,6,in,in,ADP,case,buco,,,6.797274494
+119,6,un,uno,DET,det,buco,,,7.065833912
+120,6,buco,buco,NOUN,obl,cascano,,,4.52628082
+121,6,,,PUNCT,punct,tana,,,
+122,6,ma,ma,CCONJ,cc,tana,,,6.662005813
+123,6,è,essere,AUX,cop,tana,,,7.249521761
+124,6,la,il,DET,det,tana,,,7.055331658
+125,6,tana,tana,NOUN,conj,Attraversano,,4.32 ± 1.77,3.747828499
+126,6,di,di,ADP,case,Rospo,,,7.232814475
+127,6,rospo,Rospo,PROPN,nmod,tana,,,3.834869143
+128,6,,,PUNCT,punct,Attraversano,,,
+129,7,orso,Orso,PROPN,nsubj,iniziano,,,4.192007611
+130,7,,,PUNCT,punct,Volpe,,,
+131,7,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
+132,7,,,PUNCT,punct,Talpa,,,
+133,7,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
+134,7,e,e,CCONJ,cc,Rospo,,,2.741151583
+135,7,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
+136,7,,,PUNCT,punct,Orso,,,
+137,7,iniziano,iniziare,VERB,root,ROOT,,,3.867159447
+138,7,a,a,ADP,mark,camminare,,,7.004335738
+139,7,camminare,camminare,VERB,xcomp,iniziano,,3.68 ± 1.46,4.521134015
+140,7,,,PUNCT,punct,camminare,,,
+141,7,a,a,ADP,case,ricerca,,,7.004335738
+142,7,la,il,DET,det,ricerca,,,7.055331658
+143,7,ricerca,ricerca,NOUN,obl,camminare,,,4.769218535
+144,7,di,di,ADP,case,tana,,,7.232814475
+145,7,la,il,DET,det,tana,,,7.055331658
+146,7,tana,tana,NOUN,nmod,ricerca,,4.32 ± 1.77,3.747828499
+147,7,di,di,ADP,case,Orso,,,7.232814475
+148,7,orso,Orso,PROPN,nmod,tana,,,4.192007611
+149,7,,,PUNCT,punct,iniziano,,,
+150,8,e,e,CCONJ,cc,cascano,,,2.741151583
+151,8,a,a,ADP,case,improvviso,,,7.004335738
+152,8,l’,il,DET,det,improvviso,,,
+153,8,improvviso,improvviso,ADJ,obl,cascano,,,4.516644088
+154,8,,,PUNCT,punct,BADABUM!,,,
+155,8,badabum,BADABUM,INTJ,discourse,improvviso,,,2.003836587
+156,8,,,PUNCT,punct,SPATAPAM,,,
+157,8,spatapam,SPATAPAM,INTJ,conj,BADABUM!,,,
+158,8,,,PUNCT,punct,SPATAPAM,,,
+159,8,,,PUNCT,punct,BEDEBENG!,,,
+160,8,bedebeng,BEDEBENG,INTJ,discourse,cascano,,,
+161,8,,,PUNCT,punct,BIDIBONG!,,,
+162,8,bidibong,BIDIBONG,INTJ,discourse,cascano,,,
+163,8,,,PUNCT,punct,BIDIBONG!,,,
+164,8,cascano,cascare,VERB,root,ROOT,,,2.734991274
+165,8,in,in,ADP,case,buco,,,6.797274494
+166,8,un,uno,DET,det,buco,,,7.065833912
+167,8,buco,buco,NOUN,obl,cascano,,,4.52628082
+168,8,,,PUNCT,punct,tana,,,
+169,8,ma,ma,CCONJ,cc,tana,,,6.662005813
+170,8,è,essere,AUX,cop,tana,,,7.249521761
+171,8,la,il,DET,det,tana,,,7.055331658
+172,8,tana,tana,NOUN,conj,cascano,,4.32 ± 1.77,3.747828499
+173,8,di,di,ADP,case,Formica,,,7.232814475
+174,8,formica,Formica,PROPN,nmod,tana,,,3.390952497
+175,8,,,PUNCT,punct,cascano,,,
+176,9,orso,Orso,PROPN,nsubj,iniziano,,,4.192007611
+177,9,,,PUNCT,punct,Volpe,,,
+178,9,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
+179,9,,,PUNCT,punct,Talpa,,,
+180,9,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
+181,9,,,PUNCT,punct,Rospo,,,
+182,9,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
+183,9,e,e,CCONJ,cc,Formica,,,2.741151583
+184,9,formica,Formica,PROPN,conj,Orso,,,3.390952497
+185,9,iniziano,iniziare,VERB,root,ROOT,,,3.867159447
+186,9,a,a,ADP,mark,camminare,,,7.004335738
+187,9,camminare,camminare,VERB,xcomp,iniziano,,3.68 ± 1.46,4.521134015
+188,9,,,PUNCT,punct,camminare,,,
+189,9,a,a,ADP,case,ricerca,,,7.004335738
+190,9,la,il,DET,det,ricerca,,,7.055331658
+191,9,ricerca,ricerca,NOUN,obl,camminare,,,4.769218535
+192,9,di,di,ADP,case,tana,,,7.232814475
+193,9,la,il,DET,det,tana,,,7.055331658
+194,9,tana,tana,NOUN,nmod,ricerca,,4.32 ± 1.77,3.747828499
+195,9,di,di,ADP,case,Orso,,,7.232814475
+196,9,orso,Orso,PROPN,nmod,tana,,,4.192007611
+197,9,,,PUNCT,punct,iniziano,,,
+198,10,attraversano,attraversare,VERB,root,ROOT,,,3.216229095
+199,10,il,il,DET,det,deserto,,,7.039560886
+200,10,deserto,deserto,NOUN,obj,Attraversano,,,4.243809465
+201,10,,,PUNCT,punct,improvviso,,,
+202,10,e,e,CCONJ,cc,improvviso,,,2.741151583
+203,10,a,a,ADP,case,improvviso,,,7.004335738
+204,10,l’,il,DET,det,improvviso,,,
+205,10,improvviso,improvviso,ADJ,nmod,elefante,,,4.516644088
+206,10,,,PUNCT,punct,elefante,,,
+207,10,un,uno,DET,det,elefante,,,7.065833912
+208,10,elefante,elefante,NOUN,conj,Attraversano,,4.04 ± 1.54,3.8254005
+209,10,,,PUNCT,punct,Attraversano,,,
+210,11,“,“,PUNCT,punct,persi,,,
+211,11,vi,vi,PRON,iobj,persi,,,5.855804847
+212,11,siete,essere,AUX,aux,persi,,,5.565708224
+213,11,persi,perdere,VERB,root,ROOT,,,4.14661098
+214,11,,,PUNCT,punct,persi,,,
+215,12,presto,presto,ADV,root,ROOT,,,5.386809051
+216,12,,,PUNCT,punct,Presto,,,
+217,13,tutti,tutto,PRON,root,ROOT,,,6.110511188
+218,13,in,in,ADP,case,groppa,,,6.797274494
+219,13,groppa,groppa,NOUN,nmod,Tutti,,,2.88111931
+220,13,,,PUNCT,punct,Tutti,,,
+221,13,”,”,PUNCT,punct,Tutti,,,
+222,13,,,PUNCT,punct,Tutti,,,
+223,13,dice,dire,VERB,parataxis,Tutti,,4.08 ± 1.73,5.609257672
+224,13,l’,il,DET,det,elefante,,,
+225,13,elefante,elefante,NOUN,nsubj,dice,,4.04 ± 1.54,3.8254005
+226,13,,,PUNCT,punct,Tutti,,,
+227,14,e,e,CCONJ,cc,arrampicano,,,2.741151583
+228,14,allora,allora,ADV,advmod,arrampicano,,,6.072527547
+229,14,orso,Orso,PROPN,nsubj,arrampicano,,,4.192007611
+230,14,,,PUNCT,punct,Volpe,,,
+231,14,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
+232,14,,,PUNCT,punct,Talpa,,,
+233,14,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
+234,14,,,PUNCT,punct,Rospo,,,
+235,14,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
+236,14,e,e,CCONJ,cc,Formica,,,2.741151583
+237,14,formica,Formica,PROPN,conj,Orso,,,3.390952497
+238,14,si,si,PRON,expl,arrampicano,,,6.553884221
+239,14,arrampicano,arrampicare,VERB,root,ROOT,,,2.304866582
+240,14,su,su,ADP,case,schiena,,,6.000068652
+241,14,la,il,DET,det,schiena,,,7.055331658
+242,14,schiena,schiena,NOUN,obl,arrampicano,,4.40 ± 1.47,4.545127741
+243,14,di,di,ADP,case,elefante,,,7.232814475
+244,14,elefante,elefante,NOUN,nmod,schiena,,4.04 ± 1.54,3.8254005
+245,14,,,PUNCT,punct,arrampicano,,,
+246,15,elefante,elefante,NOUN,nsubj,mette,,4.04 ± 1.54,3.8254005
+247,15,si,si,PRON,expl,mette,,,6.553884221
+248,15,mette,mettere,VERB,root,ROOT,,4.28 ± 1.59,4.624212915
+249,15,in,in,ADP,case,cammino,,,6.797274494
+250,15,cammino,cammino,NOUN,obl,mette,,,4.175000264
+251,15,,,PUNCT,punct,marciano,,,
+252,15,marciano,marciare,VERB,conj,mette,,,
+253,15,in,in,ADP,case,deserto,,,6.797274494
+254,15,il,il,DET,det,deserto,,,7.039560886
+255,15,deserto,deserto,NOUN,obl,marciano,,,4.243809465
+256,15,e,e,CCONJ,cc,guadano,,,2.741151583
+257,15,poi,poi,ADV,advmod,guadano,,,5.853751865
+258,15,,,PUNCT,punct,guadano,,,
+259,15,guadano,guadare,VERB,conj,mette,,,
+260,15,il,il,DET,det,fiume,,,7.039560886
+261,15,fiume,fiume,NOUN,obj,guadano,,4.80 ± 1.63,4.560880837
+262,15,,,PUNCT,punct,mette,,,
+263,16,e,e,CCONJ,cc,zigzagano,,,2.741151583
+264,16,poi,poi,ADV,advmod,zigzagano,,,5.853751865
+265,16,a,a,ADP,case,improvviso,,,7.004335738
+266,16,l’,il,DET,det,improvviso,,,
+267,16,improvviso,improvviso,ADJ,obl,zigzagano,,,4.516644088
+268,16,zigzagano,zigzagare,VERB,root,ROOT,,,
+269,16,per,per,ADP,case,bosco,,,6.912435835
+270,16,il,il,DET,det,bosco,,,7.039560886
+271,16,bosco,bosco,NOUN,obl,zigzagano,,4.52 ± 1.26,4.24188269
+272,16,,,PUNCT,punct,zigzagano,,,
+273,17,la,il,DET,det,tana,,,7.055331658
+274,17,tana,tana,NOUN,root,ROOT,,4.32 ± 1.77,3.747828499
+275,17,di,di,ADP,case,Orso,,,7.232814475
+276,17,orso,Orso,PROPN,nmod,tana,,,4.192007611
+277,17,,,PUNCT,punct,tana,,,
+278,17,tutti,tutto,PRON,parataxis,tana,,,6.110511188
+279,17,dentro,dentro,ADV,parataxis,tana,,,5.582881078
+280,17,,,PUNCT,punct,tana,,,
+281,18,badabum,BADABUM,INTJ,root,ROOT,,,2.003836587
+282,18,,,PUNCT,punct,SPATAPAM,,,
+283,18,spatapam,SPATAPAM,INTJ,conj,BADABUM!,,,
+284,18,,,PUNCT,punct,SPATAPAM,,,
+285,18,,,PUNCT,punct,BEDEBENG!,,,
+286,18,bedebeng,BEDEBENG,INTJ,conj,BADABUM!,,,
+287,18,,,PUNCT,punct,BIDIBONG,,,
+288,18,bidibong,BIDIBONG,PROPN,conj,BADABUM!,,,
+289,18,,,PUNCT,punct,BIDIBONG,,,
+290,18,tic,Tic,INTJ,discourse,BADABUM!,,,3.623090499
+291,18,,,PUNCT,punct,Tic,,,
+292,18,finalmente,finalmente,ADV,advmod,Orso,,,4.939266335
+293,18,orso,Orso,PROPN,nsubj,casa,,,4.192007611
+294,18,,,PUNCT,punct,Volpe,,,
+295,18,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
+296,18,,,PUNCT,punct,Talpa,,,
+297,18,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
+298,18,,,PUNCT,punct,Rospo,,,
+299,18,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
+300,18,e,e,CCONJ,cc,Formica,,,2.741151583
+301,18,formica,Formica,PROPN,conj,Orso,,,3.390952497
+302,18,sono,essere,AUX,cop,casa,,,6.768130002
+303,18,tutti,tutto,PRON,nsubj,casa,,,6.110511188
+304,18,insieme,insieme,ADV,case,casa,,,5.500638545
+305,18,a,a,ADP,case,casa,,,7.004335738
+306,18,casa,casa,NOUN,parataxis,BADABUM!,,3.40 ± 1.63,6.003702937
+307,18,di,di,ADP,case,Orso,,,7.232814475
+308,18,orso,Orso,PROPN,nmod,casa,,,4.192007611
+309,18,ma,ma,CCONJ,cc,è,,,6.662005813
+310,18,,,PUNCT,punct,è,,,
+311,18,elefante,Elefante,PROPN,nsubj,è,,,3.8254005
+312,18,,,PUNCT,punct,Elefante,,,
+313,18,dov’,dove,ADV,advmod,è,,,
+314,18,è,essere,VERB,conj,casa,,,7.249521761
+315,18,,,PUNCT,punct,è,,,
+316,19,guardano,guardare,VERB,root,ROOT,,5.08 ± 1.68,3.990952589
+317,19,in,in,ADP,case,alto,,,6.797274494
+318,19,alto,alto,ADV,advmod,Guardano,,4.04 ± 1.10,4.974719651
+319,19,e,e,CCONJ,cc,vedono,,,2.741151583
+320,19,vedono,vedere,VERB,conj,Guardano,,4.60 ± 1.50,4.306367313
+321,19,solo,solo,ADV,advmod,proboscide,,4.60 ± 2.14,6.359323473
+322,19,una,uno,DET,det,proboscide,,,6.801817508
+323,19,lunga,lungo,ADJ,amod,proboscide,,4.12 ± 1.33,4.724568209
+324,19,proboscide,proboscide,NOUN,obj,vedono,,,2.561991092
+325,19,,,PUNCT,punct,Guardano,,,
+326,20,“,“,PUNCT,punct,passo,,,
+327,20,non,non,ADV,advmod,passo,,,7.259198169
+328,20,passo,passire,VERB,root,ROOT,,,4.979268395
+329,20,da,da,ADP,case,buco,,,6.577812618
+330,20,il,il,DET,det,buco,,,7.039560886
+331,20,buco,buco,NOUN,obl,passo,,,4.52628082
+332,20,”,”,PUNCT,punct,passo,,,
+333,20,,,PUNCT,punct,passo,,,
+334,20,,,PUNCT,punct,urla,,,
+335,20,urla,urlare,VERB,parataxis,passo,,,4.328593767
+336,20,elefante,Elefante,PROPN,nsubj,urla,,,3.8254005
+337,20,,,PUNCT,punct,urla,,,
+338,21,orso,Orso,PROPN,nsubj,mettono,,,4.192007611
+339,21,,,PUNCT,punct,Volpe,,,
+340,21,volpe,Volpe,PROPN,conj,Orso,,,3.774122004
+341,21,,,PUNCT,punct,Talpa,,,
+342,21,talpa,Talpa,PROPN,conj,Orso,,,3.862096073
+343,21,,,PUNCT,punct,Rospo,,,
+344,21,rospo,Rospo,PROPN,conj,Orso,,,3.834869143
+345,21,e,e,CCONJ,cc,Formica,,,2.741151583
+346,21,formica,Formica,PROPN,conj,Orso,,,3.390952497
+347,21,si,si,PRON,expl,mettono,,,6.553884221
+348,21,mettono,mettere,VERB,root,ROOT,,4.28 ± 1.59,4.204392462
+349,21,a,a,ADP,mark,scavare,,,7.004335738
+350,21,scavare,scavare,VERB,xcomp,mettono,,,4.0084886
+351,21,e,e,CCONJ,cc,scava,,,2.741151583
+352,21,scava,scavare,VERB,conj,mettono,,,3.371335863
+353,21,,,PUNCT,punct,scava,,,
+354,21,scava,scavare,VERB,conj,mettono,,,3.371335863
+355,21,,,PUNCT,punct,scava,,,
+356,21,scava,scavare,VERB,conj,mettono,,,3.371335863
+357,21,ecco,ecco,ADV,advmod,scava,,,5.695815269
+358,21,che,che,SCONJ,mark,riescono,,,7.250456545
+359,21,riescono,riuscire,VERB,ccomp,scava,,,4.134912105
+360,21,ad,a,ADP,mark,allargare,,,5.934389877
+361,21,allargare,allargare,VERB,xcomp,riescono,,,3.277283061
+362,21,il,il,DET,det,buco,,,7.039560886
+363,21,buco,buco,NOUN,obj,allargare,,,4.52628082
+364,21,,,PUNCT,punct,grande,,,
+365,21,ma,ma,CCONJ,cc,grande,,,6.662005813
+366,21,elefante,Elefante,PROPN,nsubj,grande,,,3.8254005
+367,21,è,essere,AUX,cop,grande,,,7.249521761
+368,21,ancora,ancora,ADV,advmod,grande,,,6.01813737
+369,21,troppo,troppo,ADV,advmod,grande,,,5.669092764
+370,21,grande,grande,ADJ,conj,mettono,,4.64 ± 2.04,5.615282093
+371,21,,,PUNCT,punct,mettono,,,
+372,22,si,si,PRON,expl,vede,,,6.553884221
+373,22,vede,vedere,VERB,root,ROOT,,4.60 ± 1.50,5.039789442
+374,22,solo,solo,ADV,advmod,testa,,4.60 ± 2.14,6.359323473
+375,22,la,il,DET,det,testa,,,7.055331658
+376,22,testa,testa,NOUN,nsubj,vede,,3.32 ± 1.44,5.506904066
+377,22,,,PUNCT,punct,vede,,,
+378,23,allora,allora,ADV,advmod,decidono,,,6.072527547
+379,23,decidono,decidere,VERB,root,ROOT,,,3.309848983
+380,23,di,di,ADP,mark,uscire,,,7.232814475
+381,23,uscire,uscire,VERB,xcomp,decidono,,4.28 ± 2.32,5.293751258
+382,23,tutti,tutto,PRON,obj,uscire,,,6.110511188
+383,23,quanti,quanto,PRON,obj,uscire,,,5.101200701
+384,23,da,da,ADP,case,tana,,,6.577812618
+385,23,la,il,DET,det,tana,,,7.055331658
+386,23,tana,tana,NOUN,obl,uscire,,4.32 ± 1.77,3.747828499
+387,23,per,per,ADP,mark,fare,,,6.912435835
+388,23,fare,fare,VERB,advcl,uscire,,4.40 ± 2.22,6.231286207
+389,23,una,uno,DET,det,merenda,,,6.801817508
+390,23,bella,bello,ADJ,amod,merenda,,3.80 ± 2.35,5.484893151
+391,23,merenda,merenda,NOUN,obj,fare,,,3.279059319
+392,23,su,su,ADP,case,erba,,,6.000068652
+393,23,l’,il,DET,det,erba,,,
+394,23,erba,erba,NOUN,obl,fare,,3.88 ± 1.39,4.450278157
+395,23,anche,anche,ADV,advmod,Elefante,,,6.115086172
+396,23,con,con,ADP,case,Elefante,,,6.620271703
+397,23,elefante,Elefante,PROPN,obl,fare,,,3.8254005
+398,23,,,PUNCT,punct,decidono,,,
+399,24,orso,Orso,PROPN,nsubj,prende,,,4.192007611
+400,24,prende,prendere,VERB,root,ROOT,,4.36 ± 1.89,4.869987548
+401,24,un,uno,DET,det,po’,,,7.065833912
+402,24,po’,poco,PRON,obj,prende,,,
+403,24,di,di,ADP,case,miele,,,7.232814475
+404,24,miele,miele,NOUN,nmod,po’,,4.32 ± 1.22,4.20481329
+405,24,da,da,ADP,case,dispensa,,,6.577812618
+406,24,la,il,DET,det,dispensa,,,7.055331658
+407,24,sua,suo,DET,det:poss,dispensa,,,6.022524285
+408,24,dispensa,dispensa,NOUN,obl,prende,,,3.393683917
+409,24,e,e,CCONJ,cc,raccoglie,,,2.741151583
+410,24,formica,Formica,PROPN,nsubj,raccoglie,,,3.390952497
+411,24,raccoglie,raccogliere,VERB,conj,prende,,,3.428969333
+412,24,tante,tanto,DET,det,bricioline,,,4.828613049
+413,24,bricioline,briciolina,NOUN,obj,raccoglie,,,
+414,24,che,che,PRON,nsubj,trova,,,7.250456545
+415,24,trova,trovare,VERB,acl:relcl,bricioline,,4.24 ± 1.61,4.979657089
+416,24,qua,qua,ADV,advmod,trova,,,5.522856403
+417,24,e,e,CCONJ,cc,là,,,2.741151583
+418,24,là,là,ADV,conj,qua,,,
+419,24,e,e,CCONJ,cc,fatto,,,2.741151583
+420,24,così,così,ADV,advmod,fatto,,,6.287788074
+421,24,ecco,ecco,ADV,advmod,fatto,,,5.695815269
+422,24,fatto,fatto,NOUN,conj,prende,,,6.237129549
+423,24,che,che,SCONJ,mark,mangiano,,,7.250456545
+424,24,tutti,tutto,PRON,nsubj,mangiano,,,6.110511188
+425,24,mangiano,mangiare,VERB,ccomp,fatto,,3.24 ± 1.74,3.986803247
+426,24,contenti,contento,ADJ,xcomp,mangiano,,4.12 ± 3.55,4.04765212
+427,24,quella,quello,DET,det,merenda,,,5.939281839
+428,24,buffa,buffo,ADJ,amod,merenda,,,3.702137931
+429,24,merenda,merenda,NOUN,obj,mangiano,,,3.279059319
+430,24,pucciando,pucciare,VERB,advcl,mangiano,,,
+431,24,le,il,DET,det,briciole,,,6.624997683
+432,24,briciole,briciola,NOUN,obj,pucciando,,,3.372766818
+433,24,in,in,ADP,case,miele,,,6.797274494
+434,24,il,il,DET,det,miele,,,7.039560886
+435,24,miele,miele,NOUN,obl,pucciando,,4.32 ± 1.22,4.20481329
+436,24,,,PUNCT,punct,prende,,,
