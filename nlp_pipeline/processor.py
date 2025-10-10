@@ -11,7 +11,7 @@ from nltk import bigrams
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 stanza.download("it")
-nlp = stanza.Pipeline("it", processors="tokenize,mwt,pos,lemma,depparse", use_gpu=False)
+nlp = stanza.Pipeline("it", processors="tokenize,mwt,pos,lemma,depparse,constituency", use_gpu=False)
 
 def process_text_file(filepath, output_dir):
     """
@@ -28,7 +28,12 @@ def process_text_file(filepath, output_dir):
         - A CSV file containing token-level linguistic features:
           sentence ID, token, lemma, PoS, dependency relation, head, constituency (if available),
           cleaned token/lemma, AoA (age of acquisition), and SUBTLEX-IT frequency.
-        - A PNG bar chart showing the top 20 most frequent lemmas.
+        - JSON file (summary-level) containing aggregated statistics for the whole text, including:
+          number of tokens, sentences, lemmas, and types, type-token ratio (TTR), average sentence length,
+          requency statistics (Zipf mean ± std, % of rare words), Gulpease readability index,
+          distribution of PoS categories (function vs content words, verbs, adjectives, nouns),
+          top 20 most frequent lemmas, top 10 most frequent bigrams
+        
 
     Notes:
         - Output filenames are automatically derived from the input filename.
@@ -43,17 +48,18 @@ def process_text_file(filepath, output_dir):
         text = infile.read()
 
     doc = nlp(text)
-    sentence_ids, tokens, PoS, lemma, clean_tokens, clean_lemmas, depparse, head, constituency = [], [], [], [], [], [], [], [], []
+    sentence_ids, tokens, PoS, lemma, clean_tokens, clean_lemmas, depparse, head, constituency, raw_tokens = [], [], [], [], [], [], [], [], [], []
 
     for sent_id, sentence in enumerate(doc.sentences):
         for word in sentence.words: 
             sentence_ids.append(sent_id)
             raw_token = word.text
             raw_lemma = word.lemma
-            clean_token = raw_token.lower().translate(str.maketrans("","", string.punctuation)) #bisogna capire perché non ha eliminato tutta la punteggiatura, ""--> sono rimasti
+            clean_token = raw_token.lower().translate(str.maketrans("","", string.punctuation)) 
             clean_lemma = raw_lemma.translate(str.maketrans("","",string.punctuation))
             clean_tokens.append(clean_token)
             clean_lemmas.append(clean_lemma)
+            raw_tokens.append(raw_token)
             PoS.append(word.pos)
             depparse.append(word.deprel)
             head.append(sentence.words[word.head - 1].text if word.head > 0 else "ROOT")
@@ -95,7 +101,7 @@ def process_text_file(filepath, output_dir):
     #statistics
     clean_tokens = [t for t in clean_tokens if t.strip()]
     clean_lemmas = [l for l in clean_lemmas if l.strip()]
-    num_tokens = len(clean_tokens)
+    num_tokens = len(raw_tokens)
     num_sentence = len(doc.sentences)
     num_lemmas = len(clean_lemmas)
     num_types = len(set(clean_lemmas))
@@ -118,10 +124,8 @@ def process_text_file(filepath, output_dir):
     zipf_std = zipf_values.std()
     rare_words = zipf_values[zipf_values <3]
     percent_rare = len(rare_words)/len(zipf_values) * 100
-    #indice di leggibilità
     num_letters = sum(len(t) for t in clean_tokens if t)
     gulpease = 89 + (300 * num_sentence - 10 * num_letters)/ num_tokens if num_tokens > 0 else 0
-    # https://it.wikipedia.org/wiki/Indice_Gulpease G <40 = testo difficile
     bigram_list = list(bigrams(clean_tokens))
     lemma_freq = Counter(clean_lemmas)
     top_lemmas = lemma_freq.most_common(20)
@@ -142,26 +146,32 @@ def process_text_file(filepath, output_dir):
     "Zipf_freq": f"{zipf_mean:.2f} ± {zipf_std:.2f}",
     "percent_rare_words": round(percent_rare, 2),
     "Gulpease_index": round(gulpease, 2),
-    "top_lemmas": top_lemmas_rel,
-    "top_bigrams": top_bigrams_rel,
-    
+      
     "num_function_words": num_function_words,
+    "num_function_words_pct": round(num_function_words / num_tokens * 100, 1),
     "num_function_words_display": f"{num_function_words} ({round(num_function_words / num_tokens * 100, 1)}%)",
 
     "num_content_words": num_content_words,
+    "num_content_words_pct": round(num_content_words / num_tokens * 100, 1),
     "num_content_words_display": f"{num_content_words} ({round(num_content_words / num_tokens * 100, 1)}%)",
 
     "num_verbs": num_verbs,
+    "num_verbs_pct": round(num_verbs / num_tokens * 100, 1),
     "num_verbs_display": f"{num_verbs} ({round(num_verbs / num_tokens * 100, 1)}%)",
 
     "num_adjectives": num_adjectives,
+    "num_adjectives_pct": round(num_adjectives / num_tokens * 100, 1),
     "num_adjectives_display": f"{num_adjectives} ({round(num_adjectives / num_tokens * 100, 1)}%)",
 
     "num_nouns": num_nouns,
-    "num_nouns_display": f"{num_nouns} ({round(num_nouns / num_tokens * 100, 1)}%)"
+    "num_nouns_pct": round(num_nouns / num_tokens * 100, 1),
+    "num_nouns_display": f"{num_nouns} ({round(num_nouns / num_tokens * 100, 1)}%)",
+
+    "top_lemmas": top_lemmas_rel,
+    "top_bigrams": top_bigrams_rel,
     }
 
-   
+
     json_path = os.path.join(file_output_dir, f"{name_base}_summary.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(summary_stats, f, ensure_ascii=False, indent=2)

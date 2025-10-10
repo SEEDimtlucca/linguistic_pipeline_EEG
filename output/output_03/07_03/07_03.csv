@@ -1,503 +1,503 @@
 token_id,sentence_ids,tokens_no_punct,lemma_no_punct,PoS,depparse,head,constituency,AoA(m+sd),Zipf_freq
-1,0,il,il,DET,det,ciuccio,,,7.039560886
-2,0,ciuccio,ciuccio,NOUN,root,ROOT,,2.96 ± 1.57,2.858376183
-3,0,di,di,ADP,case,Nina,,,7.232814475
-4,0,nina,Nina,PROPN,nmod,ciuccio,,,1.668044485
-5,0,,,PUNCT,punct,ciuccio,,,
-6,1,“,“,PUNCT,punct,smetterai,,,
-7,1,quando,quando,SCONJ,mark,smetterai,,,6.212844009
-8,1,smetterai,smettere,VERB,root,ROOT,,,3.447400436
-9,1,di,di,ADP,mark,tenere,,,7.232814475
-10,1,tenere,tenere,VERB,xcomp,smetterai,,4.40 ± 1.89,4.891020935
-11,1,sempre,sempre,ADV,advmod,tenere,,,5.921350175
-12,1,quel,quello,DET,det,ciuccio,,,5.90824416
-13,1,ciuccio,ciuccio,NOUN,obj,tenere,,2.96 ± 1.57,2.858376183
-14,1,,,PUNCT,punct,smetterai,,,
-15,1,”,”,PUNCT,punct,smetterai,,,
-16,1,,,PUNCT,punct,smetterai,,,
-17,1,chiede,chiedere,VERB,parataxis,smetterai,,,4.493578784
-18,1,la,il,DET,det,mamma,,,7.055331658
-19,1,mamma,mamma,NOUN,nsubj,chiede,,1.88 ± 1.27,5.66327005
-20,1,a,a,ADP,case,Nina,,,7.004335738
-21,1,nina,Nina,PROPN,obl,chiede,,,1.668044485
-22,1,,,PUNCT,punct,chiede,,,
-23,2,“,“,PUNCT,punct,Mai!,,,
-24,2,mai,Mai,INTJ,discourse,risponde,,,6.144963021
-25,2,”,”,PUNCT,punct,Mai!,,,
-26,2,,,PUNCT,punct,Mai!,,,
-27,2,risponde,rispondere,VERB,root,ROOT,,3.88 ± 1.59,4.376323713
-28,2,nina,Nina,PROPN,nsubj,risponde,,,1.668044485
-29,2,,,PUNCT,punct,risponde,,,
-30,3,“,“,PUNCT,punct,ciuccio,,,
-31,3,è,essere,AUX,cop,ciuccio,,,7.249521761
-32,3,il,il,DET,det,ciuccio,,,7.039560886
-33,3,mio,mio,DET,det:poss,ciuccio,,,6.336217551
-34,3,ciuccio,ciuccio,NOUN,root,ROOT,,2.96 ± 1.57,2.858376183
-35,3,,,PUNCT,punct,ciuccio,,,
-36,3,”,”,PUNCT,punct,ciuccio,,,
-37,3,,,PUNCT,punct,ciuccio,,,
-38,4,“,“,PUNCT,punct,grande,,,
-39,4,ma,ma,CCONJ,cc,grande,,,6.662005813
-40,4,quando,quando,ADV,advmod,grande,,,6.212844009
-41,4,sarai,essere,AUX,cop,grande,,,5.007827069
-42,4,grande,grande,ADJ,root,ROOT,,4.64 ± 2.04,5.615282093
-43,4,dovrai,dovere,VERB,parataxis,grande,,,4.754226289
-44,5,sbarazzar,sbarazzare,VERB,root,ROOT,,,
-45,5,te,te,PRON,expl,sbarazzar,,,6.290869614
-46,5,ne,ne,PRON,iob,sbarazzar,,,6.201935117
-47,5,,,PUNCT,punct,sbarazzar,,,
-48,6,nina,Nina,PROPN,nsubj,mette,,,1.668044485
-49,6,si,si,PRON,expl,mette,,,6.553884221
-50,6,mette,mettere,VERB,root,ROOT,,4.28 ± 1.59,4.624212915
-51,6,il,il,DET,det,ciuccio,,,7.039560886
-52,6,ciuccio,ciuccio,NOUN,obj,mette,,2.96 ± 1.57,2.858376183
-53,6,in,in,ADP,case,bocca,,,6.797274494
-54,6,bocca,bocca,NOUN,obl,mette,,2.44 ± 1.08,4.963684877
-55,6,,,PUNCT,punct,mette,,,
-56,7,“,“,PUNCT,punct,no,,,
-57,7,affolutamente,affolutamente,ADV,advmod,no,,,
-58,7,no,no,INTJ,root,ROOT,,,6.605764599
-59,7,,,PUNCT,punct,no,,,
-60,8,non,non,ADV,advmod,sbarazzerò,,,7.259198169
-61,8,me,me,PRON,expl,sbarazzerò,,,6.337855516
-62,8,ne,ne,PRON,iobj,sbarazzerò,,,6.201935117
-63,8,sbarazzerò,sbarazzare,VERB,root,ROOT,,,2.630255924
-64,8,mai,mai,ADV,advmod,sbarazzerò,,,6.144963021
-65,8,”,”,PUNCT,punct,sbarazzerò,,,
-66,8,,,PUNCT,punct,sbarazzerò,,,
-67,9,la,il,DET,det,mamma,,,7.055331658
-68,9,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,5.66327005
-69,9,allora,allora,ADV,advmod,dice,,,6.072527547
-70,9,le,le,PRON,iobj,dice,,,6.624997683
-71,9,dice,dire,VERB,root,ROOT,,4.08 ± 1.73,5.609257672
-72,9,,,PUNCT,punct,dice,,,
-73,10,“,“,PUNCT,punct,porterai,,,
-74,10,lo,lo,PRON,obj,porterai,,,6.655915487
-75,10,porterai,portare,VERB,root,ROOT,,4.52 ± 2.06,3.791896126
-76,10,anche,anche,ADV,advmod,andrai,,,6.115086172
-77,10,quando,quando,SCONJ,mark,andrai,,,6.212844009
-78,10,andrai,andare,VERB,advcl,porterai,,4.20 ± 1.44,4.532654438
-79,10,a,a,ADP,case,spasso,,,7.004335738
-80,10,spasso,spasso,NOUN,obl,andrai,,,3.964709675
-81,10,,,PUNCT,punct,porterai,,,
-82,11,”,”,PUNCT,punct,Ficuro,,,
-83,11,“,“,PUNCT,punct,Ficuro,,,
-84,11,ficuro,ficuro,NOUN,root,ROOT,,,
-85,11,,,PUNCT,punct,Ficuro,,,
-86,11,assieme,assieme,ADV,case,biscotti,,,4.446678017
-87,11,a,a,ADP,fixed,assieme,,,7.004335738
-88,11,i,il,DET,det,biscotti,,,6.584780852
-89,11,biscotti,biscotto,NOUN,nmod,Ficuro,,3.40 ± 1.44,4.227152774
-90,11,a,a,ADP,case,cioccolato,,,7.004335738
-91,11,il,il,DET,det,cioccolato,,,7.039560886
-92,11,cioccolato,cioccolato,NOUN,nmod,biscotti,,3.52 ± 1.45,4.259294648
-93,11,,,PUNCT,punct,Ficuro,,,
-94,11,”,”,PUNCT,punct,Ficuro,,,
-95,11,,,PUNCT,punct,Ficuro,,,
-96,11,risponde,rispondere,VERB,parataxis,Ficuro,,3.88 ± 1.59,4.376323713
-97,11,sicura,sicuro,ADJ,xcomp,risponde,,5.80 ± 1.61,5.13754741
-98,11,nina,Nina,PROPN,nsubj,risponde,,,1.668044485
-99,11,,,PUNCT,punct,Ficuro,,,
-100,12,la,il,DET,det,mamma,,,7.055331658
-101,12,mamma,mamma,NOUN,nsubj,dice,,1.88 ± 1.27,5.66327005
-102,12,allora,allora,ADV,advmod,dice,,,6.072527547
-103,12,le,le,PRON,iobj,dice,,,6.624997683
-104,12,dice,dire,VERB,root,ROOT,,4.08 ± 1.73,5.609257672
-105,12,,,PUNCT,punct,dice,,,
-106,13,“,“,PUNCT,punct,andrai,,,
-107,13,anche,anche,ADV,advmod,andrai,,,6.115086172
-108,13,quando,quando,SCONJ,mark,andrai,,,6.212844009
-109,13,andrai,andare,VERB,root,ROOT,,4.20 ± 1.44,4.532654438
-110,13,in,in,ADP,case,piscina,,,6.797274494
-111,13,piscina,piscina,NOUN,obl,andrai,,4.72 ± 1.93,4.34229308
-112,13,,,PUNCT,punct,andrai,,,
-113,14,”,”,PUNCT,root,ROOT,,,
-114,15,“,“,PUNCT,punct,farò,,,
-115,15,sì,sì,INTJ,discourse,farò,,,6.497825183
-116,15,,,PUNCT,punct,Sì,,,
-117,15,ci,ci,PRON,expl,farò,,,6.517126939
-118,15,farò,fare,VERB,root,ROOT,,4.40 ± 2.22,5.398907477
-119,15,i,il,DET,det,tuffi,,,6.584780852
-120,15,tuffi,tuffo,NOUN,obj,farò,,,2.781987837
-121,15,e,e,CCONJ,cc,immersioni,,,2.741151583
-122,15,le,il,DET,det,immersioni,,,6.624997683
-123,15,immersioni,immersione,NOUN,conj,tuffi,,,3.074584665
-124,15,,,PUNCT,punct,farò,,,
-125,15,”,”,PUNCT,punct,farò,,,
-126,15,,,PUNCT,punct,farò,,,
-127,15,risponde,rispondere,VERB,parataxis,farò,,3.88 ± 1.59,4.376323713
-128,15,nina,Nina,PROPN,nsubj,risponde,,,1.668044485
-129,15,tutta,tutto,DET,det,fiera,,,5.540385318
-130,15,fiera,fiera,NOUN,nsubj,risponde,,,4.190271299
-131,15,,,PUNCT,punct,farò,,,
-132,16,la,il,DET,det,mamma,,,7.055331658
-133,16,mamma,mamma,NOUN,nsubj,chiede,,1.88 ± 1.27,5.66327005
-134,16,le,le,PRON,iobj,chiede,,,6.624997683
-135,16,chiede,chiedere,VERB,root,ROOT,,,4.493578784
-136,16,“,“,PUNCT,punct,grande,,,
-137,16,anche,anche,ADV,advmod,grande,,,6.115086172
-138,16,quando,quando,SCONJ,mark,grande,,,6.212844009
-139,16,sarai,essere,AUX,cop,grande,,,5.007827069
-140,16,grande,grande,ADJ,advcl,chiede,,4.64 ± 2.04,5.615282093
-141,16,e,e,CCONJ,cc,andrai,,,2.741151583
-142,16,andrai,andare,VERB,conj,grande,,4.20 ± 1.44,4.532654438
-143,16,a,a,ADP,mark,lavorare,,,7.004335738
-144,16,lavorare,lavorare,VERB,xcomp,andrai,,7.00 ± 2.87,5.121005863
-145,16,,,PUNCT,punct,chiede,,,
-146,17,non,non,ADV,advmod,separerai,,,7.259198169
-147,17,te,te,PRON,expl,separerai,,,6.290869614
-148,17,ne,ne,PRON,iobj,separerai,,,6.201935117
-149,17,separerai,separare,VERB,root,ROOT,,,1.491953226
-150,17,proprio,proprio,ADV,advmod,mai,,,5.884320377
-151,17,mai,mai,ADV,advmod,separerai,,,6.144963021
-152,17,,,PUNCT,punct,separerai,,,
-153,18,”,”,PUNCT,punct,starà,,,
-154,18,“,“,PUNCT,punct,starà,,,
-155,18,no,No,INTJ,discourse,starà,,,6.605764599
-156,18,,,PUNCT,punct,No,,,
-157,18,no,no,INTJ,discourse,starà,,,6.605764599
-158,18,,,PUNCT,punct,no,,,
-159,18,il,il,DET,det,ciuccio,,,7.039560886
-160,18,mio,mio,DET,det:poss,ciuccio,,,6.336217551
-161,18,ciuccio,ciuccio,NOUN,nsubj,starà,,2.96 ± 1.57,2.858376183
-162,18,starà,stare,VERB,root,ROOT,,4.60 ± 2.35,4.575187016
-163,18,sempre,sempre,ADV,advmod,starà,,,5.921350175
-164,18,con,con,ADP,case,me!,,,6.620271703
-165,18,me,me,PRON,obl,starà,,,6.337855516
-166,18,”,”,PUNCT,punct,starà,,,
-167,18,e,e,CCONJ,cc,sposerai,,,2.741151583
-168,18,quando,quando,ADV,advmod,sposerai,,,6.212844009
-169,18,ti,ti,PRON,iobj,sposerai,,,6.615643201
-170,18,sposerai,sposare,VERB,parataxis,starà,,,3.522350527
-171,18,,,PUNCT,punct,sposerai,,,
-172,19,”,”,PUNCT,punct,chiede,,,
-173,19,,,PUNCT,punct,chiede,,,
-174,19,chiede,chiedere,VERB,root,ROOT,,,4.493578784
-175,19,la,il,DET,det,mamma,,,7.055331658
-176,19,mamma,mamma,NOUN,nsubj,chiede,,1.88 ± 1.27,5.66327005
-177,19,,,PUNCT,punct,chiede,,,
-178,20,“,“,PUNCT,punct,Starà,,,
-179,20,starà,stare,VERB,root,ROOT,,4.60 ± 2.35,4.575187016
-180,20,benissimo,bene,ADV,advmod,Starà,,,5.002531745
-181,20,con,con,ADP,case,vestito,,,6.620271703
-182,20,il,il,DET,det,vestito,,,7.039560886
-183,20,mio,mio,DET,det:poss,vestito,,,6.336217551
-184,20,vestito,vestito,NOUN,obl,Starà,,4.48 ± 1.71,4.841133585
-185,20,”,”,PUNCT,punct,Starà,,,
-186,20,,,PUNCT,punct,Starà,,,
-187,20,le,le,PRON,iobj,risponde,,,6.624997683
-188,20,risponde,rispondere,VERB,parataxis,Starà,,3.88 ± 1.59,4.376323713
-189,20,nina,Nina,PROPN,nsubj,risponde,,,1.668044485
-190,20,,,PUNCT,punct,Starà,,,
-191,21,dopodiché,dopodiché,SCONJ,mark,va,,,3.311497161
-192,21,nina,Nina,PROPN,nsubj,va,,,1.668044485
-193,21,va,andare,VERB,advcl,giornata,,4.20 ± 1.44,6.162363764
-194,21,a,a,ADP,case,parco,,,7.004335738
-195,21,il,il,DET,det,parco,,,7.039560886
-196,21,parco,parco,NOUN,obl,va,,,4.475917617
-197,21,a,a,ADP,mark,passeggiare,,,7.004335738
-198,21,passeggiare,passeggiare,VERB,xcomp,va,,,3.447400436
-199,21,,,PUNCT,punct,va,,,
-200,21,è,essere,AUX,cop,giornata,,,7.249521761
-201,21,una,uno,DET,det,giornata,,,6.801817508
-202,21,bella,bello,ADJ,amod,giornata,,3.80 ± 2.35,5.484893151
-203,21,giornata,giornata,NOUN,root,ROOT,,,5.003101004
-204,21,di,di,ADP,case,sole,,,7.232814475
-205,21,sole,sole,NOUN,nmod,giornata,,3.64 ± 2.22,4.889371768
-206,21,e,e,CCONJ,cc,è,,,2.741151583
-207,21,c’,ci,PRON,expl,è,,,
-208,21,è,essere,VERB,conj,giornata,,,7.249521761
-209,21,un,uno,DET,det,venticello,,,7.065833912
-210,21,venticello,venticello,NOUN,nsubj,è,,,2.287833243
-211,21,fresco,fresco,ADJ,amod,venticello,,,4.143957687
-212,21,,,PUNCT,punct,giornata,,,
-213,22,improvvisamente,improvvisamente,ADV,advmod,esce,,,4.224548001
-214,22,,,PUNCT,punct,Improvvisamente,,,
-215,22,da,da,ADP,case,albero,,,6.577812618
-216,22,dietro,dietro,ADP,case,albero,,,5.239598045
-217,22,un,uno,DET,det,albero,,,7.065833912
-218,22,albero,albero,NOUN,obl,esce,,3.56 ± 1.19,4.603299767
-219,22,,,PUNCT,punct,albero,,,
-220,22,un,uno,DET,det,lupo,,,7.065833912
-221,22,lupo,lupo,NOUN,nsubj,esce,,3.92 ± 0.86,4.449560513
-222,22,esce,uscire,VERB,root,ROOT,,4.28 ± 2.32,4.481180499
-223,22,da,da,ADP,case,bosco,,,6.577812618
-224,22,il,il,DET,det,bosco,,,7.039560886
-225,22,bosco,bosco,NOUN,obl,esce,,4.52 ± 1.26,4.24188269
-226,22,,,PUNCT,punct,lupo,,,
-227,22,è,essere,AUX,cop,lupo,,,7.249521761
-228,22,un,uno,DET,det,lupo,,,7.065833912
-229,22,lupo,lupo,NOUN,conj,esce,,3.92 ± 0.86,4.449560513
-230,22,spaventoso,spaventoso,ADJ,amod,lupo,,5.24 ± 2.20,4.038804227
-231,22,,,PUNCT,punct,cattivo,,,
-232,22,cattivo,cattivo,ADJ,conj,spaventoso,,3.48 ± 1.26,4.710488731
-233,22,,,PUNCT,punct,affamato,,,
-234,22,affamato,affamato,ADJ,conj,spaventoso,,4.84 ± 2.15,3.853681062
-235,22,,,PUNCT,punct,esce,,,
-236,23,“,“,PUNCT,punct,Aaaargh,,,
-237,23,aaaargh,Aaaargh,PROPN,root,ROOT,,,2.065984493
-238,23,,,PUNCT,punct,Aaaargh,,,
-239,23,bambina,bambino,NOUN,conj,Aaaargh,,3.20 ± 1.12,4.98282431
-240,23,,,PUNCT,punct,Aaaargh,,,
-241,24,adesso,adesso,ADV,advmod,mangio,,,5.836954264
-242,24,ti,ti,PRON,iobj,mangio,,,6.615643201
-243,24,mangio,mangiare,VERB,root,ROOT,,3.24 ± 1.74,4.209623729
-244,24,,,PUNCT,punct,mangio,,,
-245,24,”,”,PUNCT,punct,mangio,,,
-246,24,,,PUNCT,punct,dice,,,
-247,24,le,le,PRON,iobj,dice,,,6.624997683
-248,24,dice,dire,VERB,parataxis,mangio,,4.08 ± 1.73,5.609257672
-249,24,il,il,DET,det,lupo,,,7.039560886
-250,24,lupo,lupo,NOUN,nsubj,dice,,3.92 ± 0.86,4.449560513
-251,24,,,PUNCT,punct,lupo,,,
-252,24,inferocito,inferocito,ADJ,amod,lupo,,,2.232315915
-253,24,,,PUNCT,punct,mangio,,,
-254,25,“,“,PUNCT,punct,laffiami,,,
-255,25,ehiii,Ehiii,INTJ,discourse,laffiami,,,
-256,25,,,PUNCT,punct,Ehiii,,,
-257,25,laffiami,laffiare,VERB,root,ROOT,,,1.19092323
-258,25,stare,stare,VERB,xcomp,laffiami,,4.60 ± 2.35,5.514886537
-259,25,,,PUNCT,punct,laffiami,,,
-260,25,”,”,PUNCT,punct,laffiami,,,
-261,25,“,“,PUNCT,punct,Come,,,
-262,25,come,come,ADV,parataxis,laffiami,,,6.562704781
-263,25,,,PUNCT,punct,Come,,,
-264,25,”,”,PUNCT,punct,Come,,,
-265,25,,,PUNCT,punct,chiede,,,
-266,25,chiede,chiedere,VERB,parataxis,laffiami,,,4.493578784
-267,25,il,il,DET,det,lupo,,,7.039560886
-268,25,lupo,lupo,NOUN,nsubj,chiede,,3.92 ± 0.86,4.449560513
-269,25,,,PUNCT,punct,lupo,,,
-270,25,che,che,PRON,nsubj,capito,,,7.250456545
-271,25,non,non,ADV,advmod,capito,,,7.259198169
-272,25,ha,avere,AUX,aux,capito,,,6.684018637
-273,25,capito,capitare,VERB,acl:relcl,lupo,,,5.491551317
-274,25,una,uno,DET,det,parola,,,6.801817508
-275,25,sola,solo,ADJ,amod,parola,,4.60 ± 2.14,5.290759195
-276,25,parola,parola,NOUN,obj,capito,,4.44 ± 1.92,5.141239394
-277,25,di,di,ADP,case,quello,,,7.232814475
-278,25,quello,quello,PRON,nmod,parola,,,6.160949149
-279,25,che,che,PRON,obj,cercato,,,7.250456545
-280,25,nina,Nina,PROPN,nsubj,cercato,,,1.668044485
-281,25,ha,avere,AUX,aux,cercato,,,6.684018637
-282,25,cercato,cercare,VERB,acl:relcl,quello,,4.72 ± 2.28,4.937440667
-283,25,di,di,ADP,case,dirgli,,,7.232814475
-284,25,dirgli,dirglio,NOUN,obl,cercato,,,4.453136935
-285,25,,,PUNCT,punct,laffiami,,,
-286,26,nina,Nina,PROPN,nsubj,ripete,,,1.668044485
-287,26,allora,allora,ADV,advmod,ripete,,,6.072527547
-288,26,ripete,ripetere,VERB,root,ROOT,,,3.466234585
-289,26,a,a,ADP,case,voce,,,7.004335738
-290,26,voce,voce,NOUN,obl,ripete,,3.88 ± 1.30,4.979020863
-291,26,più,più,ADV,advmod,alta,,,6.382555861
-292,26,alta,alto,ADJ,amod,voce,,4.04 ± 1.10,4.688405767
-293,26,“,“,PUNCT,punct,Laffiami,,,
-294,26,laffiami,laffiare,VERB,parataxis,ripete,,,1.19092323
-295,26,stare,stare,VERB,ccomp,Laffiami,,4.60 ± 2.35,5.514886537
-296,26,,,PUNCT,punct,Laffiami,,,
-297,26,”,”,PUNCT,punct,ripete,,,
-298,27,il,il,DET,det,lupo,,,7.039560886
-299,27,lupo,lupo,NOUN,nsubj,continua,,3.92 ± 0.86,4.449560513
-300,27,,,PUNCT,punct,lupo,,,
-301,27,spazientito,spazientito,ADJ,amod,lupo,,,1.668044485
-302,27,,,PUNCT,punct,lupo,,,
-303,27,continua,continuare,VERB,root,ROOT,,,4.980680162
-304,27,a,a,ADP,mark,capire,,,7.004335738
-305,27,non,non,ADV,advmod,capire,,,7.259198169
-306,27,capire,capire,VERB,xcomp,continua,,,5.184932263
-307,27,una,uno,DET,det,parola,,,6.801817508
-308,27,parola,parola,NOUN,obj,capire,,4.44 ± 1.92,5.141239394
-309,27,,,PUNCT,punct,continua,,,
-310,28,nina,Nina,PROPN,nsubj,leva,,,1.668044485
-311,28,si,si,PRON,expl,leva,,,6.553884221
-312,28,leva,levare,VERB,root,ROOT,,4.96 ± 2.17,3.957707746
-313,28,il,il,DET,det,ciuccio,,,7.039560886
-314,28,ciuccio,ciuccio,NOUN,obj,leva,,2.96 ± 1.57,2.858376183
-315,28,di,di,ADP,case,bocca,,,7.232814475
-316,28,bocca,bocca,NOUN,nmod,ciuccio,,2.44 ± 1.08,4.963684877
-317,28,ed,e,CCONJ,cc,urla,,,5.795365296
-318,28,urla,urlare,VERB,conj,leva,,,4.328593767
-319,28,,,PUNCT,punct,leva,,,
-320,29,“,“,PUNCT,punct,brutto,,,
-321,29,sei,essere,AUX,cop,brutto,,,6.430432922
-322,29,brutto,brutto,ADJ,root,ROOT,,3.28 ± 1.43,4.90302551
-323,29,,,PUNCT,punct,cattivo,,,
-324,29,cattivo,cattivo,ADJ,conj,brutto,,3.48 ± 1.26,4.710488731
-325,29,e,e,CCONJ,cc,puzzi,,,2.741151583
-326,29,puzzi,puzzo,NOUN,conj,brutto,,,3.651069048
-327,29,,,PUNCT,punct,brutto,,,
-328,30,lasciami,LASCIAMI,PROPN,root,ROOT,,,4.913844942
-329,30,stare,STARE,PROPN,flat:name,LA-SCIA-MI,,,5.514886537
-330,30,,,PUNCT,punct,LA-SCIA-MI,,,
-331,30,”,”,PUNCT,punct,LA-SCIA-MI,,,
-332,31,il,il,DET,det,lupo,,,7.039560886
-333,31,lupo,lupo,NOUN,nsubj,capito,,3.92 ± 0.86,4.449560513
-334,31,questa,questo,DET,det,volta,,,6.209842069
-335,31,volta,volta,NOUN,obl,capito,,,5.820011577
-336,31,ha,avere,AUX,aux,capito,,,6.684018637
-337,31,capito,capitare,VERB,root,ROOT,,,5.491551317
-338,31,bene,bene,ADV,advmod,capito,,,6.454992194
-339,31,e,e,CCONJ,cc,va,,,2.741151583
-340,31,va,andare,VERB,conj,capito,,4.20 ± 1.44,6.162363764
-341,31,su,su,ADP,case,furie,,,6.000068652
-342,31,tutte,tutto,DET,det:predet,furie,,,5.553895518
-343,31,le,il,DET,det,furie,,,6.624997683
-344,31,furie,furia,NOUN,obl,va,,8.52 ± 2.35,3.154711057
-345,31,,,PUNCT,punct,capito,,,
-346,31,“,“,PUNCT,punct,sì,,,
-347,31,ah,ah,INTJ,discourse,capito,,,2.25162107
-348,31,sì,sì,INTJ,discourse,capito,,,6.497825183
-349,31,,,PUNCT,punct,sì,,,
-350,32,sono,essere,AUX,cop,brutto,,,6.768130002
-351,32,brutto,brutto,ADJ,root,ROOT,,3.28 ± 1.43,4.90302551
-352,32,,,PUNCT,punct,brutto,,,
-353,33,sono,essere,AUX,cop,cattivo,,,6.768130002
-354,33,cattivo,cattivo,ADJ,root,ROOT,,3.48 ± 1.26,4.710488731
-355,33,,,PUNCT,punct,cattivo,,,
-356,34,puzzo,puzzo,NOUN,root,ROOT,,,3.284344915
-357,34,,,PUNCT,punct,Puzzo,,,
-358,35,sta,stare,VERB,root,ROOT,,4.60 ± 2.35,6.089640186
-359,35,a,a,ADP,mark,vedere,,,7.004335738
-360,35,vedere,vedere,VERB,xcomp,Sta,,4.60 ± 1.50,5.73232148
-361,35,questa,questo,DET,det,marmocchia,,,6.209842069
-362,35,marmocchia,marmocchia,NOUN,obj,vedere,,,2.120342156
-363,35,,,PUNCT,punct,aaaargh!,,,
-364,35,aaaargh,aaaargh,NOUN,conj,marmocchia,,,2.065984493
-365,35,”,”,PUNCT,punct,Sta,,,
-366,35,“,“,PUNCT,punct,Tieni,,,
-367,35,tieni,tenere,VERB,parataxis,Sta,,4.40 ± 1.89,5.05165043
-368,35,,,PUNCT,punct,succhia,,,
-369,35,succhia,succhiare,VERB,conj,Tieni,,,3.459267144
-370,35,questo,questo,PRON,obj,succhia,,,6.484206212
-371,35,,,PUNCT,punct,calmerà,,,
-372,35,ti,ti,PRON,iobj,calmerà,,,6.615643201
-373,35,calmerà,calmare,VERB,conj,Tieni,,,3.110001322
-374,35,”,”,PUNCT,punct,Tieni,,,
-375,35,,,PUNCT,punct,Sta,,,
-376,35,dice,dire,VERB,parataxis,Sta,,4.08 ± 1.73,5.609257672
-377,35,nina,Nina,PROPN,nsubj,dice,,,1.668044485
-378,35,porgendo,porgere,VERB,advcl,dice,,,2.145165739
-379,35,gli,gli,PRON,iobj,porgendo,,,6.227520191
-380,35,il,il,DET,det,ciuccio,,,7.039560886
-381,35,ciuccio,ciuccio,NOUN,obj,porgendo,,2.96 ± 1.57,2.858376183
-382,35,,,PUNCT,punct,Sta,,,
-383,36,di,di,ADP,case,colpo,,,7.232814475
-384,36,colpo,colpo,NOUN,obl,ha,,,4.938723321
-385,36,,,PUNCT,punct,colpo,,,
-386,36,il,il,DET,det,lupo,,,7.039560886
-387,36,lupo,lupo,NOUN,nsubj,ha,,3.92 ± 0.86,4.449560513
-388,36,non,non,ADV,advmod,ha,,,7.259198169
-389,36,ha,avere,VERB,root,ROOT,,,6.684018637
-390,36,più,più,ADV,advmod,ha,,,6.382555861
-391,36,voglia,voglia,NOUN,obj,ha,,6.56 ± 2.53,5.066910001
-392,36,di,di,ADP,mark,mangiar,,,7.232814475
-393,36,mangiar,mangiare,VERB,acl,voglia,,3.24 ± 1.74,2.580089314
-394,36,si,si,PRON,expl,mangiar,,,6.553884221
-395,36,nina,Nina,PROPN,obj,mangiar,,,1.668044485
-396,36,,,PUNCT,punct,ha,,,
-397,37,il,il,DET,det,lupo,,,7.039560886
-398,37,lupo,lupo,NOUN,nsubj,diventato,,3.92 ± 0.86,4.449560513
-399,37,spaventoso,spaventoso,ADJ,amod,lupo,,5.24 ± 2.20,4.038804227
-400,37,,,PUNCT,punct,lupo,,,
-401,37,cattivo,cattivo,ADJ,conj,spaventoso,,3.48 ± 1.26,4.710488731
-402,37,e,e,CCONJ,cc,affamato,,,2.741151583
-403,37,affamato,affamato,ADJ,conj,spaventoso,,4.84 ± 2.15,3.853681062
-404,37,è,essere,AUX,aux,diventato,,,7.249521761
-405,37,diventato,diventare,VERB,root,ROOT,,,4.711537752
-406,37,un,uno,DET,det,cucciolo,,,7.065833912
-407,37,cucciolo,cucciolo,NOUN,xcomp,diventato,,4.12 ± 1.09,3.979798346
-408,37,dolce,dolce,ADJ,amod,cucciolo,,5.08 ± 2.91,4.825047682
-409,37,,,PUNCT,punct,tenero,,,
-410,37,tenero,tenero,ADJ,conj,dolce,,4.96 ± 1.74,3.766688211
-411,37,e,e,CCONJ,cc,coccolone,,,2.741151583
-412,37,coccolone,coccolone,ADJ,conj,dolce,,,2.287833243
-413,37,,,PUNCT,punct,sparisce,,,
-414,37,sorridendo,sorridere,VERB,advcl,sparisce,,,3.538253245
-415,37,,,PUNCT,punct,sorridendo,,,
-416,37,sparisce,sparire,VERB,conj,diventato,,,3.559210115
-417,37,in,in,ADP,case,bosco,,,6.797274494
-418,37,il,il,DET,det,bosco,,,7.039560886
-419,37,bosco,bosco,NOUN,obl,sparisce,,4.52 ± 1.26,4.24188269
-420,37,insieme,insieme,ADV,case,ciuccio,,,5.500638545
-421,37,a,a,ADP,fixed,insieme,,,7.004335738
-422,37,il,il,DET,det,ciuccio,,,7.039560886
-423,37,ciuccio,ciuccio,NOUN,obl,sparisce,,2.96 ± 1.57,2.858376183
-424,37,e,e,CCONJ,cc,tornerà,,,2.741151583
-425,37,non,non,ADV,advmod,tornerà,,,7.259198169
-426,37,tornerà,tornare,VERB,conj,diventato,,,4.542236289
-427,37,mai,mai,ADV,advmod,tornerà,,,6.144963021
-428,37,più,più,ADV,advmod,tornerà,,,6.382555861
-429,37,,,PUNCT,punct,diventato,,,
-430,38,dopo,dopo,ADP,case,incontro,,,5.792396528
-431,38,questo,questo,DET,det,incontro,,,6.484206212
-432,38,strano,strano,ADJ,amod,incontro,,5.88 ± 2.11,5.190553923
-433,38,incontro,incontro,NOUN,obl,decide,,,4.860240111
-434,38,nina,Nina,PROPN,nsubj,decide,,,1.668044485
-435,38,,,PUNCT,punct,Nina,,,
-436,38,un,uno,DET,det,po',,,7.065833912
-437,38,po,poco,ADV,advmod,stanca,,,4.399095757
-438,38,stanca,stanco,ADJ,amod,Nina,,5.80 ± 1.87,4.451828998
-439,38,,,PUNCT,punct,Nina,,,
-440,38,decide,decidere,VERB,root,ROOT,,,3.953226593
-441,38,di,di,ADP,mark,tornare,,,7.232814475
-442,38,tornare,tornare,VERB,xcomp,decide,,,5.348123033
-443,38,a,a,ADP,case,casa,,,7.004335738
-444,38,casa,casa,NOUN,obl,tornare,,3.40 ± 1.63,6.003702937
-445,38,da,da,ADP,case,mamma,,,6.577812618
-446,38,la,il,DET,det,mamma,,,7.055331658
-447,38,mamma,mamma,NOUN,obl,tornare,,1.88 ± 1.27,5.66327005
-448,38,,,PUNCT,punct,decide,,,
-449,39,“,“,PUNCT,punct,finito,,,
-450,39,dov’,dove,ADV,advmod,finito,,,
-451,39,è,essere,AUX,aux,finito,,,7.249521761
-452,39,finito,finire,VERB,root,ROOT,,5.32 ± 2.90,5.321449975
-453,39,il,il,DET,det,ciuccio,,,7.039560886
-454,39,tuo,tuo,DET,det:poss,ciuccio,,,6.080045574
-455,39,ciuccio,ciuccio,NOUN,nsubj,finito,,2.96 ± 1.57,2.858376183
-456,39,,,PUNCT,punct,finito,,,
-457,39,”,”,PUNCT,punct,finito,,,
-458,39,,,PUNCT,punct,finito,,,
-459,39,chiede,chiedere,VERB,parataxis,finito,,,4.493578784
-460,39,la,il,DET,det,mamma,,,7.055331658
-461,39,mamma,mamma,NOUN,nsubj,chiede,,1.88 ± 1.27,5.66327005
-462,39,a,a,ADP,case,Nina,,,7.004335738
-463,39,nina,Nina,PROPN,obl,chiede,,,1.668044485
-464,39,quando,quando,SCONJ,mark,rientra,,,6.212844009
-465,39,rientra,rientrare,VERB,advcl,chiede,,,3.729999329
-466,39,,,PUNCT,punct,finito,,,
-467,40,“,“,PUNCT,punct,Spero,,,
-468,40,spero,sperare,VERB,root,ROOT,,,5.251545534
-469,40,che,che,SCONJ,mark,perso,,,7.250456545
-470,40,tu,tu,PRON,nsubj,perso,,,6.414765586
-471,40,non,non,ADV,advmod,perso,,,7.259198169
-472,40,lo,lo,PRON,obj,perso,,,6.655915487
-473,40,abbia,avere,AUX,aux,perso,,,5.622383493
-474,40,perso,perdere,VERB,ccomp,Spero,,,5.292824891
-475,40,,,PUNCT,punct,Spero,,,
-476,41,”,”,PUNCT,punct,chiede,,,
-477,41,,,PUNCT,punct,chiede,,,
-478,41,chiede,chiedere,VERB,root,ROOT,,,4.493578784
-479,41,preoccupata,preoccupato,ADJ,xcomp,chiede,,6.48 ± 1.85,4.453255644
-480,41,,,PUNCT,punct,chiede,,,
-481,42,“,“,PUNCT,punct,regalato,,,
-482,42,l’,il,PRON,obj,regalato,,,
-483,42,ho,avere,AUX,aux,regalato,,,6.720262455
-484,42,regalato,regalare,VERB,root,ROOT,,4.76 ± 1.48,4.032908035
-485,42,a,a,ADP,case,qualcuno,,,7.004335738
-486,42,qualcuno,qualcuno,PRON,obl,regalato,,,5.830633781
-487,42,che,che,PRON,nsubj,aveva,,,7.250456545
-488,42,ne,ne,PRON,iobj,aveva,,,6.201935117
-489,42,aveva,avere,VERB,acl:relcl,qualcuno,,,5.632280537
-490,42,veramente,veramente,ADV,advmod,aveva,,,5.314055894
-491,42,bisogno,bisogno,NOUN,obj,aveva,,,5.803235462
-492,42,”,”,PUNCT,punct,regalato,,,
-493,42,,,PUNCT,punct,regalato,,,
-494,42,risponde,rispondere,VERB,parataxis,regalato,,3.88 ± 1.59,4.376323713
-495,42,nina,Nina,PROPN,nsubj,risponde,,,1.668044485
-496,42,e,e,CCONJ,cc,sorride,,,2.741151583
-497,42,sorride,sorridere,VERB,conj,risponde,,,3.570228748
-498,42,tra,tra,ADP,case,se,,,5.670548919
-499,42,se,se,SCONJ,obl,sorride,,,6.583110863
-500,42,e,e,CCONJ,cc,se,,,2.741151583
-501,42,se,se,SCONJ,conj,se,,,6.583110863
-502,42,,,PUNCT,punct,regalato,,,
+1,0,il,il,DET,det,ciuccio,(ROOT (f3 (sn (DET Il) (NOUN ciuccio) (spd (ADP di) (sn (PROPN Nina) (PUNCT .)))))),,7.039560886
+2,0,ciuccio,ciuccio,NOUN,root,ROOT,(ROOT (f3 (sn (DET Il) (NOUN ciuccio) (spd (ADP di) (sn (PROPN Nina) (PUNCT .)))))),2.96 ± 1.57,2.858376183
+3,0,di,di,ADP,case,Nina,(ROOT (f3 (sn (DET Il) (NOUN ciuccio) (spd (ADP di) (sn (PROPN Nina) (PUNCT .)))))),,7.232814475
+4,0,nina,Nina,PROPN,nmod,ciuccio,(ROOT (f3 (sn (DET Il) (NOUN ciuccio) (spd (ADP di) (sn (PROPN Nina) (PUNCT .)))))),,1.668044485
+5,0,,,PUNCT,punct,ciuccio,(ROOT (f3 (sn (DET Il) (NOUN ciuccio) (spd (ADP di) (sn (PROPN Nina) (PUNCT .)))))),,
+6,1,“,“,PUNCT,punct,smetterai,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,
+7,1,quando,quando,SCONJ,mark,smetterai,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,6.212844009
+8,1,smetterai,smettere,VERB,root,ROOT,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,3.447400436
+9,1,di,di,ADP,mark,tenere,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,7.232814475
+10,1,tenere,tenere,VERB,xcomp,smetterai,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",4.40 ± 1.89,4.891020935
+11,1,sempre,sempre,ADV,advmod,tenere,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,5.921350175
+12,1,quel,quello,DET,det,ciuccio,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,5.90824416
+13,1,ciuccio,ciuccio,NOUN,obj,tenere,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",2.96 ± 1.57,2.858376183
+14,1,,,PUNCT,punct,smetterai,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,
+15,1,”,”,PUNCT,punct,smetterai,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,
+16,1,,,PUNCT,punct,smetterai,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,
+17,1,chiede,chiedere,VERB,parataxis,smetterai,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,4.493578784
+18,1,la,il,DET,det,mamma,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,7.055331658
+19,1,mamma,mamma,NOUN,nsubj,chiede,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",1.88 ± 1.27,5.66327005
+20,1,a,a,ADP,case,Nina,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,7.004335738
+21,1,nina,Nina,PROPN,obl,chiede,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,1.668044485
+22,1,,,PUNCT,punct,chiede,"(ROOT (dirsp (PUNCT “) (fs (SCONJ Quando) (f (ir_infl (VERB smetterai)) (compt (sv2 (ADP di) (VERB tenere) (compt (savv (ADV sempre)) (sn (sa (DET quel)) (NOUN ciuccio))))))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina) (PUNCT .))))))))",,
+23,2,“,“,PUNCT,punct,Mai!,"(ROOT (dirsp (PUNCT “) (cp (INTJ Mai!)) (PUNCT ”) (PUNCT ,) (f (ibar (VERB risponde)) (compin (sn (PROPN Nina) (PUNCT .))))))",,
+24,2,mai,Mai,INTJ,discourse,risponde,"(ROOT (dirsp (PUNCT “) (cp (INTJ Mai!)) (PUNCT ”) (PUNCT ,) (f (ibar (VERB risponde)) (compin (sn (PROPN Nina) (PUNCT .))))))",,6.144963021
+25,2,”,”,PUNCT,punct,Mai!,"(ROOT (dirsp (PUNCT “) (cp (INTJ Mai!)) (PUNCT ”) (PUNCT ,) (f (ibar (VERB risponde)) (compin (sn (PROPN Nina) (PUNCT .))))))",,
+26,2,,,PUNCT,punct,Mai!,"(ROOT (dirsp (PUNCT “) (cp (INTJ Mai!)) (PUNCT ”) (PUNCT ,) (f (ibar (VERB risponde)) (compin (sn (PROPN Nina) (PUNCT .))))))",,
+27,2,risponde,rispondere,VERB,root,ROOT,"(ROOT (dirsp (PUNCT “) (cp (INTJ Mai!)) (PUNCT ”) (PUNCT ,) (f (ibar (VERB risponde)) (compin (sn (PROPN Nina) (PUNCT .))))))",3.88 ± 1.59,4.376323713
+28,2,nina,Nina,PROPN,nsubj,risponde,"(ROOT (dirsp (PUNCT “) (cp (INTJ Mai!)) (PUNCT ”) (PUNCT ,) (f (ibar (VERB risponde)) (compin (sn (PROPN Nina) (PUNCT .))))))",,1.668044485
+29,2,,,PUNCT,punct,risponde,"(ROOT (dirsp (PUNCT “) (cp (INTJ Mai!)) (PUNCT ”) (PUNCT ,) (f (ibar (VERB risponde)) (compin (sn (PROPN Nina) (PUNCT .))))))",,
+30,3,“,“,PUNCT,punct,ciuccio,(ROOT (dirsp (PUNCT “) (f (ibar (AUX È)) (compc (sn (DET il) (sa (DET mio)) (NOUN ciuccio)))) (PUNCT !) (PUNCT ”) (PUNCT .))),,
+31,3,è,essere,AUX,cop,ciuccio,(ROOT (dirsp (PUNCT “) (f (ibar (AUX È)) (compc (sn (DET il) (sa (DET mio)) (NOUN ciuccio)))) (PUNCT !) (PUNCT ”) (PUNCT .))),,7.249521761
+32,3,il,il,DET,det,ciuccio,(ROOT (dirsp (PUNCT “) (f (ibar (AUX È)) (compc (sn (DET il) (sa (DET mio)) (NOUN ciuccio)))) (PUNCT !) (PUNCT ”) (PUNCT .))),,7.039560886
+33,3,mio,mio,DET,det:poss,ciuccio,(ROOT (dirsp (PUNCT “) (f (ibar (AUX È)) (compc (sn (DET il) (sa (DET mio)) (NOUN ciuccio)))) (PUNCT !) (PUNCT ”) (PUNCT .))),,6.336217551
+34,3,ciuccio,ciuccio,NOUN,root,ROOT,(ROOT (dirsp (PUNCT “) (f (ibar (AUX È)) (compc (sn (DET il) (sa (DET mio)) (NOUN ciuccio)))) (PUNCT !) (PUNCT ”) (PUNCT .))),2.96 ± 1.57,2.858376183
+35,3,,,PUNCT,punct,ciuccio,(ROOT (dirsp (PUNCT “) (f (ibar (AUX È)) (compc (sn (DET il) (sa (DET mio)) (NOUN ciuccio)))) (PUNCT !) (PUNCT ”) (PUNCT .))),,
+36,3,”,”,PUNCT,punct,ciuccio,(ROOT (dirsp (PUNCT “) (f (ibar (AUX È)) (compc (sn (DET il) (sa (DET mio)) (NOUN ciuccio)))) (PUNCT !) (PUNCT ”) (PUNCT .))),,
+37,3,,,PUNCT,punct,ciuccio,(ROOT (dirsp (PUNCT “) (f (ibar (AUX È)) (compc (sn (DET il) (sa (DET mio)) (NOUN ciuccio)))) (PUNCT !) (PUNCT ”) (PUNCT .))),,
+38,4,“,“,PUNCT,punct,grande,(ROOT (dirsp (PUNCT “) (fc (CCONJ Ma) (fs (ADV quando) (f (ibar (AUX sarai)) (compc (sa (ADJ grande))))) (f (ir_infl (VERB dovrai)))))),,
+39,4,ma,ma,CCONJ,cc,grande,(ROOT (dirsp (PUNCT “) (fc (CCONJ Ma) (fs (ADV quando) (f (ibar (AUX sarai)) (compc (sa (ADJ grande))))) (f (ir_infl (VERB dovrai)))))),,6.662005813
+40,4,quando,quando,ADV,advmod,grande,(ROOT (dirsp (PUNCT “) (fc (CCONJ Ma) (fs (ADV quando) (f (ibar (AUX sarai)) (compc (sa (ADJ grande))))) (f (ir_infl (VERB dovrai)))))),,6.212844009
+41,4,sarai,essere,AUX,cop,grande,(ROOT (dirsp (PUNCT “) (fc (CCONJ Ma) (fs (ADV quando) (f (ibar (AUX sarai)) (compc (sa (ADJ grande))))) (f (ir_infl (VERB dovrai)))))),,5.007827069
+42,4,grande,grande,ADJ,root,ROOT,(ROOT (dirsp (PUNCT “) (fc (CCONJ Ma) (fs (ADV quando) (f (ibar (AUX sarai)) (compc (sa (ADJ grande))))) (f (ir_infl (VERB dovrai)))))),4.64 ± 2.04,5.615282093
+43,4,dovrai,dovere,VERB,parataxis,grande,(ROOT (dirsp (PUNCT “) (fc (CCONJ Ma) (fs (ADV quando) (f (ibar (AUX sarai)) (compc (sa (ADJ grande))))) (f (ir_infl (VERB dovrai)))))),,4.754226289
+44,5,sbarazzar,sbarazzare,VERB,root,ROOT,(ROOT (fint (f3 (sv2 (VERB sbarazzar) (compt (PRON te) (PRON ne)))) (PUNCT !))),,
+45,5,te,te,PRON,expl,sbarazzar,(ROOT (fint (f3 (sv2 (VERB sbarazzar) (compt (PRON te) (PRON ne)))) (PUNCT !))),,6.290869614
+46,5,ne,ne,PRON,iob,sbarazzar,(ROOT (fint (f3 (sv2 (VERB sbarazzar) (compt (PRON te) (PRON ne)))) (PUNCT !))),,6.201935117
+47,5,,,PUNCT,punct,sbarazzar,(ROOT (fint (f3 (sv2 (VERB sbarazzar) (compt (PRON te) (PRON ne)))) (PUNCT !))),,
+48,6,nina,Nina,PROPN,nsubj,mette,(ROOT (f (sn (PROPN Nina)) (ibar (PRON si) (VERB mette)) (compt (sn (DET il) (NOUN ciuccio)) (sp (ADP in) (sn (NOUN bocca)))) (PUNCT :))),,1.668044485
+49,6,si,si,PRON,expl,mette,(ROOT (f (sn (PROPN Nina)) (ibar (PRON si) (VERB mette)) (compt (sn (DET il) (NOUN ciuccio)) (sp (ADP in) (sn (NOUN bocca)))) (PUNCT :))),,6.553884221
+50,6,mette,mettere,VERB,root,ROOT,(ROOT (f (sn (PROPN Nina)) (ibar (PRON si) (VERB mette)) (compt (sn (DET il) (NOUN ciuccio)) (sp (ADP in) (sn (NOUN bocca)))) (PUNCT :))),4.28 ± 1.59,4.624212915
+51,6,il,il,DET,det,ciuccio,(ROOT (f (sn (PROPN Nina)) (ibar (PRON si) (VERB mette)) (compt (sn (DET il) (NOUN ciuccio)) (sp (ADP in) (sn (NOUN bocca)))) (PUNCT :))),,7.039560886
+52,6,ciuccio,ciuccio,NOUN,obj,mette,(ROOT (f (sn (PROPN Nina)) (ibar (PRON si) (VERB mette)) (compt (sn (DET il) (NOUN ciuccio)) (sp (ADP in) (sn (NOUN bocca)))) (PUNCT :))),2.96 ± 1.57,2.858376183
+53,6,in,in,ADP,case,bocca,(ROOT (f (sn (PROPN Nina)) (ibar (PRON si) (VERB mette)) (compt (sn (DET il) (NOUN ciuccio)) (sp (ADP in) (sn (NOUN bocca)))) (PUNCT :))),,6.797274494
+54,6,bocca,bocca,NOUN,obl,mette,(ROOT (f (sn (PROPN Nina)) (ibar (PRON si) (VERB mette)) (compt (sn (DET il) (NOUN ciuccio)) (sp (ADP in) (sn (NOUN bocca)))) (PUNCT :))),2.44 ± 1.08,4.963684877
+55,6,,,PUNCT,punct,mette,(ROOT (f (sn (PROPN Nina)) (ibar (PRON si) (VERB mette)) (compt (sn (DET il) (NOUN ciuccio)) (sp (ADP in) (sn (NOUN bocca)))) (PUNCT :))),,
+56,7,“,“,PUNCT,punct,no,(ROOT (dirsp (PUNCT “) (f3 (savv (ADV Affolutamente)) (INTJ no)) (PUNCT !))),,
+57,7,affolutamente,affolutamente,ADV,advmod,no,(ROOT (dirsp (PUNCT “) (f3 (savv (ADV Affolutamente)) (INTJ no)) (PUNCT !))),,
+58,7,no,no,INTJ,root,ROOT,(ROOT (dirsp (PUNCT “) (f3 (savv (ADV Affolutamente)) (INTJ no)) (PUNCT !))),,6.605764599
+59,7,,,PUNCT,punct,no,(ROOT (dirsp (PUNCT “) (f3 (savv (ADV Affolutamente)) (INTJ no)) (PUNCT !))),,
+60,8,non,non,ADV,advmod,sbarazzerò,(ROOT (f (ir_infl (ADV Non) (PRON me) (PRON ne) (VERB sbarazzerò)) (compt (savv (ADV mai))) (PUNCT ”) (PUNCT .))),,7.259198169
+61,8,me,me,PRON,expl,sbarazzerò,(ROOT (f (ir_infl (ADV Non) (PRON me) (PRON ne) (VERB sbarazzerò)) (compt (savv (ADV mai))) (PUNCT ”) (PUNCT .))),,6.337855516
+62,8,ne,ne,PRON,iobj,sbarazzerò,(ROOT (f (ir_infl (ADV Non) (PRON me) (PRON ne) (VERB sbarazzerò)) (compt (savv (ADV mai))) (PUNCT ”) (PUNCT .))),,6.201935117
+63,8,sbarazzerò,sbarazzare,VERB,root,ROOT,(ROOT (f (ir_infl (ADV Non) (PRON me) (PRON ne) (VERB sbarazzerò)) (compt (savv (ADV mai))) (PUNCT ”) (PUNCT .))),,2.630255924
+64,8,mai,mai,ADV,advmod,sbarazzerò,(ROOT (f (ir_infl (ADV Non) (PRON me) (PRON ne) (VERB sbarazzerò)) (compt (savv (ADV mai))) (PUNCT ”) (PUNCT .))),,6.144963021
+65,8,”,”,PUNCT,punct,sbarazzerò,(ROOT (f (ir_infl (ADV Non) (PRON me) (PRON ne) (VERB sbarazzerò)) (compt (savv (ADV mai))) (PUNCT ”) (PUNCT .))),,
+66,8,,,PUNCT,punct,sbarazzerò,(ROOT (f (ir_infl (ADV Non) (PRON me) (PRON ne) (VERB sbarazzerò)) (compt (savv (ADV mai))) (PUNCT ”) (PUNCT .))),,
+67,9,la,il,DET,det,mamma,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),,7.055331658
+68,9,mamma,mamma,NOUN,nsubj,dice,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),1.88 ± 1.27,5.66327005
+69,9,allora,allora,ADV,advmod,dice,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),,6.072527547
+70,9,le,le,PRON,iobj,dice,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),,6.624997683
+71,9,dice,dire,VERB,root,ROOT,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),4.08 ± 1.73,5.609257672
+72,9,,,PUNCT,punct,dice,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),,
+73,10,“,“,PUNCT,punct,porterai,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),,
+74,10,lo,lo,PRON,obj,porterai,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),,6.655915487
+75,10,porterai,portare,VERB,root,ROOT,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),4.52 ± 2.06,3.791896126
+76,10,anche,anche,ADV,advmod,andrai,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),,6.115086172
+77,10,quando,quando,SCONJ,mark,andrai,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),,6.212844009
+78,10,andrai,andare,VERB,advcl,porterai,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),4.20 ± 1.44,4.532654438
+79,10,a,a,ADP,case,spasso,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),,7.004335738
+80,10,spasso,spasso,NOUN,obl,andrai,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),,3.964709675
+81,10,,,PUNCT,punct,porterai,(ROOT (dirsp (PUNCT “) (f (ir_infl (PRON Lo) (VERB porterai)) (compt (fs (ADV anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP a) (sn (NOUN spasso)))))))) (PUNCT ?))),,
+82,11,”,”,PUNCT,punct,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,
+83,11,“,“,PUNCT,punct,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,
+84,11,ficuro,ficuro,NOUN,root,ROOT,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,
+85,11,,,PUNCT,punct,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,
+86,11,assieme,assieme,ADV,case,biscotti,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,4.446678017
+87,11,a,a,ADP,fixed,assieme,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,7.004335738
+88,11,i,il,DET,det,biscotti,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,6.584780852
+89,11,biscotti,biscotto,NOUN,nmod,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",3.40 ± 1.44,4.227152774
+90,11,a,a,ADP,case,cioccolato,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,7.004335738
+91,11,il,il,DET,det,cioccolato,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,7.039560886
+92,11,cioccolato,cioccolato,NOUN,nmod,biscotti,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",3.52 ± 1.45,4.259294648
+93,11,,,PUNCT,punct,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,
+94,11,”,”,PUNCT,punct,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,
+95,11,,,PUNCT,punct,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,
+96,11,risponde,rispondere,VERB,parataxis,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",3.88 ± 1.59,4.376323713
+97,11,sicura,sicuro,ADJ,xcomp,risponde,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",5.80 ± 1.61,5.13754741
+98,11,nina,Nina,PROPN,nsubj,risponde,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,1.668044485
+99,11,,,PUNCT,punct,Ficuro,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (f3 (sn (NOUN Ficuro)) (PUNCT ,) (sp (ADV assieme) (ADP a) (sn (DET i) (NOUN biscotti) (sp (ADP a) (sn (DET il) (NOUN cioccolato)))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compc (sa (ADJ sicura)) (sn (PROPN Nina) (PUNCT .)))))))",,
+100,12,la,il,DET,det,mamma,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),,7.055331658
+101,12,mamma,mamma,NOUN,nsubj,dice,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),1.88 ± 1.27,5.66327005
+102,12,allora,allora,ADV,advmod,dice,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),,6.072527547
+103,12,le,le,PRON,iobj,dice,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),,6.624997683
+104,12,dice,dire,VERB,root,ROOT,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),4.08 ± 1.73,5.609257672
+105,12,,,PUNCT,punct,dice,(ROOT (cp (sn (DET La) (NOUN mamma)) (savv (ADV allora)) (f (ibar (PRON le) (VERB dice))) (PUNCT :))),,
+106,13,“,“,PUNCT,punct,andrai,(ROOT (cp_int (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP in) (sn (NOUN piscina))))))) (PUNCT ?))),,
+107,13,anche,anche,ADV,advmod,andrai,(ROOT (cp_int (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP in) (sn (NOUN piscina))))))) (PUNCT ?))),,6.115086172
+108,13,quando,quando,SCONJ,mark,andrai,(ROOT (cp_int (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP in) (sn (NOUN piscina))))))) (PUNCT ?))),,6.212844009
+109,13,andrai,andare,VERB,root,ROOT,(ROOT (cp_int (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP in) (sn (NOUN piscina))))))) (PUNCT ?))),4.20 ± 1.44,4.532654438
+110,13,in,in,ADP,case,piscina,(ROOT (cp_int (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP in) (sn (NOUN piscina))))))) (PUNCT ?))),,6.797274494
+111,13,piscina,piscina,NOUN,obl,andrai,(ROOT (cp_int (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP in) (sn (NOUN piscina))))))) (PUNCT ?))),4.72 ± 1.93,4.34229308
+112,13,,,PUNCT,punct,andrai,(ROOT (cp_int (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (f (ir_infl (VERB andrai)) (compin (sp (ADP in) (sn (NOUN piscina))))))) (PUNCT ?))),,
+113,14,”,”,PUNCT,root,ROOT,(ROOT (PUNCT ”)),,
+114,15,“,“,PUNCT,punct,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,
+115,15,sì,sì,INTJ,discourse,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,6.497825183
+116,15,,,PUNCT,punct,Sì,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,
+117,15,ci,ci,PRON,expl,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,6.517126939
+118,15,farò,fare,VERB,root,ROOT,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",4.40 ± 2.22,5.398907477
+119,15,i,il,DET,det,tuffi,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,6.584780852
+120,15,tuffi,tuffo,NOUN,obj,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,2.781987837
+121,15,e,e,CCONJ,cc,immersioni,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,2.741151583
+122,15,le,il,DET,det,immersioni,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,6.624997683
+123,15,immersioni,immersione,NOUN,conj,tuffi,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,3.074584665
+124,15,,,PUNCT,punct,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,
+125,15,”,”,PUNCT,punct,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,
+126,15,,,PUNCT,punct,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,
+127,15,risponde,rispondere,VERB,parataxis,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",3.88 ± 1.59,4.376323713
+128,15,nina,Nina,PROPN,nsubj,risponde,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,1.668044485
+129,15,tutta,tutto,DET,det,fiera,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,5.540385318
+130,15,fiera,fiera,NOUN,nsubj,risponde,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,4.190271299
+131,15,,,PUNCT,punct,farò,"(ROOT (dirsp (PUNCT “) (cp (INTJ Sì)) (PUNCT ,) (f (ir_infl (PRON ci) (VERB farò)) (compt (coord (sn (DET i) (NOUN tuffi)) (CCONJ e) (sn (DET le) (NOUN immersioni))))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB risponde)) (compt (sn (PROPN Nina)) (sn (sq (DET tutta)) (NOUN fiera) (PUNCT .)))))))",,
+132,16,la,il,DET,det,mamma,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,7.055331658
+133,16,mamma,mamma,NOUN,nsubj,chiede,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),1.88 ± 1.27,5.66327005
+134,16,le,le,PRON,iobj,chiede,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,6.624997683
+135,16,chiede,chiedere,VERB,root,ROOT,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,4.493578784
+136,16,“,“,PUNCT,punct,grande,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,
+137,16,anche,anche,ADV,advmod,grande,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,6.115086172
+138,16,quando,quando,SCONJ,mark,grande,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,6.212844009
+139,16,sarai,essere,AUX,cop,grande,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,5.007827069
+140,16,grande,grande,ADJ,advcl,chiede,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),4.64 ± 2.04,5.615282093
+141,16,e,e,CCONJ,cc,andrai,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,2.741151583
+142,16,andrai,andare,VERB,conj,grande,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),4.20 ± 1.44,4.532654438
+143,16,a,a,ADP,mark,lavorare,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,7.004335738
+144,16,lavorare,lavorare,VERB,xcomp,andrai,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),7.00 ± 2.87,5.121005863
+145,16,,,PUNCT,punct,chiede,(ROOT (fint (f (sn (DET La) (NOUN mamma)) (ibar (PRON le) (VERB chiede)) (dirsp (PUNCT “) (fs (ADV Anche) (SCONJ quando) (fc (f (ir_infl (AUX sarai)) (compc (sa (ADJ grande)))) (CCONJ e) (f (ir_infl (VERB andrai)) (compin (sv2 (ADP a) (VERB lavorare)))))))) (PUNCT ?))),,
+146,17,non,non,ADV,advmod,separerai,(ROOT (fint (f (ir_infl (ADV Non) (PRON te) (PRON ne) (VERB separerai)) (compt (savv (ADV proprio) (ADV mai)))) (PUNCT ?))),,7.259198169
+147,17,te,te,PRON,expl,separerai,(ROOT (fint (f (ir_infl (ADV Non) (PRON te) (PRON ne) (VERB separerai)) (compt (savv (ADV proprio) (ADV mai)))) (PUNCT ?))),,6.290869614
+148,17,ne,ne,PRON,iobj,separerai,(ROOT (fint (f (ir_infl (ADV Non) (PRON te) (PRON ne) (VERB separerai)) (compt (savv (ADV proprio) (ADV mai)))) (PUNCT ?))),,6.201935117
+149,17,separerai,separare,VERB,root,ROOT,(ROOT (fint (f (ir_infl (ADV Non) (PRON te) (PRON ne) (VERB separerai)) (compt (savv (ADV proprio) (ADV mai)))) (PUNCT ?))),,1.491953226
+150,17,proprio,proprio,ADV,advmod,mai,(ROOT (fint (f (ir_infl (ADV Non) (PRON te) (PRON ne) (VERB separerai)) (compt (savv (ADV proprio) (ADV mai)))) (PUNCT ?))),,5.884320377
+151,17,mai,mai,ADV,advmod,separerai,(ROOT (fint (f (ir_infl (ADV Non) (PRON te) (PRON ne) (VERB separerai)) (compt (savv (ADV proprio) (ADV mai)))) (PUNCT ?))),,6.144963021
+152,17,,,PUNCT,punct,separerai,(ROOT (fint (f (ir_infl (ADV Non) (PRON te) (PRON ne) (VERB separerai)) (compt (savv (ADV proprio) (ADV mai)))) (PUNCT ?))),,
+153,18,”,”,PUNCT,punct,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,
+154,18,“,“,PUNCT,punct,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,
+155,18,no,No,INTJ,discourse,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,6.605764599
+156,18,,,PUNCT,punct,No,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,
+157,18,no,no,INTJ,discourse,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,6.605764599
+158,18,,,PUNCT,punct,no,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,
+159,18,il,il,DET,det,ciuccio,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,7.039560886
+160,18,mio,mio,DET,det:poss,ciuccio,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,6.336217551
+161,18,ciuccio,ciuccio,NOUN,nsubj,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",2.96 ± 1.57,2.858376183
+162,18,starà,stare,VERB,root,ROOT,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",4.60 ± 2.35,4.575187016
+163,18,sempre,sempre,ADV,advmod,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,5.921350175
+164,18,con,con,ADP,case,me!,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,6.620271703
+165,18,me,me,PRON,obl,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,6.337855516
+166,18,”,”,PUNCT,punct,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,
+167,18,e,e,CCONJ,cc,sposerai,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,2.741151583
+168,18,quando,quando,ADV,advmod,sposerai,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,6.212844009
+169,18,ti,ti,PRON,iobj,sposerai,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,6.615643201
+170,18,sposerai,sposare,VERB,parataxis,starà,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,3.522350527
+171,18,,,PUNCT,punct,sposerai,"(ROOT (dirsp (PUNCT ”) (PUNCT “) (cp (cp (INTJ No)) (fp (PUNCT ,) (cp (INTJ no)) (PUNCT ,)) (f (sn (DET il) (sa (DET mio)) (NOUN ciuccio)) (ir_infl (VERB starà)) (compin (savv (ADV sempre)) (sp (ADP con) (sn (PRON me!)))))) (PUNCT ”) (fc (CCONJ E) (fint (ADV quando) (f (ibar (PRON ti) (VERB sposerai))))) (PUNCT ?)))",,
+172,19,”,”,PUNCT,punct,chiede,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma) (PUNCT .)))))))",,
+173,19,,,PUNCT,punct,chiede,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma) (PUNCT .)))))))",,
+174,19,chiede,chiedere,VERB,root,ROOT,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma) (PUNCT .)))))))",,4.493578784
+175,19,la,il,DET,det,mamma,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma) (PUNCT .)))))))",,7.055331658
+176,19,mamma,mamma,NOUN,nsubj,chiede,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma) (PUNCT .)))))))",1.88 ± 1.27,5.66327005
+177,19,,,PUNCT,punct,chiede,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma) (PUNCT .)))))))",,
+178,20,“,“,PUNCT,punct,Starà,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,
+179,20,starà,stare,VERB,root,ROOT,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",4.60 ± 2.35,4.575187016
+180,20,benissimo,bene,ADV,advmod,Starà,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,5.002531745
+181,20,con,con,ADP,case,vestito,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,6.620271703
+182,20,il,il,DET,det,vestito,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,7.039560886
+183,20,mio,mio,DET,det:poss,vestito,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,6.336217551
+184,20,vestito,vestito,NOUN,obl,Starà,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",4.48 ± 1.71,4.841133585
+185,20,”,”,PUNCT,punct,Starà,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,
+186,20,,,PUNCT,punct,Starà,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,
+187,20,le,le,PRON,iobj,risponde,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,6.624997683
+188,20,risponde,rispondere,VERB,parataxis,Starà,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",3.88 ± 1.59,4.376323713
+189,20,nina,Nina,PROPN,nsubj,risponde,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,1.668044485
+190,20,,,PUNCT,punct,Starà,"(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Starà)) (compin (savv (ADV benissimo)) (sp (ADP con) (sn (DET il) (sa (DET mio)) (NOUN vestito))))) (PUNCT ”) (PUNCT ,) (f (ibar (PRON le) (VERB risponde)) (compt (sn (PROPN Nina) (PUNCT .))))))",,
+191,21,dopodiché,dopodiché,SCONJ,mark,va,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,3.311497161
+192,21,nina,Nina,PROPN,nsubj,va,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,1.668044485
+193,21,va,andare,VERB,advcl,giornata,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",4.20 ± 1.44,6.162363764
+194,21,a,a,ADP,case,parco,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,7.004335738
+195,21,il,il,DET,det,parco,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,7.039560886
+196,21,parco,parco,NOUN,obl,va,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,4.475917617
+197,21,a,a,ADP,mark,passeggiare,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,7.004335738
+198,21,passeggiare,passeggiare,VERB,xcomp,va,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,3.447400436
+199,21,,,PUNCT,punct,va,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,
+200,21,è,essere,AUX,cop,giornata,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,7.249521761
+201,21,una,uno,DET,det,giornata,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,6.801817508
+202,21,bella,bello,ADJ,amod,giornata,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",3.80 ± 2.35,5.484893151
+203,21,giornata,giornata,NOUN,root,ROOT,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,5.003101004
+204,21,di,di,ADP,case,sole,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,7.232814475
+205,21,sole,sole,NOUN,nmod,giornata,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",3.64 ± 2.22,4.889371768
+206,21,e,e,CCONJ,cc,è,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,2.741151583
+207,21,c’,ci,PRON,expl,è,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,
+208,21,è,essere,VERB,conj,giornata,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,7.249521761
+209,21,un,uno,DET,det,venticello,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,7.065833912
+210,21,venticello,venticello,NOUN,nsubj,è,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,2.287833243
+211,21,fresco,fresco,ADJ,amod,venticello,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,4.143957687
+212,21,,,PUNCT,punct,giornata,"(ROOT (fs (SCONJ Dopodiché) (f (sn (PROPN Nina)) (ibar (VERB va)) (compin (sp (ADP a) (sn (DET il) (NOUN parco))) (sv2 (ADP a) (VERB passeggiare)))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET una) (sa (ADJ bella)) (NOUN giornata) (spd (ADP di) (sn (NOUN sole)))))) (CCONJ e) (f (ibar (PRON c’) (VERB è)) (compc (sn (DET un) (NOUN venticello) (sa (ADJ fresco)) (PUNCT .))))))",,
+213,22,improvvisamente,improvvisamente,ADV,advmod,esce,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,4.224548001
+214,22,,,PUNCT,punct,Improvvisamente,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,
+215,22,da,da,ADP,case,albero,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,6.577812618
+216,22,dietro,dietro,ADP,case,albero,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,5.239598045
+217,22,un,uno,DET,det,albero,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,7.065833912
+218,22,albero,albero,NOUN,obl,esce,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",3.56 ± 1.19,4.603299767
+219,22,,,PUNCT,punct,albero,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,
+220,22,un,uno,DET,det,lupo,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,7.065833912
+221,22,lupo,lupo,NOUN,nsubj,esce,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",3.92 ± 0.86,4.449560513
+222,22,esce,uscire,VERB,root,ROOT,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",4.28 ± 2.32,4.481180499
+223,22,da,da,ADP,case,bosco,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,6.577812618
+224,22,il,il,DET,det,bosco,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,7.039560886
+225,22,bosco,bosco,NOUN,obl,esce,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",4.52 ± 1.26,4.24188269
+226,22,,,PUNCT,punct,lupo,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,
+227,22,è,essere,AUX,cop,lupo,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,7.249521761
+228,22,un,uno,DET,det,lupo,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,7.065833912
+229,22,lupo,lupo,NOUN,conj,esce,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",3.92 ± 0.86,4.449560513
+230,22,spaventoso,spaventoso,ADJ,amod,lupo,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",5.24 ± 2.20,4.038804227
+231,22,,,PUNCT,punct,cattivo,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,
+232,22,cattivo,cattivo,ADJ,conj,spaventoso,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",3.48 ± 1.26,4.710488731
+233,22,,,PUNCT,punct,affamato,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,
+234,22,affamato,affamato,ADJ,conj,spaventoso,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",4.84 ± 2.15,3.853681062
+235,22,,,PUNCT,punct,esce,"(ROOT (cp (savv (ADV Improvvisamente)) (fp (PUNCT ,) (spda (ADP da) (ADP dietro) (sn (DET un) (NOUN albero))) (PUNCT ,)) (fc (f (sn (DET un) (NOUN lupo)) (ibar (VERB esce)) (compin (spda (ADP da) (sn (DET il) (NOUN bosco))))) (PUNCT ,) (f (ibar (AUX è)) (compc (sn (DET un) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (PUNCT ,) (sa (ADJ affamato))))))) (PUNCT .)))",,
+236,23,“,“,PUNCT,punct,Aaaargh,"(ROOT (dirsp (PUNCT “) (f3 (sn (PROPN Aaaargh)) (PUNCT ,) (sn (NOUN bambina))) (PUNCT !)))",,
+237,23,aaaargh,Aaaargh,PROPN,root,ROOT,"(ROOT (dirsp (PUNCT “) (f3 (sn (PROPN Aaaargh)) (PUNCT ,) (sn (NOUN bambina))) (PUNCT !)))",,2.065984493
+238,23,,,PUNCT,punct,Aaaargh,"(ROOT (dirsp (PUNCT “) (f3 (sn (PROPN Aaaargh)) (PUNCT ,) (sn (NOUN bambina))) (PUNCT !)))",,
+239,23,bambina,bambino,NOUN,conj,Aaaargh,"(ROOT (dirsp (PUNCT “) (f3 (sn (PROPN Aaaargh)) (PUNCT ,) (sn (NOUN bambina))) (PUNCT !)))",3.20 ± 1.12,4.98282431
+240,23,,,PUNCT,punct,Aaaargh,"(ROOT (dirsp (PUNCT “) (f3 (sn (PROPN Aaaargh)) (PUNCT ,) (sn (NOUN bambina))) (PUNCT !)))",,
+241,24,adesso,adesso,ADV,advmod,mangio,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,5.836954264
+242,24,ti,ti,PRON,iobj,mangio,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,6.615643201
+243,24,mangio,mangiare,VERB,root,ROOT,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",3.24 ± 1.74,4.209623729
+244,24,,,PUNCT,punct,mangio,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,
+245,24,”,”,PUNCT,punct,mangio,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,
+246,24,,,PUNCT,punct,dice,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,
+247,24,le,le,PRON,iobj,dice,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,6.624997683
+248,24,dice,dire,VERB,parataxis,mangio,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",4.08 ± 1.73,5.609257672
+249,24,il,il,DET,det,lupo,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,7.039560886
+250,24,lupo,lupo,NOUN,nsubj,dice,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",3.92 ± 0.86,4.449560513
+251,24,,,PUNCT,punct,lupo,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,
+252,24,inferocito,inferocito,ADJ,amod,lupo,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,2.232315915
+253,24,,,PUNCT,punct,mangio,"(ROOT (cp (savv (ADV Adesso)) (f (ibar (PRON ti) (VERB mangio))) (PUNCT !) (PUNCT ”) (fp (PUNCT ,) (f (ibar (PRON le) (VERB dice)) (compt (sn (DET il) (NOUN lupo)) (PUNCT ,) (sa (ADJ inferocito) (PUNCT .)))))))",,
+254,25,“,“,PUNCT,punct,laffiami,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+255,25,ehiii,Ehiii,INTJ,discourse,laffiami,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+256,25,,,PUNCT,punct,Ehiii,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+257,25,laffiami,laffiare,VERB,root,ROOT,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,1.19092323
+258,25,stare,stare,VERB,xcomp,laffiami,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",4.60 ± 2.35,5.514886537
+259,25,,,PUNCT,punct,laffiami,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+260,25,”,”,PUNCT,punct,laffiami,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+261,25,“,“,PUNCT,punct,Come,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+262,25,come,come,ADV,parataxis,laffiami,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,6.562704781
+263,25,,,PUNCT,punct,Come,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+264,25,”,”,PUNCT,punct,Come,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+265,25,,,PUNCT,punct,chiede,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+266,25,chiede,chiedere,VERB,parataxis,laffiami,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,4.493578784
+267,25,il,il,DET,det,lupo,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,7.039560886
+268,25,lupo,lupo,NOUN,nsubj,chiede,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",3.92 ± 0.86,4.449560513
+269,25,,,PUNCT,punct,lupo,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+270,25,che,che,PRON,nsubj,capito,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,7.250456545
+271,25,non,non,ADV,advmod,capito,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,7.259198169
+272,25,ha,avere,AUX,aux,capito,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,6.684018637
+273,25,capito,capitare,VERB,acl:relcl,lupo,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,5.491551317
+274,25,una,uno,DET,det,parola,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,6.801817508
+275,25,sola,solo,ADJ,amod,parola,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",4.60 ± 2.14,5.290759195
+276,25,parola,parola,NOUN,obj,capito,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",4.44 ± 1.92,5.141239394
+277,25,di,di,ADP,case,quello,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,7.232814475
+278,25,quello,quello,PRON,nmod,parola,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,6.160949149
+279,25,che,che,PRON,obj,cercato,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,7.250456545
+280,25,nina,Nina,PROPN,nsubj,cercato,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,1.668044485
+281,25,ha,avere,AUX,aux,cercato,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,6.684018637
+282,25,cercato,cercare,VERB,acl:relcl,quello,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",4.72 ± 2.28,4.937440667
+283,25,di,di,ADP,case,dirgli,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,7.232814475
+284,25,dirgli,dirglio,NOUN,obl,cercato,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,4.453136935
+285,25,,,PUNCT,punct,laffiami,"(ROOT (dirsp (PUNCT “) (cp (sn (INTJ Ehiii)) (PUNCT ,) (f (ibar (VERB laffiami)) (compt (sv2 (VERB stare))))) (PUNCT !) (PUNCT ”) (PUNCT “) (fint (ADV Come) (PUNCT ?)) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET il) (NOUN lupo) (PUNCT ,) (f2 (PRON che) (f (ibar (ADV non) (AUX ha) (VERB capito)) (compt (sn (DET una) (sa (ADJ sola)) (NOUN parola) (spd (ADP di) (sn (PRON quello) (f2 (PRON che) (f (sn (PROPN Nina)) (ibar (AUX ha) (VERB cercato)) (compt (sv2 (ADP di) (NOUN dirgli) (PUNCT .)))))))))))))))))",,
+286,26,nina,Nina,PROPN,nsubj,ripete,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,1.668044485
+287,26,allora,allora,ADV,advmod,ripete,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,6.072527547
+288,26,ripete,ripetere,VERB,root,ROOT,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,3.466234585
+289,26,a,a,ADP,case,voce,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,7.004335738
+290,26,voce,voce,NOUN,obl,ripete,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),3.88 ± 1.30,4.979020863
+291,26,più,più,ADV,advmod,alta,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,6.382555861
+292,26,alta,alto,ADJ,amod,voce,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),4.04 ± 1.10,4.688405767
+293,26,“,“,PUNCT,punct,Laffiami,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,
+294,26,laffiami,laffiare,VERB,parataxis,ripete,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,1.19092323
+295,26,stare,stare,VERB,ccomp,Laffiami,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),4.60 ± 2.35,5.514886537
+296,26,,,PUNCT,punct,Laffiami,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,
+297,26,”,”,PUNCT,punct,ripete,(ROOT (cp (sn (PROPN Nina)) (savv (ADV allora)) (f (ibar (VERB ripete)) (compt (sp (ADP a) (sn (NOUN voce) (sa (ADV più) (ADJ alta)))) (PUNCT “) (fint (ibar (VERB Laffiami)) (sv2 (VERB stare))) (PUNCT !) (PUNCT ”))))),,
+298,27,il,il,DET,det,lupo,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,7.039560886
+299,27,lupo,lupo,NOUN,nsubj,continua,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",3.92 ± 0.86,4.449560513
+300,27,,,PUNCT,punct,lupo,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,
+301,27,spazientito,spazientito,ADJ,amod,lupo,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,1.668044485
+302,27,,,PUNCT,punct,lupo,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,
+303,27,continua,continuare,VERB,root,ROOT,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,4.980680162
+304,27,a,a,ADP,mark,capire,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,7.004335738
+305,27,non,non,ADV,advmod,capire,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,7.259198169
+306,27,capire,capire,VERB,xcomp,continua,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,5.184932263
+307,27,una,uno,DET,det,parola,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,6.801817508
+308,27,parola,parola,NOUN,obj,capire,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",4.44 ± 1.92,5.141239394
+309,27,,,PUNCT,punct,continua,"(ROOT (f (sn (DET Il) (NOUN lupo) (fp (PUNCT ,) (sa (ADJ spazientito)) (PUNCT ,))) (ibar (VERB continua)) (compt (sv2 (ADP a) (ADV non) (VERB capire) (compt (sn (DET una) (NOUN parola) (PUNCT .)))))))",,
+310,28,nina,Nina,PROPN,nsubj,leva,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),,1.668044485
+311,28,si,si,PRON,expl,leva,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),,6.553884221
+312,28,leva,levare,VERB,root,ROOT,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),4.96 ± 2.17,3.957707746
+313,28,il,il,DET,det,ciuccio,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),,7.039560886
+314,28,ciuccio,ciuccio,NOUN,obj,leva,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),2.96 ± 1.57,2.858376183
+315,28,di,di,ADP,case,bocca,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),,7.232814475
+316,28,bocca,bocca,NOUN,nmod,ciuccio,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),2.44 ± 1.08,4.963684877
+317,28,ed,e,CCONJ,cc,urla,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),,5.795365296
+318,28,urla,urlare,VERB,conj,leva,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),,4.328593767
+319,28,,,PUNCT,punct,leva,(ROOT (fc (f (sn (PROPN Nina)) (ibar (PRON si) (VERB leva)) (compt (sn (DET il) (NOUN ciuccio) (spd (ADP di) (sn (NOUN bocca)))))) (CCONJ ed) (f (ibar (VERB urla))) (PUNCT :))),,
+320,29,“,“,PUNCT,punct,brutto,"(ROOT (dirsp (PUNCT “) (f (ibar (AUX Sei)) (compc (coord (sa (ADJ brutto)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sn (NOUN puzzi))))) (PUNCT !)))",,
+321,29,sei,essere,AUX,cop,brutto,"(ROOT (dirsp (PUNCT “) (f (ibar (AUX Sei)) (compc (coord (sa (ADJ brutto)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sn (NOUN puzzi))))) (PUNCT !)))",,6.430432922
+322,29,brutto,brutto,ADJ,root,ROOT,"(ROOT (dirsp (PUNCT “) (f (ibar (AUX Sei)) (compc (coord (sa (ADJ brutto)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sn (NOUN puzzi))))) (PUNCT !)))",3.28 ± 1.43,4.90302551
+323,29,,,PUNCT,punct,cattivo,"(ROOT (dirsp (PUNCT “) (f (ibar (AUX Sei)) (compc (coord (sa (ADJ brutto)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sn (NOUN puzzi))))) (PUNCT !)))",,
+324,29,cattivo,cattivo,ADJ,conj,brutto,"(ROOT (dirsp (PUNCT “) (f (ibar (AUX Sei)) (compc (coord (sa (ADJ brutto)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sn (NOUN puzzi))))) (PUNCT !)))",3.48 ± 1.26,4.710488731
+325,29,e,e,CCONJ,cc,puzzi,"(ROOT (dirsp (PUNCT “) (f (ibar (AUX Sei)) (compc (coord (sa (ADJ brutto)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sn (NOUN puzzi))))) (PUNCT !)))",,2.741151583
+326,29,puzzi,puzzo,NOUN,conj,brutto,"(ROOT (dirsp (PUNCT “) (f (ibar (AUX Sei)) (compc (coord (sa (ADJ brutto)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sn (NOUN puzzi))))) (PUNCT !)))",,3.651069048
+327,29,,,PUNCT,punct,brutto,"(ROOT (dirsp (PUNCT “) (f (ibar (AUX Sei)) (compc (coord (sa (ADJ brutto)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sn (NOUN puzzi))))) (PUNCT !)))",,
+328,30,lasciami,LASCIAMI,PROPN,root,ROOT,(ROOT (cp (f3 (sn (PROPN LA-SCIA-MI) (PROPN STA-RE))) (PUNCT !) (PUNCT ”))),,4.913844942
+329,30,stare,STARE,PROPN,flat:name,LA-SCIA-MI,(ROOT (cp (f3 (sn (PROPN LA-SCIA-MI) (PROPN STA-RE))) (PUNCT !) (PUNCT ”))),,5.514886537
+330,30,,,PUNCT,punct,LA-SCIA-MI,(ROOT (cp (f3 (sn (PROPN LA-SCIA-MI) (PROPN STA-RE))) (PUNCT !) (PUNCT ”))),,
+331,30,”,”,PUNCT,punct,LA-SCIA-MI,(ROOT (cp (f3 (sn (PROPN LA-SCIA-MI) (PROPN STA-RE))) (PUNCT !) (PUNCT ”))),,
+332,31,il,il,DET,det,lupo,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,7.039560886
+333,31,lupo,lupo,NOUN,nsubj,capito,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",3.92 ± 0.86,4.449560513
+334,31,questa,questo,DET,det,volta,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,6.209842069
+335,31,volta,volta,NOUN,obl,capito,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,5.820011577
+336,31,ha,avere,AUX,aux,capito,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,6.684018637
+337,31,capito,capitare,VERB,root,ROOT,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,5.491551317
+338,31,bene,bene,ADV,advmod,capito,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,6.454992194
+339,31,e,e,CCONJ,cc,va,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,2.741151583
+340,31,va,andare,VERB,conj,capito,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",4.20 ± 1.44,6.162363764
+341,31,su,su,ADP,case,furie,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,6.000068652
+342,31,tutte,tutto,DET,det:predet,furie,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,5.553895518
+343,31,le,il,DET,det,furie,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,6.624997683
+344,31,furie,furia,NOUN,obl,va,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",8.52 ± 2.35,3.154711057
+345,31,,,PUNCT,punct,capito,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,
+346,31,“,“,PUNCT,punct,sì,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,
+347,31,ah,ah,INTJ,discourse,capito,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,2.25162107
+348,31,sì,sì,INTJ,discourse,capito,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,6.497825183
+349,31,,,PUNCT,punct,sì,"(ROOT (cp_int (cp (sn (DET Il) (NOUN lupo)) (sn (sa (DET questa)) (NOUN volta)) (fc (f (ibar (AUX ha) (VERB capito)) (compt (savv (ADV bene)))) (CCONJ e) (f (ibar (VERB va)) (compin (sp (ADP su) (sn (sq (DET tutte)) (DET le) (NOUN furie))))) (PUNCT ,) (PUNCT “) (fint (INTJ ah) (INTJ sì)))) (PUNCT ?)))",,
+350,32,sono,essere,AUX,cop,brutto,(ROOT (fint (f (ibar (AUX Sono)) (compc (sa (ADJ brutto)))) (PUNCT ?))),,6.768130002
+351,32,brutto,brutto,ADJ,root,ROOT,(ROOT (fint (f (ibar (AUX Sono)) (compc (sa (ADJ brutto)))) (PUNCT ?))),3.28 ± 1.43,4.90302551
+352,32,,,PUNCT,punct,brutto,(ROOT (fint (f (ibar (AUX Sono)) (compc (sa (ADJ brutto)))) (PUNCT ?))),,
+353,33,sono,essere,AUX,cop,cattivo,(ROOT (fint (f (ibar (AUX Sono)) (compc (sa (ADJ cattivo)))) (PUNCT ?))),,6.768130002
+354,33,cattivo,cattivo,ADJ,root,ROOT,(ROOT (fint (f (ibar (AUX Sono)) (compc (sa (ADJ cattivo)))) (PUNCT ?))),3.48 ± 1.26,4.710488731
+355,33,,,PUNCT,punct,cattivo,(ROOT (fint (f (ibar (AUX Sono)) (compc (sa (ADJ cattivo)))) (PUNCT ?))),,
+356,34,puzzo,puzzo,NOUN,root,ROOT,(ROOT (fint (f3 (sn (NOUN Puzzo))) (PUNCT ?))),,3.284344915
+357,34,,,PUNCT,punct,Puzzo,(ROOT (fint (f3 (sn (NOUN Puzzo))) (PUNCT ?))),,
+358,35,sta,stare,VERB,root,ROOT,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",4.60 ± 2.35,6.089640186
+359,35,a,a,ADP,mark,vedere,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,7.004335738
+360,35,vedere,vedere,VERB,xcomp,Sta,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",4.60 ± 1.50,5.73232148
+361,35,questa,questo,DET,det,marmocchia,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,6.209842069
+362,35,marmocchia,marmocchia,NOUN,obj,vedere,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,2.120342156
+363,35,,,PUNCT,punct,aaaargh!,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,
+364,35,aaaargh,aaaargh,NOUN,conj,marmocchia,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,2.065984493
+365,35,”,”,PUNCT,punct,Sta,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,
+366,35,“,“,PUNCT,punct,Tieni,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,
+367,35,tieni,tenere,VERB,parataxis,Sta,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",4.40 ± 1.89,5.05165043
+368,35,,,PUNCT,punct,succhia,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,
+369,35,succhia,succhiare,VERB,conj,Tieni,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,3.459267144
+370,35,questo,questo,PRON,obj,succhia,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,6.484206212
+371,35,,,PUNCT,punct,calmerà,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,
+372,35,ti,ti,PRON,iobj,calmerà,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,6.615643201
+373,35,calmerà,calmare,VERB,conj,Tieni,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,3.110001322
+374,35,”,”,PUNCT,punct,Tieni,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,
+375,35,,,PUNCT,punct,Sta,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,
+376,35,dice,dire,VERB,parataxis,Sta,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",4.08 ± 1.73,5.609257672
+377,35,nina,Nina,PROPN,nsubj,dice,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,1.668044485
+378,35,porgendo,porgere,VERB,advcl,dice,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,2.145165739
+379,35,gli,gli,PRON,iobj,porgendo,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,6.227520191
+380,35,il,il,DET,det,ciuccio,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,7.039560886
+381,35,ciuccio,ciuccio,NOUN,obj,porgendo,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",2.96 ± 1.57,2.858376183
+382,35,,,PUNCT,punct,Sta,"(ROOT (fc (f (ibar (VERB Sta)) (compin (sv2 (ADP a) (VERB vedere) (compt (sn (sa (DET questa)) (NOUN marmocchia)))))) (PUNCT ,) (f3 (sn (NOUN aaaargh!))) (PUNCT ”) (PUNCT “) (fc (f (ibar (VERB Tieni))) (PUNCT ,) (f (ibar (VERB succhia)) (compt (sn (PRON questo)))) (PUNCT ,) (f (ir_infl (PRON ti) (VERB calmerà)))) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB dice)) (compt (sn (PROPN Nina)) (sv5 (VERB porgendo) (compt (PRON gli) (sn (DET il) (NOUN ciuccio) (PUNCT .)))))))))",,
+383,36,di,di,ADP,case,colpo,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,7.232814475
+384,36,colpo,colpo,NOUN,obl,ha,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,4.938723321
+385,36,,,PUNCT,punct,colpo,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,
+386,36,il,il,DET,det,lupo,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,7.039560886
+387,36,lupo,lupo,NOUN,nsubj,ha,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",3.92 ± 0.86,4.449560513
+388,36,non,non,ADV,advmod,ha,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,7.259198169
+389,36,ha,avere,VERB,root,ROOT,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,6.684018637
+390,36,più,più,ADV,advmod,ha,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,6.382555861
+391,36,voglia,voglia,NOUN,obj,ha,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",6.56 ± 2.53,5.066910001
+392,36,di,di,ADP,mark,mangiar,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,7.232814475
+393,36,mangiar,mangiare,VERB,acl,voglia,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",3.24 ± 1.74,2.580089314
+394,36,si,si,PRON,expl,mangiar,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,6.553884221
+395,36,nina,Nina,PROPN,obj,mangiar,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,1.668044485
+396,36,,,PUNCT,punct,ha,"(ROOT (cp (spd (ADP Di) (sn (NOUN colpo))) (PUNCT ,) (f (sn (DET il) (NOUN lupo)) (ibar (ADV non) (VERB ha)) (compc (savv (ADV più)) (sn (NOUN voglia) (sv2 (ADP di) (VERB mangiar) (compt (PRON si) (sn (PROPN Nina) (PUNCT .)))))))))",,
+397,37,il,il,DET,det,lupo,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,7.039560886
+398,37,lupo,lupo,NOUN,nsubj,diventato,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",3.92 ± 0.86,4.449560513
+399,37,spaventoso,spaventoso,ADJ,amod,lupo,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",5.24 ± 2.20,4.038804227
+400,37,,,PUNCT,punct,lupo,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,
+401,37,cattivo,cattivo,ADJ,conj,spaventoso,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",3.48 ± 1.26,4.710488731
+402,37,e,e,CCONJ,cc,affamato,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,2.741151583
+403,37,affamato,affamato,ADJ,conj,spaventoso,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",4.84 ± 2.15,3.853681062
+404,37,è,essere,AUX,aux,diventato,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,7.249521761
+405,37,diventato,diventare,VERB,root,ROOT,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,4.711537752
+406,37,un,uno,DET,det,cucciolo,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,7.065833912
+407,37,cucciolo,cucciolo,NOUN,xcomp,diventato,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",4.12 ± 1.09,3.979798346
+408,37,dolce,dolce,ADJ,amod,cucciolo,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",5.08 ± 2.91,4.825047682
+409,37,,,PUNCT,punct,tenero,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,
+410,37,tenero,tenero,ADJ,conj,dolce,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",4.96 ± 1.74,3.766688211
+411,37,e,e,CCONJ,cc,coccolone,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,2.741151583
+412,37,coccolone,coccolone,ADJ,conj,dolce,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,2.287833243
+413,37,,,PUNCT,punct,sparisce,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,
+414,37,sorridendo,sorridere,VERB,advcl,sparisce,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,3.538253245
+415,37,,,PUNCT,punct,sorridendo,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,
+416,37,sparisce,sparire,VERB,conj,diventato,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,3.559210115
+417,37,in,in,ADP,case,bosco,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,6.797274494
+418,37,il,il,DET,det,bosco,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,7.039560886
+419,37,bosco,bosco,NOUN,obl,sparisce,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",4.52 ± 1.26,4.24188269
+420,37,insieme,insieme,ADV,case,ciuccio,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,5.500638545
+421,37,a,a,ADP,fixed,insieme,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,7.004335738
+422,37,il,il,DET,det,ciuccio,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,7.039560886
+423,37,ciuccio,ciuccio,NOUN,obl,sparisce,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",2.96 ± 1.57,2.858376183
+424,37,e,e,CCONJ,cc,tornerà,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,2.741151583
+425,37,non,non,ADV,advmod,tornerà,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,7.259198169
+426,37,tornerà,tornare,VERB,conj,diventato,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,4.542236289
+427,37,mai,mai,ADV,advmod,tornerà,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,6.144963021
+428,37,più,più,ADV,advmod,tornerà,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,6.382555861
+429,37,,,PUNCT,punct,diventato,"(ROOT (f (sn (DET Il) (NOUN lupo) (coord (sa (ADJ spaventoso)) (PUNCT ,) (sa (ADJ cattivo)) (CCONJ e) (sa (ADJ affamato)))) (ibar (AUX è) (VERB diventato)) (compc (sn (DET un) (NOUN cucciolo) (coord (sa (ADJ dolce)) (PUNCT ,) (sa (ADJ tenero)) (CCONJ e) (sa (ADJ coccolone)))) (fp (PUNCT ,) (sv5 (VERB sorridendo)) (PUNCT ,))) (fc (f (ibar (VERB sparisce)) (compin (sp (ADP in) (sn (DET il) (NOUN bosco))) (sp (ADV insieme) (ADP a) (sn (DET il) (NOUN ciuccio))))) (CCONJ e) (f (ir_infl (ADV non) (VERB tornerà)) (compin (savv (ADV mai) (ADV più) (PUNCT .)))))))",,
+430,38,dopo,dopo,ADP,case,incontro,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,5.792396528
+431,38,questo,questo,DET,det,incontro,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,6.484206212
+432,38,strano,strano,ADJ,amod,incontro,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",5.88 ± 2.11,5.190553923
+433,38,incontro,incontro,NOUN,obl,decide,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,4.860240111
+434,38,nina,Nina,PROPN,nsubj,decide,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,1.668044485
+435,38,,,PUNCT,punct,Nina,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,
+436,38,un,uno,DET,det,po',"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,7.065833912
+437,38,po,poco,ADV,advmod,stanca,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,4.399095757
+438,38,stanca,stanco,ADJ,amod,Nina,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",5.80 ± 1.87,4.451828998
+439,38,,,PUNCT,punct,Nina,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,
+440,38,decide,decidere,VERB,root,ROOT,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,3.953226593
+441,38,di,di,ADP,mark,tornare,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,7.232814475
+442,38,tornare,tornare,VERB,xcomp,decide,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,5.348123033
+443,38,a,a,ADP,case,casa,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,7.004335738
+444,38,casa,casa,NOUN,obl,tornare,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",3.40 ± 1.63,6.003702937
+445,38,da,da,ADP,case,mamma,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,6.577812618
+446,38,la,il,DET,det,mamma,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,7.055331658
+447,38,mamma,mamma,NOUN,obl,tornare,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",1.88 ± 1.27,5.66327005
+448,38,,,PUNCT,punct,decide,"(ROOT (cp (sp (ADP Dopo) (sn (sa (DET questo)) (sa (ADJ strano)) (NOUN incontro))) (sn (PROPN Nina) (fp (PUNCT ,) (sa (sq (DET un) (ADV po')) (ADJ stanca)) (PUNCT ,))) (f (ibar (VERB decide)) (compt (sv2 (ADP di) (VERB tornare) (compin (sp (ADP a) (sn (NOUN casa))) (spda (ADP da) (sn (DET la) (NOUN mamma) (PUNCT .)))))))))",,
+449,39,“,“,PUNCT,punct,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,
+450,39,dov’,dove,ADV,advmod,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,
+451,39,è,essere,AUX,aux,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,7.249521761
+452,39,finito,finire,VERB,root,ROOT,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",5.32 ± 2.90,5.321449975
+453,39,il,il,DET,det,ciuccio,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,7.039560886
+454,39,tuo,tuo,DET,det:poss,ciuccio,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,6.080045574
+455,39,ciuccio,ciuccio,NOUN,nsubj,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",2.96 ± 1.57,2.858376183
+456,39,,,PUNCT,punct,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,
+457,39,”,”,PUNCT,punct,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,
+458,39,,,PUNCT,punct,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,
+459,39,chiede,chiedere,VERB,parataxis,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,4.493578784
+460,39,la,il,DET,det,mamma,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,7.055331658
+461,39,mamma,mamma,NOUN,nsubj,chiede,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",1.88 ± 1.27,5.66327005
+462,39,a,a,ADP,case,Nina,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,7.004335738
+463,39,nina,Nina,PROPN,obl,chiede,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,1.668044485
+464,39,quando,quando,SCONJ,mark,rientra,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,6.212844009
+465,39,rientra,rientrare,VERB,advcl,chiede,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,3.729999329
+466,39,,,PUNCT,punct,finito,"(ROOT (dirsp (PUNCT “) (f (ibar (ADV Dov’) (AUX è) (VERB finito)) (compin (sn (DET il) (sa (DET tuo)) (NOUN ciuccio)))) (PUNCT ?) (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sn (DET la) (NOUN mamma)) (sp (ADP a) (sn (PROPN Nina))) (fs (SCONJ quando) (f (ibar (VERB rientra) (PUNCT .)))))))))",,
+467,40,“,“,PUNCT,punct,Spero,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,
+468,40,spero,sperare,VERB,root,ROOT,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,5.251545534
+469,40,che,che,SCONJ,mark,perso,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,7.250456545
+470,40,tu,tu,PRON,nsubj,perso,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,6.414765586
+471,40,non,non,ADV,advmod,perso,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,7.259198169
+472,40,lo,lo,PRON,obj,perso,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,6.655915487
+473,40,abbia,avere,AUX,aux,perso,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,5.622383493
+474,40,perso,perdere,VERB,ccomp,Spero,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,5.292824891
+475,40,,,PUNCT,punct,Spero,(ROOT (dirsp (PUNCT “) (f (ir_infl (VERB Spero)) (compt (fac (SCONJ che) (f (sn (PRON tu)) (ir_infl (ADV non) (PRON lo) (AUX abbia) (VERB perso)))))) (PUNCT !))),,
+476,41,”,”,PUNCT,punct,chiede,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sa (ADJ preoccupata)) (PUNCT .))))))",,
+477,41,,,PUNCT,punct,chiede,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sa (ADJ preoccupata)) (PUNCT .))))))",,
+478,41,chiede,chiedere,VERB,root,ROOT,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sa (ADJ preoccupata)) (PUNCT .))))))",,4.493578784
+479,41,preoccupata,preoccupato,ADJ,xcomp,chiede,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sa (ADJ preoccupata)) (PUNCT .))))))",6.48 ± 1.85,4.453255644
+480,41,,,PUNCT,punct,chiede,"(ROOT (dirsp (PUNCT ”) (fp (PUNCT ,) (f (ibar (VERB chiede)) (compt (sa (ADJ preoccupata)) (PUNCT .))))))",,
+481,42,“,“,PUNCT,punct,regalato,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,
+482,42,l’,il,PRON,obj,regalato,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,
+483,42,ho,avere,AUX,aux,regalato,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,6.720262455
+484,42,regalato,regalare,VERB,root,ROOT,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",4.76 ± 1.48,4.032908035
+485,42,a,a,ADP,case,qualcuno,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,7.004335738
+486,42,qualcuno,qualcuno,PRON,obl,regalato,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,5.830633781
+487,42,che,che,PRON,nsubj,aveva,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,7.250456545
+488,42,ne,ne,PRON,iobj,aveva,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,6.201935117
+489,42,aveva,avere,VERB,acl:relcl,qualcuno,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,5.632280537
+490,42,veramente,veramente,ADV,advmod,aveva,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,5.314055894
+491,42,bisogno,bisogno,NOUN,obj,aveva,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,5.803235462
+492,42,”,”,PUNCT,punct,regalato,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,
+493,42,,,PUNCT,punct,regalato,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,
+494,42,risponde,rispondere,VERB,parataxis,regalato,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",3.88 ± 1.59,4.376323713
+495,42,nina,Nina,PROPN,nsubj,risponde,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,1.668044485
+496,42,e,e,CCONJ,cc,sorride,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,2.741151583
+497,42,sorride,sorridere,VERB,conj,risponde,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,3.570228748
+498,42,tra,tra,ADP,case,se,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,5.670548919
+499,42,se,se,SCONJ,obl,sorride,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,6.583110863
+500,42,e,e,CCONJ,cc,se,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,2.741151583
+501,42,se,se,SCONJ,conj,se,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,6.583110863
+502,42,,,PUNCT,punct,regalato,"(ROOT (dirsp (PUNCT “) (f (ibar (PRON L’) (AUX ho) (VERB regalato)) (compt (sp (ADP a) (sq (PRON qualcuno))) (fac (PRON che) (f (ibar (PRON ne) (VERB aveva)) (compc (savv (ADV veramente)) (sn (NOUN bisogno))))))) (PUNCT ”) (fp (PUNCT ,) (fc (f (ibar (VERB risponde)) (compin (sn (PROPN Nina)))) (CCONJ e) (f (ibar (VERB sorride)) (compin (sp (ADP tra) (coord (SCONJ se) (CCONJ e) (SCONJ se) (PUNCT .)))))))))",,
