@@ -52,18 +52,19 @@ def process_text_file(filepath, output_dir):
 
     for sent_id, sentence in enumerate(doc.sentences):
         for word in sentence.words: 
-            sentence_ids.append(sent_id)
-            raw_token = word.text
-            raw_lemma = word.lemma
-            clean_token = raw_token.lower().translate(str.maketrans("","", string.punctuation)) 
-            clean_lemma = raw_lemma.translate(str.maketrans("","",string.punctuation))
-            clean_tokens.append(clean_token)
-            clean_lemmas.append(clean_lemma)
-            raw_tokens.append(raw_token)
-            PoS.append(word.pos)
-            depparse.append(word.deprel)
-            head.append(sentence.words[word.head - 1].text if word.head > 0 else "ROOT")
-            constituency.append(getattr(sentence, "constituency", None)) #Perché non funziona più?
+            if word.pos != "PUNCT":
+                sentence_ids.append(sent_id)
+                raw_token = word.text
+                raw_lemma = word.lemma
+                clean_token = raw_token.lower().translate(str.maketrans("","", string.punctuation)) 
+                clean_lemma = raw_lemma.translate(str.maketrans("","",string.punctuation))
+                clean_tokens.append(clean_token)
+                clean_lemmas.append(clean_lemma)
+                raw_tokens.append(raw_token)
+                PoS.append(word.pos)
+                depparse.append(word.deprel)
+                head.append(sentence.words[word.head - 1].text if word.head > 0 else "ROOT")
+                constituency.append(getattr(sentence, "constituency", None)) 
 
     aoa_df = pd.read_excel("corpora\\ItAoA.xlsx", sheet_name="Database")
     aoa_df["M_AoA"] = aoa_df["M_AoA"].astype(str).str.replace(",", ".").astype(float)
@@ -100,12 +101,10 @@ def process_text_file(filepath, output_dir):
     
     #statistics
     clean_tokens = [t for t in clean_tokens if t.strip()]
-    clean_lemmas = [l for l in clean_lemmas if l.strip()]
-    num_tokens = len(raw_tokens)
+    num_tokens = len(clean_tokens)
     num_sentence = len(doc.sentences)
-    num_lemmas = len(clean_lemmas)
-    num_types = len(set(clean_lemmas))
-    ttr = num_types/num_lemmas if num_lemmas > 0 else 0
+    num_types = len(set(clean_tokens))
+    ttr = num_types/num_tokens if num_tokens > 0 else 0
     sentence_lengths = [len(sentence.tokens) for sentence in doc.sentences]
     avg_sentence_length = sum(sentence_lengths)/len(sentence_lengths) if sentence_lengths else 0
     
@@ -137,9 +136,8 @@ def process_text_file(filepath, output_dir):
     summary_stats = {
     "num_tokens": num_tokens,
     "num_sentences": num_sentence,
-    "num_lemmas": num_lemmas,
     "num_types": num_types,
-    "TTR": round(ttr, 3),
+    "TTR": round(ttr, 3), 
     "avg_sentence_length": round(avg_sentence_length, 2),
     "Zipf_mean": round(zipf_mean, 2),
     "Zipf_std": round(zipf_std, 2),
