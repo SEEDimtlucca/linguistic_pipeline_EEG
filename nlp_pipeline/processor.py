@@ -101,10 +101,14 @@ def process_text_file(filepath, output_dir):
     
     #statistics
     clean_tokens = [t for t in clean_tokens if t.strip()]
+    clean_lemmas = [t for t in clean_lemmas if t.strip()]
     num_tokens = len(clean_tokens)
+    num_lemmas = len(clean_lemmas)
+    num_types_l = len(set(clean_lemmas))
     num_sentence = len(doc.sentences)
-    num_types = len(set(clean_tokens))
-    ttr = num_types/num_tokens if num_tokens > 0 else 0
+    num_types = len(set(clean_tokens)) 
+    ttr = num_types/num_tokens if num_tokens > 0 else 0 
+    ttr_lemmas = num_types_l/num_lemmas if num_lemmas > 0 else 0
     sentence_lengths = [len(sentence.tokens) for sentence in doc.sentences]
     avg_sentence_length = sum(sentence_lengths)/len(sentence_lengths) if sentence_lengths else 0
     
@@ -138,6 +142,7 @@ def process_text_file(filepath, output_dir):
     "num_sentences": num_sentence,
     "num_types": num_types,
     "TTR": round(ttr, 3), 
+    "TTR_lemmas": round(ttr_lemmas, 3),
     "avg_sentence_length": round(avg_sentence_length, 2),
     "Zipf_mean": round(zipf_mean, 2),
     "Zipf_std": round(zipf_std, 2),

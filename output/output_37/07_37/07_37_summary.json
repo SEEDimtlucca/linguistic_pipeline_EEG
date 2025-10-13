@@ -3,6 +3,7 @@
   "num_sentences": 34,
   "num_types": 177,
   "TTR": 0.467,
+  "TTR_lemmas": 0.404,
   "avg_sentence_length": 13.76,
   "Zipf_mean": 5.4,
   "Zipf_std": 1.54,
