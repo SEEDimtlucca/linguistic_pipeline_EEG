@@ -274,7 +274,9 @@ tokens = tokenizer.convert_ids_to_tokens(input_ids[0])
 surprisal_per_word = []
 current_tokens = []
 current_surprisal = 0.0
-punct_pattern = re.compile(r"^[\.\,\!\?\;\:\\\"\'\)\(\[\]\-\–\—]+$")
+#punct_pattern = re.compile(r"^[\.\,\!\?\;\:\\\"\'\)\(\[\]\-\–\—]+$")
+punct_pattern = re.compile(r"\^\!\"\#\$\%\&\'\(\)\*\+\,\-\.\/\:\;\<\=\>\?\@\[\\\]\^\{\|\}\~")
+
 
 for i in range(1, len(tokens)):
     token = tokens[i]
@@ -321,9 +323,13 @@ filtered_surprisal = [(word, s) for word, s in surprisal_per_word if not punct_p
 
 # === 7. Salva CSV finale ===
 df = pd.DataFrame(filtered_surprisal, columns=["word", "surprisal_bits"])
-df.to_csv("surprisal_output_GePpeTto_clean5.csv", index=False, encoding="utf-8-sig")
+df.to_csv("surprisal_output_GePpeTto_provaRE.csv", index=False, encoding="utf-8-sig")
 
 
 # === 8. Stampa per controllo ===
 for w, s in filtered_surprisal[:30]:  # stampo solo le prime 30 parole
     print(f"{w}: {s:.3f}")
+
+import string
+
+print (string.punctuation)
