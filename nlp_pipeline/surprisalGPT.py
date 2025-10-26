@@ -98,5 +98,5 @@ def calculate_surprisal (filepath, output_dir):
     file_output_dir = os.path.join (output_dir, name_base)
     os.makedirs(file_output_dir, exist_ok=True)
     csv_path = os.path.join(file_output_dir, f"Suprisal_{name_base}.csv")
-    df.to_csv(csv_path, index=False)
+    df.to_csv(csv_path, index=True)
     logging.info(f"Saved CSV: {csv_path}")
