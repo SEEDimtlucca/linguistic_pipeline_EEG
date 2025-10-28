@@ -11,6 +11,32 @@ from sklearn.metrics.pairwise import cosine_similarity
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 def calculate_semantic_dissimilarity(filepath, output_dir):
+    """
+    Calculates word-level semantic dissimilarity for a text file using the UmBERTo Italian language model.
+
+    Semantic dissimilarity measures how semantically "unexpected" a word is given its preceding context.
+    It is computed as 1 - cosine similarity between the embedding of the current token and the mean 
+    embedding of a preceding window of tokens (default 20 tokens). High values indicate semantic divergence,
+    low values indicate coherence with context.
+
+    For each input file, a dedicated subfolder is created (named after the file) where a CSV file 
+    with word-level dissimilarity values is saved.
+
+    Parameters:
+        filepath (str): Path to the input .txt file.
+        output_dir (str): Root directory where output subfolders will be created.
+
+    Outputs:
+        - CSV file containing word-level semantic dissimilarity:
+          columns include the word and its semantic dissimilarity value.
+
+    Notes:
+        - Apostrophes and variant unicode characters are normalized to standard ASCII apostrophe.
+        - Tokens are aggregated into words, handling subword tokens and apostrophes correctly.
+        - Special tokens from the tokenizer (CLS, SEP, PAD) are ignored.
+        - Debug information prints replaced apostrophes and quotes.
+    """
+
     logging.info(f"Processing file: {filepath}")
 
     model_name = "Musixmatch/umberto-commoncrawl-cased-v1"  
@@ -36,12 +62,13 @@ def calculate_semantic_dissimilarity(filepath, output_dir):
 
     all_tokens = []
     all_dissimilarities = []
+    all_tokens = []
 
-    for chunk in chunks:
-        inputs = {"input_ids":torch.tensor([chunk])}
+    for i, chunk in enumerate(chunks):
+        inputs = {"input_ids": torch.tensor([chunk])}
         with torch.no_grad():
             outputs = model(**inputs)
-            hidden_states = outputs.hidden_states[-1][0]  
+            hidden_states = outputs.hidden_states[-1][0]
 
         embeddings = hidden_states.cpu().numpy()
         chunk_tokens = tokenizer.convert_ids_to_tokens(chunk)
@@ -49,16 +76,22 @@ def calculate_semantic_dissimilarity(filepath, output_dir):
         dissimilarities = []
         for t in range(len(embeddings)):
             start = max(0, t - 20)
-            if start == t:  # niente contesto
+            if start == t:
                 dissimilarities.append(np.nan)
             else:
                 context = np.mean(embeddings[start:t], axis=0, keepdims=True)
-                sim = cosine_similarity(embeddings[t].reshape(1, -1), context)[0, 0]
+                sim = cosine_similarity(embeddings[t].reshape(1, -1), context)[0,0]
                 dissimilarities.append(1 - sim)
 
+        if i > 0:
+            overlap = stride
+            chunk_tokens = chunk_tokens[overlap:]
+            dissimilarities = dissimilarities[overlap:]
 
         all_tokens.extend(chunk_tokens)
         all_dissimilarities.extend(dissimilarities)
+
+
     
     logging.info(f"All tokens: {len(all_tokens)}")
 
@@ -104,7 +137,6 @@ def calculate_semantic_dissimilarity(filepath, output_dir):
                     agg = float(np.nanmean(current_dissim)) if len(current_dissim) > 0 else np.nan
                     words.append(word)
                     words_dissim.append(agg)
-    # togli il simbolo di spazio iniziale dal token
             tok_clean = tok.lstrip("▁").lstrip("â–")
             current_tokens = [tok_clean]
             current_dissim = [diss]
@@ -146,5 +178,3 @@ def calculate_semantic_dissimilarity(filepath, output_dir):
     logging.info(f"Saved CSV: {csv_path}")
 
     
-calculate_semantic_dissimilarity("data\\texts_03\\10_03.txt", "output")
-

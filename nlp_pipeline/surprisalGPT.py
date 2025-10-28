@@ -42,10 +42,12 @@ def calculate_surprisal (filepath, output_dir):
     model = AutoModelForCausalLM.from_pretrained(model_name)
     model.eval()
 
+
     with open(filepath, "r", encoding="utf-8") as infile:
         text = infile.read()
 
     text = text.replace("\n", " ").replace("\r", " ")
+   
     inputs = tokenizer(text, return_tensors="pt")
     input_ids = inputs["input_ids"]
 
@@ -91,7 +93,9 @@ def calculate_surprisal (filepath, output_dir):
             surprisal_per_word.append((word, current_surprisal))
 
     punct_to_remove = set(string.punctuation) - {"'"}
-
+    virgolette = ['“', '”', '«', '»', '„', '‟', '‹', '›']
+    punct_to_remove.update(virgolette)
+    
     def clean_word(word):
         return word.strip("".join(punct_to_remove))
     
@@ -109,4 +113,5 @@ def calculate_surprisal (filepath, output_dir):
     csv_path = os.path.join(file_output_dir, f"Suprisal_{name_base}.csv")
     df.to_csv(csv_path, index=True)
     logging.info(f"Saved CSV: {csv_path}")
+
 

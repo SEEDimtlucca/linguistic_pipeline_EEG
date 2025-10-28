@@ -4,6 +4,7 @@ import json
 import pandas as pd
 from nlp_pipeline.processor import process_text_file
 from nlp_pipeline.surprisalGPT import calculate_surprisal
+from nlp_pipeline.semantic_dissimilarity import calculate_semantic_dissimilarity
 
 def process_folder(input_dir, output_dir):
     """
@@ -16,6 +17,7 @@ def process_folder(input_dir, output_dir):
             print(f"Processing file: {filename}")
             process_text_file(filepath, output_dir)
             calculate_surprisal(filepath, output_dir)
+            calculate_semantic_dissimilarity(filepath, output_dir)
 
 def aggregate_summaries(output_dir):
     """
