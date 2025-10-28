@@ -2,8 +2,8 @@ import os
 import torch
 import math
 import pandas as pd
-import re
 import logging
+import string
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -52,13 +52,13 @@ def calculate_surprisal (filepath, output_dir):
     with torch.no_grad():
         outputs = model(**inputs)
         logits = outputs.logits
+
     log_probs = torch.log_softmax(logits, dim=-1)
 
     tokens = tokenizer.convert_ids_to_tokens(input_ids[0])
     surprisal_per_word = []
     current_tokens = []
     current_surprisal = 0.0
-    punct_pattern = re.compile(r"\^\!\"\#\$\%\&\'\(\)\*\+\,\-\.\/\:\;\<\=\>\?\@\[\\\]\^\{\|\}\~")
 
     for i in range(1, len(tokens)):
         token = tokens[i]
@@ -74,7 +74,7 @@ def calculate_surprisal (filepath, output_dir):
             current_surprisal = 0.0
             continue
 
-        if token.startswith("Ġ") or punct_pattern.match(token):
+        if token.startswith("Ġ"):
             if current_tokens:
                 word = tokenizer.convert_tokens_to_string(current_tokens).strip().strip('"')
                 if word:
@@ -90,7 +90,16 @@ def calculate_surprisal (filepath, output_dir):
         if word:
             surprisal_per_word.append((word, current_surprisal))
 
-    filtered_surprisal = [(word, s) for word, s in surprisal_per_word if not punct_pattern.fullmatch(word)]
+    punct_to_remove = set(string.punctuation) - {"'"}
+
+    def clean_word(word):
+        return word.strip("".join(punct_to_remove))
+    
+    filtered_surprisal = []
+    for word, s in surprisal_per_word:
+        filtred = clean_word(word)
+        if filtred:
+            filtered_surprisal.append((filtred, s))
 
     df = pd.DataFrame(filtered_surprisal, columns=["word", "surprisal_bits"])
     
@@ -100,3 +109,4 @@ def calculate_surprisal (filepath, output_dir):
     csv_path = os.path.join(file_output_dir, f"Suprisal_{name_base}.csv")
     df.to_csv(csv_path, index=True)
     logging.info(f"Saved CSV: {csv_path}")
+
