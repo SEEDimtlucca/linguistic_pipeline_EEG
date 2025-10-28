@@ -1,5 +1,6 @@
+# **0 - years**
 - 01_03
---
+# **3 - 7 years**
 - 01_37 Il re parrucchiere. St01_B
 - 02_37 La fata gattina. St02_B
 - 03_37 I pirati smemorati. St03_B
@@ -10,25 +11,25 @@
 - 08_37 Il principe Tonno e Abissina. St08_B
 - 09_37 Una bambina senza nome.  St09_B
 - 10_37 Le posate sposate.  St10_B
---
-- 01_710 La passeggiata di un distratto. St01_C
-- 02_710 Il paese senza punta. St02_C
-- 03_710 La guerra delle campane. St03_C
-- 04_710 Una viola al polo Nord. St04_C
-- 05_710 Giacomo di cristallo. St05_C
-- 06_710 Promosso più due. St06_C
-- 07_710 Il paese dei cani. St07_C
-- 08_710 L'Apollonia della marmellata.  St08_C
-- 09_710 Il muratore della Valtellina.  St09_C
-- 10_710 Il re Mida.  St10_C
---
-- 01_1015 Il contadino astrologo. St01_D
-- 02_1015 La camicia dell'uomo contento.St02_D
-- 03_1015 Il cardellino. St04_D
-- 04_1015 I tre linguaggi. St06_D
-- 05_1015 Una goccia. St03_D
-- 06_1015 Le precauzioni inutili contro le frodi. St05_D
-- 07_1015 L'incantesimo della volpe. St07_D
-- 08_1015 I tacchini non ringraziano.  St08_D
-- 09_1015 Racconto per bambini cattivi.  St09_D
-- 10_1015 Apocalisse. St10_D
+# **7-11 years**
+- 01_711 La passeggiata di un distratto. St01_C
+- 02_711 Il paese senza punta. St02_C
+- 03_711 La guerra delle campane. St03_C
+- 04_711 Una viola al polo Nord. St04_C
+- 05_711 Giacomo di cristallo. St05_C
+- 06_711 Promosso più due. St06_C
+- 07_711 Il paese dei cani. St07_C
+- 08_711 L'Apollonia della marmellata.  St08_C
+- 09_711 Il muratore della Valtellina.  St09_C
+- 10_711 Il re Mida.  St10_C
+# **11-15 years**
+- 01_1115 Il contadino astrologo. St01_D
+- 02_1115 La camicia dell'uomo contento.St02_D
+- 03_1115 Il cardellino. St04_D
+- 04_1115 I tre linguaggi. St06_D
+- 05_1115 Una goccia. St03_D
+- 06_1115 Le precauzioni inutili contro le frodi. St05_D
+- 07_1115 L'incantesimo della volpe. St07_D
+- 08_1115 I tacchini non ringraziano.  St08_D
+- 09_1115 Racconto per bambini cattivi.  St09_D
+- 10_1115 Apocalisse. St10_D
