@@ -1,174 +1,105 @@
 import os
 import logging
-import string
 import torch
-import re
-import numpy as np
+import torch.nn.functional as F
 import pandas as pd
 from transformers import AutoTokenizer, AutoModel
-from sklearn.metrics.pairwise import cosine_similarity
+from nlp_pipeline.utils import reconstruct_words
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-def calculate_semantic_dissimilarity(filepath, output_dir):
+def calculate_semantic_dissimilarity(filepath: str, output_dir:str):
     """
-    Calculates word-level semantic dissimilarity for a text file using the UmBERTo Italian language model.
-
+    Calculates word-level semantic dissimilarity values for a text file using UmBERTo.
     Semantic dissimilarity measures how semantically "unexpected" a word is given its preceding context.
     It is computed as 1 - cosine similarity between the embedding of the current token and the mean 
-    embedding of a preceding window of tokens (default 20 tokens). High values indicate semantic divergence,
-    low values indicate coherence with context.
-
-    For each input file, a dedicated subfolder is created (named after the file) where a CSV file 
-    with word-level dissimilarity values is saved.
+    embedding of a preceding window of tokens (default 20 tokens). 
+    
+    For each input file, a dedicated subfolder is created (named after the file, e.g. '01_03')
+    where the output CSV is saved.
 
     Parameters:
-        filepath (str): Path to the input .txt file.
-        output_dir (str): Root directory where output subfolders will be created.
-
+    filepath (str): Path to the input .txt file.
+    output_dir (str): Root directory where output subfolders will be created.
+    
     Outputs:
-        - CSV file containing word-level semantic dissimilarity:
-          columns include the word and its semantic dissimilarity value.
+        - A CSV file containing word-level semantic dissimilarity values:
+        columns include the word and its semantic_dissimilarity score.
+        The CSV is saved in a subfolder under `output_dir` named after the input file.
 
     Notes:
-        - Apostrophes and variant unicode characters are normalized to standard ASCII apostrophe.
-        - Tokens are aggregated into words, handling subword tokens and apostrophes correctly.
-        - Special tokens from the tokenizer (CLS, SEP, PAD) are ignored.
-        - Debug information prints replaced apostrophes and quotes.
+        - The function uses Hugging Face `AutoTokenizer` and `AutoModel` (UmBERTo) and takes
+        the last hidden layer as token embeddings.
+        - Aggregation from token-level to word-level is handled by `reconstruct_words' from utils.py
+
+        - Logging messages indicate which file is being processed and where the resulting CSV is saved.
     """
-
+    
     logging.info(f"Processing file: {filepath}")
-
-    model_name = "Musixmatch/umberto-commoncrawl-cased-v1"  
+    
+    model_name = "Musixmatch/umberto-commoncrawl-cased-v1"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModel.from_pretrained(model_name, output_hidden_states=True)
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
     model.eval()
 
     with open(filepath, "r", encoding="utf-8") as f:
         text = f.read().replace("\n", " ").replace("\r", " ")
 
-    apostrofi_vari = ["’", "‘", "ʼ", "＇", "‛", "´", "`", "ʹ", "ʽ", "ʾ", "ʿ", "ˈ", "ˊ", "ˋ", "âĢĻ"]
-    for a in apostrofi_vari:
-        text = text.replace(a, "'")
-    
-    text = re.sub(r"'(?=[A-Za-zÀ-ÖØ-öø-ÿ])", "' ", text)
-
-    tokens = tokenizer.tokenize(text)
-    input_ids = tokenizer.convert_tokens_to_ids(tokens)
-
-    max_len = 512
-    stride = 256
-    chunks = [input_ids[i:i+max_len] for i in range(0, len(input_ids), stride)]
+    encodings = tokenizer(
+        text,
+        return_tensors="pt",
+        truncation=True,
+        padding=True,
+        max_length=512,
+        stride=0,
+        return_overflowing_tokens=True,
+        add_special_tokens=False
+    )
 
     all_tokens = []
     all_dissimilarities = []
-    all_tokens = []
 
-    for i, chunk in enumerate(chunks):
-        inputs = {"input_ids": torch.tensor([chunk])}
+
+    for i in range(len(encodings["input_ids"])):
+        input_ids = encodings["input_ids"][i].unsqueeze(0).to(device)
+        attention_mask = encodings["attention_mask"][i].unsqueeze(0).to(device) #important for padding
+
         with torch.no_grad():
-            outputs = model(**inputs)
-            hidden_states = outputs.hidden_states[-1][0]
+            outputs = model(input_ids, attention_mask=attention_mask)
+            hidden_states = outputs.hidden_states[-1][0] 
 
-        embeddings = hidden_states.cpu().numpy()
-        chunk_tokens = tokenizer.convert_ids_to_tokens(chunk)
+        chunk_tokens = tokenizer.convert_ids_to_tokens(input_ids[0].tolist())
 
         dissimilarities = []
-        for t in range(len(embeddings)):
-            start = max(0, t - 20)
-            if start == t:
-                dissimilarities.append(np.nan)
-            else:
-                context = np.mean(embeddings[start:t], axis=0, keepdims=True)
-                sim = cosine_similarity(embeddings[t].reshape(1, -1), context)[0,0]
-                dissimilarities.append(1 - sim)
+        for t in range(hidden_states.size(0)):
+            if attention_mask[0, t] == 0:
+                continue
+            
+            if t == 0:
+                dissimilarities.append(float("nan"))
+                continue
 
-        if i > 0:
-            overlap = stride
-            chunk_tokens = chunk_tokens[overlap:]
-            dissimilarities = dissimilarities[overlap:]
+            start = max(0, t - 20) #window size of 20
+            context = hidden_states[start:t].mean(dim=0, keepdim=True)
+            token_vec = hidden_states[t].unsqueeze(0)
+            sim = F.cosine_similarity(token_vec, context, dim=-1)
+            dissim = (1.0 - sim).item()
+            dissimilarities.append(dissim)
 
         all_tokens.extend(chunk_tokens)
         all_dissimilarities.extend(dissimilarities)
 
+    words, values = reconstruct_words(all_tokens, all_dissimilarities, tokenizer, agg="mean")    
 
-    
-    logging.info(f"All tokens: {len(all_tokens)}")
-
-    special_set = set(filter(None, [tokenizer.cls_token, tokenizer.sep_token, tokenizer.pad_token]))
-    apostrofo= "âĢĻ"
-
-    filtered_tokens = []
-    filtered_dissim = []
-    for tok, diss in zip(all_tokens, all_dissimilarities):
-        if tok in special_set or tok is None:
-            continue
-        if tok == apostrofo:
-            filtered_tokens.append("'")
-            filtered_dissim.append(diss)
-        else:
-            filtered_tokens.append(tok)
-            filtered_dissim.append(diss)
-
-    words = []
-    words_dissim = []
-    current_tokens = []
-    current_dissim = []
-
-    for tok, diss in zip(filtered_tokens, filtered_dissim):
-        if tok == "'":
-            if current_tokens:
-                word = tokenizer.convert_tokens_to_string(current_tokens).strip().strip('"')
-                if word:
-                    word = word + "'"  
-                    agg = float(np.nanmean(current_dissim)) if current_dissim else np.nan
-                    words.append(word)
-                    words_dissim.append(agg)
-
-            current_tokens = []
-            current_dissim = []
-            continue
-
-
-        if tok.startswith("▁") or tok.startswith("â–"):  # nuovo inizio parola
-            if current_tokens:
-                word = tokenizer.convert_tokens_to_string(current_tokens).strip().strip('"')
-                if word:
-                    agg = float(np.nanmean(current_dissim)) if len(current_dissim) > 0 else np.nan
-                    words.append(word)
-                    words_dissim.append(agg)
-            tok_clean = tok.lstrip("▁").lstrip("â–")
-            current_tokens = [tok_clean]
-            current_dissim = [diss]
-        else:
-            current_tokens.append(tok)
-            current_dissim.append(diss)
-
-    if current_tokens:
-        word = tokenizer.convert_tokens_to_string(current_tokens).strip().strip('"')
-        if word:
-            agg = float(np.nanmean(current_dissim)) if len(current_dissim) > 0 else np.nan
-            words.append(word)
-            words_dissim.append(agg)
-
-    extra_punct = {"“", "”", "«", "»", "„", "‟", "‹", "›"}
-    punct_to_remove = (set(string.punctuation) | extra_punct) - {"'"}
-    def clean_word(w):
-        return w.strip("".join(punct_to_remove))
-
-    words_cleaned = []
-    dissim_cleaned = []
-    for w, d in zip(words, words_dissim):
-        w_clean = clean_word(w)
-        if w_clean:
-            words_cleaned.append(w_clean)
-            dissim_cleaned.append(d)
 
     df = pd.DataFrame({
-        "word": words_cleaned,
-        "semantic_dissimilarity": dissim_cleaned
+        "word": words,
+        "semantic_dissimilarity": values
     })
-   
+
     name_base = os.path.splitext(os.path.basename(filepath))[0]
     file_output_dir = os.path.join(output_dir, name_base)
     os.makedirs(file_output_dir, exist_ok=True)
@@ -177,4 +108,3 @@ def calculate_semantic_dissimilarity(filepath, output_dir):
     df.to_csv(csv_path, index=False)
     logging.info(f"Saved CSV: {csv_path}")
 
-    
