@@ -4,44 +4,42 @@ This repository provides a Python-based pipeline for extracting linguistic featu
 ## **Repository Structure**
 
 - **\corpora**
-    Contains two corpora used in the pipeline:
-        - _ItAoA.xlsx_= Italian Age of Acquisition norms (*Montefinese M, Vinson D, Vigliocco G. and Ambrosini E. (2019) Italian Age of Acquisition Norms for a Large Set of Words (ItAoA). Front. Psychol. 10:278. doi: 10.3389/fpsyg.2019.00278*).
+Contains two corpora used in the pipeline:
+    - `ItAoA.xlsx`= Italian Age of Acquisition norms (*Montefinese M, Vinson D, Vigliocco G. and Ambrosini E. (2019) Italian Age of Acquisition Norms for a Large Set of Words (ItAoA). Front. Psychol. 10:278. doi: 10.3389/fpsyg.2019.00278*).
       Download: https://osf.io/3trg2/overview
-    - *subtlex-it.csv* = Frequency database for Italian words based on movie        subtitles.
+    - `subtlex-it.csv` = Frequency database for Italian words based on movie subtitles.
       Downdload: https://osf.io/zg7sc/overview
 
 - **\doc**
-      Contains documentation files:
-      - all_summary.pdf = Explanation of all linguistic statistics extracted from the texts.
-      - all_summary.xlsx = Tabular file containing all linguistic statistics.
-      - TO ADD: .pdf file for all the features extracted 
+Contains documentation files:
+    - `all_summary.pdf` = Explanation of all linguistic statistics extracted from the texts.
+    - `all_summary.xlsx` = Tabular file containing all linguistic statistics.
+    - TO ADD: .pdf file for all the features extracted 
 
 - **\data**
 Contains all the experimental data:
-        - *\phoneme_onset** = .xlsx files with phoneme onsets (in samples) for each story.
-        - *\texts** = texts files of the stories in .txt formats.
-        - *\word_onset** = .csv files with word onsets (in samples) for each story.
+    - *\phoneme_onset** = .xlsx files with phoneme onsets (in samples) for each story.
+    - *\texts** = texts files of the stories in .txt formats.
+    - *\word_onset** = .csv files with word onsets (in samples) for each story.
 
 - **\nlp_pipeline**
-  Python modules that implement the features extraction:
-    - 'processor.py' 
-    - 'semantic_dissimilarity.py'
-    - 'surprisalGPT.py'
-    - 'utils.py'
+Python modules that implement the features extraction:
+    - `processor.py`
+    - `semantic_dissimilarity.py`
+    - `surprisalGPT.py`
+    - `utils.py`
 
 - **\output**
-  All the subfolders in 'output' folder are structured in the following way: one subfolder for each group of age stories and one subfolder for each story of the group that cointains the following files:
-  - '<story_id>_summary.json 
-  - '<story_id>.csv'
-  - 'dissimilarity_<story_id>.csv'
-  - 'Surprisal_<story_id>.csv'
-    -
-- **\venv**
-Python virtual environment for dependency management.
+All the subfolders in 'output' folder are structured in the following way: one subfolder for each group of age stories and one subfolder for each story of the group that cointains the following files:
+    - `<story_id>_summary.json`
+    - `<story_id>.csv`
+    - `dissimilarity_<story_id>.csv`
+    - `Surprisal_<story_id>.csv`
 
 - **Other files**
-- 'main.py' = Main script to run the pipeline
-- 'ReadME.md'= This file
+    - `main.py` = Main script to run the pipeline
+    - `ReadME.md`= This file
+
 
 All the stories, stored into the 'data' forlder, are diveded into four groups based on the age.
 Titles and correponding codes are listed below.
