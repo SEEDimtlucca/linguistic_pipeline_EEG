@@ -43,33 +43,42 @@ def calculate_surprisal (filepath: str, output_dir: str):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
    
+   #set model to evaluation mode (disables dropiut, etc.)
     model.eval()
 
     with open(filepath, "r", encoding="utf-8") as infile:
         text = infile.read().replace("\n", " ").replace("\r", " ")
    
+   #tokenize the text without adding special tokens 
     inputs = tokenizer(text, return_tensors="pt", add_special_tokens=False)
-    input_ids = inputs["input_ids"]
+    input_ids = inputs["input_ids"].to(device)
 
-    with torch.no_grad():
+    #cpmpute model output
+    with torch.no_grad(): #disable gradient computation 
         outputs = model(**inputs)
         logits = outputs.logits
 
+    #convert logits (unnormalized log probabilities) using log-softmax across the vocabulary
     log_probs = torch.log_softmax(logits, dim=-1)
 
     tokens = tokenizer.convert_ids_to_tokens(input_ids[0])
 
+    #initialize a list to store surprisal values (one per token)
     values = [float("nan")] * len(tokens)
 
+    #compute surprisal for each token based on its log-probability
     for i in range(1, len(tokens)):
         token_id = int(input_ids[0, i].item())
         if (i - 1) >= log_probs.shape[1]:
             values[i] = float("nan")
             continue
         log_prob = float(log_probs[0, i - 1, token_id].item())
+        
+        #compute surprisal in bits
         surprisal = -log_prob / math.log(2)
         values[i] = surprisal
 
+    #reconstruct words from subtokens and aggregate surprisal values per word
     words, word_surprisal = reconstruct_words(tokens, values, tokenizer, agg="sum")
     
     df = pd.DataFrame({"word": words, "surprisal": word_surprisal})

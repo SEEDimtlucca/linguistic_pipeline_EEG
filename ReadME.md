@@ -44,7 +44,7 @@ All the subfolders in 'output' folder are structured in the following way: one s
 All the stories, stored into the 'data' forlder, are diveded into four groups based on the age.
 Titles and correponding codes are listed below.
 
-# **0 - 3 years**
+### **0 - 3 years**
 - 01_03 Il fatto è. St01_A
 - 02_03 Il piccolo ragno tesse e tace. St02_A
 - 03_03 Arrabbiato come un orso. St03_A
@@ -56,7 +56,7 @@ Titles and correponding codes are listed below.
 - 09_03 Chi me l'ha fatta in testa!  St09_A
 - 10_03 Orso buco. St10_A
 
-# **3 - 7 years**
+### **3 - 7 years**
 - 01_37 Il re parrucchiere. St01_B
 - 02_37 La fata gattina. St02_B
 - 03_37 I pirati smemorati. St03_B
@@ -68,7 +68,7 @@ Titles and correponding codes are listed below.
 - 09_37 Una bambina senza nome.  St09_B
 - 10_37 Le posate sposate.  St10_B
 
-# **7-11 years**
+### **7-11 years**
 - 01_711 La passeggiata di un distratto. St01_C
 - 02_711 Il paese senza punta. St02_C
 - 03_711 La guerra delle campane. St03_C
@@ -80,7 +80,7 @@ Titles and correponding codes are listed below.
 - 09_711 Il muratore della Valtellina.  St09_C
 - 10_711 Il re Mida.  St10_C
 
-# **11-15 years**
+### **11-15 years**
 - 01_1115 Il contadino astrologo. St01_D
 - 02_1115 La camicia dell'uomo contento.St02_D
 - 03_1115 Il cardellino. St04_D

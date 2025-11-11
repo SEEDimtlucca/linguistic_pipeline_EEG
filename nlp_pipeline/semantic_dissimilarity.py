@@ -43,11 +43,12 @@ def calculate_semantic_dissimilarity(filepath: str, output_dir:str):
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
-    model.eval()
+    model.eval() #set the model to evalutation mode (no dropout, etc.)
 
     with open(filepath, "r", encoding="utf-8") as f:
         text = f.read().replace("\n", " ").replace("\r", " ")
 
+    #tokenize text with max_length of chunck of 512 tokens 
     encodings = tokenizer(
         text,
         return_tensors="pt",
@@ -62,11 +63,13 @@ def calculate_semantic_dissimilarity(filepath: str, output_dir:str):
     all_tokens = []
     all_dissimilarities = []
 
-
+    # process each chunck of tokens
     for i in range(len(encodings["input_ids"])):
+        #extract toknes IDs and attention mask for the corrent chunk
         input_ids = encodings["input_ids"][i].unsqueeze(0).to(device)
         attention_mask = encodings["attention_mask"][i].unsqueeze(0).to(device) #important for padding
 
+        #get embeddings from the model without computin gradient
         with torch.no_grad():
             outputs = model(input_ids, attention_mask=attention_mask)
             hidden_states = outputs.hidden_states[-1][0] 
@@ -77,21 +80,26 @@ def calculate_semantic_dissimilarity(filepath: str, output_dir:str):
         for t in range(hidden_states.size(0)):
             if attention_mask[0, t] == 0:
                 continue
-            
+            #no dissimilarity for the first token 
             if t == 0:
                 dissimilarities.append(float("nan"))
                 continue
 
             start = max(0, t - 20) #window size of 20
-            context = hidden_states[start:t].mean(dim=0, keepdim=True)
+            context = hidden_states[start:t].mean(dim=0, keepdim=True) #Mean embedding of context window
             token_vec = hidden_states[t].unsqueeze(0)
+           
+            #compute cosine similarity between current token and its context
             sim = F.cosine_similarity(token_vec, context, dim=-1)
+           
+            # semantic dissimilarity = 1-similarity
             dissim = (1.0 - sim).item()
             dissimilarities.append(dissim)
 
         all_tokens.extend(chunk_tokens)
         all_dissimilarities.extend(dissimilarities)
-
+    
+    # Aggregate token-level scores into word-level ones 
     words, values = reconstruct_words(all_tokens, all_dissimilarities, tokenizer, agg="mean")    
 
 
