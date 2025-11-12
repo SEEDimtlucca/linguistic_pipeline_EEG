@@ -85,12 +85,17 @@ def process_text_file(filepath, output_dir):
         "head": head,
         "constituency": constituency
     })
+    
+    function_pos = {"ADP", "AUX", "CCONJ", "SCONJ", "DET", "PRON", "PART", "INTJ"}
+    content_pos = {"NOUN", "VERB", "ADJ", "ADV", "PROPN"}
 
+    df["type_of_words"] = df["PoS"].apply(lambda x: "function" if x in function_pos else ("content" if x in content_pos else 'NaN'))
     df["AoA(m+sd)"] = df["lemma_no_punct"].map(aoa_dict)
     df["Zipf_freq"] = df["tokens_no_punct"].map(freq_dict)
 
     df["token_id"] = range(1, len(df)+1)
-    df = df[["token_id", "sentence_ids", "tokens_no_punct", "lemma_no_punct", "PoS", "depparse", "head", "constituency", "AoA(m+sd)", "Zipf_freq"]]
+    df = df[["token_id", "sentence_ids", "tokens_no_punct", "lemma_no_punct", "PoS", "depparse", "head", "constituency", "AoA(m+sd)", "Zipf_freq", "type_of_words"]]
+
 
     name_base = os.path.splitext(os.path.basename(filepath))[0]
     file_output_dir = os.path.join (output_dir, name_base)
@@ -99,6 +104,7 @@ def process_text_file(filepath, output_dir):
     df.to_csv(csv_path, index=False)
     logging.info(f"Saved CSV: {csv_path}")
     
+
     #statistics
     clean_tokens = [t for t in clean_tokens if t.strip()]
     clean_lemmas = [t for t in clean_lemmas if t.strip()]
@@ -113,9 +119,7 @@ def process_text_file(filepath, output_dir):
     avg_sentence_length = sum(sentence_lengths)/len(sentence_lengths) if sentence_lengths else 0
     
     pos_count = Counter(PoS)
-    function_pos = {"ADP", "AUX", "CCONJ", "SCONJ", "DET", "PRON", "PART", "INTJ"}
     num_function_words = sum(pos_count[pos] for pos in function_pos)
-    content_pos = {"NOUN", "VERB", "ADJ", "ADV", "PROPN"}
     num_content_words = sum(pos_count[pos] for pos in content_pos)
     num_verbs = pos_count.get("VERB", 0)
     num_adjectives = pos_count.get("ADJ", 0)

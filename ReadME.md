@@ -24,17 +24,26 @@ Contains all the experimental data:
 
 - **\nlp_pipeline**
 Python modules that implement the features extraction:
-    - `processor.py`
-    - `semantic_dissimilarity.py`
-    - `surprisalGPT.py`
-    - `utils.py`
+    - `processor.py`: Processes a single text file using the Stanza NLP pipeline and extracts the following linguistic features: *sentence ID, token, lemma, PoS, dependency relation, head, constituency (if available),cleaned token/lemma, AoA (age of acquisition), and SUBTLEX-IT frequency*. For each text file is created a .json file containing aggregated statistics for the whole text, including:
+    *number of tokens, sentences, lemmas, and types, type-token ratio (TTR), average sentence length, frequency statistics (Zipf mean ± std, % of rare words), Gulpease readability index, distribution of PoS categories(function vs content words, verbs, adjectives, nouns), top 20 most frequent lemmas, top 10 most frequent bigrams.*
+    For each input file, a dedicated subfolder is created (named after the file, e.g. '01_03') 
+    where all outputs are saved.
+    - `semantic_dissimilarity.py`: Calculates word-level semantic dissimilarity values for a text file using UmBERTo. Semantic dissimilarity measures how semantically "unexpected" a word is given its preceding context.
+    It is computed as 1 - cosine similarity between the embedding of the current token and the mean 
+    embedding of a preceding window of tokens (default 20 tokens).
+    - `surprisal_entropy.py`: Calculates token-level surprisal and entropy values for a text file using the GePpeTto Italian language model (a GPT-based causal language model).
+    Surprisal is computed as the negative log2 probability of each token, Entropy is computed as the negative sum over all possible next tokens of their predicted probabilities multiplied by their log2 probabilities. 
+    The value of surprisal and entropy for each token is then aggregated at the word level thanks to the function
+    'reconstrucred_words' from `utils.py`.
+    - `utils.py`: Reconstructs words and aggregates token-level values (e.g., surprisal or dissimilarity)
+    at the word level. The function merges subword tokens (e.g., SentencePiece or BPE fragments) back into full words, computes the aggregated value for each word (mean or sum), and removes punctuation.
 
 - **\output**
 All the subfolders in 'output' folder are structured in the following way: one subfolder for each group of age stories and one subfolder for each story of the group that cointains the following files:
     - `<story_id>_summary.json`
     - `<story_id>.csv`
     - `dissimilarity_<story_id>.csv`
-    - `Surprisal_<story_id>.csv`
+    - `surprisal_entropy_<story_id>.csv`
 
 - **Other files**
     - `main.py` = Main script to run the pipeline
@@ -91,3 +100,23 @@ Titles and correponding codes are listed below.
 - 08_1115 I tacchini non ringraziano.  St08_D
 - 09_1115 Racconto per bambini cattivi.  St09_D
 - 10_1115 Apocalisse. St10_D
+
+
+## References
+
+- Amenta, S., Mandera, P., Keuleers, E., Brysbaert, M., & Crepaldi, D. (2025, July 7). **SUBTLEX-IT: Word frequency estimates for Italian based on movie subtitles**. Retrieved from [osf.io/zg7sc](https://osf.io/zg7sc)
+
+- Bird, S., Loper, E., & Klein, E. (2009). **Natural Language Processing with Python**. O'Reilly Media Inc.
+
+- De Mattei, L., Cafagna, M., Dell'Orletta, F., Nissim, M., & Guerini, M. (2020). **GePpeTto Carves Italian into a Language Model**. *arXiv preprint arXiv:2004.14253*.
+
+- Magnini, B., Cappelli, A., Pianta, E., Speranza, M., Bartalesi Lenzi, V., Sprugnoli, R., Romano, L., Girardi, C., & Negri, M. (2006). **Annotazione di contenuti concettuali in un corpus italiano: I - CAB**. Proc. of SILFI 2006.
+
+- Magnini, B., Pianta, E., Girardi, C., Negri, M., Romano, L., Speranza, M., Bartalesi Lenzi, V., & Sprugnoli, R. (2006). **I - CAB: the Italian Content Annotation Bank**. LREC, 963–968.
+
+- Montefinese, M., Vinson, D., Vigliocco, G., & Ambrosini, E. (2019). **Italian Age of Acquisition Norms for a Large Set of Words (ItAoA)**. *Frontiers in Psychology, 10*, 278. doi: [10.3389/fpsyg.2019.00278](https://doi.org/10.3389/fpsyg.2019.00278)
+
+- Parisi, L., Francia, S., & Magnani, P. (2020). **UmBERTo: an Italian Language Model trained with Whole Word Masking**. GitHub repository. Retrieved from [https://github.com/musixmatchresearch/umberto](https://github.com/musixmatchresearch/umberto)
+
+- Qi, P., Zhang, Y., Zhang, Y., Bolton, J., & Manning, C. D. (2020). **Stanza: A Python Natural Language Processing Toolkit for Many Human Languages**. Association for Computational Linguistics (ACL) System Demonstrations.
+
