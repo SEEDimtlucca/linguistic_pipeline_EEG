@@ -66,14 +66,14 @@ def process_text_file(filepath, output_dir):
                 head.append(sentence.words[word.head - 1].text if word.head > 0 else "ROOT")
                 constituency.append(getattr(sentence, "constituency", None)) 
 
-    aoa_df = pd.read_excel("corpora\\ItAoA.xlsx", sheet_name="Database")
-    aoa_df["M_AoA"] = aoa_df["M_AoA"].astype(str).str.replace(",", ".").astype(float)
-    aoa_df["SD_AoA"] = aoa_df["SD_AoA"].astype(str).str.replace(",", ".").astype(float)    
+    aoa_df = pd.read_excel("datasets\\ItAoA.xlsx", sheet_name="Database")
+    aoa_df["M_AoA"] = aoa_df["M_AoA"]
+    aoa_df["SD_AoA"] = aoa_df["SD_AoA"]   
     aoa_df["AoA_full"] = aoa_df.apply(lambda row: f"{row['M_AoA']:.2f} ± {row['SD_AoA']:.2f}", axis=1)
     aoa_dict = aoa_df.set_index("Ita_Word")["AoA_full"].to_dict()
 
-    subtlex_df = pd.read_csv("corpora\\subtlex-it.csv", sep=";", encoding="cp1252")
-    subtlex_df["zipf"] = subtlex_df["zipf"].astype(str).str.replace(",", ".").astype(float) #need number no string
+    subtlex_df = pd.read_excel("datasets\\subtlex-it.xlsx")
+    subtlex_df["zipf"] = subtlex_df["zipf"]
     freq_dict = subtlex_df.set_index("wordform")["zipf"].to_dict()
 
     df = pd.DataFrame({
@@ -101,7 +101,7 @@ def process_text_file(filepath, output_dir):
     file_output_dir = os.path.join (output_dir, name_base)
     os.makedirs(file_output_dir, exist_ok=True)
     csv_path = os.path.join(file_output_dir, f"{name_base}.csv")
-    df.to_csv(csv_path, index=False)
+    df.to_csv(csv_path, sep=";",  decimal=",", index=False, encoding="utf-8-sig")
     logging.info(f"Saved CSV: {csv_path}")
     
 
@@ -186,4 +186,3 @@ def process_text_file(filepath, output_dir):
     logging.info(f"Saved summary JSON: {json_path}")
 
     
-

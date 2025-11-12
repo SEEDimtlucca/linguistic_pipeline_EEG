@@ -3,8 +3,8 @@ This repository provides a Python-based pipeline for extracting linguistic featu
 
 ## **Repository Structure**
 
-- **\corpora**
-Contains two corpora used in the pipeline:
+- **\datasets**
+Contains two datasets used in the pipeline:
     - `ItAoA.xlsx`= Italian Age of Acquisition norms (*Montefinese M, Vinson D, Vigliocco G. and Ambrosini E. (2019) Italian Age of Acquisition Norms for a Large Set of Words (ItAoA). Front. Psychol. 10:278. doi: 10.3389/fpsyg.2019.00278*).
       Download: https://osf.io/3trg2/overview
     - `subtlex-it.csv` = Frequency database for Italian words based on movie subtitles.
